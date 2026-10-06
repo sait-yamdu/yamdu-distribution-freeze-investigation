@@ -1,0 +1,16 @@
+{
+  "state": "BLOCKED",
+  "last_run": "run-20261006T1158Z",
+  "previous_run": null,
+  "source_commit": "e1be854",
+  "baseline_seeded": true,
+  "blocker": "Cloud environment network policy denies scotty.yamdu.com (proxy 403 on CONNECT). Needs the host allowlisted in environment network settings.",
+  "persistence": "repo branch claude/brave-clarke-nwifqr verified write (push) ",
+  "environment": {
+    "os": "Linux 6.18 x86_64 (cloud)",
+    "browser": "Chromium 141.0.7390.37 (Playwright 1194 build, not branded Chrome); launch not exercised against app",
+    "mode": "headless planned",
+    "app_build": "unknown"
+  },
+  "next_experiment": "Once scotty is reachable: external contact -> multiple files -> Share -> recipient search/selection in a single sustained tab (hypothesis: accumulated session state / recipient+file workflow)."
+}
