@@ -1,16 +1,16 @@
 {
-  "state": "BLOCKED",
-  "last_run": "run-20261006T1158Z",
-  "previous_run": null,
-  "source_commit": "e1be854",
+  "state": "IN_PROGRESS (no freeze reproduced)",
+  "last_run": "run-20261006T1215Z",
+  "previous_run": "run-20261006T1158Z",
+  "source_commit": "e1be854 (prior checkpoint dd48069 on claude/brave-clarke-nwifqr)",
   "baseline_seeded": true,
-  "blocker": "Cloud environment network policy denies scotty.yamdu.com (proxy 403 on CONNECT). Needs the host allowlisted in environment network settings.",
-  "persistence": "repo branch claude/brave-clarke-nwifqr verified write (push) ",
+  "blocker": "True document.visibilityState=hidden cannot be produced in this cloud env (headless or Xvfb without WM). scotty network access now works.",
+  "persistence": "branch claude/brave-clarke-dmh2zc (write verified); prior checkpoint recovered from claude/brave-clarke-nwifqr",
   "environment": {
-    "os": "Linux 6.18 x86_64 (cloud)",
-    "browser": "Chromium 141.0.7390.37 (Playwright 1194 build, not branded Chrome); launch not exercised against app",
-    "mode": "headless planned",
-    "app_build": "unknown"
+    "os": "Linux 6.18 x86_64 cloud",
+    "browser": "Playwright Chromium 141.0.7390.37 (not Chrome)",
+    "mode": "headless + headed/Xvfb",
+    "app_build": "bundle js?v=I8SwW8asap... ; sharing-modal editor is TipTap/ProseMirror (not Froala)"
   },
-  "next_experiment": "Once scotty is reachable: external contact -> multiple files -> Share -> recipient search/selection in a single sustained tab (hypothesis: accumulated session state / recipient+file workflow)."
+  "next_experiment": "E4: sustained mixed-use session >=45 min in one tab (contacts -> files -> draft reopen -> Distribution revisit) with periodic modal open; and/or true-hidden test if a WM/desktop browser becomes available. Also exercise 'Add new e-mail address' external contact path."
 }
