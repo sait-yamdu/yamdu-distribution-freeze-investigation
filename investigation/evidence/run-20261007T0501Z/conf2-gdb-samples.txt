@@ -1,0 +1,20 @@
+#0  0x00007f13d2b2c18a in __libc_send (flags=<optimized out>, len=112, buf=0x118402f1d900, fd=13) at ../sysdeps/unix/sysv/linux/se
+#1  __libc_send (fd=13, buf=0x118402f1d900, len=112, flags=16384) at ../sysdeps/unix/sysv/linux/send.c:23
+#2  0x0000558ea8028dc7 in mojo::core::ChannelPosix::WriteNoLock(mojo::core::MessageView) ()
+#3  0x0000558ea8023c29 in mojo::core::ipcz_driver::Transport::Transmit(base::span<unsigned char const, 18446744073709551615ul, uns
+#4  0x0000558ea8023909 in mojo::core::ipcz_driver::(anonymous namespace)::Transmit(unsigned long, void const*, unsigned long, unsi
+#5  0x00007ffcf7884300 in ??? ()
+#6  0x0000558eaa3a727f in ipcz::NodeLink::Transmit(ipcz::Message&) ()
+--
+#0  0x0000558ea9e0cb8c in blink::MutationObserver::EnqueueMutationRecord(blink::MutationRecord*) ()
+#1  0x0000558ea9e0cad6 in blink::MutationObserverInterestGroup::EnqueueMutationRecord(blink::MutationRecord*) ()
+#2  0x0000558ea7f6e9ac in blink::ChildListMutationAccumulator::LeaveMutationScope() ()
+#3  0x0000558ea98834b9 in blink::ContainerNode::InsertBefore(blink::Node*, blink::Node*, blink::ExceptionState&) ()
+#4  0x0000558ea9882296 in blink::(anonymous namespace)::v8_node::InsertBeforeOperationCallbackForMainWorld(v8::FunctionCallbackInf
+#5  0x0000558eac4489b8 in Builtins_CallApiCallbackOptimizedNoProfiling ()
+#6  0x00007ffcf78851f0 in ??? ()
+--
+#0  0x0000558ea7f0e48a in void partition_alloc::PartitionRoot::Free<(partition_alloc::internal::FreeFlags)1>(void*) ()
+#1  0x0000558eaa655d92 in void blink::RefCounted<blink::TableConstraintSpaceData, blink::DefaultRefCountedTraits<blink::TableConst
+#2  0x0000000000000000 in ??? ()
+--

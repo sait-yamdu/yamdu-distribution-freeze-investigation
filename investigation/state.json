@@ -1,16 +1,12 @@
 {
-  "state": "IN_PROGRESS (no freeze reproduced)",
-  "last_run": "run-20261006T1215Z",
-  "previous_run": "run-20261006T1158Z",
-  "source_commit": "e1be854 (prior checkpoint dd48069 on claude/brave-clarke-nwifqr)",
+  "state": "REPRODUCED (candidate, 2 of 3 attempts, cloud Chromium 141/Linux; not minimized, root cause unproven)",
+  "last_run": "run-20261007T0501Z",
+  "previous_run": "run-20261006T1215Z",
+  "source_commit": "8ed887b (origin/claude/brave-clarke-dmh2zc); lineage: run-20261006T1158Z on claude/brave-clarke-nwifqr dd48069",
   "baseline_seeded": true,
-  "blocker": "True document.visibilityState=hidden cannot be produced in this cloud env (headless or Xvfb without WM). scotty network access now works.",
-  "persistence": "branch claude/brave-clarke-dmh2zc (write verified); prior checkpoint recovered from claude/brave-clarke-nwifqr",
-  "environment": {
-    "os": "Linux 6.18 x86_64 cloud",
-    "browser": "Playwright Chromium 141.0.7390.37 (not Chrome)",
-    "mode": "headless + headed/Xvfb",
-    "app_build": "bundle js?v=I8SwW8asap... ; sharing-modal editor is TipTap/ProseMirror (not Froala)"
-  },
-  "next_experiment": "E4: sustained mixed-use session >=45 min in one tab (contacts -> files -> draft reopen -> Distribution revisit) with periodic modal open; and/or true-hidden test if a WM/desktop browser becomes available. Also exercise 'Add new e-mail address' external contact path."
+  "persistence": "branch claude/brave-clarke-b2w828 (write verified by push)",
+  "environment": {"os": "Linux 6.18 x86_64 cloud", "browser": "Chromium 141.0.7390.37 (Playwright build, not Chrome)", "mode": "headed under Xvfb, no WM, CDP attach", "app_build": "bundle js?v=I8SwW8asapeW2LqXZ4FywgEHQwciRlyKo2p0ynqTVAY1; TipTap/ProseMirror sharing editor"},
+  "freeze_signature": "renderer main thread 100%+ CPU for minutes, RSS growing, CDP unresponsive; gdb shows JS-driven Node.removeChild/insertBefore + MutationObserver + table layout churn (DOM mutation loop)",
+  "leads": ["a saved draft (4 recipients, external e-mail) existing in the project; hang at draft reopen (CF2) or in next modal after draft save/Drafts visit (CF1)", "Chrome Save-password bubble present in both - confound to rule out", "minimal fresh-session sequence without saved draft did not hang (E4-C1)"],
+  "next_experiment": "Minimize: (a) E5 fresh session: create draft (no external email) -> Drafts -> reopen draft, no typing; (b) same with external email only; (c) with --disable-features=PasswordManager / dismissed bubble to exclude the confound; capture Chrome trace (Tracing via CDP before action) or use --js-flags=--prof / --enable-logging + SIGUSR to get JS stack; also try Playwright-launched headless to separate Xvfb. Also check existing test drafts 'Freeze probe E3/E4' in project 5551 (cleanup after)."
 }

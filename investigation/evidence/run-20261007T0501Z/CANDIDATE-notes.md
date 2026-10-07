@@ -6,3 +6,9 @@
 - gdb samples (no symbols for JS): main thread alternates among blink::Node::removeChild (LayoutObjectChildList::RemoveChildNode, Range::NodeWillBeRemoved) called from JS (v8 RemoveChildOperationCallback) and Table layout (TableRowLayoutAlgorithm / BlockLayoutAlgorithm) => JS loop doing DOM removals with forced layout of a table; not a hang in a network/IO wait.
 - Confound: Chrome "Save password?" bubble (browser UI) visible in screenshot candidate-xvfb.png; unsupported --no-sandbox infobar; no window manager.
 - Page unresponsive dialog NOT shown (no WM / headed Xvfb).
+
+# Candidate freeze CF2 (confirmation 2, fresh browser profile + fresh login 05:11:46Z)
+- Driver e4b = same e4 driver from a fresh session. Cycle 1 completed normally (open modal, 8 ticks, external email entry, subject, greeting+Enter+text, 30 s idle, Check recipients skipped, Save as draft, close, nav files/scenes, nav Distribution > Drafts).
+- Hang at 05:15:26Z-05:16:01Z during step "reopen-draft": click draft row 'Freeze probe E4 cycle 1' (4 recipients) -> modal reopened with draft content (screenshot candidate-conf2-xvfb.png shows modal rendered, Recipients (4), all department headers ticked), then click editor/End/Enter/type 'reopened 1' pending.
+- Renderer pid 1395: R state 108% CPU, RSS 663 MB (higher than CF1 at 451-461 MB). gdb samples (conf2-gdb-samples.txt): Node.insertBefore + MutationObserver::EnqueueMutationRecord, Table constraint-space free, mojo send -> DOM insert/remove churn plus table layout, same signature as CF1 (removeChild/Range::NodeWillBeRemoved/TableRowLayout).
+- Confirmation 1 (cf.js conf1, fresh login, no prior draft, same hang-site sequence incl. external email + 'Meine Lieben,' + Enter): NOT reproduced.

@@ -1,0 +1,23 @@
+{"t":"2026-10-07T05:11:47.305Z","el_s":0,"ev":"start","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","variant":"conf1"}
+{"t":"2026-10-07T05:11:47.306Z","el_s":0,"ev":"pending","n":"nav"}
+{"t":"2026-10-07T05:11:50.312Z","el_s":3,"ev":"done","n":"nav"}
+{"t":"2026-10-07T05:11:50.312Z","el_s":3,"ev":"pending","n":"add"}
+{"t":"2026-10-07T05:11:52.467Z","el_s":5,"ev":"done","n":"add"}
+{"t":"2026-10-07T05:11:52.467Z","el_s":5,"ev":"pending","n":"recips"}
+{"t":"2026-10-07T05:11:54.291Z","el_s":7,"ev":"done","n":"recips","r":8}
+{"t":"2026-10-07T05:11:54.295Z","el_s":7,"ev":"probe","tag":"recips","dt":4,"r":{"ed":2,"txt":["\n","Sait Bakir\n\nProducer, Project administrator\n\nROUTINE PROJECT"],"nodes":1738,"hbmax":193.69999999995343}}
+{"t":"2026-10-07T05:11:54.296Z","el_s":7,"ev":"pending","n":"ext"}
+{"t":"2026-10-07T05:11:57.301Z","el_s":10,"ev":"done","n":"ext"}
+{"t":"2026-10-07T05:11:57.305Z","el_s":10,"ev":"probe","tag":"ext","dt":4,"r":{"ed":2,"txt":["\n","Sait Bakir\n\nProducer, Project administrator\n\nROUTINE PROJECT"],"nodes":1744,"hbmax":193.69999999995343}}
+{"t":"2026-10-07T05:11:57.305Z","el_s":10,"ev":"pending","n":"subject"}
+{"t":"2026-10-07T05:11:57.340Z","el_s":10,"ev":"done","n":"subject"}
+{"t":"2026-10-07T05:11:57.340Z","el_s":10,"ev":"pending","n":"editor-click"}
+{"t":"2026-10-07T05:11:57.395Z","el_s":10,"ev":"done","n":"editor-click"}
+{"t":"2026-10-07T05:11:57.397Z","el_s":10,"ev":"probe","tag":"before-type","dt":2,"r":{"ed":2,"txt":["\n","Sait Bakir\n\nProducer, Project administrator\n\nROUTINE PROJECT"],"nodes":1744,"hbmax":193.69999999995343}}
+{"t":"2026-10-07T05:11:57.397Z","el_s":10,"ev":"pending","n":"type"}
+{"t":"2026-10-07T05:11:58.341Z","el_s":11,"ev":"done","n":"type"}
+{"t":"2026-10-07T05:11:58.344Z","el_s":11,"ev":"probe","tag":"typed-no-enter","dt":3,"r":{"ed":2,"txt":["Meine Lieben,","Sait Bakir\n\nProducer, Project administrator\n\nROUTINE PROJECT"],"nodes":1743,"hbmax":193.69999999995343}}
+{"t":"2026-10-07T05:11:58.344Z","el_s":11,"ev":"pending","n":"enter"}
+{"t":"2026-10-07T05:11:59.870Z","el_s":13,"ev":"done","n":"enter"}
+{"t":"2026-10-07T05:11:59.873Z","el_s":13,"ev":"probe","tag":"after-enter","dt":3,"r":{"ed":2,"txt":["Meine Lieben,\n\n\n","Sait Bakir\n\nProducer, Project administrator\n\nROUTINE PROJECT"],"nodes":1745,"hbmax":193.69999999995343}}
+{"t":"2026-10-07T05:11:59.995Z","el_s":13,"ev":"end"}
