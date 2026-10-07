@@ -1,0 +1,31 @@
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+0x000055d27f6990fb in blink::LayoutObjectChildList::RemoveChildNode(blink::LayoutObject*, blink::LayoutObject*, bool) ()
+
+Thread 1 (Thread 0x7fd40ab645c0 (LWP 513) "chrome"):
+#0  0x000055d27f6990fb in blink::LayoutObjectChildList::RemoveChildNode(blink::LayoutObject*, blink::LayoutObject*, bool) ()
+#1  0x000055d27f697b71 in blink::LayoutBlockFlow::RemoveChild(blink::LayoutObject*) ()
+#2  0x000055d27f942ed9 in blink::LayoutObject::WillBeDestroyed() ()
+#3  0x000055d27f940719 in blink::LayoutBlock::WillBeDestroyed() ()
+#4  0x000055d27fff59ac in blink::Element::DetachLayoutTree(bool) ()
+#5  0x000055d27fb088cc in blink::ContainerNode::RemoveChild(blink::Node*, blink::ExceptionState&) ()
+#6  0x000055d28032c31d in blink::(anonymous namespace)::v8_node::RemoveChildOperationCallback(v8::FunctionCallbackInfo<v8::Value> const&) [clone .a4db5e9abdbbc4956654a0ee64631bad] [clone .cfi] ()
+#7  0x000055d2830df9b8 in Builtins_CallApiCallbackOptimizedNoProfiling ()
+#8  0x00007fffeabe2b28 in ??? ()
+#9  0x00007fffeabe2b60 in ??? ()
+#10 0x0000000000000001 in ??? ()
+#11 0x00007fffeabe2af0 in ??? ()
+#12 0x0000000000000038 in ??? ()
+#13 0x00007fffeabe2bf0 in ??? ()
+#14 0x000055d2e06bb464 in ??? ()
+#15 0x00007e9300000011 in ??? ()
+#16 0x00001b34004a8000 in ??? ()
+#17 0x00007e93006a07c9 in ??? ()
+#18 0x00007e9300000011 in ??? ()
+#19 0x00007e93000524a9 in ??? ()
+#20 0x00007e9300000011 in ??? ()
+#21 0x00007e9301756855 in ??? ()
+#22 0x00007e93019ba581 in ??? ()
+#23 0x00007e93019bc0c9 in ??? ()
+#24 0x00007e93019ba69d in ??? ()
+[Inferior 1 (process 513) detached]
