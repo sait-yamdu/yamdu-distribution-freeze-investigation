@@ -1,0 +1,7 @@
+attempt A3-CF2-replay-no-password-bubble start 2026-10-07T08:52:27Z
+https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+LOGIN_DONE 2026-10-07T08:53:00Z
+recording started 2026-10-07T08:53:00Z
+cf.js rc=0 2026-10-07T08:53:13Z
+e4b rc=3 2026-10-07T08:55:04Z
+capture done 2026-10-07T08:56:28Z
