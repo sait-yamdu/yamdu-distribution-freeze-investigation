@@ -1,0 +1,9 @@
+Fresh session 09:23Z. window.__mk marker set; hash changed to each route for 6 s, then back to File distribution.
+before                         marker=same-document scripts=152
+#5551/documents (valid)        marker kept, scripts=160, script/doc requests 0
+#5551/files (invalid)          marker kept, scripts=149, script/doc requests 0 (API 404 /api/v1/projects/5551/files, loader stuck)
+#5551/breakdowns:scenes (valid) marker kept, scripts=148, script/doc requests 0
+#5551/scenes (invalid)         marker kept (same document, no reload), scripts=167, 6 script requests re-issued:
+  analytics.yamdu.com/js/container_Xe5ezheL.js, cdn.onesignal.com/sdks/OneSignalSDK.js, js.sentry-cdn.com/...min.js,
+  analytics.yamdu.com/matomo.js, googletagmanager.com/gtm.js, googletagmanager.com/gtag/js
+  (all blocked by the cloud egress proxy -> net::ERR_TUNNEL_CONNECTION_FAILED)

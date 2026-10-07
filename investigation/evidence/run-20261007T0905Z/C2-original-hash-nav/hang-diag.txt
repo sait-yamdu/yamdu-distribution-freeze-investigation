@@ -1,0 +1,34 @@
+renderer pid 2128
+09:20:36
+ 2128 root      12  -8 1393.7g 652092 180576 R  95.5   4.0   0:49.75 chrome
+VmRSS:	  652092 kB
+#0  0x0000563be6d6f320 in blink::InlineItemsBuilderTemplate<blink::OffsetMappingBuilder>::RemoveTrailingCollapsibleSpace(blink::InlineItem*)
+#1  0x0000563be6d724a7 in void blink::(anonymous namespace)::CollectInlinesInternal<blink::InlineItemsBuilderTemplate<blink::OffsetMappingBu
+#2  0x0000563be6d83f2f in blink::InlineNode::GetOffsetMapping(blink::LayoutBlockFlow*) ()
+#3  0x0000563be726c9fc in blink::HasRenderedNonAnonymousDescendantsWithHeight(blink::LayoutObject const*) ()
+#4  0x0000563be7fabfd7 in blink::IsVisuallyEquivalentCandidate(blink::PositionTemplate<blink::EditingAlgorithm<blink::NodeTraversal> > const
+#5  0x0000563be7faf2cc in blink::CanonicalPositionOf(blink::PositionTemplate<blink::EditingAlgorithm<blink::NodeTraversal> > const&) ()
+#6  0x0000563be7faefbf in blink::VisiblePositionTemplate<blink::EditingAlgorithm<blink::NodeTraversal> >::Create(blink::PositionWithAffinity
+--
+09:21:06
+ 2128 root      12  -8 1392.1g 601988 180144 R  91.5   3.7   1:11.40 chrome
+VmRSS:	  601988 kB
+#0  0x0000563be6134991 in blink::BlockLayoutAlgorithm::Layout(blink::InlineChildLayoutContext*) ()
+#1  0x0000563be6123139 in void blink::(anonymous namespace)::CreateAlgorithmAndRun<blink::BlockLayoutAlgorithm, blink::(anonymous namespace)
+#2  0x0000563be56d74ea in blink::BlockNode::Layout(blink::ConstraintSpace const&, blink::BlockBreakToken const*, blink::EarlyBreak const*, b
+#3  0x0000563be613491a in blink::BlockLayoutAlgorithm::Layout(blink::InlineChildLayoutContext*) ()
+#4  0x0000563be6123139 in void blink::(anonymous namespace)::CreateAlgorithmAndRun<blink::BlockLayoutAlgorithm, blink::(anonymous namespace)
+#5  0x0000563be56d74ea in blink::BlockNode::Layout(blink::ConstraintSpace const&, blink::BlockBreakToken const*, blink::EarlyBreak const*, b
+#6  0x0000563be613491a in blink::BlockLayoutAlgorithm::Layout(blink::InlineChildLayoutContext*) ()
+--
+09:21:33
+ 2128 root      12  -8 1392.1g 609792 180144 R  92.5   3.7   1:33.25 chrome
+VmRSS:	  609792 kB
+#0  0x0000563be680337c in blink::ComputeOofInlineDimensions(blink::BlockNode const&, blink::ComputedStyle const&, blink::ConstraintSpace con
+#1  0x0000563be6805c30 in blink::OutOfFlowLayoutPart::LayoutCandidates(blink::BasicHeapVector<(blink::internal::HeapCollectionType)1, blink:
+#2  0x0000563be6143a02 in blink::OutOfFlowLayoutPart::Run() ()
+#3  0x0000563be6142d0c in blink::BoxFragmentBuilder::HandleOofsAndSpecialDescendants() ()
+#4  0x0000563be6115f2e in blink::SimplifiedLayoutAlgorithm::Layout() ()
+#5  0x0000563be56d905c in blink::BlockNode::Layout(blink::ConstraintSpace const&, blink::BlockBreakToken const*, blink::EarlyBreak const*, b
+#6  0x0000563be726477f in blink::LayoutView::LayoutRoot() ()
+--

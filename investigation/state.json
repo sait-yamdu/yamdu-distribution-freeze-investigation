@@ -1,7 +1,7 @@
 {
-  "state": "REPRODUCED (repeatable in cloud Chromium 141/Linux: 5 of 6 attempts with the full sequence; 3/3 live re-runs on 2026-10-07 08:41-08:55Z). Root cause unproven.",
-  "last_run": "run-20261007T0840Z",
-  "previous_run": "run-20261007T0501Z",
+  "state": "REPRODUCED only with an invalid in-app route (#5551/scenes) visited earlier in the tab; with valid UI navigation 0/3. Customer relevance unproven.",
+  "last_run": "run-20261007T0905Z",
+  "previous_run": "run-20261007T0840Z",
   "source_commit": "8ed887b (origin/claude/brave-clarke-dmh2zc); lineage: run-20261006T1158Z on claude/brave-clarke-nwifqr dd48069",
   "baseline_seeded": true,
   "persistence": "branch claude/brave-clarke-b2w828 (write verified by push)",
@@ -13,11 +13,11 @@
   },
   "freeze_signature": "renderer main thread 100%+ CPU for minutes, RSS growing, CDP unresponsive; gdb shows JS-driven Node.removeChild/insertBefore + MutationObserver + table layout churn (DOM mutation loop)",
   "leads": [
-    "Draft reopen alone triggers it (CF2 type, no keystroke)",
-    "Enter in a new modal after an earlier draft save triggers it (CF1 type)",
-    "Not required: password bubble (A3), the specific old draft (A1/A3 used fresh drafts)",
-    "No freeze in 4 tries without a prior draft save in session",
-    "Candidate mechanism: recipient checkbox/department sync loop with contacts duplicated across departments (untested)"
+    "#5551/scenes (non-existent route) re-runs app bootstrap in same document: +19 script tags, analytics/OneSignal/Sentry/GTM re-requested",
+    "Freeze onset is Enter in the TipTap editor (both CF1 and CF2), not draft reopen",
+    "files 404/stuck loader not required (C1)",
+    "password bubble not required (A3)",
+    "'prior saved draft required' is confounded by the scenes visit"
   ],
-  "next_experiment": "Minimize CF2: reopen drafts with (a) 1 recipient in one department, (b) only 'test External ama', (c) only external e-mail, (d) 4 recipients without duplicates; capture JS stack via Chrome --js-flags or performance trace started before reopen; validate manually on real Chrome (macOS/Windows)."
+  "next_experiment": "(1) scenes visit + new message + Enter without any draft; (2) search for a normal UI path that triggers the same bootstrap re-run; (3) repeat C3 x2 and with 3rd-party scripts loadable/stubbed."
 }

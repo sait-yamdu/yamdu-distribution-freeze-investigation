@@ -1,0 +1,6 @@
+attempt C1-invalid-files-hash-only start 2026-10-07T09:15:44Z
+https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+LOGIN_DONE 2026-10-07T09:16:17Z
+recording started 2026-10-07T09:16:17Z
+driver rc=0 2026-10-07T09:17:53Z
+capture done 2026-10-07T09:17:59Z
