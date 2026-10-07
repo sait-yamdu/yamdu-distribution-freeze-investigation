@@ -19,5 +19,21 @@
     "password bubble not required (A3)",
     "'prior saved draft required' is confounded by the scenes visit"
   ],
-  "next_experiment": "(1) scenes visit + new message + Enter without any draft; (2) search for a normal UI path that triggers the same bootstrap re-run; (3) repeat C3 x2 and with 3rd-party scripts loadable/stubbed."
+  "next_experiment": "(1) #5551/scenes visit + NEW message + Enter, no draft; (2) find a real-user path that triggers the same bootstrap re-run (unknown-route fallback, old bookmark/deep link, project switch, session refresh) - decides customer relevance; (3) repeat C3 x2, and with 3rd-party scripts loadable/stubbed.",
+  "known_reproduction_recipe": {
+    "summary": "Freeze = Enter in the sharing-modal TipTap editor after the tab visited the NON-EXISTENT route #5551/scenes (re-runs app bootstrap in same document).",
+    "steps": [
+      "Fresh login -> Distribution > File distribution",
+      "Add -> tick first 8 checkboxes (-> Recipients (4)) -> type external e-mail in Recipients + Enter -> subject -> type 'Meine Lieben,' Enter + text -> Save as draft",
+      "Sidebar Files & Documents (valid), then visit #5551/scenes once (invalid hash), back via sidebar Distribution > Draft tab",
+      "Reopen newest draft -> click editor, End, Enter -> renderer hangs (100% CPU, never recovers)"
+    ],
+    "evidence": "runs/run-20261007T0905Z.md (C3), runs/run-20261007T0840Z.md"
+  },
+  "do_not_repeat": [
+    "Do not navigate by writing guessed location.hash routes; use sidebar/tab clicks. Valid routes: #5551/documents, #5551/breakdowns:scenes, #5551/crew:crewlist, #5551/announcements (File distribution: #5551/announcements:files:filedistribution). Invalid: #5551/files (404 + stuck loader), #5551/scenes (bootstrap re-run).",
+    "Before each experiment, verify URL, HTTP>=400 and console errors after every navigation; record them.",
+    "Already settled, do not re-test without a material change: CF1/CF2 exact replays (A1-A3), valid-navigation CF2 (V1-V3 no freeze), files-404-only (C1 no freeze), password-bubble requirement (A3: not required), specific-old-draft requirement (not required), historical H1-H7 and E1-E3.",
+    "Withdrawn claims: freeze at draft reopen (it is the Enter); 'prior saved draft required' (confounded by the scenes visit)."
+  ]
 }
