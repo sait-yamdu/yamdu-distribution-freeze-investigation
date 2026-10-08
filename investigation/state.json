@@ -1,7 +1,7 @@
 {
-  "state": "REPRODUCED only with an invalid in-app route (#5551/scenes) visited earlier in the tab; with valid UI navigation 0/3. Customer relevance unproven.",
-  "last_run": "run-20261007T0905Z",
-  "previous_run": "run-20261007T0840Z",
+  "state": "REPRODUCED (4/4 with prior unknown-route visit, no draft needed; 0/1 control; reload clears 0/1). Customer relevance unproven.",
+  "last_run": "run-20261008T0514Z",
+  "previous_run": "run-20261007T0905Z",
   "source_commit": "8ed887b (origin/claude/brave-clarke-dmh2zc); lineage: run-20261006T1158Z on claude/brave-clarke-nwifqr dd48069",
   "baseline_seeded": true,
   "persistence": "branch claude/brave-clarke-b2w828 (write verified by push)",
@@ -17,9 +17,10 @@
     "Freeze onset is Enter in the TipTap editor (both CF1 and CF2), not draft reopen",
     "files 404/stuck loader not required (C1)",
     "password bubble not required (A3)",
-    "'prior saved draft required' is confounded by the scenes visit"
+    "'prior saved draft required' is confounded by the scenes visit",
+    "R3: any unknown route re-bootstraps; saved draft NOT required; full reload clears (n=1); redirect-to-overview variant no freeze (n=1)"
   ],
-  "next_experiment": "(1) #5551/scenes visit + NEW message + Enter, no draft; (2) find a real-user path that triggers the same bootstrap re-run (unknown-route fallback, old bookmark/deep link, project switch, session refresh) - decides customer relevance; (3) repeat C3 x2, and with 3rd-party scripts loadable/stubbed.",
+  "next_experiment": "See runs/run-20261008T0514Z.md next tests",
   "known_reproduction_recipe": {
     "summary": "Freeze = Enter in the sharing-modal TipTap editor after the tab visited the NON-EXISTENT route #5551/scenes (re-runs app bootstrap in same document).",
     "steps": [

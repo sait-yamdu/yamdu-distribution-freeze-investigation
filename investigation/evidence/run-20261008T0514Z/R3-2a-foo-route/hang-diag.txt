@@ -1,0 +1,33 @@
+renderer pid 1900
+05:26:41
+ 1900 root      12  -8 1393.7g 673176 186468 R  95.5   4.1   0:45.83 chrome
+VmRSS:	  673176 kB
+#0  0x000055ffe05ef6bb in ??? ()
+#1  0x00007ffea14fc4e8 in ??? ()
+#2  0x000055ffe0635b8f in ??? ()
+#3  0x00003811044509f9 in ??? ()
+#4  0x0000381100000071 in ??? ()
+#5  0x0000000000000000 in ??? ()
+--
+05:27:08
+ 1900 root      12  -8 1392.1g 607964 186676 R  95.5   3.7   1:08.68 chrome
+VmRSS:	  607964 kB
+#0  0x000055ffb9370dcd in blink::AddListenerToVector(blink::BasicHeapVector<(blink::internal::HeapCollectionType)0, cppgc::internal::BasicMe
+#1  0x000055ffb936d4e1 in blink::EventTarget::addEventListener(blink::AtomicString const&, blink::EventListener*, bool) ()
+#2  0x000055ffb936b767 in blink::(anonymous namespace)::v8_event_target::AddEventListenerOperationCallback(v8::FunctionCallbackInfo<v8::Valu
+#3  0x000055ffbcc709b8 in Builtins_CallApiCallbackOptimizedNoProfiling ()
+#4  0x00007ffea14fc618 in ??? ()
+#5  0x00007ffea14fc650 in ??? ()
+#6  0x0000000000000002 in ??? ()
+--
+05:27:35
+ 1900 root      12  -8 1392.1g 609432 186676 R 103.5   3.7   1:31.04 chrome
+VmRSS:	  609432 kB
+#0  0x000055ffb8faddf0 in base::sequence_manager::internal::TaskQueueImpl::TaskRunner::RunOrPostTask(base::subtle::RunOrPostTaskPassKey, bas
+#1  0x000055ffb8c51c8e in IPC::ChannelAssociatedGroupController::Endpoint::SendMessage(mojo::Message*) ()
+#2  0x000055ffb8d76d20 in mojo::InterfaceEndpointClient::Accept(mojo::Message*) ()
+#3  0x000055ffb8718b09 in mojo::internal::SendMojoMessage(mojo::MessageReceiver&, mojo::Message&) ()
+#4  0x000055ffbefdf1e3 in blink::mojom::blink::LocalFrameHostProxy::TextSelectionChanged(blink::String const&, unsigned int, gfx::Range cons
+#5  0x000055ffc2647dba in blink::WebLocalFrameImpl::TextSelectionChanged(blink::WebString const&, unsigned int, gfx::Range const&) ()
+#6  0x0000256c01cf5dd0 in ??? ()
+--

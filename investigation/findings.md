@@ -13,3 +13,5 @@
 
 ## Read this first next run
 Known recipe and do-not-repeat list are in state.json (`known_reproduction_recipe`, `do_not_repeat`). Navigate only via sidebar/tab clicks and verify URL/HTTP/console after each navigation.
+
+- 2026-10-08 (run-20261008T0514Z): freeze reproduces with NO saved draft: unknown route (#5551/scenes or #5551/foo) visited earlier in the document, then a new sharing message + Enter (4/4 in R3-1,1b,2a,4); control without it 0/1; full reload after unknown route 0/1; bad-project redirect 0/1. Draft requirement withdrawn. Mechanism still suspected (duplicate init after same-document bootstrap re-run), not proven.
