@@ -15,3 +15,4 @@
 Known recipe and do-not-repeat list are in state.json (`known_reproduction_recipe`, `do_not_repeat`). Navigate only via sidebar/tab clicks and verify URL/HTTP/console after each navigation.
 
 - 2026-10-08 (run-20261008T0514Z): freeze reproduces with NO saved draft: unknown route (#5551/scenes or #5551/foo) visited earlier in the document, then a new sharing message + Enter (4/4 in R3-1,1b,2a,4); control without it 0/1; full reload after unknown route 0/1; bad-project redirect 0/1. Draft requirement withdrawn. Mechanism still suspected (duplicate init after same-document bootstrap re-run), not proven.
+- 2026-10-08 08:00-08:40Z (run-20261008T0759Z): after the dev fix the user reported, unknown routes redirect to dashboard. The R3 recipe no longer freezes (0/2). The user's breadcrumb recipe (25 scene profile/breadcrumb cycles, or 29 pages + 20 cycles, then draft reopen + type + Enter) did not freeze (0/2). The pre-fix breadcrumb recipe is NOT TESTED.

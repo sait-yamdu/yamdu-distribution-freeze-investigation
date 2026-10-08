@@ -1,7 +1,7 @@
 {
-  "state": "REPRODUCED (4/4 with prior unknown-route visit, no draft needed; 0/1 control; reload clears 0/1). Customer relevance unproven.",
-  "last_run": "run-20261008T0514Z",
-  "previous_run": "run-20261007T0905Z",
+  "state": "Fix reported deployed 2026-10-08: unknown routes now redirect to dashboard; former recipe 0/2, user breadcrumb recipe 0/2 on current build (Chromium Linux only). Pre-fix: REPRODUCED via unknown route.",
+  "last_run": "run-20261008T0759Z",
+  "previous_run": "run-20261008T0514Z",
   "source_commit": "8ed887b (origin/claude/brave-clarke-dmh2zc); lineage: run-20261006T1158Z on claude/brave-clarke-nwifqr dd48069",
   "baseline_seeded": true,
   "persistence": "branch claude/brave-clarke-b2w828 (write verified by push)",
@@ -9,7 +9,7 @@
     "os": "Linux 6.18 x86_64 cloud",
     "browser": "Chromium 141.0.7390.37 (Playwright build, not Chrome)",
     "mode": "headed under Xvfb, no WM, CDP attach",
-    "app_build": "bundle js?v=I8SwW8asapeW2LqXZ4FywgEHQwciRlyKo2p0ynqTVAY1; TipTap/ProseMirror sharing editor"
+    "app_build": "bundles/js?v=JmMUBwfwtAXPiT2Tio_T6a_AmLL7FrLyDYVRILCYYrQ1 (2026-10-08 08:00Z)"
   },
   "freeze_signature": "renderer main thread 100%+ CPU for minutes, RSS growing, CDP unresponsive; gdb shows JS-driven Node.removeChild/insertBefore + MutationObserver + table layout churn (DOM mutation loop)",
   "leads": [
@@ -18,9 +18,10 @@
     "files 404/stuck loader not required (C1)",
     "password bubble not required (A3)",
     "'prior saved draft required' is confounded by the scenes visit",
-    "R3: any unknown route re-bootstraps; saved draft NOT required; full reload clears (n=1); redirect-to-overview variant no freeze (n=1)"
+    "R3: any unknown route re-bootstraps; saved draft NOT required; full reload clears (n=1); redirect-to-overview variant no freeze (n=1)",
+    "R4 (2026-10-08 08:00Z): unknown routes now redirect to #5551/dashboard; old recipe no longer freezes; breadcrumb recipe (25x scene profile/back) no freeze on fixed build"
   ],
-  "next_experiment": "See runs/run-20261008T0514Z.md next tests",
+  "next_experiment": "Sustained same-tab session on fixed build with visibility changes and modal open; breadcrumb recipe on a pre-fix build if available; native Chrome/Firefox/Safari NOT TESTED.",
   "known_reproduction_recipe": {
     "summary": "Freeze = Enter in the sharing-modal TipTap editor after the tab visited the NON-EXISTENT route #5551/scenes (re-runs app bootstrap in same document).",
     "steps": [

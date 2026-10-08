@@ -1,0 +1,17 @@
+attempt R4-0-R3-1-recheck start 2026-10-08T08:00:00Z
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://scotty.yamdu.com/#5551/announcements:files:filedistribution", waiting until "domcontentloaded"[22m
+
+    at /tmp/w/login.js:5:10 {
+  name: 'TimeoutError'
+}
+
+Node.js v22.22.0
+recording started 2026-10-08T08:00:39Z
+driver rc=1 2026-10-08T08:01:10Z
+capture done 2026-10-08T08:01:15Z

@@ -1,0 +1,6 @@
+attempt R4-0-R3-1-recheck start 2026-10-08T08:03:40Z
+https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+LOGIN_DONE 2026-10-08T08:04:15Z
+recording started 2026-10-08T08:04:15Z
+driver rc=0 2026-10-08T08:04:48Z
+capture done 2026-10-08T08:04:53Z

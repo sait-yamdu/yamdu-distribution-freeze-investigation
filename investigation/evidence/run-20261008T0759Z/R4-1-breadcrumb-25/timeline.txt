@@ -1,0 +1,6 @@
+attempt R4-1-breadcrumb-25 start 2026-10-08T08:06:28Z
+https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+LOGIN_DONE 2026-10-08T08:07:01Z
+recording started 2026-10-08T08:07:01Z
+driver rc=0 2026-10-08T08:09:43Z
+capture done 2026-10-08T08:09:48Z

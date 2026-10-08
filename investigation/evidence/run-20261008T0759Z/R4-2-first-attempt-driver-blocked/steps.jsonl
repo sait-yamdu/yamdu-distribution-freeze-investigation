@@ -1,0 +1,223 @@
+{"t": "2026-10-08T08:11:56.016Z", "el_s": 0, "ev": "start", "url": "https://scotty.yamdu.com/#5551/announcements:files:filedistribution", "note": "R4-2 all 30 sidebar pages + 20 scene profile/breadcrumb cycles, then Draft reopen > type > Enter"}
+{"t": "2026-10-08T08:11:56.016Z", "el_s": 0, "ev": "pending", "n": "visit #5551/dashboard"}
+{"t": "2026-10-08T08:11:58.692Z", "el_s": 3, "ev": "done", "n": "visit #5551/dashboard", "dt": 2675, "r": {"url": "https://scotty.yamdu.com/#5551/dashboard", "loadingVisible": 0, "waited_ms": 10}}
+{"t": "2026-10-08T08:11:58.692Z", "el_s": 3, "ev": "pending", "n": "visit #5551/crew:crewlist"}
+{"t": "2026-10-08T08:12:01.262Z", "el_s": 5, "ev": "done", "n": "visit #5551/crew:crewlist", "dt": 2569, "r": {"url": "https://scotty.yamdu.com/#5551/crew:crewlist", "loadingVisible": 0, "waited_ms": 4}}
+{"t": "2026-10-08T08:12:01.262Z", "el_s": 5, "ev": "pending", "n": "visit #5551/timecards"}
+{"t": "2026-10-08T08:12:03.853Z", "el_s": 8, "ev": "done", "n": "visit #5551/timecards", "dt": 2591, "r": {"url": "https://scotty.yamdu.com/#5551/timecards:personaltimecards", "loadingVisible": 0, "waited_ms": 4}}
+{"t": "2026-10-08T08:12:03.854Z", "el_s": 8, "ev": "pending", "n": "visit #5551/documents"}
+{"t": "2026-10-08T08:12:06.430Z", "el_s": 11, "ev": "done", "n": "visit #5551/documents", "dt": 2576, "r": {"url": "https://scotty.yamdu.com/#5551/documents", "loadingVisible": 0, "waited_ms": 3}}
+{"t": "2026-10-08T08:12:06.431Z", "el_s": 11, "ev": "pending", "n": "visit #5551/tasks"}
+{"t": "2026-10-08T08:12:08.989Z", "el_s": 13, "ev": "done", "n": "visit #5551/tasks", "dt": 2558, "r": {"url": "https://scotty.yamdu.com/#5551/tasks:mytasks", "loadingVisible": 0, "waited_ms": 5}}
+{"t": "2026-10-08T08:12:08.989Z", "el_s": 13, "ev": "pending", "n": "visit #5551/calendar"}
+{"t": "2026-10-08T08:12:11.582Z", "el_s": 16, "ev": "done", "n": "visit #5551/calendar", "dt": 2593, "r": {"url": "https://scotty.yamdu.com/#5551/calendar:fc:_month", "loadingVisible": 0, "waited_ms": 4}}
+{"t": "2026-10-08T08:12:11.583Z", "el_s": 16, "ev": "pending", "n": "visit #5551/projectsettings:settings"}
+{"t": "2026-10-08T08:12:14.150Z", "el_s": 18, "ev": "done", "n": "visit #5551/projectsettings:settings", "dt": 2567, "r": {"url": "https://scotty.yamdu.com/#5551/projectsettings:settings", "loadingVisible": 0, "waited_ms": 4}}
+{"t": "2026-10-08T08:12:14.150Z", "el_s": 18, "ev": "pending", "n": "visit #5551/script"}
+{"t": "2026-10-08T08:12:16.067Z", "el_s": 20, "ev": "request_failed_yamdu", "url": "https://scotty.yamdu.com/api/v1/projects/5551/scenes?$orderby=order&$top=300&$skip=0&_=1791447100722", "err": "net::ERR_ABORTED"}
+{"t": "2026-10-08T08:12:17.069Z", "el_s": 21, "ev": "done", "n": "visit #5551/script", "dt": 2919, "r": {"url": "https://scotty.yamdu.com/#5551/script!id=137109", "loadingVisible": 0, "waited_ms": 361}}
+{"t": "2026-10-08T08:12:17.071Z", "el_s": 21, "ev": "pending", "n": "visit #5551/breakdowns:scenes"}
+{"t": "2026-10-08T08:12:17.264Z", "el_s": 21, "ev": "request_failed_yamdu", "url": "https://scotty.yamdu.com/api/v1/projects/5551/scenes?$orderby=order&$top=300&$skip=0&$orderby=order&_=1791447100729", "err": "net::ERR_ABORTED"}
+{"t": "2026-10-08T08:12:19.778Z", "el_s": 24, "ev": "done", "n": "visit #5551/breakdowns:scenes", "dt": 2707, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:scenes", "loadingVisible": 0, "waited_ms": 4}}
+{"t": "2026-10-08T08:12:19.778Z", "el_s": 24, "ev": "pending", "n": "visit #5551/breakdowns:shots"}
+{"t": "2026-10-08T08:12:22.384Z", "el_s": 26, "ev": "done", "n": "visit #5551/breakdowns:shots", "dt": 2605, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:shots", "loadingVisible": 0, "waited_ms": 5}}
+{"t": "2026-10-08T08:12:22.384Z", "el_s": 26, "ev": "pending", "n": "visit #5551/breakdowns:storyboard"}
+{"t": "2026-10-08T08:12:24.974Z", "el_s": 29, "ev": "done", "n": "visit #5551/breakdowns:storyboard", "dt": 2590, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:storyboard", "loadingVisible": 0, "waited_ms": 4}}
+{"t": "2026-10-08T08:12:24.974Z", "el_s": 29, "ev": "pending", "n": "visit #5551/breakdowns:contentitems"}
+{"t": "2026-10-08T08:12:27.572Z", "el_s": 32, "ev": "done", "n": "visit #5551/breakdowns:contentitems", "dt": 2598, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:contentitems", "loadingVisible": 0, "waited_ms": 5}}
+{"t": "2026-10-08T08:12:27.572Z", "el_s": 32, "ev": "pending", "n": "visit #5551/scheduling:schedulingversions"}
+{"t": "2026-10-08T08:12:30.156Z", "el_s": 34, "ev": "done", "n": "visit #5551/scheduling:schedulingversions", "dt": 2584, "r": {"url": "https://scotty.yamdu.com/#5551/scheduling:schedulingversions", "loadingVisible": 0, "waited_ms": 3}}
+{"t": "2026-10-08T08:12:30.157Z", "el_s": 34, "ev": "pending", "n": "visit #5551/shootingscheduling:shootingplanversions"}
+{"t": "2026-10-08T08:12:32.761Z", "el_s": 37, "ev": "done", "n": "visit #5551/shootingscheduling:shootingplanversions", "dt": 2604, "r": {"url": "https://scotty.yamdu.com/#5551/shootingscheduling:shootingplanversions", "loadingVisible": 0, "waited_ms": 12}}
+{"t": "2026-10-08T08:12:32.761Z", "el_s": 37, "ev": "pending", "n": "visit #5551/callsheets:overview"}
+{"t": "2026-10-08T08:12:35.378Z", "el_s": 39, "ev": "done", "n": "visit #5551/callsheets:overview", "dt": 2616, "r": {"url": "https://scotty.yamdu.com/#5551/callsheets:overview", "loadingVisible": 0, "waited_ms": 3}}
+{"t": "2026-10-08T08:12:35.378Z", "el_s": 39, "ev": "pending", "n": "visit #5551/reports:dailyproductionreports"}
+{"t": "2026-10-08T08:12:37.984Z", "el_s": 42, "ev": "done", "n": "visit #5551/reports:dailyproductionreports", "dt": 2606, "r": {"url": "https://scotty.yamdu.com/#5551/reports:dailyproductionreports", "loadingVisible": 0, "waited_ms": 14}}
+{"t": "2026-10-08T08:12:37.985Z", "el_s": 42, "ev": "pending", "n": "visit #5551/resourceplanning/bookings"}
+{"t": "2026-10-08T08:12:40.563Z", "el_s": 45, "ev": "done", "n": "visit #5551/resourceplanning/bookings", "dt": 2578, "r": {"url": "https://scotty.yamdu.com/#5551/resourceplanning/bookings", "loadingVisible": 0, "waited_ms": 3}}
+{"t": "2026-10-08T08:12:40.563Z", "el_s": 45, "ev": "pending", "n": "visit #5551/financing"}
+{"t": "2026-10-08T08:12:43.143Z", "el_s": 47, "ev": "done", "n": "visit #5551/financing", "dt": 2580, "r": {"url": "https://scotty.yamdu.com/#5551/financing", "loadingVisible": 0, "waited_ms": 9}}
+{"t": "2026-10-08T08:12:43.143Z", "el_s": 47, "ev": "pending", "n": "visit #5551/budgeting"}
+{"t": "2026-10-08T08:12:45.738Z", "el_s": 50, "ev": "done", "n": "visit #5551/budgeting", "dt": 2595, "r": {"url": "https://scotty.yamdu.com/#5551/budgeting:scenarios", "loadingVisible": 0, "waited_ms": 8}}
+{"t": "2026-10-08T08:12:45.738Z", "el_s": 50, "ev": "pending", "n": "visit #5551/travel"}
+{"t": "2026-10-08T08:12:48.313Z", "el_s": 52, "ev": "done", "n": "visit #5551/travel", "dt": 2575, "r": {"url": "https://scotty.yamdu.com/#5551/travel:overview", "loadingVisible": 0, "waited_ms": 4}}
+{"t": "2026-10-08T08:12:48.313Z", "el_s": 52, "ev": "pending", "n": "visit #5551/sustainability"}
+{"t": "2026-10-08T08:12:50.877Z", "el_s": 55, "ev": "done", "n": "visit #5551/sustainability", "dt": 2564, "r": {"url": "https://scotty.yamdu.com/#5551/sustainability:scenarios", "loadingVisible": 0, "waited_ms": 5}}
+{"t": "2026-10-08T08:12:50.877Z", "el_s": 55, "ev": "pending", "n": "visit #5551/cast:roles"}
+{"t": "2026-10-08T08:12:53.471Z", "el_s": 58, "ev": "done", "n": "visit #5551/cast:roles", "dt": 2594, "r": {"url": "https://scotty.yamdu.com/#5551/cast:roles", "loadingVisible": 0, "waited_ms": 5}}
+{"t": "2026-10-08T08:12:53.471Z", "el_s": 58, "ev": "pending", "n": "visit #5551/costumes"}
+{"t": "2026-10-08T08:12:56.075Z", "el_s": 60, "ev": "done", "n": "visit #5551/costumes", "dt": 2604, "r": {"url": "https://scotty.yamdu.com/#5551/costumes:roles", "loadingVisible": 0, "waited_ms": 4}}
+{"t": "2026-10-08T08:12:56.075Z", "el_s": 60, "ev": "pending", "n": "visit #5551/makeups"}
+{"t": "2026-10-08T08:12:58.665Z", "el_s": 63, "ev": "done", "n": "visit #5551/makeups", "dt": 2589, "r": {"url": "https://scotty.yamdu.com/#5551/makeups:roles", "loadingVisible": 0, "waited_ms": 4}}
+{"t": "2026-10-08T08:12:58.666Z", "el_s": 63, "ev": "pending", "n": "visit #5551/locations:sets"}
+{"t": "2026-10-08T08:13:01.262Z", "el_s": 65, "ev": "done", "n": "visit #5551/locations:sets", "dt": 2596, "r": {"url": "https://scotty.yamdu.com/#5551/locations:sets", "loadingVisible": 0, "waited_ms": 6}}
+{"t": "2026-10-08T08:13:01.262Z", "el_s": 65, "ev": "pending", "n": "visit #5551/props:overview:scriptprops!category=all"}
+{"t": "2026-10-08T08:13:03.861Z", "el_s": 68, "ev": "done", "n": "visit #5551/props:overview:scriptprops!category=all", "dt": 2599, "r": {"url": "https://scotty.yamdu.com/#5551/props:overview:scriptprops!category=all", "loadingVisible": 0, "waited_ms": 7}}
+{"t": "2026-10-08T08:13:03.861Z", "el_s": 68, "ev": "pending", "n": "visit #5551/equipment"}
+{"t": "2026-10-08T08:13:06.450Z", "el_s": 71, "ev": "done", "n": "visit #5551/equipment", "dt": 2589, "r": {"url": "https://scotty.yamdu.com/#5551/equipment:equipmentlists", "loadingVisible": 0, "waited_ms": 3}}
+{"t": "2026-10-08T08:13:06.450Z", "el_s": 71, "ev": "pending", "n": "visit #5551/misc"}
+{"t": "2026-10-08T08:13:09.033Z", "el_s": 73, "ev": "done", "n": "visit #5551/misc", "dt": 2582, "r": {"url": "https://scotty.yamdu.com/#5551/misc:category!category=18694", "loadingVisible": 0, "waited_ms": 4}}
+{"t": "2026-10-08T08:13:09.033Z", "el_s": 73, "ev": "pending", "n": "visit #5551/postproduction"}
+{"t": "2026-10-08T08:13:11.620Z", "el_s": 76, "ev": "done", "n": "visit #5551/postproduction", "dt": 2587, "r": {"url": "https://scotty.yamdu.com/#5551/postproduction:credits", "loadingVisible": 0, "waited_ms": 4}}
+{"t": "2026-10-08T08:13:11.620Z", "el_s": 76, "ev": "pending", "n": "visit #5551/breakdowns:breakdownsettings!show_episodic=true"}
+{"t": "2026-10-08T08:13:18.148Z", "el_s": 82, "ev": "done", "n": "visit #5551/breakdowns:breakdownsettings!show_episodic=true", "dt": 6528, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "loadingVisible": 0, "waited_ms": 4}}
+{"t": "2026-10-08T08:13:18.154Z", "el_s": 82, "ev": "metrics", "tag": "after-all-pages", "m": {"scripts": 229, "nodes": 1367, "heapMB": 73, "crumbs": 2, "pm": 0}}
+{"t": "2026-10-08T08:13:18.159Z", "el_s": 82, "ev": "probe", "tag": "after-all-pages", "dt": 5, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:13:18.159Z", "el_s": 82, "ev": "pending", "n": "sidebar-scenes"}
+{"t": "2026-10-08T08:13:26.165Z", "el_s": 90, "ev": "error", "n": "sidebar-scenes", "dt": 8006, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"tooltip\" href=\"#5551/breakdowns:"}
+{"t": "2026-10-08T08:13:26.169Z", "el_s": 90, "ev": "probe", "tag": "err-sidebar-scenes", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:13:26.173Z", "el_s": 90, "ev": "metrics", "tag": "scenes-start", "m": {"scripts": 229, "nodes": 1367, "heapMB": 74, "crumbs": 2, "pm": 0}}
+{"t": "2026-10-08T08:13:26.174Z", "el_s": 90, "ev": "pending", "n": "open-scene-profile-0"}
+{"t": "2026-10-08T08:13:34.176Z", "el_s": 98, "ev": "error", "n": "open-scene-profile-0", "dt": 8002, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_0_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:13:34.187Z", "el_s": 98, "ev": "probe", "tag": "err-open-scene-profile-0", "dt": 11, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:13:34.187Z", "el_s": 98, "ev": "pending", "n": "breadcrumb-Scenes-0"}
+{"t": "2026-10-08T08:13:42.192Z", "el_s": 106, "ev": "error", "n": "breadcrumb-Scenes-0", "dt": 8005, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:13:42.196Z", "el_s": 106, "ev": "probe", "tag": "err-breadcrumb-Scenes-0", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:13:42.196Z", "el_s": 106, "ev": "pending", "n": "open-scene-profile-1"}
+{"t": "2026-10-08T08:13:50.198Z", "el_s": 114, "ev": "error", "n": "open-scene-profile-1", "dt": 8002, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_1_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:13:50.202Z", "el_s": 114, "ev": "probe", "tag": "err-open-scene-profile-1", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:13:50.202Z", "el_s": 114, "ev": "pending", "n": "breadcrumb-Scenes-1"}
+{"t": "2026-10-08T08:13:58.207Z", "el_s": 122, "ev": "error", "n": "breadcrumb-Scenes-1", "dt": 8005, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:13:58.218Z", "el_s": 122, "ev": "probe", "tag": "err-breadcrumb-Scenes-1", "dt": 11, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:13:58.218Z", "el_s": 122, "ev": "pending", "n": "open-scene-profile-2"}
+{"t": "2026-10-08T08:14:06.220Z", "el_s": 130, "ev": "error", "n": "open-scene-profile-2", "dt": 8002, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_2_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:14:06.226Z", "el_s": 130, "ev": "probe", "tag": "err-open-scene-profile-2", "dt": 6, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:14:06.226Z", "el_s": 130, "ev": "pending", "n": "breadcrumb-Scenes-2"}
+{"t": "2026-10-08T08:14:14.233Z", "el_s": 138, "ev": "error", "n": "breadcrumb-Scenes-2", "dt": 8007, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:14:14.237Z", "el_s": 138, "ev": "probe", "tag": "err-breadcrumb-Scenes-2", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:14:14.237Z", "el_s": 138, "ev": "pending", "n": "open-scene-profile-3"}
+{"t": "2026-10-08T08:14:22.238Z", "el_s": 146, "ev": "error", "n": "open-scene-profile-3", "dt": 8001, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_3_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:14:22.242Z", "el_s": 146, "ev": "probe", "tag": "err-open-scene-profile-3", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:14:22.242Z", "el_s": 146, "ev": "pending", "n": "breadcrumb-Scenes-3"}
+{"t": "2026-10-08T08:14:30.247Z", "el_s": 154, "ev": "error", "n": "breadcrumb-Scenes-3", "dt": 8005, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:14:30.251Z", "el_s": 154, "ev": "probe", "tag": "err-breadcrumb-Scenes-3", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:14:30.251Z", "el_s": 154, "ev": "pending", "n": "open-scene-profile-4"}
+{"t": "2026-10-08T08:14:38.252Z", "el_s": 162, "ev": "error", "n": "open-scene-profile-4", "dt": 8001, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_4_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:14:38.256Z", "el_s": 162, "ev": "probe", "tag": "err-open-scene-profile-4", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:14:38.256Z", "el_s": 162, "ev": "pending", "n": "breadcrumb-Scenes-4"}
+{"t": "2026-10-08T08:14:46.261Z", "el_s": 170, "ev": "error", "n": "breadcrumb-Scenes-4", "dt": 8005, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:14:46.264Z", "el_s": 170, "ev": "probe", "tag": "err-breadcrumb-Scenes-4", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:14:46.268Z", "el_s": 170, "ev": "metrics", "tag": "cycle-5", "m": {"scripts": 229, "nodes": 1367, "heapMB": 75, "crumbs": 2, "pm": 0}}
+{"t": "2026-10-08T08:14:46.272Z", "el_s": 170, "ev": "probe", "tag": "cycle-5", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:14:46.272Z", "el_s": 170, "ev": "pending", "n": "open-scene-profile-5"}
+{"t": "2026-10-08T08:14:54.274Z", "el_s": 178, "ev": "error", "n": "open-scene-profile-5", "dt": 8002, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_5_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:14:54.277Z", "el_s": 178, "ev": "probe", "tag": "err-open-scene-profile-5", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:14:54.277Z", "el_s": 178, "ev": "pending", "n": "breadcrumb-Scenes-5"}
+{"t": "2026-10-08T08:15:02.281Z", "el_s": 186, "ev": "error", "n": "breadcrumb-Scenes-5", "dt": 8004, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:15:02.286Z", "el_s": 186, "ev": "probe", "tag": "err-breadcrumb-Scenes-5", "dt": 5, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:15:02.286Z", "el_s": 186, "ev": "pending", "n": "open-scene-profile-6"}
+{"t": "2026-10-08T08:15:10.288Z", "el_s": 194, "ev": "error", "n": "open-scene-profile-6", "dt": 8002, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_6_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:15:10.291Z", "el_s": 194, "ev": "probe", "tag": "err-open-scene-profile-6", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:15:10.291Z", "el_s": 194, "ev": "pending", "n": "breadcrumb-Scenes-6"}
+{"t": "2026-10-08T08:15:18.295Z", "el_s": 202, "ev": "error", "n": "breadcrumb-Scenes-6", "dt": 8004, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:15:18.298Z", "el_s": 202, "ev": "probe", "tag": "err-breadcrumb-Scenes-6", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:15:18.298Z", "el_s": 202, "ev": "pending", "n": "open-scene-profile-7"}
+{"t": "2026-10-08T08:15:26.299Z", "el_s": 210, "ev": "error", "n": "open-scene-profile-7", "dt": 8001, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_7_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:15:26.307Z", "el_s": 210, "ev": "probe", "tag": "err-open-scene-profile-7", "dt": 8, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:15:26.307Z", "el_s": 210, "ev": "pending", "n": "breadcrumb-Scenes-7"}
+{"t": "2026-10-08T08:15:34.311Z", "el_s": 218, "ev": "error", "n": "breadcrumb-Scenes-7", "dt": 8004, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:15:34.315Z", "el_s": 218, "ev": "probe", "tag": "err-breadcrumb-Scenes-7", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:15:34.315Z", "el_s": 218, "ev": "pending", "n": "open-scene-profile-8"}
+{"t": "2026-10-08T08:15:42.316Z", "el_s": 226, "ev": "error", "n": "open-scene-profile-8", "dt": 8001, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_8_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:15:42.327Z", "el_s": 226, "ev": "probe", "tag": "err-open-scene-profile-8", "dt": 11, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:15:42.327Z", "el_s": 226, "ev": "pending", "n": "breadcrumb-Scenes-8"}
+{"t": "2026-10-08T08:15:50.332Z", "el_s": 234, "ev": "error", "n": "breadcrumb-Scenes-8", "dt": 8005, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:15:50.336Z", "el_s": 234, "ev": "probe", "tag": "err-breadcrumb-Scenes-8", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:15:50.336Z", "el_s": 234, "ev": "pending", "n": "open-scene-profile-9"}
+{"t": "2026-10-08T08:15:58.338Z", "el_s": 242, "ev": "error", "n": "open-scene-profile-9", "dt": 8002, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_9_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:15:58.341Z", "el_s": 242, "ev": "probe", "tag": "err-open-scene-profile-9", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:15:58.341Z", "el_s": 242, "ev": "pending", "n": "breadcrumb-Scenes-9"}
+{"t": "2026-10-08T08:16:06.344Z", "el_s": 250, "ev": "error", "n": "breadcrumb-Scenes-9", "dt": 8003, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:16:06.347Z", "el_s": 250, "ev": "probe", "tag": "err-breadcrumb-Scenes-9", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:16:06.350Z", "el_s": 250, "ev": "metrics", "tag": "cycle-10", "m": {"scripts": 229, "nodes": 1367, "heapMB": 76, "crumbs": 2, "pm": 0}}
+{"t": "2026-10-08T08:16:06.353Z", "el_s": 250, "ev": "probe", "tag": "cycle-10", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:16:06.353Z", "el_s": 250, "ev": "pending", "n": "open-scene-profile-10"}
+{"t": "2026-10-08T08:16:14.353Z", "el_s": 258, "ev": "error", "n": "open-scene-profile-10", "dt": 8000, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_10_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:16:14.357Z", "el_s": 258, "ev": "probe", "tag": "err-open-scene-profile-10", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:16:14.357Z", "el_s": 258, "ev": "pending", "n": "breadcrumb-Scenes-10"}
+{"t": "2026-10-08T08:16:22.361Z", "el_s": 266, "ev": "error", "n": "breadcrumb-Scenes-10", "dt": 8004, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:16:22.364Z", "el_s": 266, "ev": "probe", "tag": "err-breadcrumb-Scenes-10", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:16:22.364Z", "el_s": 266, "ev": "pending", "n": "open-scene-profile-11"}
+{"t": "2026-10-08T08:16:30.364Z", "el_s": 274, "ev": "error", "n": "open-scene-profile-11", "dt": 8000, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_11_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:16:30.369Z", "el_s": 274, "ev": "probe", "tag": "err-open-scene-profile-11", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:16:30.369Z", "el_s": 274, "ev": "pending", "n": "breadcrumb-Scenes-11"}
+{"t": "2026-10-08T08:16:38.374Z", "el_s": 282, "ev": "error", "n": "breadcrumb-Scenes-11", "dt": 8005, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:16:38.378Z", "el_s": 282, "ev": "probe", "tag": "err-breadcrumb-Scenes-11", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:16:38.378Z", "el_s": 282, "ev": "pending", "n": "open-scene-profile-12"}
+{"t": "2026-10-08T08:16:46.380Z", "el_s": 290, "ev": "error", "n": "open-scene-profile-12", "dt": 8002, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_12_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:16:46.383Z", "el_s": 290, "ev": "probe", "tag": "err-open-scene-profile-12", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:16:46.383Z", "el_s": 290, "ev": "pending", "n": "breadcrumb-Scenes-12"}
+{"t": "2026-10-08T08:16:54.387Z", "el_s": 298, "ev": "error", "n": "breadcrumb-Scenes-12", "dt": 8004, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:16:54.397Z", "el_s": 298, "ev": "probe", "tag": "err-breadcrumb-Scenes-12", "dt": 10, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:16:54.397Z", "el_s": 298, "ev": "pending", "n": "open-scene-profile-13"}
+{"t": "2026-10-08T08:17:02.399Z", "el_s": 306, "ev": "error", "n": "open-scene-profile-13", "dt": 8002, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_13_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:17:02.402Z", "el_s": 306, "ev": "probe", "tag": "err-open-scene-profile-13", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:17:02.402Z", "el_s": 306, "ev": "pending", "n": "breadcrumb-Scenes-13"}
+{"t": "2026-10-08T08:17:10.406Z", "el_s": 314, "ev": "error", "n": "breadcrumb-Scenes-13", "dt": 8004, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:17:10.409Z", "el_s": 314, "ev": "probe", "tag": "err-breadcrumb-Scenes-13", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:17:10.410Z", "el_s": 314, "ev": "pending", "n": "open-scene-profile-14"}
+{"t": "2026-10-08T08:17:18.411Z", "el_s": 323, "ev": "error", "n": "open-scene-profile-14", "dt": 8001, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_14_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:17:18.414Z", "el_s": 323, "ev": "probe", "tag": "err-open-scene-profile-14", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:17:18.414Z", "el_s": 323, "ev": "pending", "n": "breadcrumb-Scenes-14"}
+{"t": "2026-10-08T08:17:26.418Z", "el_s": 331, "ev": "error", "n": "breadcrumb-Scenes-14", "dt": 8003, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:17:26.421Z", "el_s": 331, "ev": "probe", "tag": "err-breadcrumb-Scenes-14", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:17:26.425Z", "el_s": 331, "ev": "metrics", "tag": "cycle-15", "m": {"scripts": 229, "nodes": 1367, "heapMB": 65, "crumbs": 2, "pm": 0}}
+{"t": "2026-10-08T08:17:26.428Z", "el_s": 331, "ev": "probe", "tag": "cycle-15", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:17:26.429Z", "el_s": 331, "ev": "pending", "n": "open-scene-profile-15"}
+{"t": "2026-10-08T08:17:34.430Z", "el_s": 339, "ev": "error", "n": "open-scene-profile-15", "dt": 8001, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_15_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:17:34.434Z", "el_s": 339, "ev": "probe", "tag": "err-open-scene-profile-15", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:17:34.435Z", "el_s": 339, "ev": "pending", "n": "breadcrumb-Scenes-15"}
+{"t": "2026-10-08T08:17:42.438Z", "el_s": 347, "ev": "error", "n": "breadcrumb-Scenes-15", "dt": 8003, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:17:42.442Z", "el_s": 347, "ev": "probe", "tag": "err-breadcrumb-Scenes-15", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:17:42.442Z", "el_s": 347, "ev": "pending", "n": "open-scene-profile-16"}
+{"t": "2026-10-08T08:17:50.443Z", "el_s": 355, "ev": "error", "n": "open-scene-profile-16", "dt": 8001, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_16_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:17:50.447Z", "el_s": 355, "ev": "probe", "tag": "err-open-scene-profile-16", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:17:50.447Z", "el_s": 355, "ev": "pending", "n": "breadcrumb-Scenes-16"}
+{"t": "2026-10-08T08:17:58.451Z", "el_s": 363, "ev": "error", "n": "breadcrumb-Scenes-16", "dt": 8004, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:17:58.453Z", "el_s": 363, "ev": "probe", "tag": "err-breadcrumb-Scenes-16", "dt": 2, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:17:58.454Z", "el_s": 363, "ev": "pending", "n": "open-scene-profile-17"}
+{"t": "2026-10-08T08:18:06.454Z", "el_s": 371, "ev": "error", "n": "open-scene-profile-17", "dt": 8000, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_17_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:18:06.458Z", "el_s": 371, "ev": "probe", "tag": "err-open-scene-profile-17", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:18:06.458Z", "el_s": 371, "ev": "pending", "n": "breadcrumb-Scenes-17"}
+{"t": "2026-10-08T08:18:14.463Z", "el_s": 379, "ev": "error", "n": "breadcrumb-Scenes-17", "dt": 8005, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:18:14.466Z", "el_s": 379, "ev": "probe", "tag": "err-breadcrumb-Scenes-17", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:18:14.466Z", "el_s": 379, "ev": "pending", "n": "open-scene-profile-18"}
+{"t": "2026-10-08T08:18:22.467Z", "el_s": 387, "ev": "error", "n": "open-scene-profile-18", "dt": 8001, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_18_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:18:22.472Z", "el_s": 387, "ev": "probe", "tag": "err-open-scene-profile-18", "dt": 5, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:18:22.472Z", "el_s": 387, "ev": "pending", "n": "breadcrumb-Scenes-18"}
+{"t": "2026-10-08T08:18:30.475Z", "el_s": 395, "ev": "error", "n": "breadcrumb-Scenes-18", "dt": 8003, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:18:30.478Z", "el_s": 395, "ev": "probe", "tag": "err-breadcrumb-Scenes-18", "dt": 2, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:18:30.478Z", "el_s": 395, "ev": "pending", "n": "open-scene-profile-19"}
+{"t": "2026-10-08T08:18:38.479Z", "el_s": 403, "ev": "error", "n": "open-scene-profile-19", "dt": 8001, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#cell_19_number')\u001b[22m\n"}
+{"t": "2026-10-08T08:18:38.483Z", "el_s": 403, "ev": "probe", "tag": "err-open-scene-profile-19", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:18:38.483Z", "el_s": 403, "ev": "pending", "n": "breadcrumb-Scenes-19"}
+{"t": "2026-10-08T08:18:46.487Z", "el_s": 411, "ev": "error", "n": "breadcrumb-Scenes-19", "dt": 8004, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/breakdowns:scenes\"]').filter({ hasText: /^\\s*Scenes\\s*$/ }).last()\u001b[22m\n\u001b[2m    - locator resolved to <a cl"}
+{"t": "2026-10-08T08:18:46.494Z", "el_s": 411, "ev": "probe", "tag": "err-breadcrumb-Scenes-19", "dt": 6, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:18:46.504Z", "el_s": 411, "ev": "metrics", "tag": "cycle-20", "m": {"scripts": 229, "nodes": 1367, "heapMB": 61, "crumbs": 2, "pm": 0}}
+{"t": "2026-10-08T08:18:46.508Z", "el_s": 411, "ev": "probe", "tag": "cycle-20", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:18:46.714Z", "el_s": 411, "ev": "pending", "n": "ui-nav-filedistribution"}
+{"t": "2026-10-08T08:18:54.722Z", "el_s": 419, "ev": "error", "n": "ui-nav-filedistribution", "dt": 8008, "err": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/announcements\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"tooltip\" href=\"#5551/announcements\">"}
+{"t": "2026-10-08T08:18:54.728Z", "el_s": 419, "ev": "probe", "tag": "err-ui-nav-filedistribution", "dt": 5, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:18:54.729Z", "el_s": 419, "ev": "pending", "n": "click-Draft-tab"}
+{"t": "2026-10-08T08:18:59.730Z", "el_s": 424, "ev": "error", "n": "click-Draft-tab", "dt": 5001, "err": "locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/^Draft/).first()\u001b[22m\n"}
+{"t": "2026-10-08T08:18:59.735Z", "el_s": 424, "ev": "probe", "tag": "err-click-Draft-tab", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:18:59.735Z", "el_s": 424, "ev": "pending", "n": "verify"}
+{"t": "2026-10-08T08:18:59.735Z", "el_s": 424, "ev": "done", "n": "verify", "dt": 0, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "http": 0, "cerr": 0}}
+{"t": "2026-10-08T08:18:59.938Z", "el_s": 424, "ev": "draft-row", "count": 5, "first": "13 1234"}
+{"t": "2026-10-08T08:18:59.938Z", "el_s": 424, "ev": "pending", "n": "reopen-draft-click"}
+{"t": "2026-10-08T08:19:04.941Z", "el_s": 429, "ev": "error", "n": "reopen-draft-click", "dt": 5003, "err": "locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('tbody tr').first()\u001b[22m\n\u001b[2m    - locator resolved to <tr>\u2026</tr>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 \u00d7 wa"}
+{"t": "2026-10-08T08:19:04.945Z", "el_s": 429, "ev": "probe", "tag": "err-reopen-draft-click", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:19:08.452Z", "el_s": 433, "ev": "probe", "tag": "after-reopen-3.5s", "dt": 6, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:19:08.460Z", "el_s": 433, "ev": "metrics", "tag": "after-reopen", "m": {"scripts": 229, "nodes": 1367, "heapMB": 61, "crumbs": 2, "pm": 0}}
+{"t": "2026-10-08T08:19:08.460Z", "el_s": 433, "ev": "pending", "n": "editor-click-End-type-Enter-type"}
+{"t": "2026-10-08T08:19:13.461Z", "el_s": 438, "ev": "error", "n": "editor-click-End-type-Enter-type", "dt": 5001, "err": "locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.ProseMirror').first()\u001b[22m\n"}
+{"t": "2026-10-08T08:19:13.465Z", "el_s": 438, "ev": "probe", "tag": "err-editor-click-End-type-Enter-type", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:19:14.469Z", "el_s": 439, "ev": "probe", "tag": "after-enter-1s", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:19:15.473Z", "el_s": 440, "ev": "probe", "tag": "after-enter-2s", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:19:16.477Z", "el_s": 441, "ev": "probe", "tag": "after-enter-3s", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:19:17.484Z", "el_s": 442, "ev": "probe", "tag": "after-enter-4s", "dt": 6, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:19:18.489Z", "el_s": 443, "ev": "probe", "tag": "after-enter-5s", "dt": 5, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:19:19.494Z", "el_s": 444, "ev": "probe", "tag": "after-enter-6s", "dt": 5, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:19:20.498Z", "el_s": 445, "ev": "probe", "tag": "after-enter-7s", "dt": 3, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:19:21.503Z", "el_s": 446, "ev": "probe", "tag": "after-enter-8s", "dt": 4, "r": {"url": "https://scotty.yamdu.com/#5551/breakdowns:breakdownsettings!show_episodic=true", "ed": 0, "loading": 0, "nodes": 1367}}
+{"t": "2026-10-08T08:19:21.653Z", "el_s": 446, "ev": "end", "result": "no freeze"}
