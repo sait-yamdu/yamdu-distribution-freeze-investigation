@@ -1,0 +1,34 @@
+renderer pid 757
+05:17:19
+  757 root      12  -8 1393.7g 690896 185524 R 101.5   4.2   0:46.90 chrome
+VmRSS:	  690896 kB
+#0  0x0000562261547879 in blink::InlineNode::PrepareLayout(blink::InlineNodeData*) const ()
+#1  0x00005622608f5136 in blink::BlockNode::FirstChild() const ()
+#2  0x00005622608f3933 in blink::BlockLayoutAlgorithm::ComputeMinMaxSizes(blink::MinMaxSizesFloatInput const&) ()
+#3  0x00005622608f3813 in void blink::(anonymous namespace)::CreateAlgorithmAndRun<blink::BlockLayoutAlgorithm, blink::(anonymous namespace)
+#4  0x0000562260fb3609 in blink::BlockNode::ComputeMinMaxSizes(blink::WritingMode, blink::SizeType, blink::ConstraintSpace const&, blink::Mi
+#5  0x0000562260fac659 in blink::ComputeMinAndMaxContentContributionInternal(blink::WritingMode, blink::BlockNode const&, blink::ConstraintS
+#6  0x00005622608f4023 in blink::BlockLayoutAlgorithm::ComputeMinMaxSizes(blink::MinMaxSizesFloatInput const&) ()
+--
+05:17:53
+  757 root      12  -8 1392.1g 631724 185608 R  92.0   3.8   1:09.28 chrome
+VmRSS:	  631740 kB
+#0  0x00005622608fb4f7 in blink::BlockLayoutAlgorithm::LayoutInlineChild(blink::InlineNode const&, std::__Cr::optional<float>) ()
+#1  0x00005622608ee0fb in void blink::(anonymous namespace)::CreateAlgorithmAndRun<blink::BlockLayoutAlgorithm, blink::(anonymous namespace)
+#2  0x000056225fea24ea in blink::BlockNode::Layout(blink::ConstraintSpace const&, blink::BlockBreakToken const*, blink::EarlyBreak const*, b
+#3  0x00005622608ff91a in blink::BlockLayoutAlgorithm::Layout(blink::InlineChildLayoutContext*) ()
+#4  0x00005622608ee139 in void blink::(anonymous namespace)::CreateAlgorithmAndRun<blink::BlockLayoutAlgorithm, blink::(anonymous namespace)
+#5  0x000056225fea24ea in blink::BlockNode::Layout(blink::ConstraintSpace const&, blink::BlockBreakToken const*, blink::EarlyBreak const*, b
+#6  0x00005622608ff91a in blink::BlockLayoutAlgorithm::Layout(blink::InlineChildLayoutContext*) ()
+--
+05:18:20
+  757 root      12  -8 1392.1g 631212 185608 R  96.0   3.8   1:31.54 chrome
+VmRSS:	  631212 kB
+#0  0x0000562260df9157 in blink::Range::NodeWillBeRemoved(blink::Node&) ()
+#1  0x0000562260df7392 in blink::ContainerNode::RemoveChild(blink::Node*, blink::ExceptionState&) ()
+#2  0x000056226161b31d in blink::(anonymous namespace)::v8_node::RemoveChildOperationCallback(v8::FunctionCallbackInfo<v8::Value> const&) [c
+#3  0x00005622643ce9b8 in Builtins_CallApiCallbackOptimizedNoProfiling ()
+#4  0x00007ffd56670168 in ??? ()
+#5  0x00007ffd566701a0 in ??? ()
+#6  0x0000000000000001 in ??? ()
+--
