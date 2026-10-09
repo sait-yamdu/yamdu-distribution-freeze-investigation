@@ -1,3 +1,225 @@
 {"t":"2026-10-09T05:15:17.878Z","step":"login-start","status":"pending"}
 {"t":"2026-10-09T05:17:05.284Z","step":"login","status":"done","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
 {"t":"2026-10-09T05:17:10.357Z","step":"env","scripts":["https://scotty.yamdu.com/bundles/js?v=J0ezvFvabjEaimCjA4DEkGXDQ6FIk1cvIQfzXseCMZA1"],"ua":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","vis":"visible","n":152,"heap":63618114}
+{"t":"2026-10-09T05:17:46.878Z","el_s":0,"ev":"start","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ua":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","note":"same tab since login; no reload during E4"}
+{"t":"2026-10-09T05:17:46.882Z","el_s":0,"ev":"probe","tag":"start","dt":4,"r":{"hb":{"max":0,"n":0,"lt":0,"ltmax":0},"ed":0,"vis":"visible","heap":63,"nodes":995}}
+{"t":"2026-10-09T05:17:46.882Z","el_s":0,"ev":"pending","name":"close-initial-modal"}
+{"t":"2026-10-09T05:17:47.715Z","el_s":1,"ev":"done","name":"close-initial-modal","dt":833,"r":false}
+{"t":"2026-10-09T05:17:47.715Z","el_s":1,"ev":"cycle","c":1}
+{"t":"2026-10-09T05:17:47.715Z","el_s":1,"ev":"pending","name":"nav-distribution"}
+{"t":"2026-10-09T05:17:51.819Z","el_s":5,"ev":"done","name":"nav-distribution","dt":4104,"r":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-09T05:17:51.828Z","el_s":5,"ev":"probe","tag":"c1-dist","dt":9,"r":{"hb":{"max":16.10000000000582,"n":49,"lt":1,"ltmax":62},"ed":0,"vis":"visible","heap":65,"nodes":995}}
+{"t":"2026-10-09T05:17:51.828Z","el_s":5,"ev":"pending","name":"open-add-modal"}
+{"t":"2026-10-09T05:17:54.003Z","el_s":7,"ev":"done","name":"open-add-modal","dt":2175}
+{"t":"2026-10-09T05:17:54.003Z","el_s":7,"ev":"pending","name":"select-recipients"}
+{"t":"2026-10-09T05:17:55.948Z","el_s":9,"ev":"done","name":"select-recipients","dt":1945,"r":{"total":22,"checked":8}}
+{"t":"2026-10-09T05:17:55.956Z","el_s":9,"ev":"probe","tag":"c1-recips","dt":8,"r":{"hb":{"max":193.20000000001164,"n":89,"lt":8,"ltmax":192},"ed":2,"vis":"visible","heap":73,"nodes":1794}}
+{"t":"2026-10-09T05:17:55.956Z","el_s":9,"ev":"pending","name":"external-email-entry"}
+{"t":"2026-10-09T05:17:59.121Z","el_s":12,"ev":"done","name":"external-email-entry","dt":3165,"r":false}
+{"t":"2026-10-09T05:17:59.121Z","el_s":12,"ev":"pending","name":"subject"}
+{"t":"2026-10-09T05:17:59.155Z","el_s":12,"ev":"done","name":"subject","dt":34}
+{"t":"2026-10-09T05:17:59.155Z","el_s":12,"ev":"pending","name":"type-greeting-enter"}
+{"t":"2026-10-09T05:18:03.553Z","el_s":17,"ev":"done","name":"type-greeting-enter","dt":4398}
+{"t":"2026-10-09T05:18:03.557Z","el_s":17,"ev":"probe","tag":"c1-typed","dt":4,"r":{"hb":{"max":193.20000000001164,"n":165,"lt":8,"ltmax":192},"ed":2,"vis":"visible","heap":75,"nodes":1803}}
+{"t":"2026-10-09T05:18:03.560Z","el_s":17,"ev":"probe","tag":"c1-files","dt":3,"r":{"hb":{"max":193.20000000001164,"n":165,"lt":8,"ltmax":192},"ed":2,"vis":"visible","heap":75,"nodes":1803}}
+{"t":"2026-10-09T05:18:03.560Z","el_s":17,"ev":"pending","name":"hidden-with-modal-open"}
+{"t":"2026-10-09T05:18:04.154Z","el_s":17,"ev":"hidden","tag":"c1-modal","vis":"visible"}
+{"t":"2026-10-09T05:19:20.686Z","el_s":94,"ev":"shown","tag":"c1-modal","vis":"visible"}
+{"t":"2026-10-09T05:19:20.686Z","el_s":94,"ev":"done","name":"hidden-with-modal-open","dt":77126}
+{"t":"2026-10-09T05:19:20.689Z","el_s":94,"ev":"probe","tag":"c1-after-hide1","dt":3,"r":{"hb":{"max":193.20000000001164,"n":937,"lt":8,"ltmax":192},"ed":2,"vis":"visible","heap":75,"nodes":1803}}
+{"t":"2026-10-09T05:19:20.689Z","el_s":94,"ev":"pending","name":"type-after-return"}
+{"t":"2026-10-09T05:19:21.684Z","el_s":95,"ev":"done","name":"type-after-return","dt":995}
+{"t":"2026-10-09T05:19:21.686Z","el_s":95,"ev":"probe","tag":"c1-idle","dt":2,"r":{"hb":{"max":193.20000000001164,"n":947,"lt":8,"ltmax":192},"ed":2,"vis":"visible","heap":70,"nodes":1806}}
+{"t":"2026-10-09T05:19:21.686Z","el_s":95,"ev":"pending","name":"save-draft"}
+{"ev":"restart","note":"first S1 attempt aborted ~05:19Z: bringToFront under Playwright did not change visibilityState (stayed visible); minimize ineffective; fixed by openbox WM + raw CDP new-tab (hidden verified). Attempt-1 steps above are discarded/INCONCLUSIVE; same tab/session continues, no reload."}
+{"t":"2026-10-09T05:21:25.607Z","el_s":0,"ev":"start","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistributiondrafts","ua":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","note":"same tab since login; no reload during E4"}
+{"t":"2026-10-09T05:21:25.613Z","el_s":0,"ev":"probe","tag":"start","dt":6,"r":{"hb":{"max":900,"n":2143,"lt":10,"ltmax":192},"ed":0,"vis":"visible","heap":73,"nodes":1500}}
+{"t":"2026-10-09T05:21:25.613Z","el_s":0,"ev":"pending","name":"close-initial-modal"}
+{"t":"2026-10-09T05:21:26.442Z","el_s":1,"ev":"done","name":"close-initial-modal","dt":829,"r":false}
+{"t":"2026-10-09T05:21:26.442Z","el_s":1,"ev":"cycle","c":1}
+{"t":"2026-10-09T05:21:26.442Z","el_s":1,"ev":"pending","name":"nav-distribution"}
+{"t":"2026-10-09T05:21:30.557Z","el_s":5,"ev":"done","name":"nav-distribution","dt":4115,"r":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-09T05:21:30.561Z","el_s":5,"ev":"probe","tag":"c1-dist","dt":4,"r":{"hb":{"max":900,"n":2192,"lt":11,"ltmax":192},"ed":0,"vis":"visible","heap":71,"nodes":1001}}
+{"t":"2026-10-09T05:21:30.561Z","el_s":5,"ev":"pending","name":"open-add-modal"}
+{"t":"2026-10-09T05:21:32.636Z","el_s":7,"ev":"done","name":"open-add-modal","dt":2075}
+{"t":"2026-10-09T05:21:32.636Z","el_s":7,"ev":"pending","name":"select-recipients"}
+{"t":"2026-10-09T05:21:34.396Z","el_s":9,"ev":"done","name":"select-recipients","dt":1760,"r":{"total":22,"checked":8}}
+{"t":"2026-10-09T05:21:34.399Z","el_s":9,"ev":"probe","tag":"c1-recips","dt":3,"r":{"hb":{"max":900,"n":2231,"lt":17,"ltmax":192},"ed":2,"vis":"visible","heap":75,"nodes":1794}}
+{"t":"2026-10-09T05:21:34.399Z","el_s":9,"ev":"pending","name":"external-email-entry"}
+{"t":"2026-10-09T05:21:39.403Z","el_s":14,"ev":"error","name":"external-email-entry","dt":5004,"err":"locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Add new e-mail address').first()\u001b[22m\n\u001b[2m    - locator resolved to <span class=\"mantine-1ryt1ht mantine-Button-label\">"}
+{"t":"2026-10-09T05:21:39.406Z","el_s":14,"ev":"probe","tag":"after-error-external-email-entry","dt":3,"r":{"hb":{"max":900,"n":2281,"lt":17,"ltmax":192},"ed":2,"vis":"visible","heap":76,"nodes":1794}}
+{"t":"2026-10-09T05:21:39.406Z","el_s":14,"ev":"pending","name":"subject"}
+{"t":"2026-10-09T05:21:39.438Z","el_s":14,"ev":"done","name":"subject","dt":32}
+{"t":"2026-10-09T05:21:39.438Z","el_s":14,"ev":"pending","name":"type-greeting-enter"}
+{"t":"2026-10-09T05:21:43.655Z","el_s":18,"ev":"done","name":"type-greeting-enter","dt":4217}
+{"t":"2026-10-09T05:21:43.659Z","el_s":18,"ev":"probe","tag":"c1-typed","dt":3,"r":{"hb":{"max":900,"n":2323,"lt":18,"ltmax":192},"ed":2,"vis":"visible","heap":71,"nodes":1797}}
+{"t":"2026-10-09T05:21:43.661Z","el_s":18,"ev":"probe","tag":"c1-files","dt":2,"r":{"hb":{"max":900,"n":2323,"lt":18,"ltmax":192},"ed":2,"vis":"visible","heap":71,"nodes":1797}}
+{"t":"2026-10-09T05:21:43.661Z","el_s":18,"ev":"pending","name":"hidden-with-modal-open"}
+{"t":"2026-10-09T05:21:45.743Z","el_s":20,"ev":"hidden","tag":"c1-modal","vis":"hidden","planned_ms":75000}
+{"t":"2026-10-09T05:23:02.831Z","el_s":97,"ev":"shown","tag":"c1-modal","vis_before_return":"hidden","vis":"visible"}
+{"t":"2026-10-09T05:23:02.857Z","el_s":97,"ev":"done","name":"hidden-with-modal-open","dt":79196}
+{"t":"2026-10-09T05:23:02.869Z","el_s":97,"ev":"probe","tag":"c1-after-hide1","dt":12,"r":{"hb":{"max":17848.70000000001,"n":2405,"lt":19,"ltmax":192},"ed":2,"vis":"visible","heap":69,"nodes":1797}}
+{"t":"2026-10-09T05:23:02.869Z","el_s":97,"ev":"pending","name":"type-after-return"}
+{"t":"2026-10-09T05:23:03.871Z","el_s":98,"ev":"done","name":"type-after-return","dt":1002}
+{"t":"2026-10-09T05:23:03.874Z","el_s":98,"ev":"probe","tag":"c1-idle","dt":2,"r":{"hb":{"max":17848.70000000001,"n":2415,"lt":19,"ltmax":192},"ed":2,"vis":"visible","heap":70,"nodes":1800}}
+{"t":"2026-10-09T05:23:03.874Z","el_s":98,"ev":"pending","name":"save-draft"}
+{"t":"2026-10-09T05:23:07.068Z","el_s":102,"ev":"done","name":"save-draft","dt":3194,"r":false}
+{"t":"2026-10-09T05:23:07.071Z","el_s":102,"ev":"probe","tag":"c1-saved","dt":3,"r":{"hb":{"max":17848.70000000001,"n":2446,"lt":20,"ltmax":192},"ed":0,"vis":"visible","heap":78,"nodes":1553}}
+{"t":"2026-10-09T05:23:07.072Z","el_s":102,"ev":"pending","name":"close-modal"}
+{"t":"2026-10-09T05:23:08.396Z","el_s":103,"ev":"done","name":"close-modal","dt":1324,"r":0}
+{"t":"2026-10-09T05:23:08.396Z","el_s":103,"ev":"pending","name":"nav-Files & Documents"}
+{"t":"2026-10-09T05:23:12.507Z","el_s":107,"ev":"done","name":"nav-Files & Documents","dt":4111,"r":"https://scotty.yamdu.com/#5551/documents"}
+{"t":"2026-10-09T05:23:12.507Z","el_s":107,"ev":"pending","name":"nav-Script"}
+{"t":"2026-10-09T05:23:16.570Z","el_s":111,"ev":"done","name":"nav-Script","dt":4063,"r":"https://scotty.yamdu.com/#5551/script!id=137109"}
+{"t":"2026-10-09T05:23:17.915Z","el_s":112,"ev":"probe","tag":"c1-nav","dt":1345,"r":{"hb":{"max":17848.70000000001,"n":2529,"lt":24,"ltmax":531},"ed":0,"vis":"visible","heap":95,"nodes":11790}}
+{"t":"2026-10-09T05:23:17.915Z","el_s":112,"ev":"pending","name":"nav-dist-drafts"}
+{"t":"2026-10-09T05:23:24.834Z","el_s":119,"ev":"done","name":"nav-dist-drafts","dt":6919}
+{"t":"2026-10-09T05:23:24.834Z","el_s":119,"ev":"pending","name":"reopen-draft"}
+{"t":"2026-10-09T05:23:30.112Z","el_s":125,"ev":"done","name":"reopen-draft","dt":5278,"r":{"ed":2}}
+{"t":"2026-10-09T05:23:30.115Z","el_s":125,"ev":"probe","tag":"c1-reopened","dt":3,"r":{"hb":{"max":17848.70000000001,"n":2651,"lt":28,"ltmax":1767},"ed":2,"vis":"visible","heap":97,"nodes":2400}}
+{"t":"2026-10-09T05:23:30.115Z","el_s":125,"ev":"pending","name":"hidden-with-reopened-draft"}
+{"t":"2026-10-09T05:23:32.149Z","el_s":127,"ev":"hidden","tag":"c1-draft","vis":"hidden","planned_ms":60000}
+{"t":"2026-10-09T05:24:34.221Z","el_s":189,"ev":"shown","tag":"c1-draft","vis_before_return":"hidden","vis":"visible"}
+{"t":"2026-10-09T05:24:34.245Z","el_s":189,"ev":"done","name":"hidden-with-reopened-draft","dt":64130}
+{"t":"2026-10-09T05:24:34.245Z","el_s":189,"ev":"pending","name":"type-after-return2"}
+{"t":"2026-10-09T05:24:34.826Z","el_s":189,"ev":"done","name":"type-after-return2","dt":581}
+{"t":"2026-10-09T05:24:34.832Z","el_s":189,"ev":"probe","tag":"c1-after-hide2","dt":6,"r":{"hb":{"max":17848.70000000001,"n":2738,"lt":28,"ltmax":1767},"ed":2,"vis":"visible","heap":77,"nodes":2401}}
+{"t":"2026-10-09T05:24:34.832Z","el_s":189,"ev":"pending","name":"close-reopened"}
+{"t":"2026-10-09T05:24:36.089Z","el_s":191,"ev":"done","name":"close-reopened","dt":1257}
+{"t":"2026-10-09T05:24:36.089Z","el_s":191,"ev":"cycle","c":2}
+{"t":"2026-10-09T05:24:36.089Z","el_s":191,"ev":"pending","name":"nav-distribution"}
+{"t":"2026-10-09T05:24:40.167Z","el_s":195,"ev":"done","name":"nav-distribution","dt":4078,"r":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-09T05:24:40.171Z","el_s":195,"ev":"probe","tag":"c2-dist","dt":4,"r":{"hb":{"max":17848.70000000001,"n":2791,"lt":29,"ltmax":1767},"ed":0,"vis":"visible","heap":78,"nodes":1055}}
+{"t":"2026-10-09T05:24:40.171Z","el_s":195,"ev":"pending","name":"open-add-modal"}
+{"t":"2026-10-09T05:24:42.381Z","el_s":197,"ev":"done","name":"open-add-modal","dt":2210}
+{"t":"2026-10-09T05:24:42.381Z","el_s":197,"ev":"pending","name":"select-recipients"}
+{"t":"2026-10-09T05:24:44.824Z","el_s":199,"ev":"done","name":"select-recipients","dt":2443,"r":{"total":22,"checked":11}}
+{"t":"2026-10-09T05:24:44.828Z","el_s":199,"ev":"probe","tag":"c2-recips","dt":4,"r":{"hb":{"max":17848.70000000001,"n":2837,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":90,"nodes":1924}}
+{"t":"2026-10-09T05:24:44.828Z","el_s":199,"ev":"pending","name":"subject"}
+{"t":"2026-10-09T05:24:44.862Z","el_s":199,"ev":"done","name":"subject","dt":34}
+{"t":"2026-10-09T05:24:44.863Z","el_s":199,"ev":"pending","name":"type-greeting-enter"}
+{"t":"2026-10-09T05:24:48.949Z","el_s":203,"ev":"done","name":"type-greeting-enter","dt":4086}
+{"t":"2026-10-09T05:24:48.952Z","el_s":203,"ev":"probe","tag":"c2-typed","dt":3,"r":{"hb":{"max":17848.70000000001,"n":2878,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":76,"nodes":1927}}
+{"t":"2026-10-09T05:24:48.952Z","el_s":203,"ev":"pending","name":"add-file-from-project"}
+{"t":"2026-10-09T05:24:52.921Z","el_s":207,"ev":"done","name":"add-file-from-project","dt":3969,"r":{"n":30,"ok":6}}
+{"t":"2026-10-09T05:24:52.924Z","el_s":207,"ev":"probe","tag":"c2-files","dt":3,"r":{"hb":{"max":17848.70000000001,"n":2918,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":84,"nodes":2045}}
+{"t":"2026-10-09T05:24:52.924Z","el_s":207,"ev":"pending","name":"hidden-with-modal-open"}
+{"t":"2026-10-09T05:24:54.950Z","el_s":209,"ev":"hidden","tag":"c2-modal","vis":"hidden","planned_ms":105000}
+{"t":"2026-10-09T05:26:41.987Z","el_s":316,"ev":"shown","tag":"c2-modal","vis_before_return":"hidden","vis":"visible"}
+{"t":"2026-10-09T05:26:42.004Z","el_s":316,"ev":"done","name":"hidden-with-modal-open","dt":109080}
+{"t":"2026-10-09T05:26:42.021Z","el_s":317,"ev":"probe","tag":"c2-after-hide1","dt":17,"r":{"hb":{"max":26977.800000000047,"n":3000,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":86,"nodes":2045}}
+{"t":"2026-10-09T05:26:42.021Z","el_s":317,"ev":"pending","name":"type-after-return"}
+{"t":"2026-10-09T05:26:47.027Z","el_s":322,"ev":"error","name":"type-after-return","dt":5006,"err":"locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.ProseMirror').first()\u001b[22m\n\u001b[2m    - locator resolved to <div tabindex=\"0\" translate=\"no\" data-gramm=\"false\" contentedit"}
+{"t":"2026-10-09T05:26:47.032Z","el_s":322,"ev":"probe","tag":"after-error-type-after-return","dt":5,"r":{"hb":{"max":26977.800000000047,"n":3050,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":87,"nodes":2045}}
+{"t":"2026-10-09T05:26:47.034Z","el_s":322,"ev":"probe","tag":"c2-idle","dt":2,"r":{"hb":{"max":26977.800000000047,"n":3050,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":87,"nodes":2045}}
+{"t":"2026-10-09T05:26:47.034Z","el_s":322,"ev":"pending","name":"save-draft"}
+{"t":"2026-10-09T05:26:52.036Z","el_s":327,"ev":"error","name":"save-draft","dt":5002,"err":"locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Save as draft' })\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" data-button=\"true\" class=\""}
+{"t":"2026-10-09T05:26:52.038Z","el_s":327,"ev":"probe","tag":"after-error-save-draft","dt":2,"r":{"hb":{"max":26977.800000000047,"n":3100,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":88,"nodes":2045}}
+{"t":"2026-10-09T05:26:52.041Z","el_s":327,"ev":"probe","tag":"c2-saved","dt":3,"r":{"hb":{"max":26977.800000000047,"n":3100,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":88,"nodes":2045}}
+{"t":"2026-10-09T05:26:52.041Z","el_s":327,"ev":"pending","name":"close-modal"}
+{"t":"2026-10-09T05:26:56.367Z","el_s":331,"ev":"done","name":"close-modal","dt":4326,"r":2}
+{"t":"2026-10-09T05:26:56.367Z","el_s":331,"ev":"pending","name":"nav-Tasks"}
+{"t":"2026-10-09T05:27:04.373Z","el_s":339,"ev":"error","name":"nav-Tasks","dt":8006,"err":"locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a:visible').filter({ hasText: 'Tasks' }).first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"tooltip\" href=\"#5551/tasks\""}
+{"t":"2026-10-09T05:27:04.376Z","el_s":339,"ev":"probe","tag":"after-error-nav-Tasks","dt":3,"r":{"hb":{"max":26977.800000000047,"n":3224,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":76,"nodes":2045}}
+{"t":"2026-10-09T05:27:04.376Z","el_s":339,"ev":"pending","name":"nav-Scenes"}
+{"t":"2026-10-09T05:27:12.379Z","el_s":347,"ev":"error","name":"nav-Scenes","dt":8003,"err":"locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a:visible').filter({ hasText: 'Scenes' }).first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"tooltip\" href=\"#5551/break"}
+{"t":"2026-10-09T05:27:12.382Z","el_s":347,"ev":"probe","tag":"after-error-nav-Scenes","dt":3,"r":{"hb":{"max":26977.800000000047,"n":3304,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":76,"nodes":2045}}
+{"t":"2026-10-09T05:27:12.384Z","el_s":347,"ev":"probe","tag":"c2-nav","dt":2,"r":{"hb":{"max":26977.800000000047,"n":3304,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":76,"nodes":2045}}
+{"t":"2026-10-09T05:27:12.384Z","el_s":347,"ev":"pending","name":"nav-dist-drafts"}
+{"t":"2026-10-09T05:27:20.387Z","el_s":355,"ev":"error","name":"nav-dist-drafts","dt":8003,"err":"locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a:visible').filter({ hasText: 'Distribution' }).first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"tooltip\" href=\"#5551"}
+{"t":"2026-10-09T05:27:20.390Z","el_s":355,"ev":"probe","tag":"after-error-nav-dist-drafts","dt":3,"r":{"hb":{"max":26977.800000000047,"n":3384,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":77,"nodes":2045}}
+{"t":"2026-10-09T05:27:20.390Z","el_s":355,"ev":"pending","name":"reopen-draft"}
+{"t":"2026-10-09T05:27:25.392Z","el_s":360,"ev":"error","name":"reopen-draft","dt":5002,"err":"locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('tr:has-text(\"Sustained S1\")').first()\u001b[22m\n"}
+{"t":"2026-10-09T05:27:25.396Z","el_s":360,"ev":"probe","tag":"after-error-reopen-draft","dt":4,"r":{"hb":{"max":26977.800000000047,"n":3434,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":78,"nodes":2045}}
+{"t":"2026-10-09T05:27:25.398Z","el_s":360,"ev":"probe","tag":"c2-reopened","dt":2,"r":{"hb":{"max":26977.800000000047,"n":3434,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":78,"nodes":2045}}
+{"t":"2026-10-09T05:27:25.398Z","el_s":360,"ev":"pending","name":"hidden-with-reopened-draft"}
+{"t":"2026-10-09T05:27:27.432Z","el_s":362,"ev":"hidden","tag":"c2-draft","vis":"hidden","planned_ms":60000}
+{"t":"2026-10-09T05:28:29.491Z","el_s":424,"ev":"shown","tag":"c2-draft","vis_before_return":"hidden","vis":"visible"}
+{"t":"2026-10-09T05:28:29.512Z","el_s":424,"ev":"done","name":"hidden-with-reopened-draft","dt":64114}
+{"t":"2026-10-09T05:28:29.512Z","el_s":424,"ev":"pending","name":"type-after-return2"}
+{"t":"2026-10-09T05:28:34.551Z","el_s":429,"ev":"error","name":"type-after-return2","dt":5039,"err":"locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.ProseMirror').first()\u001b[22m\n\u001b[2m    - locator resolved to <div tabindex=\"0\" translate=\"no\" data-gramm=\"false\" contentedit"}
+{"t":"2026-10-09T05:28:34.556Z","el_s":429,"ev":"probe","tag":"after-error-type-after-return2","dt":5,"r":{"hb":{"max":26977.800000000047,"n":3565,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":75,"nodes":2045}}
+{"t":"2026-10-09T05:28:34.558Z","el_s":429,"ev":"probe","tag":"c2-after-hide2","dt":2,"r":{"hb":{"max":26977.800000000047,"n":3565,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":75,"nodes":2045}}
+{"t":"2026-10-09T05:28:34.558Z","el_s":429,"ev":"pending","name":"close-reopened"}
+{"t":"2026-10-09T05:28:35.783Z","el_s":430,"ev":"done","name":"close-reopened","dt":1225}
+{"t":"2026-10-09T05:28:35.783Z","el_s":430,"ev":"cycle","c":3}
+{"t":"2026-10-09T05:28:35.783Z","el_s":430,"ev":"pending","name":"nav-distribution"}
+{"t":"2026-10-09T05:28:43.786Z","el_s":438,"ev":"error","name":"nav-distribution","dt":8003,"err":"locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a:visible').filter({ hasText: 'Distribution' }).first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"tooltip\" href=\"#5551"}
+{"t":"2026-10-09T05:28:43.788Z","el_s":438,"ev":"probe","tag":"after-error-nav-distribution","dt":2,"r":{"hb":{"max":26977.800000000047,"n":3658,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":75,"nodes":1927}}
+{"t":"2026-10-09T05:28:43.789Z","el_s":438,"ev":"probe","tag":"c3-dist","dt":1,"r":{"hb":{"max":26977.800000000047,"n":3658,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":75,"nodes":1927}}
+{"t":"2026-10-09T05:28:43.790Z","el_s":438,"ev":"pending","name":"open-add-modal"}
+{"t":"2026-10-09T05:28:51.792Z","el_s":446,"ev":"error","name":"open-add-modal","dt":8002,"err":"locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Add', exact: true }).first()\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" aria-label=\"Add"}
+{"t":"2026-10-09T05:28:51.795Z","el_s":446,"ev":"probe","tag":"after-error-open-add-modal","dt":2,"r":{"hb":{"max":26977.800000000047,"n":3738,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":73,"nodes":1927}}
+{"t":"2026-10-09T05:28:51.795Z","el_s":446,"ev":"pending","name":"select-recipients"}
+{"t":"2026-10-09T05:28:54.033Z","el_s":449,"ev":"done","name":"select-recipients","dt":2238,"r":{"total":30,"checked":14}}
+{"t":"2026-10-09T05:28:54.035Z","el_s":449,"ev":"probe","tag":"c3-recips","dt":2,"r":{"hb":{"max":26977.800000000047,"n":3760,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":73,"nodes":1927}}
+{"t":"2026-10-09T05:28:54.035Z","el_s":449,"ev":"pending","name":"external-email-entry"}
+{"t":"2026-10-09T05:28:59.037Z","el_s":454,"ev":"error","name":"external-email-entry","dt":5002,"err":"locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Add new e-mail address').first()\u001b[22m\n\u001b[2m    - locator resolved to <span class=\"mantine-1ryt1ht mantine-Button-label\">"}
+{"t":"2026-10-09T05:28:59.040Z","el_s":454,"ev":"probe","tag":"after-error-external-email-entry","dt":3,"r":{"hb":{"max":26977.800000000047,"n":3810,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":73,"nodes":1927}}
+{"t":"2026-10-09T05:28:59.040Z","el_s":454,"ev":"pending","name":"subject"}
+{"t":"2026-10-09T05:28:59.086Z","el_s":454,"ev":"done","name":"subject","dt":46}
+{"t":"2026-10-09T05:28:59.086Z","el_s":454,"ev":"pending","name":"type-greeting-enter"}
+{"t":"2026-10-09T05:29:03.175Z","el_s":458,"ev":"done","name":"type-greeting-enter","dt":4089}
+{"t":"2026-10-09T05:29:03.179Z","el_s":458,"ev":"probe","tag":"c3-typed","dt":4,"r":{"hb":{"max":26977.800000000047,"n":3852,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":73,"nodes":1931}}
+{"t":"2026-10-09T05:29:03.181Z","el_s":458,"ev":"probe","tag":"c3-files","dt":2,"r":{"hb":{"max":26977.800000000047,"n":3852,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":73,"nodes":1931}}
+{"t":"2026-10-09T05:29:03.181Z","el_s":458,"ev":"pending","name":"hidden-with-modal-open"}
+{"t":"2026-10-09T05:29:05.208Z","el_s":460,"ev":"hidden","tag":"c3-modal","vis":"hidden","planned_ms":45000}
+{"t":"2026-10-09T05:29:52.258Z","el_s":507,"ev":"shown","tag":"c3-modal","vis_before_return":"hidden","vis":"visible"}
+{"t":"2026-10-09T05:29:52.298Z","el_s":507,"ev":"done","name":"hidden-with-modal-open","dt":49117}
+{"t":"2026-10-09T05:29:52.310Z","el_s":507,"ev":"probe","tag":"c3-after-hide1","dt":12,"r":{"hb":{"max":26977.800000000047,"n":3921,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":76,"nodes":1931}}
+{"t":"2026-10-09T05:29:52.311Z","el_s":507,"ev":"pending","name":"type-after-return"}
+{"t":"2026-10-09T05:29:53.413Z","el_s":508,"ev":"done","name":"type-after-return","dt":1102}
+{"t":"2026-10-09T05:29:53.417Z","el_s":508,"ev":"probe","tag":"c3-idle","dt":3,"r":{"hb":{"max":26977.800000000047,"n":3932,"lt":37,"ltmax":1767},"ed":2,"vis":"visible","heap":72,"nodes":1934}}
+{"t":"2026-10-09T05:29:53.417Z","el_s":508,"ev":"pending","name":"check-recipients"}
+{"t":"2026-10-09T05:29:57.038Z","el_s":512,"ev":"done","name":"check-recipients","dt":3621}
+{"t":"2026-10-09T05:29:57.038Z","el_s":512,"ev":"pending","name":"save-draft"}
+{"t":"2026-10-09T05:30:00.225Z","el_s":515,"ev":"done","name":"save-draft","dt":3187,"r":false}
+{"t":"2026-10-09T05:30:00.227Z","el_s":515,"ev":"probe","tag":"c3-saved","dt":2,"r":{"hb":{"max":26977.800000000047,"n":3999,"lt":38,"ltmax":1767},"ed":0,"vis":"visible","heap":77,"nodes":1651}}
+{"t":"2026-10-09T05:30:00.227Z","el_s":515,"ev":"pending","name":"close-modal"}
+{"t":"2026-10-09T05:30:01.549Z","el_s":516,"ev":"done","name":"close-modal","dt":1322,"r":0}
+{"t":"2026-10-09T05:30:01.549Z","el_s":516,"ev":"pending","name":"nav-Calendar"}
+{"t":"2026-10-09T05:30:05.728Z","el_s":520,"ev":"done","name":"nav-Calendar","dt":4179,"r":"https://scotty.yamdu.com/#/main/calendar:_month"}
+{"t":"2026-10-09T05:30:05.728Z","el_s":520,"ev":"pending","name":"nav-Dashboard"}
+{"t":"2026-10-09T05:30:13.730Z","el_s":528,"ev":"error","name":"nav-Dashboard","dt":8002,"err":"locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a:visible').filter({ hasText: 'Dashboard' }).first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"tooltip\" href=\"#5551/da"}
+{"t":"2026-10-09T05:30:13.733Z","el_s":528,"ev":"probe","tag":"after-error-nav-Dashboard","dt":3,"r":{"hb":{"max":26977.800000000047,"n":4132,"lt":42,"ltmax":1767},"ed":0,"vis":"visible","heap":85,"nodes":1847}}
+{"t":"2026-10-09T05:30:13.735Z","el_s":528,"ev":"probe","tag":"c3-nav","dt":1,"r":{"hb":{"max":26977.800000000047,"n":4132,"lt":42,"ltmax":1767},"ed":0,"vis":"visible","heap":85,"nodes":1847}}
+{"t":"2026-10-09T05:30:13.736Z","el_s":528,"ev":"pending","name":"nav-dist-drafts"}
+{"t":"2026-10-09T05:30:21.738Z","el_s":536,"ev":"error","name":"nav-dist-drafts","dt":8002,"err":"locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a:visible').filter({ hasText: 'Distribution' }).first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"tooltip\" href=\"#5551"}
+{"t":"2026-10-09T05:30:21.741Z","el_s":536,"ev":"probe","tag":"after-error-nav-dist-drafts","dt":3,"r":{"hb":{"max":26977.800000000047,"n":4212,"lt":42,"ltmax":1767},"ed":0,"vis":"visible","heap":74,"nodes":1847}}
+{"t":"2026-10-09T05:30:21.742Z","el_s":536,"ev":"pending","name":"reopen-draft"}
+{"t":"2026-10-09T05:30:26.743Z","el_s":541,"ev":"error","name":"reopen-draft","dt":5000,"err":"locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('tr:has-text(\"Sustained S1\")').first()\u001b[22m\n"}
+{"t":"2026-10-09T05:30:26.746Z","el_s":541,"ev":"probe","tag":"after-error-reopen-draft","dt":3,"r":{"hb":{"max":26977.800000000047,"n":4262,"lt":42,"ltmax":1767},"ed":0,"vis":"visible","heap":80,"nodes":1847}}
+{"t":"2026-10-09T05:30:26.748Z","el_s":541,"ev":"probe","tag":"c3-reopened","dt":2,"r":{"hb":{"max":26977.800000000047,"n":4262,"lt":42,"ltmax":1767},"ed":0,"vis":"visible","heap":80,"nodes":1847}}
+{"t":"2026-10-09T05:30:26.749Z","el_s":541,"ev":"pending","name":"hidden-with-reopened-draft"}
+{"t":"2026-10-09T05:30:28.781Z","el_s":543,"ev":"hidden","tag":"c3-draft","vis":"hidden","planned_ms":60000}
+{"t":"2026-10-09T05:31:30.846Z","el_s":605,"ev":"shown","tag":"c3-draft","vis_before_return":"hidden","vis":"visible"}
+{"t":"2026-10-09T05:31:30.861Z","el_s":605,"ev":"done","name":"hidden-with-reopened-draft","dt":64112}
+{"t":"2026-10-09T05:31:30.861Z","el_s":605,"ev":"pending","name":"type-after-return2"}
+{"t":"2026-10-09T05:31:30.902Z","el_s":605,"ev":"done","name":"type-after-return2","dt":41}
+{"t":"2026-10-09T05:31:30.907Z","el_s":605,"ev":"probe","tag":"c3-after-hide2","dt":5,"r":{"hb":{"max":26977.800000000047,"n":4345,"lt":43,"ltmax":1767},"ed":0,"vis":"visible","heap":76,"nodes":1847}}
+{"t":"2026-10-09T05:31:30.907Z","el_s":605,"ev":"pending","name":"close-reopened"}
+{"t":"2026-10-09T05:31:32.136Z","el_s":607,"ev":"done","name":"close-reopened","dt":1229}
+{"t":"2026-10-09T05:31:32.136Z","el_s":607,"ev":"cycle","c":4}
+{"t":"2026-10-09T05:31:32.136Z","el_s":607,"ev":"pending","name":"nav-distribution"}
+{"t":"2026-10-09T05:31:40.139Z","el_s":615,"ev":"error","name":"nav-distribution","dt":8003,"err":"locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a:visible').filter({ hasText: 'Distribution' }).first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"tooltip\" href=\"#5551"}
+{"t":"2026-10-09T05:31:40.141Z","el_s":615,"ev":"probe","tag":"after-error-nav-distribution","dt":2,"r":{"hb":{"max":26977.800000000047,"n":4437,"lt":43,"ltmax":1767},"ed":0,"vis":"visible","heap":75,"nodes":1847}}
+{"t":"2026-10-09T05:31:40.142Z","el_s":615,"ev":"probe","tag":"c4-dist","dt":1,"r":{"hb":{"max":26977.800000000047,"n":4437,"lt":43,"ltmax":1767},"ed":0,"vis":"visible","heap":75,"nodes":1847}}
+{"t":"2026-10-09T05:31:40.142Z","el_s":615,"ev":"pending","name":"open-add-modal"}
+{"t":"2026-10-09T05:31:48.144Z","el_s":623,"ev":"error","name":"open-add-modal","dt":8002,"err":"locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Add', exact: true }).first()\u001b[22m\n"}
+{"t":"2026-10-09T05:31:48.152Z","el_s":623,"ev":"probe","tag":"after-error-open-add-modal","dt":8,"r":{"hb":{"max":26977.800000000047,"n":4517,"lt":43,"ltmax":1767},"ed":0,"vis":"visible","heap":76,"nodes":1847}}
+{"t":"2026-10-09T05:31:48.152Z","el_s":623,"ev":"pending","name":"select-recipients"}
+{"t":"2026-10-09T05:31:48.155Z","el_s":623,"ev":"done","name":"select-recipients","dt":3,"r":{"total":0,"checked":0}}
+{"t":"2026-10-09T05:31:48.157Z","el_s":623,"ev":"probe","tag":"c4-recips","dt":2,"r":{"hb":{"max":26977.800000000047,"n":4517,"lt":43,"ltmax":1767},"ed":0,"vis":"visible","heap":76,"nodes":1847}}
+{"t":"2026-10-09T05:31:48.157Z","el_s":623,"ev":"pending","name":"subject"}
+{"t":"2026-10-09T05:32:13.158Z","el_s":648,"ev":"error","name":"subject","dt":25001,"err":"step>25000"}
+{"t":"2026-10-09T05:32:13.160Z","el_s":648,"ev":"probe","tag":"after-error-subject","dt":2,"r":{"hb":{"max":26977.800000000047,"n":4767,"lt":44,"ltmax":1767},"ed":0,"vis":"visible","heap":77,"nodes":1847}}
+{"t":"2026-10-09T05:32:13.160Z","el_s":648,"ev":"pending","name":"type-greeting-enter"}
+{"t":"2026-10-09T05:32:18.161Z","el_s":653,"ev":"error","name":"type-greeting-enter","dt":5001,"err":"locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.ProseMirror').first()\u001b[22m\n"}
+{"t":"2026-10-09T05:32:18.163Z","el_s":653,"ev":"probe","tag":"after-error-type-greeting-enter","dt":2,"r":{"hb":{"max":26977.800000000047,"n":4817,"lt":44,"ltmax":1767},"ed":0,"vis":"visible","heap":76,"nodes":1847}}
+{"t":"2026-10-09T05:32:18.165Z","el_s":653,"ev":"probe","tag":"c4-typed","dt":1,"r":{"hb":{"max":26977.800000000047,"n":4817,"lt":44,"ltmax":1767},"ed":0,"vis":"visible","heap":76,"nodes":1847}}
+{"t":"2026-10-09T05:32:18.165Z","el_s":653,"ev":"pending","name":"add-file-from-project"}
+{"t":"2026-10-09T05:32:23.166Z","el_s":658,"ev":"error","name":"add-file-from-project","dt":5001,"err":"locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Add file from project' })\u001b[22m\n"}
+{"t":"2026-10-09T05:32:23.170Z","el_s":658,"ev":"probe","tag":"after-error-add-file-from-project","dt":3,"r":{"hb":{"max":26977.800000000047,"n":4867,"lt":44,"ltmax":1767},"ed":0,"vis":"visible","heap":74,"nodes":1847}}
+{"t":"2026-10-09T05:32:23.172Z","el_s":658,"ev":"probe","tag":"c4-files","dt":2,"r":{"hb":{"max":26977.800000000047,"n":4867,"lt":44,"ltmax":1767},"ed":0,"vis":"visible","heap":74,"nodes":1847}}
+{"t":"2026-10-09T05:32:23.172Z","el_s":658,"ev":"pending","name":"hidden-with-modal-open"}
+{"t":"2026-10-09T05:32:25.207Z","el_s":660,"ev":"hidden","tag":"c4-modal","vis":"hidden","planned_ms":75000}
