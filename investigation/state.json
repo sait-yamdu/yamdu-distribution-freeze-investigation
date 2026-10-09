@@ -1,15 +1,15 @@
 {
-  "state": "Fix reported deployed 2026-10-08: unknown routes now redirect to dashboard; former recipe 0/2, user breadcrumb recipe 0/2 on current build (Chromium Linux only). Pre-fix: REPRODUCED via unknown route.",
-  "last_run": "run-20261008T0759Z",
-  "previous_run": "run-20261008T0514Z",
-  "source_commit": "8ed887b (origin/claude/brave-clarke-dmh2zc); lineage: run-20261006T1158Z on claude/brave-clarke-nwifqr dd48069",
+  "state": "No freeze reproduced on the current (post-fix) build. S1 sustained session with 16 real hidden/visible transitions: NOT REPRODUCED. Pre-fix: REPRODUCED via unknown route (history). Chromium Linux only.",
+  "last_run": "run-20261009T0514Z",
+  "previous_run": "run-20261008T0759Z",
+  "source_commit": "d5032e6 (origin/claude/brave-clarke-3bkiav)",
   "baseline_seeded": true,
-  "persistence": "branch claude/brave-clarke-b2w828 (write verified by push)",
+  "persistence": "branch claude/funny-darwin-hnvhtx (write verified by push)",
   "environment": {
     "os": "Linux 6.18 x86_64 cloud",
     "browser": "Chromium 141.0.7390.37 (Playwright build, not Chrome)",
-    "mode": "headed under Xvfb, no WM, CDP attach",
-    "app_build": "bundles/js?v=JmMUBwfwtAXPiT2Tio_T6a_AmLL7FrLyDYVRILCYYrQ1 (2026-10-08 08:00Z)"
+    "mode": "headed under Xvfb + openbox, CDP attach",
+    "app_build": "bundles/js?v=J0ezvFvabjEaimCjA4DEkGXDQ6FIk1cvIQfzXseCMZA1 (2026-10-09; changed from JmMUBw)"
   },
   "freeze_signature": "renderer main thread 100%+ CPU for minutes, RSS growing, CDP unresponsive; gdb shows JS-driven Node.removeChild/insertBefore + MutationObserver + table layout churn (DOM mutation loop)",
   "leads": [
@@ -19,9 +19,10 @@
     "password bubble not required (A3)",
     "'prior saved draft required' is confounded by the scenes visit",
     "R3: any unknown route re-bootstraps; saved draft NOT required; full reload clears (n=1); redirect-to-overview variant no freeze (n=1)",
-    "R4 (2026-10-08 08:00Z): unknown routes now redirect to #5551/dashboard; old recipe no longer freezes; breadcrumb recipe (25x scene profile/back) no freeze on fixed build"
+    "R4 (2026-10-08 08:00Z): unknown routes now redirect to #5551/dashboard; old recipe no longer freezes; breadcrumb recipe (25x scene profile/back) no freeze on fixed build",
+    "R5 (2026-10-09): bundle hash changed again; 39-min same-tab session, 16 genuine hidden phases with modal/draft open + Enter after return: no freeze, probes <=35ms"
   ],
-  "next_experiment": "Sustained same-tab session on fixed build with visibility changes and modal open; breadcrumb recipe on a pre-fix build if available; native Chrome/Firefox/Safari NOT TESTED.",
+  "next_experiment": "Finish external-contact flow properly (Add new e-mail address on Cast & crew tab, then multiple files, Share, recipient search) in a long session; driver fixes: skip Calendar, make draft/save steps conditional. Then add a longer (60+ min) session. Native Chrome/Firefox/Safari NOT TESTED.",
   "known_reproduction_recipe": {
     "summary": "Freeze = Enter in the sharing-modal TipTap editor after the tab visited the NON-EXISTENT route #5551/scenes (re-runs app bootstrap in same document).",
     "steps": [
@@ -36,6 +37,7 @@
     "Do not navigate by writing guessed location.hash routes; use sidebar/tab clicks. Valid routes: #5551/documents, #5551/breakdowns:scenes, #5551/crew:crewlist, #5551/announcements (File distribution: #5551/announcements:files:filedistribution). Invalid: #5551/files (404 + stuck loader), #5551/scenes (bootstrap re-run).",
     "Before each experiment, verify URL, HTTP>=400 and console errors after every navigation; record them.",
     "Already settled, do not re-test without a material change: CF1/CF2 exact replays (A1-A3), valid-navigation CF2 (V1-V3 no freeze), files-404-only (C1 no freeze), password-bubble requirement (A3: not required), specific-old-draft requirement (not required), historical H1-H7 and E1-E3.",
-    "Withdrawn claims: freeze at draft reopen (it is the Enter); 'prior saved draft required' (confounded by the scenes visit)."
+    "Withdrawn claims: freeze at draft reopen (it is the Enter); 'prior saved draft required' (confounded by the scenes visit).",
+    "Playwright bringToFront does NOT hide the page (visibilityState stays visible). Real hide: openbox running + raw CDP /json/new then /json/activate with Playwright disconnected (verified 'hidden'). Never click sidebar 'Calendar' (leaves project); keep nav to project sidebar links."
   ]
 }
