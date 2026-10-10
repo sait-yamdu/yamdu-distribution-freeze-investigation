@@ -1,10 +1,10 @@
 {
-  "state": "No freeze reproduced on the current (post-fix) build. S1 sustained session with 16 real hidden/visible transitions: NOT REPRODUCED. Pre-fix: REPRODUCED via unknown route (history). Chromium Linux only.",
-  "last_run": "run-20261009T0514Z",
-  "previous_run": "run-20261008T0759Z",
-  "source_commit": "d5032e6 (origin/claude/brave-clarke-3bkiav)",
+  "state": "No freeze reproduced on current build. Run 20261010: external-contact -> 41 recipients -> multi-file -> draft/reopen/Send in one ~43-min tab: NOT REPRODUCED. Pre-fix: REPRODUCED via unknown route (history). Chromium 141 Linux only.",
+  "last_run": "run-20261010T0514Z",
+  "previous_run": "run-20261009T0514Z",
+  "source_commit": "d8e91e8 (origin/claude/funny-darwin-hnvhtx)",
   "baseline_seeded": true,
-  "persistence": "branch claude/funny-darwin-hnvhtx (write verified by push)",
+  "persistence": "branch claude/funny-darwin-qnu7gm (write verified by push)",
   "environment": {
     "os": "Linux 6.18 x86_64 cloud",
     "browser": "Chromium 141.0.7390.37 (Playwright build, not Chrome)",
@@ -20,9 +20,10 @@
     "'prior saved draft required' is confounded by the scenes visit",
     "R3: any unknown route re-bootstraps; saved draft NOT required; full reload clears (n=1); redirect-to-overview variant no freeze (n=1)",
     "R4 (2026-10-08 08:00Z): unknown routes now redirect to #5551/dashboard; old recipe no longer freezes; breadcrumb recipe (25x scene profile/back) no freeze on fixed build",
-    "R5 (2026-10-09): bundle hash changed again; 39-min same-tab session, 16 genuine hidden phases with modal/draft open + Enter after return: no freeze, probes <=35ms"
+    "R5 (2026-10-09): bundle hash changed again; 39-min same-tab session, 16 genuine hidden phases with modal/draft open + Enter after return: no freeze, probes <=35ms",
+    "R6 (2026-10-10): real UI path Recipients tab > 'Add new e-mail address' works; 8 cycles incl. Select all (41 recipients), 6 files/37 MB, reopen draft + Next + Send now in one tab ~43 min: no freeze, probes <=91 ms. Script page nav alone gave 2 s main-thread stall / 11.8k nodes / 201 MB (normal heavy page, not a hang)."
   ],
-  "next_experiment": "Finish external-contact flow properly (Add new e-mail address on Cast & crew tab, then multiple files, Share, recipient search) in a long session; driver fixes: skip Calendar, make draft/save steps conditional. Then add a longer (60+ min) session. Native Chrome/Firefox/Safari NOT TESTED.",
+  "next_experiment": "(1) Long aged session 60-120+ min with real hidden phases (install openbox or use raw CDP new-tab trick) combined with X1 loop; (2) 'Next' step-2 panel: go Back and change recipients after file attach; (3) mailing list store flow ('Store as mailing list'); (4) native Chrome/Firefox/Safari/Windows/macOS NOT TESTED - need environment. If none are runnable, report exhausted coverage.",
   "known_reproduction_recipe": {
     "summary": "Freeze = Enter in the sharing-modal TipTap editor after the tab visited the NON-EXISTENT route #5551/scenes (re-runs app bootstrap in same document).",
     "steps": [
@@ -38,6 +39,7 @@
     "Before each experiment, verify URL, HTTP>=400 and console errors after every navigation; record them.",
     "Already settled, do not re-test without a material change: CF1/CF2 exact replays (A1-A3), valid-navigation CF2 (V1-V3 no freeze), files-404-only (C1 no freeze), password-bubble requirement (A3: not required), specific-old-draft requirement (not required), historical H1-H7 and E1-E3.",
     "Withdrawn claims: freeze at draft reopen (it is the Enter); 'prior saved draft required' (confounded by the scenes visit).",
-    "Playwright bringToFront does NOT hide the page (visibilityState stays visible). Real hide: openbox running + raw CDP /json/new then /json/activate with Playwright disconnected (verified 'hidden'). Never click sidebar 'Calendar' (leaves project); keep nav to project sidebar links."
+    "Playwright bringToFront does NOT hide the page (visibilityState stays visible). Real hide: openbox running + raw CDP /json/new then /json/activate with Playwright disconnected (verified 'hidden'). Never click sidebar 'Calendar' (leaves project); keep nav to project sidebar links.",
+    "UI facts (2026-10-10): external e-mail is added ONLY via 'Recipients (n)' tab > 'Add new e-mail address' > click 'Enter new email address' input > type > 'Add' button (Enter key does not add). Recipients header field is read-only. Files: 'Add file from project' > QA YAMDU-11592 Root room > QA YAMDU-11593 document (12 files) > click tile checkboxes by mouse > 'Attach N file(s)'. Reopened draft modal has Cancel/Save draft/Next (Next = share step 2 with Send now). Login is 2-step (email, Next, password). Driver must always close modals with Cancel before navigating."
   ]
 }
