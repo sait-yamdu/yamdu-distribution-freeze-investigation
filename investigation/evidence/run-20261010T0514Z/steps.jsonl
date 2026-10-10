@@ -1,0 +1,7 @@
+{"t":"2026-10-10T05:14:33.782Z","ev":"pending","name":"goto-scotty"}
+{"t":"2026-10-10T05:14:35.879Z","ev":"done","name":"goto","status":200,"url":"https://scotty.yamdu.com/Account/Login"}
+{"t":"2026-10-10T05:15:10.318Z","ev":"fatal","err":"locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=password]').first()\u001b[22m\n\u001b[2m    - locator resolved to <input id=\"Password\" data-val=\"true\" name=\"Password\" type=\"password\" placeholder=\"Please enter your password.\" data-val-required=\"The Password field is req"}
+{"t":"2026-10-10T05:15:15.892Z","ev":"pending","name":"goto-scotty"}
+{"t":"2026-10-10T05:15:16.557Z","ev":"done","name":"goto","status":200,"url":"https://scotty.yamdu.com/Account/Login"}
+{"t":"2026-10-10T05:15:33.025Z","ev":"done","name":"login-submitted","url":"https://scotty.yamdu.com/#/main/overview"}
+{"t":"2026-10-10T05:15:39.054Z","ev":"done","name":"project","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","title":"(2) File distribution - ROUTINE PROJECT - Yamdu","bundle":["https://scotty.yamdu.com/bundles/js?v=J0ezvFvabjEaimCjA4DEkGXDQ6FIk1cvIQfzXseCMZA1"]}
