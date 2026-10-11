@@ -1,0 +1,1 @@
+const {conn,EV}=require('./lib.js');(async()=>{const {p}=await conn();await p.screenshot({path:EV+'/'+process.argv[2]+'.png'});console.log(p.url(),await p.evaluate(()=>document.visibilityState));process.exit(0)})()
