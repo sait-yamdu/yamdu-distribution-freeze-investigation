@@ -1,14 +1,14 @@
 {
-  "state": "No freeze reproduced on current build. Run 20261010: external-contact -> 41 recipients -> multi-file -> draft/reopen/Send in one ~43-min tab: NOT REPRODUCED. Pre-fix: REPRODUCED via unknown route (history). Chromium 141 Linux only.",
-  "last_run": "run-20261010T0514Z",
-  "previous_run": "run-20261009T0514Z",
-  "source_commit": "d8e91e8 (origin/claude/funny-darwin-hnvhtx)",
+  "state": "Guncel build'de freeze yok. Run 20261011: paylasim paneli (Share files via email) Next/Back dongusu + panel-ici Enter alanlari + 4 dogrulanmis hidden faz, ayni sekmede ~45 dk: NOT REPRODUCED. Pre-fix: REPRODUCED via unknown route (history). Chromium 141 Linux only.",
+  "last_run": "run-20261011T0513Z",
+  "previous_run": "run-20261010T0514Z",
+  "source_commit": "f223207 (origin/claude/funny-darwin-qnu7gm)",
   "baseline_seeded": true,
-  "persistence": "branch claude/funny-darwin-qnu7gm (write verified by push)",
+  "persistence": "branch claude/funny-darwin-2b9zgj (write verified by push)",
   "environment": {
     "os": "Linux 6.18 x86_64 cloud",
     "browser": "Chromium 141.0.7390.37 (Playwright build, not Chrome)",
-    "mode": "headed under Xvfb + openbox, CDP attach",
+    "mode": "headed under Xvfb :99 + openbox, CDP attach",
     "app_build": "bundles/js?v=J0ezvFvabjEaimCjA4DEkGXDQ6FIk1cvIQfzXseCMZA1 (2026-10-09; changed from JmMUBw)"
   },
   "freeze_signature": "renderer main thread 100%+ CPU for minutes, RSS growing, CDP unresponsive; gdb shows JS-driven Node.removeChild/insertBefore + MutationObserver + table layout churn (DOM mutation loop)",
@@ -21,9 +21,10 @@
     "R3: any unknown route re-bootstraps; saved draft NOT required; full reload clears (n=1); redirect-to-overview variant no freeze (n=1)",
     "R4 (2026-10-08 08:00Z): unknown routes now redirect to #5551/dashboard; old recipe no longer freezes; breadcrumb recipe (25x scene profile/back) no freeze on fixed build",
     "R5 (2026-10-09): bundle hash changed again; 39-min same-tab session, 16 genuine hidden phases with modal/draft open + Enter after return: no freeze, probes <=35ms",
-    "R6 (2026-10-10): real UI path Recipients tab > 'Add new e-mail address' works; 8 cycles incl. Select all (41 recipients), 6 files/37 MB, reopen draft + Next + Send now in one tab ~43 min: no freeze, probes <=91 ms. Script page nav alone gave 2 s main-thread stall / 11.8k nodes / 201 MB (normal heavy page, not a hang)."
+    "R6 (2026-10-10): real UI path Recipients tab > 'Add new e-mail address' works; 8 cycles incl. Select all (41 recipients), 6 files/37 MB, reopen draft + Next + Send now in one tab ~43 min: no freeze, probes <=91 ms. Script page nav alone gave 2 s main-thread stall / 11.8k nodes / 201 MB (normal heavy page, not a hang).",
+    "R7 (2026-10-11): 'Next' = dosya ekliyken compose'tan 'Share files via email' paneline gecis (Preview/Back, zip adi, expiration, password, renkler). 8 dongu x3 Next/Back, panel-ici Enter alanlari, 4 hidden faz (70 sn, dogrulandi): no freeze, probes <=234 ms. Hidden fazda timer throttling nedeniyle heartbeat 10.5 sn (beklenen, donma degil)."
   ],
-  "next_experiment": "(1) Long aged session 60-120+ min with real hidden phases (install openbox or use raw CDP new-tab trick) combined with X1 loop; (2) 'Next' step-2 panel: go Back and change recipients after file attach; (3) mailing list store flow ('Store as mailing list'); (4) native Chrome/Firefox/Safari/Windows/macOS NOT TESTED - need environment. If none are runnable, report exhausted coverage.",
+  "next_experiment": "(1) Panelde alici degistirme (Back sonrasi sol sutun/external ekleme) - surucu duzeltilerek; (2) 'Send at a scheduled time' (More sending options) ve 'Share via link' akisi, 'Send now' panelden; (3) 'Store as mailing list'; (4) 60-120+ dk yasli oturum; (5) native Chrome/Firefox/Safari/Windows/macOS NOT TESTED - ortam gerekli. Hicbiri calistirilamiyorsa exhausted coverage raporla.",
   "known_reproduction_recipe": {
     "summary": "Freeze = Enter in the sharing-modal TipTap editor after the tab visited the NON-EXISTENT route #5551/scenes (re-runs app bootstrap in same document).",
     "steps": [
@@ -40,6 +41,7 @@
     "Already settled, do not re-test without a material change: CF1/CF2 exact replays (A1-A3), valid-navigation CF2 (V1-V3 no freeze), files-404-only (C1 no freeze), password-bubble requirement (A3: not required), specific-old-draft requirement (not required), historical H1-H7 and E1-E3.",
     "Withdrawn claims: freeze at draft reopen (it is the Enter); 'prior saved draft required' (confounded by the scenes visit).",
     "Playwright bringToFront does NOT hide the page (visibilityState stays visible). Real hide: openbox running + raw CDP /json/new then /json/activate with Playwright disconnected (verified 'hidden'). Never click sidebar 'Calendar' (leaves project); keep nav to project sidebar links.",
-    "UI facts (2026-10-10): external e-mail is added ONLY via 'Recipients (n)' tab > 'Add new e-mail address' > click 'Enter new email address' input > type > 'Add' button (Enter key does not add). Recipients header field is read-only. Files: 'Add file from project' > QA YAMDU-11592 Root room > QA YAMDU-11593 document (12 files) > click tile checkboxes by mouse > 'Attach N file(s)'. Reopened draft modal has Cancel/Save draft/Next (Next = share step 2 with Send now). Login is 2-step (email, Next, password). Driver must always close modals with Cancel before navigating."
+    "UI facts (2026-10-10): external e-mail is added ONLY via 'Recipients (n)' tab > 'Add new e-mail address' > click 'Enter new email address' input > type > 'Add' button (Enter key does not add). Recipients header field is read-only. Files: 'Add file from project' > QA YAMDU-11592 Root room > QA YAMDU-11593 document (12 files) > click tile checkboxes by mouse > 'Attach N file(s)'. Reopened draft modal has Cancel/Save draft/Next (Next = share step 2 with Send now). Login is 2-step (email, Next, password). Driver must always close modals with Cancel before navigating.",
+    "2026-10-11 UI: reopened draft'ta dosya yok (Check recipients -> Add file from project -> 'Next' (modal butonu; pagination 'Next' aria-label ile karisir, y'ye gore en alttaki) -> 'Share files via email' paneli; geri icin metin 'Back'. Raw CDP /json/new icin HTTP PUT gerekir. pkill/pgrep -f kendi kabugunu oldurebilir. Hidden dogrulamasi icin visibilitychange dinleyicisi enjekte et."
   ]
 }
