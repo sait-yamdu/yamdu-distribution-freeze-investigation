@@ -43,11 +43,16 @@ async function panelPlay(c,k){ await step('panel-play-'+k,async()=>{
    const rs=p.getByRole('button',{name:'Reset'}); if(await rs.count()){ await rs.first().click({timeout:3000}).catch(()=>{}); } await sleep(500);
    await p.screenshot({path:EV+'/m2-panel-c'+c+'-'+k+'.png'}); return 'ok'; },60000); }
 async function back(k){ await step('back-'+k,async()=>{ await p.getByText('Back',{exact:true}).first().click({timeout:4000}); await sleep(2000); return await p.evaluate(()=>/Check recipients|Send now/.test(document.body.innerText)); }); }
-async function changeRecipients(c,k){ await step('change-recipients-'+k,async()=>{ await p.getByText('Add new e-mail address').first().click({timeout:5000}); await sleep(600);
-     await p.getByPlaceholder('Enter new email address').click(); await p.keyboard.type('m2-c'+c+k+'-'+(Date.now()%100000)+'@example.com',{delay:40}); await sleep(300);
-     await p.getByRole('button',{name:'Add',exact:true}).last().click(); await sleep(1500);
-     const s=p.getByPlaceholder('Name, email or position').first(); for(const q of ['test','a','']){ await s.fill(q); await sleep(700);} 
-     return await p.evaluate(()=>(document.body.innerText.match(/(\d+) selected/)||[])[1]); }); }
+async function changeRecipients(c,k){ await step('change-recipients-'+k,async()=>{
+     await p.getByText(/^Recipients \(\d+\)/).first().click({timeout:5000}); await sleep(900);
+     await p.getByText('Add new e-mail address').first().click({timeout:5000}); await sleep(600);
+     await p.getByPlaceholder('Enter new email address').click({timeout:5000}); await p.keyboard.type('m2-c'+c+k+'-'+(Date.now()%100000)+'@example.com',{delay:40}); await sleep(300);
+     await p.getByRole('button',{name:'Add',exact:true}).last().click({timeout:5000}); await sleep(1500);
+     await p.getByText('Cast & crew',{exact:true}).first().click({timeout:5000}); await sleep(1200);
+     const s=p.getByPlaceholder('Name, email or position').first(); for(const q of ['test','a','']){ await s.fill(q); await sleep(700);}
+     await p.getByText('Mailing lists',{exact:true}).last().click({timeout:5000}).catch(()=>{}); await sleep(1200);
+     await p.getByText(/^Recipients \(\d+\)/).first().click({timeout:5000}); await sleep(900);
+     return await p.evaluate(()=>(document.body.innerText.match(/Recipients \((\d+)\)/)||[])[1]); },45000); }
 (async()=>{
  await attach();
  log({ev:'start',note:'M2 share-files-via-email panel; same tab since login 05:15Z; no reload',ua:await p.evaluate(()=>navigator.userAgent)});
