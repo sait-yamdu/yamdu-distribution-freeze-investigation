@@ -1,15 +1,15 @@
 {
-  "state": "Guncel build'de freeze yok. Run 20261012: paylasim paneli Back sonrasi alici degistirme (48 harici e-posta ekleme, 33->81 alici), 16 dongu, 8 hidden faz, ayni sekme ~45 dk: NOT REPRODUCED. Pre-fix: REPRODUCED via unknown route (history). Chromium 141 Linux only.",
-  "last_run": "run-20261012T0515Z",
-  "previous_run": "run-20261011T0513Z",
-  "source_commit": "95efcc4 (origin/claude/funny-darwin-2b9zgj)",
+  "state": "Guncel build'de freeze yok. Run 20261013 (yeni bundle JQakff...): schedule diyalogu + gercek Schedule/Cancel + Store as mailing list, 18 dongu, 9 dogrulanmis hidden faz, ~35 dk ayni sekme: NOT REPRODUCED. Pre-fix REPRODUCED (unknown route, gecmis). Chromium 141 Linux only.",
+  "last_run": "run-20261013T0514Z",
+  "previous_run": "run-20261012T0515Z",
+  "source_commit": "a4b2276 (origin/claude/funny-darwin-7geat8)",
   "baseline_seeded": true,
-  "persistence": "branch claude/funny-darwin-7geat8 (write verified by push)",
+  "persistence": "branch claude/funny-darwin-fpl002 (push dogrulandi)",
   "environment": {
     "os": "Linux 6.18 x86_64 cloud",
     "browser": "Chromium 141.0.7390.37 (Playwright build, not Chrome)",
-    "mode": "headed under Xvfb :99 + openbox, CDP attach",
-    "app_build": "bundles/js?v=J0ezvFvabjEaimCjA4DEkGXDQ6FIk1cvIQfzXseCMZA1 (2026-10-09; changed from JmMUBw)"
+    "mode": "headed under Xvfb :99 (openbox yok), CDP attach",
+    "app_build": "bundles/js?v=JQakffcUymJdCVOoUoecnrbCWYuykrAdFxTBg803JVM1 (2026-10-13; onceki J0ezv...)"
   },
   "freeze_signature": "renderer main thread 100%+ CPU for minutes, RSS growing, CDP unresponsive; gdb shows JS-driven Node.removeChild/insertBefore + MutationObserver + table layout churn (DOM mutation loop)",
   "leads": [
@@ -23,9 +23,10 @@
     "R5 (2026-10-09): bundle hash changed again; 39-min same-tab session, 16 genuine hidden phases with modal/draft open + Enter after return: no freeze, probes <=35ms",
     "R6 (2026-10-10): real UI path Recipients tab > 'Add new e-mail address' works; 8 cycles incl. Select all (41 recipients), 6 files/37 MB, reopen draft + Next + Send now in one tab ~43 min: no freeze, probes <=91 ms. Script page nav alone gave 2 s main-thread stall / 11.8k nodes / 201 MB (normal heavy page, not a hang).",
     "R7 (2026-10-11): 'Next' = dosya ekliyken compose'tan 'Share files via email' paneline gecis (Preview/Back, zip adi, expiration, password, renkler). 8 dongu x3 Next/Back, panel-ici Enter alanlari, 4 hidden faz (70 sn, dogrulandi): no freeze, probes <=234 ms. Hidden fazda timer throttling nedeniyle heartbeat 10.5 sn (beklenen, donma degil).",
-    "R8 (2026-10-12): M2-recip-change: Back sonrasi Recipients sekmesi > Add new e-mail address (48x, 33->81 alici), Cast&crew arama, Mailing lists sekmesi, panel Enter alanlari, 16 dongu, 8 hidden-benzeri faz (70 sn; hbmax 10.5 sn), ~45 dk ayni sekme: no freeze, 305 probe <=21 ms, heap <=233 MB."
+    "R8 (2026-10-12): M2-recip-change: Back sonrasi Recipients sekmesi > Add new e-mail address (48x, 33->81 alici), Cast&crew arama, Mailing lists sekmesi, panel Enter alanlari, 16 dongu, 8 hidden-benzeri faz (70 sn; hbmax 10.5 sn), ~45 dk ayni sekme: no freeze, 305 probe <=21 ms, heap <=233 MB.",
+    "R9 (2026-10-13): M4 schedule diyalogu: saat alani (Tab), tarih secici, gercek Schedule -> Scheduled sekmesi -> Cancel schedule (9x; Cancel sonrasi taslak paneli yeniden acilir), hidden faz diyalog acikken 9x dogrulandi, Store as mailing list 6x: no freeze, 211 probe <=17 ms, heap <=179 MB. Hbmax 10.8 sn yalniz hidden throttling."
   ],
-  "next_experiment": "(1) 'Send at a scheduled time' + 'Share via link' + 'Store as mailing list' akislari; (2) 60-120+ dk yasli oturum (idle araliklarla); (3) native Chrome/Firefox/Safari/Windows/macOS NOT TESTED - ortam gerekli. UI-yolu varyasyonlari buyuk olcude tukendi; (1) yapilirsa ve negatifse 'exhausted coverage' raporlanmali.",
+  "next_experiment": "UI-yolu kapsami tukendi (share-via-link UI'da yok). Kalan: (1) 60-120+ dk yasli oturum idle araliklarla; (2) native Chrome/Firefox/Safari/Windows/macOS - ortam gerekli; (3) pre-fix build NOT TESTED. Yeni ortam/veri yoksa 'exhausted coverage' raporla.",
   "known_reproduction_recipe": {
     "summary": "Freeze = Enter in the sharing-modal TipTap editor after the tab visited the NON-EXISTENT route #5551/scenes (re-runs app bootstrap in same document).",
     "steps": [
@@ -44,6 +45,7 @@
     "Playwright bringToFront does NOT hide the page (visibilityState stays visible). Real hide: openbox running + raw CDP /json/new then /json/activate with Playwright disconnected (verified 'hidden'). Never click sidebar 'Calendar' (leaves project); keep nav to project sidebar links.",
     "UI facts (2026-10-10): external e-mail is added ONLY via 'Recipients (n)' tab > 'Add new e-mail address' > click 'Enter new email address' input > type > 'Add' button (Enter key does not add). Recipients header field is read-only. Files: 'Add file from project' > QA YAMDU-11592 Root room > QA YAMDU-11593 document (12 files) > click tile checkboxes by mouse > 'Attach N file(s)'. Reopened draft modal has Cancel/Save draft/Next (Next = share step 2 with Send now). Login is 2-step (email, Next, password). Driver must always close modals with Cancel before navigating.",
     "2026-10-11 UI: reopened draft'ta dosya yok (Check recipients -> Add file from project -> 'Next' (modal butonu; pagination 'Next' aria-label ile karisir, y'ye gore en alttaki) -> 'Share files via email' paneli; geri icin metin 'Back'. Raw CDP /json/new icin HTTP PUT gerekir. pkill/pgrep -f kendi kabugunu oldurebilir. Hidden dogrulamasi icin visibilitychange dinleyicisi enjekte et.",
-    "2026-10-12 UI: Back sonrasi compose'ta once 'Recipients (n)' sekmesine tikla, sonra 'Add new e-mail address' (m2.js changeRecipients duzeltilmis hali evidence/run-20261012T0515Z/scripts/). Alici degistirme (panel<->compose) artik TESTED (M2-recip-change, negatif); tekrar etme."
+    "2026-10-12 UI: Back sonrasi compose'ta once 'Recipients (n)' sekmesine tikla, sonra 'Add new e-mail address' (m2.js changeRecipients duzeltilmis hali evidence/run-20261012T0515Z/scripts/). Alici degistirme (panel<->compose) artik TESTED (M2-recip-change, negatif); tekrar etme.",
+    "2026-10-13 UI: Schedule diyaloguna Enter BASMA: tarih alaninda Enter diyalogu varsayilan (bugun 06:00) ile ONAYLAR ve gercek zamanlama olusturur (kazara olustu, ~1 dk icinde Cancel schedule ile temizlendi, gonderim olmadi). Saat: input.mantine-Autocomplete-input yaz + Tab; tarih: input.mantine-DateInput-input tikla, picker. Cancel schedule sonrasi taslak paneli yeniden acilir -> nav oncesi closeAll. Send now menusunde yalniz 'Send at a scheduled time' var. M4 tekrar etme."
   ]
 }

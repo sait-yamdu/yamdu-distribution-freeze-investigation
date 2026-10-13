@@ -982,3 +982,16 @@
 {"t":"2026-10-13T05:49:46.355Z","ev":"done","name":"compose-enter","dt":1467,"r":2}
 {"t":"2026-10-13T05:49:46.357Z","ev":"probe","tag":"c18-typed","dt":2,"r":{"hbmax":10805,"ed":2,"nodes":3495,"vis":"visible","heap":143,"url":"#5551/announcements:files:filedistributiondrafts"}}
 {"t":"2026-10-13T05:49:46.357Z","ev":"pending","name":"save-draft"}
+{"t":"2026-10-13T05:49:49.472Z","ev":"done","name":"save-draft","dt":3115}
+{"t":"2026-10-13T05:49:49.475Z","ev":"probe","tag":"c18-saved","dt":3,"r":{"hbmax":10805,"ed":2,"nodes":3503,"vis":"visible","heap":133,"url":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-13T05:49:49.475Z","ev":"pending","name":"close"}
+{"t":"2026-10-13T05:49:52.608Z","ev":"done","name":"close","dt":3133,"r":true}
+{"t":"2026-10-13T05:49:52.609Z","ev":"pending","name":"nav-Crew"}
+{"t":"2026-10-13T05:49:57.593Z","ev":"nav","to":"Crew","url":"https://scotty.yamdu.com/#5551/crew:crewlist"}
+{"t":"2026-10-13T05:49:57.593Z","ev":"done","name":"nav-Crew","dt":4984}
+{"t":"2026-10-13T05:49:57.593Z","ev":"pending","name":"nav-Scenes"}
+{"t":"2026-10-13T05:50:00.161Z","ev":"nav","to":"Scenes","url":"https://scotty.yamdu.com/#5551/breakdowns:scenes"}
+{"t":"2026-10-13T05:50:00.161Z","ev":"done","name":"nav-Scenes","dt":2568}
+{"t":"2026-10-13T05:50:00.164Z","ev":"probe","tag":"c18-nav","dt":3,"r":{"hbmax":10805,"ed":0,"nodes":3825,"vis":"visible","heap":146,"url":"#5551/breakdowns:scenes"}}
+{"t":"2026-10-13T05:50:00.165Z","ev":"end","cycles":18}
+{"t":"2026-10-13T05:50:00.167Z","ev":"probe","tag":"end","dt":2,"r":{"hbmax":10805,"ed":0,"nodes":3825,"vis":"visible","heap":146,"url":"#5551/breakdowns:scenes"}}
