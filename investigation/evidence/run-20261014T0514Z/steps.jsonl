@@ -127,3 +127,17 @@
 {"t":"2026-10-14T05:44:04.994Z","ev":"nav","to":"Distribution","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
 {"t":"2026-10-14T05:44:04.995Z","ev":"done","name":"nav-distribution","dt":2558}
 {"t":"2026-10-14T05:44:04.995Z","ev":"pending","name":"open-draft"}
+{"t":"2026-10-14T05:44:11.166Z","ev":"done","name":"open-draft","dt":6171,"r":2}
+{"t":"2026-10-14T05:44:11.170Z","ev":"probe","tag":"c4-draft-open","dt":4,"r":{"hbmax":59900,"ed":2,"nodes":3593,"vis":"visible","heap":86,"url":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-14T05:44:11.170Z","ev":"pending","name":"check-recipients"}
+{"t":"2026-10-14T05:44:13.775Z","ev":"done","name":"check-recipients","dt":2605}
+{"t":"2026-10-14T05:44:13.776Z","ev":"pending","name":"recipients-add"}
+{"t":"2026-10-14T05:44:18.841Z","ev":"done","name":"recipients-add","dt":5065,"r":"95"}
+{"t":"2026-10-14T05:44:18.844Z","ev":"probe","tag":"c4-recip","dt":3,"r":{"hbmax":59900,"ed":2,"nodes":3596,"vis":"visible","heap":84,"url":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-14T05:44:18.844Z","ev":"pending","name":"enter-pre"}
+{"t":"2026-10-14T05:44:21.159Z","ev":"done","name":"enter-pre","dt":2315,"r":2}
+{"t":"2026-10-14T05:44:21.164Z","ev":"probe","tag":"c4-pre-entered","dt":5,"r":{"hbmax":59900,"ed":2,"nodes":3599,"vis":"visible","heap":83,"url":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-14T05:44:21.164Z","ev":"idle-start","c":4,"kind":"visible","min":8}
+{"t":"2026-10-14T05:45:21.168Z","ev":"probe","tag":"c4-idle-vis","dt":4,"r":{"hbmax":59900,"ed":2,"nodes":3599,"vis":"visible","heap":73,"url":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-14T05:46:21.173Z","ev":"probe","tag":"c4-idle-vis","dt":4,"r":{"hbmax":59900,"ed":2,"nodes":3599,"vis":"visible","heap":74,"url":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-14T05:47:21.177Z","ev":"probe","tag":"c4-idle-vis","dt":4,"r":{"hbmax":59900,"ed":2,"nodes":3599,"vis":"visible","heap":74,"url":"#5551/announcements:files:filedistributiondrafts"}}
