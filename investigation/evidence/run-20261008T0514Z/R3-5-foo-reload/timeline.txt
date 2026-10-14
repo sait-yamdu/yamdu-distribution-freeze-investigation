@@ -1,0 +1,6 @@
+attempt R3-5-foo-reload start 2026-10-08T05:32:24Z
+https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+LOGIN_DONE 2026-10-08T05:32:57Z
+recording started 2026-10-08T05:32:57Z
+driver rc=0 2026-10-08T05:34:41Z
+capture done 2026-10-08T05:34:46Z

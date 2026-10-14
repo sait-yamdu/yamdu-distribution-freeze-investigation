@@ -1,0 +1,1 @@
+{"t":"2026-10-08T08:01:10.369Z","el_s":30,"ev":"fatal","err":"browserType.connectOverCDP: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - <ws preparing> retrieving websocket url from http://localhost:9222\u001b[22m\n\u001b[2m  - <ws connecting> ws://localhost:9222/devtools/bro"}
