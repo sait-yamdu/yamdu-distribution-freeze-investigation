@@ -1,15 +1,15 @@
 {
-  "state": "Guncel build'de (WmM9...) freeze yok. Run 20261015: R11 (13 alici+harici e-posta+Meine Lieben,+bilinmeyen rota+taslak+Enter) ve R12 (15x bilinmeyen rota birikimi): NOT REPRODUCED. Pre-fix REPRODUCED (gecmis). Chromium 141 Linux only.",
-  "last_run": "run-20261015T0516Z",
-  "previous_run": "run-20261014T0514Z",
-  "source_commit": "6eac1d7 (origin/claude/funny-darwin-wesxia)",
+  "state": "Guncel build'de (mdvV8...) freeze yok. Run 20261016: R13 (R11 regresyonu yeni build'de; 13 alici+harici e-posta+Meine Lieben,+bilinmeyen rota+taslak+3x Enter): NOT REPRODUCED. Pre-fix REPRODUCED (gecmis). Chromium 141 Linux only.",
+  "last_run": "run-20261016T0500Z",
+  "previous_run": "run-20261015T0516Z",
+  "source_commit": "74915db (origin/claude/funny-darwin-4rzy3a)",
   "baseline_seeded": true,
-  "persistence": "branch claude/funny-darwin-4rzy3a (push dogrulanacak)",
+  "persistence": "branch claude/funny-darwin-dyjoh9",
   "environment": {
     "os": "Linux 6.18 x86_64 cloud",
     "browser": "Chromium 141.0.7390.37 (Playwright build, not Chrome)",
     "mode": "headed under Xvfb :99 (openbox yok), CDP attach",
-    "app_build": "bundles/js?v=WmM9IioEx8RpdgDWmhZDAiPttc7SMdHnlnuqJee6ICg1 (2026-10-15; onceki --p8nn...)"
+    "app_build": "bundles/js?v=mdvV8ShofvcittHdIpqlfudhdFCq5gW49DZt1ly8txw1 (2026-10-16; onceki WmM9...)"
   },
   "freeze_signature": "renderer main thread 100%+ CPU for minutes, RSS growing, CDP unresponsive; gdb shows JS-driven Node.removeChild/insertBefore + MutationObserver + table layout churn (DOM mutation loop)",
   "leads": [
@@ -26,9 +26,10 @@
     "R8 (2026-10-12): M2-recip-change: Back sonrasi Recipients sekmesi > Add new e-mail address (48x, 33->81 alici), Cast&crew arama, Mailing lists sekmesi, panel Enter alanlari, 16 dongu, 8 hidden-benzeri faz (70 sn; hbmax 10.5 sn), ~45 dk ayni sekme: no freeze, 305 probe <=21 ms, heap <=233 MB.",
     "R9 (2026-10-13): M4 schedule diyalogu: saat alani (Tab), tarih secici, gercek Schedule -> Scheduled sekmesi -> Cancel schedule (9x; Cancel sonrasi taslak paneli yeniden acilir), hidden faz diyalog acikken 9x dogrulandi, Store as mailing list 6x: no freeze, 211 probe <=17 ms, heap <=179 MB. Hbmax 10.8 sn yalniz hidden throttling.",
     "R10 (2026-10-14): A1 yasli oturum ~63 dk, 7 dongu x (draft ac, harici e-posta ekle, Enter, 8-10 dk bekleme [3 gorunur+1, 3 hidden], Enter, Save draft, nav): no freeze, 82 probe <=8 ms, heap <=112 MB. hbmax 59.9 sn = hidden timer throttling.",
-    "R11/R12 (2026-10-15): yeni bundle WmM9...; bilinmeyen rota artik #5551/dashboard'a yonlendiriyor ama hala +13 script ekliyor ve templates/scenes/scenes.html 404 veriyor; script sayisi birikmiyor (148-165). 13 alici + harici e-posta + 'Meine Lieben,' Enter, 15x bilinmeyen rota, taslak yeniden acma + 3 Enter: no freeze, probe <=17 ms."
+    "R11/R12 (2026-10-15): yeni bundle WmM9...; bilinmeyen rota artik #5551/dashboard'a yonlendiriyor ama hala +13 script ekliyor ve templates/scenes/scenes.html 404 veriyor; script sayisi birikmiyor (148-165). 13 alici + harici e-posta + 'Meine Lieben,' Enter, 15x bilinmeyen rota, taslak yeniden acma + 3 Enter: no freeze, probe <=17 ms.",
+    "R13 (2026-10-16): yeni bundle mdvV8...; R11 akisi (13 alici + harici e-posta + 'Meine Lieben,' + bilinmeyen rota [dashboard'a yonlendi, +13 script, scenes.html 404] + taslak + 3x Enter): no freeze, probe <=14 ms, heap <=111 MB. ~1.5 dk, tek sekme."
   ],
-  "next_experiment": "Kapsam tukendi. Yeni ortam gerekli: native Chrome/Firefox/Safari, Windows/macOS, >2 sa oturum. Gelecekte yalniz build degisirse kisa regresyon (R11 betigi: evidence/run-20261015T0516Z/scripts/r11.js, r12.js) kos; aksi halde 'exhausted coverage' raporla.",
+  "next_experiment": "Kapsam tukendi. Yalniz build degisirse R11 betigi (evidence/run-20261016T0500Z/scripts/r11.js) ile kisa regresyon; aksi halde 'exhausted coverage'. Yeni ortam gerekli: native Chrome/Firefox/Safari, Windows/macOS, >2 sa oturum.",
   "known_reproduction_recipe": {
     "summary": "Freeze = Enter in the sharing-modal TipTap editor after the tab visited the NON-EXISTENT route #5551/scenes (re-runs app bootstrap in same document).",
     "steps": [
@@ -50,6 +51,7 @@
     "2026-10-12 UI: Back sonrasi compose'ta once 'Recipients (n)' sekmesine tikla, sonra 'Add new e-mail address' (m2.js changeRecipients duzeltilmis hali evidence/run-20261012T0515Z/scripts/). Alici degistirme (panel<->compose) artik TESTED (M2-recip-change, negatif); tekrar etme.",
     "2026-10-13 UI: Schedule diyaloguna Enter BASMA: tarih alaninda Enter diyalogu varsayilan (bugun 06:00) ile ONAYLAR ve gercek zamanlama olusturur (kazara olustu, ~1 dk icinde Cancel schedule ile temizlendi, gonderim olmadi). Saat: input.mantine-Autocomplete-input yaz + Tab; tarih: input.mantine-DateInput-input tikla, picker. Cancel schedule sonrasi taslak paneli yeniden acilir -> nav oncesi closeAll. Send now menusunde yalniz 'Send at a scheduled time' var. M4 tekrar etme.",
     "2026-10-14: A1 (63 dk, 8-10 dk idle gorunur/hidden) tamamlandi, negatif; tekrar etme. Hidden >5 dk: heartbeat ~60 sn (intensive throttling) beklenen.",
-    "2026-10-15: R11/R12 tamamlandi, negatif. 'Save draft' butonu icin getByRole('button',{name:/save.*draft/i}) + scrollIntoView kullan (/^Save draft/ eslesmedi). Login: #UserName doldur + Enter, sonra #Password (2 adim). Chromium yolu /opt/pw-browsers/chromium-1194/chrome-linux/chrome."
+    "2026-10-15: R11/R12 tamamlandi, negatif. 'Save draft' butonu icin getByRole('button',{name:/save.*draft/i}) + scrollIntoView kullan (/^Save draft/ eslesmedi). Login: #UserName doldur + Enter, sonra #Password (2 adim). Chromium yolu /opt/pw-browsers/chromium-1194/chrome-linux/chrome.",
+    "2026-10-16: R13 tamamlandi (build mdvV8), negatif. r11.js icindeki build dizgisi sed ile guncellenir; PW_FROM_ENV ortam degiskeni ile login.js calistirilir (parola dosyaya yazilmaz)."
   ]
 }
