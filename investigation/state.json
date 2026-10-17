@@ -1,10 +1,10 @@
 {
-  "state": "Guncel build'de (mdvV8...) freeze yok. Run 20261016: R13 (R11 regresyonu yeni build'de; 13 alici+harici e-posta+Meine Lieben,+bilinmeyen rota+taslak+3x Enter): NOT REPRODUCED. Pre-fix REPRODUCED (gecmis). Chromium 141 Linux only.",
-  "last_run": "run-20261016T0500Z",
-  "previous_run": "run-20261015T0516Z",
-  "source_commit": "74915db (origin/claude/funny-darwin-4rzy3a)",
+  "state": "Kapsam tukendi (2026-10-17): build hala mdvV8, freeze yok. Pre-fix REPRODUCED (gecmis). Yeni kosu: erisim/giris/build dogrulandi, yeni deney calistirilmadi.",
+  "last_run": "run-20261017T0500Z",
+  "previous_run": "run-20261016T0500Z",
+  "source_commit": "dyjoh9 head (origin/claude/funny-darwin-dyjoh9)",
   "baseline_seeded": true,
-  "persistence": "branch claude/funny-darwin-dyjoh9",
+  "persistence": "branch claude/funny-darwin-xwibxe",
   "environment": {
     "os": "Linux 6.18 x86_64 cloud",
     "browser": "Chromium 141.0.7390.37 (Playwright build, not Chrome)",
@@ -29,7 +29,7 @@
     "R11/R12 (2026-10-15): yeni bundle WmM9...; bilinmeyen rota artik #5551/dashboard'a yonlendiriyor ama hala +13 script ekliyor ve templates/scenes/scenes.html 404 veriyor; script sayisi birikmiyor (148-165). 13 alici + harici e-posta + 'Meine Lieben,' Enter, 15x bilinmeyen rota, taslak yeniden acma + 3 Enter: no freeze, probe <=17 ms.",
     "R13 (2026-10-16): yeni bundle mdvV8...; R11 akisi (13 alici + harici e-posta + 'Meine Lieben,' + bilinmeyen rota [dashboard'a yonlendi, +13 script, scenes.html 404] + taslak + 3x Enter): no freeze, probe <=14 ms, heap <=111 MB. ~1.5 dk, tek sekme."
   ],
-  "next_experiment": "Kapsam tukendi. Yalniz build degisirse R11 betigi (evidence/run-20261016T0500Z/scripts/r11.js) ile kisa regresyon; aksi halde 'exhausted coverage'. Yeni ortam gerekli: native Chrome/Firefox/Safari, Windows/macOS, >2 sa oturum.",
+  "next_experiment": "Yalniz build degisirse R11 regresyonu; aksi halde exhausted. Yeni ortam gerekli: native Chrome/Firefox/Safari, Windows/macOS, >2 sa oturum.",
   "known_reproduction_recipe": {
     "summary": "Freeze = Enter in the sharing-modal TipTap editor after the tab visited the NON-EXISTENT route #5551/scenes (re-runs app bootstrap in same document).",
     "steps": [
