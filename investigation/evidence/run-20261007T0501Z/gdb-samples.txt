@@ -1,0 +1,18 @@
+#0  0x000055d28130600b in blink::TableRowLayoutAlgorithm::Layout()::$_0::operator()(blink::FixedPoint<6u, int>, std::__Cr::optional<blink::F
+#1  0x000055d27fd7b327 in blink::TableRowLayoutAlgorithm::Layout() ()
+#2  0x000055d27fd7a80f in void blink::(anonymous namespace)::CreateAlgorithmAndRun<blink::TableRowLayoutAlgorithm, blink::(anonymous namespa
+#3  0x000055d27ebb34ea in blink::BlockNode::Layout(blink::ConstraintSpace const&, blink::BlockBreakToken const*, blink::EarlyBreak const*, b
+#4  0x000055d281307587 in blink::TableSectionLayoutAlgorithm::Layout() ()
+--
+#0  0x000055d27f623321 in blink::ComputeBlockSizeForFragment(blink::ConstraintSpace const&, blink::BlockNode const&, blink::BoxStrut const&,
+#1  0x000055d27f610176 in blink::BlockLayoutAlgorithm::Layout(blink::InlineChildLayoutContext*) ()
+#2  0x000055d27f60c68e in blink::BlockLayoutAlgorithm::LayoutInlineChild(blink::InlineNode const&, std::__Cr::optional<float>) ()
+#3  0x000055d27f5ff0fb in void blink::(anonymous namespace)::CreateAlgorithmAndRun<blink::BlockLayoutAlgorithm, blink::(anonymous namespace)
+#4  0x000055d27ebb34ea in blink::BlockNode::Layout(blink::ConstraintSpace const&, blink::BlockBreakToken const*, blink::EarlyBreak const*, b
+--
+#0  0x000055d27fb0a28d in blink::Range::NodeWillBeRemoved(blink::Node&) ()
+#1  0x000055d27fb08392 in blink::ContainerNode::RemoveChild(blink::Node*, blink::ExceptionState&) ()
+#2  0x000055d28032c31d in blink::(anonymous namespace)::v8_node::RemoveChildOperationCallback(v8::FunctionCallbackInfo<v8::Value> const&) [c
+#3  0x000055d2830df9b8 in Builtins_CallApiCallbackOptimizedNoProfiling ()
+#4  0x00007fffeabe2b28 in ??? ()
+--

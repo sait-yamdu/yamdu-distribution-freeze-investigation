@@ -1,0 +1,12 @@
+{"t":"2026-10-07T09:11:24.419Z","ev":"continue-same-session","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistributiondrafts"}
+{"t":"2026-10-07T09:11:24.434Z","ev":"probe","tag":"before","dt":14,"r":{"txt":"en,\n\nPlease find the files attached. Line 1\n\n\n\n\nBest regards"}}
+{"t":"2026-10-07T09:11:24.434Z","ev":"pending","n":"click-editor"}
+{"t":"2026-10-07T09:11:24.542Z","ev":"probe","tag":"after-click","dt":3,"r":{"txt":"en,\n\nPlease find the files attached. Line 1\n\n\n\n\nBest regards"}}
+{"t":"2026-10-07T09:11:24.543Z","ev":"pending","n":"End"}
+{"t":"2026-10-07T09:11:24.552Z","ev":"probe","tag":"after-End","dt":2,"r":{"txt":"en,\n\nPlease find the files attached. Line 1\n\n\n\n\nBest regards"}}
+{"t":"2026-10-07T09:11:24.552Z","ev":"pending","n":"Enter"}
+{"t":"2026-10-07T09:11:24.571Z","ev":"probe","tag":"after-Enter","dt":3,"r":{"txt":"\n\nPlease find the files attached. Line 1\n\n\n\n\nBest regards\n\n\n"}}
+{"t":"2026-10-07T09:11:24.571Z","ev":"pending","n":"type reopened 1"}
+{"t":"2026-10-07T09:11:25.206Z","ev":"probe","tag":"after-type","dt":3,"r":{"txt":"find the files attached. Line 1\n\n\n\n\nBest regards\n\nreopened 1"}}
+{"t":"2026-10-07T09:11:30.210Z","ev":"probe","tag":"after-5s","dt":3,"r":{"txt":"find the files attached. Line 1\n\n\n\n\nBest regards\n\nreopened 1"}}
+{"t":"2026-10-07T09:11:30.344Z","ev":"end","result":"no freeze"}
