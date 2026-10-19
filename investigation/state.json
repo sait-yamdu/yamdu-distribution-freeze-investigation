@@ -1,10 +1,10 @@
 {
-  "state": "Kapsam tukendi (2026-10-18): yeni build 38mlI3 regresyonu (R14,R15) negatif. Pre-fix REPRODUCED (gecmis). Freeze yok.",
-  "last_run": "run-20261018T0508Z",
-  "previous_run": "run-20261017T0500Z",
-  "source_commit": "dc300ee (origin/claude/funny-darwin-xwibxe)",
+  "state": "Kapsam tukendi (2026-10-19): build 38mlI3 degismedi, yeni calistirilabilir hipotez yok; deney yapilmadi. Pre-fix REPRODUCED (gecmis). Freeze yok.",
+  "last_run": "run-20261019T0500Z",
+  "previous_run": "run-20261018T0508Z",
+  "source_commit": "5ed94ec (origin/claude/funny-darwin-0frdgv)",
   "baseline_seeded": true,
-  "persistence": "branch claude/funny-darwin-0frdgv",
+  "persistence": "branch claude/funny-darwin-hd2jmd",
   "environment": {
     "os": "Linux 6.18 x86_64 cloud",
     "browser": "Chromium 141.0.7390.37 (Playwright build, not Chrome)",

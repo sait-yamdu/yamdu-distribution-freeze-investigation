@@ -34,3 +34,5 @@ Known recipe and do-not-repeat list are in state.json (`known_reproduction_recip
 - run-20261016T0500Z: build mdvV8... uzerinde R11 regresyonu (R13) NOT REPRODUCED; probe <=14 ms. Kapsam tukenmis durumda; native tarayici/OS/yasli oturum NOT TESTED.
 
 - run-20261018T0508Z: yeni build 38mlI3... uzerinde R14 (R11 akisi) ve R15 (R12 akisi) NOT REPRODUCED IN THIS EXPERIMENT; probe <=19 ms, heap <=123 MB. Native tarayici/OS/yasli (>2 sa) oturum NOT TESTED.
+
+- run-20261019T0500Z: build 38mlI3... degismedi; yeni calistirilabilir hipotez yok, deney yapilmadi (NOT TESTED). Native tarayici/OS ve >2 sa oturum NOT TESTED.
