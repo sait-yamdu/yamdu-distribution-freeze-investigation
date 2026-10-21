@@ -1,15 +1,15 @@
 {
-  "state": "Build k5WNR0 (2026-10-20) icin R16/R17 regresyonu negatif; freeze yok. Pre-fix REPRODUCED (gecmis). Yeni runnable hipotez yok.",
-  "last_run": "run-20261020T0500Z",
-  "previous_run": "run-20261019T0500Z",
-  "source_commit": "hd2jmd son commit (origin/claude/funny-darwin-hd2jmd)",
+  "state": "Build A5T7Kpp (2026-10-21) icin R18/R19 regresyonu negatif; freeze yok. Pre-fix REPRODUCED (gecmis). Yeni runnable hipotez yok.",
+  "last_run": "run-20261021T0500Z",
+  "previous_run": "run-20261020T0500Z",
+  "source_commit": "9z4xym son commit (e2c46ba, origin/claude/funny-darwin-9z4xym)",
   "baseline_seeded": true,
-  "persistence": "branch claude/funny-darwin-9z4xym",
+  "persistence": "branch claude/funny-darwin-a3ii0z",
   "environment": {
     "os": "Linux 6.18 x86_64 cloud",
     "browser": "Chromium 141.0.7390.37 (Playwright build, not Chrome)",
     "mode": "headed under Xvfb :99 (openbox yok), CDP attach",
-    "app_build": "bundles/js?v=k5WNR0xtcJj7RNCpW9LN58r3PAVlpHsnZwlnXX1q_gY1 (2026-10-20; onceki 38mlI3...)"
+    "app_build": "bundles/js?v=A5T7KppsXhcmrHUpdfZbRozVyGmSMW8PHv-qu6RzNMA1 (2026-10-21; onceki k5WNR0...)"
   },
   "freeze_signature": "renderer main thread 100%+ CPU for minutes, RSS growing, CDP unresponsive; gdb shows JS-driven Node.removeChild/insertBefore + MutationObserver + table layout churn (DOM mutation loop)",
   "leads": [
@@ -29,7 +29,8 @@
     "R11/R12 (2026-10-15): yeni bundle WmM9...; bilinmeyen rota artik #5551/dashboard'a yonlendiriyor ama hala +13 script ekliyor ve templates/scenes/scenes.html 404 veriyor; script sayisi birikmiyor (148-165). 13 alici + harici e-posta + 'Meine Lieben,' Enter, 15x bilinmeyen rota, taslak yeniden acma + 3 Enter: no freeze, probe <=17 ms.",
     "R13 (2026-10-16): yeni bundle mdvV8...; R11 akisi (13 alici + harici e-posta + 'Meine Lieben,' + bilinmeyen rota [dashboard'a yonlendi, +13 script, scenes.html 404] + taslak + 3x Enter): no freeze, probe <=14 ms, heap <=111 MB. ~1.5 dk, tek sekme.",
     "R14/R15 (2026-10-18): yeni bundle 38mlI3...; R11 akisi + R12 (15x bilinmeyen rota): no freeze, probe <=19 ms, heap <=123 MB. Bilinmeyen rota dashboard'a yonleniyor, +13 script, scenes.html 404 suruyor, birikmiyor.",
-    "R16/R17 (2026-10-20): yeni bundle k5WNR0...; R11 akisi (13 alici + harici e-posta + 'Meine Lieben,' + bilinmeyen rota [dashboard'a yonlendi, 153->166 script, scenes.html 404] + taslak + 3x Enter) ve 15x bilinmeyen rota: no freeze, probe <=14 ms, heap <=118 MB."
+    "R16/R17 (2026-10-20): yeni bundle k5WNR0...; R11 akisi (13 alici + harici e-posta + 'Meine Lieben,' + bilinmeyen rota [dashboard'a yonlendi, 153->166 script, scenes.html 404] + taslak + 3x Enter) ve 15x bilinmeyen rota: no freeze, probe <=14 ms, heap <=118 MB.",
+    "R18/R19 (2026-10-21): yeni bundle A5T7Kpp...; R11 akisi ve 15x bilinmeyen rota: no freeze, 63 probe <=22 ms, heap <=115 MB, script 149-166 birikmedi."
   ],
   "next_experiment": "Yalniz build degisirse R11/R12 regresyonu; aksi halde exhausted. Yeni ortam gerekli: native Chrome/Firefox/Safari, Windows/macOS, >2 sa oturum.",
   "known_reproduction_recipe": {
@@ -56,6 +57,7 @@
     "2026-10-15: R11/R12 tamamlandi, negatif. 'Save draft' butonu icin getByRole('button',{name:/save.*draft/i}) + scrollIntoView kullan (/^Save draft/ eslesmedi). Login: #UserName doldur + Enter, sonra #Password (2 adim). Chromium yolu /opt/pw-browsers/chromium-1194/chrome-linux/chrome.",
     "2026-10-16: R13 tamamlandi (build mdvV8), negatif. r11.js icindeki build dizgisi sed ile guncellenir; PW_FROM_ENV ortam degiskeni ile login.js calistirilir (parola dosyaya yazilmaz).",
     "2026-10-18: R14/R15 (build 38mlI3) tamamlandi, negatif. Playwright /tmp/claude-0/pw'de npm i playwright-core ile kurulur; lib.js yolu sed ile degistirilir. pkill -f KULLANMA (kabugu oldurur), PID ile kill et. Build degisirse yine r11.js/r12.js.",
-    "2026-10-20: R16/R17 (build k5WNR0) tamamlandi, negatif. Build degisirse r11.js/r12.js (build dizgisi scriptlerde yok; yalniz lib.js EV yolu degisir). 'sleep N; cat' Bash'te engelli; Monitor kullan."
+    "2026-10-20: R16/R17 (build k5WNR0) tamamlandi, negatif. Build degisirse r11.js/r12.js (build dizgisi scriptlerde yok; yalniz lib.js EV yolu degisir). 'sleep N; cat' Bash'te engelli; Monitor kullan.",
+    "2026-10-21: R18/R19 (build A5T7Kpp) tamamlandi, negatif. Build degisirse r11.js/r12.js; lib.js'te run-id sed ile degistirilir."
   ]
 }

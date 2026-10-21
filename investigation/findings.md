@@ -39,3 +39,6 @@ Known recipe and do-not-repeat list are in state.json (`known_reproduction_recip
 
 ## 2026-10-20 (run-20261020T0500Z)
 Build k5WNR0 (38mlI3'ten degisti). R16 (CF1-benzeri akis + bilinmeyen rota + taslak + 3x Enter) ve R17 (15x bilinmeyen rota + Enter) NOT REPRODUCED. Probe <=14 ms, heap <=118 MB, 0 crash. Bilinmeyen rota hala dashboard'a yonleniyor (+13 script, scenes.html 404). Freeze yok; kok neden bilinmiyor; pre-fix REPRODUCED kaydi gecerli.
+
+## 2026-10-21 (run-20261021T0500Z)
+Build A5T7Kpp (k5WNR0'dan degisti). R18 (CF1-benzeri akis + bilinmeyen rota + taslak + 3x Enter) ve R19 (15x bilinmeyen rota + Enter) NOT REPRODUCED. 63 probe <=22 ms, heap <=115 MB, 0 crash. Bilinmeyen rota hala dashboard'a yonleniyor (+13 script, scenes.html 404). Kok neden bilinmiyor.
