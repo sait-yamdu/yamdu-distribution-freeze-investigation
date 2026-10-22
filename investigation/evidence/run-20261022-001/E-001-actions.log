@@ -1,0 +1,6 @@
+05:13:40 PENDING click 'Share files' (3 files selected, room QA YAMDU-11592 / doc 70813); tab age since login ~ 05:13:40; no reload since login; visibility=visible
+05:13:45 DONE click Share files
+05:13:51 PENDING recipient search 'test' typed with per-key delay, then checkbox selections
+05:14:01 PENDING click each visible person checkbox (filtered 'test') 600ms pacing
+05:14:26 PENDING subject+message typing in Share modal w/ 2 recipients selected; then visibility test
+05:14:46 PENDING E-002 background via 2nd tab bringToFront (modal+draft open), 3 cycles 20s/45s/90s hidden, typing after each return
