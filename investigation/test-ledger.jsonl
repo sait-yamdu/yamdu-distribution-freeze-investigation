@@ -1,0 +1,7 @@
+{"id":"H-001","source":"historical","date":"2026-10-03","env":"scotty/Windows/Chromium 152","desc":"9 clean-session Enter variants (new distribution, external email, repeated/immediate Enter, signatures, templates/Personalize chips, existing draft)","outcome":"NOT REPRODUCED IN THIS EXPERIMENT"}
+{"id":"H-002","source":"historical","date":"2026-10-03","env":"scotty/Windows/Chromium 152","desc":"16 Distribution modal open/close cycles with listener/heap observation","outcome":"NOT REPRODUCED IN THIS EXPERIMENT"}
+{"id":"H-003","source":"historical","date":"2026-10-03","env":"scotty/Windows/Chromium 152","desc":"25 Script scene switches","outcome":"NOT REPRODUCED IN THIS EXPERIMENT"}
+{"id":"H-004","source":"historical","date":"2026-10-03","env":"scotty/Windows/Chromium 152","desc":"Monkey-patched Froala leak simulation: 60 scene switches, 128 editors, 4747 listeners, then Distribution+Enter","outcome":"NOT REPRODUCED IN THIS EXPERIMENT"}
+{"id":"H-005","source":"historical","date":"2026-10-03","env":"scotty/Windows/Chromium 152","desc":"Synthetic native-paragraph, predictive/composition, Firefox-style composing Enter, autocorrect paths","outcome":"NOT REPRODUCED IN THIS EXPERIMENT"}
+{"id":"H-006","source":"historical","date":"2026-10-03","env":"scotty/Windows/Chromium 152","desc":"300-paragraph Enter stress + trusted keyboard trials","outcome":"NOT REPRODUCED IN THIS EXPERIMENT"}
+{"id":"H-007","source":"historical","date":"2026-10-03","env":"static","desc":"Bundle/editor/React inspection, historical Sentry/HAR analysis","outcome":"INCONCLUSIVE"}
