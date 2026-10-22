@@ -1,0 +1,58 @@
+05:28:22 PENDING Save as draft
+05:28:26 after save draft {"md":187,"lt":14,"h":69,"n":2404,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:28:26 PENDING nav Crew
+05:28:31 after nav Crew {"md":187,"lt":16,"h":82,"n":2425,"url":"#5551/crew:crewlist"}
+05:28:31 PENDING nav Files & Documents
+05:28:35 after nav Files & Documents {"md":187,"lt":16,"h":76,"n":1245,"url":"#5551/documents"}
+05:28:35 PENDING nav Distribution
+05:28:38 after nav Distribution {"md":187,"lt":17,"h":76,"n":1329,"url":"#5551/announcements:files:filedistribution"}
+05:28:38 PENDING click Draft tab
+05:28:41 draft tab {"md":187,"lt":18,"h":77,"n":2391,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:28:41 PENDING open first draft row
+05:28:46 draft opened {"md":187,"lt":19,"h":80,"n":3463,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:28:46 dialog open true
+05:28:46 PENDING typing in draft cycle 1
+05:28:48 typed {"md":187,"lt":19,"h":90,"n":3465,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:28:51 end cycle 1 {"md":187,"lt":19,"h":93,"n":2391,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:29:06 PENDING nav Crew
+05:29:09 after nav Crew {"md":187,"lt":20,"h":86,"n":2425,"url":"#5551/crew:crewlist"}
+05:29:09 PENDING nav Files & Documents
+05:29:13 after nav Files & Documents {"md":187,"lt":20,"h":97,"n":1245,"url":"#5551/documents"}
+05:29:13 PENDING nav Distribution
+05:29:16 after nav Distribution {"md":187,"lt":20,"h":89,"n":1329,"url":"#5551/announcements:files:filedistribution"}
+05:29:16 PENDING click Draft tab
+05:29:20 draft tab {"md":193,"lt":21,"h":79,"n":2391,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:29:20 PENDING open first draft row
+05:29:24 draft opened {"md":193,"lt":22,"h":106,"n":3463,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:29:24 dialog open true
+05:29:24 PENDING typing in draft cycle 2
+05:29:26 typed {"md":193,"lt":22,"h":90,"n":3465,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:29:29 end cycle 2 {"md":193,"lt":22,"h":94,"n":2391,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:29:44 PENDING nav Crew
+05:29:47 after nav Crew {"md":193,"lt":25,"h":83,"n":2425,"url":"#5551/crew:crewlist"}
+05:29:47 PENDING nav Files & Documents
+05:29:51 after nav Files & Documents {"md":193,"lt":25,"h":82,"n":1245,"url":"#5551/documents"}
+05:29:51 PENDING nav Distribution
+05:29:55 after nav Distribution {"md":193,"lt":26,"h":89,"n":1329,"url":"#5551/announcements:files:filedistribution"}
+05:29:55 PENDING click Draft tab
+05:29:58 draft tab {"md":206,"lt":27,"h":95,"n":2391,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:29:58 PENDING open first draft row
+05:30:02 draft opened {"md":206,"lt":28,"h":91,"n":3463,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:30:02 dialog open true
+05:30:02 PENDING typing in draft cycle 3
+05:30:04 typed {"md":206,"lt":28,"h":100,"n":3465,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:30:07 end cycle 3 {"md":206,"lt":28,"h":83,"n":2391,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:30:22 PENDING nav Crew
+05:30:25 after nav Crew {"md":206,"lt":29,"h":84,"n":2425,"url":"#5551/crew:crewlist"}
+05:30:25 PENDING nav Files & Documents
+05:30:29 after nav Files & Documents {"md":206,"lt":29,"h":82,"n":1245,"url":"#5551/documents"}
+05:30:29 PENDING nav Distribution
+05:30:33 after nav Distribution {"md":206,"lt":29,"h":89,"n":1329,"url":"#5551/announcements:files:filedistribution"}
+05:30:33 PENDING click Draft tab
+05:30:36 draft tab {"md":206,"lt":30,"h":79,"n":2391,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:30:36 PENDING open first draft row
+05:30:40 draft opened {"md":206,"lt":31,"h":92,"n":3463,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:30:40 dialog open true
+05:30:40 PENDING typing in draft cycle 4
+05:30:42 typed {"md":206,"lt":31,"h":76,"n":3465,"url":"#5551/announcements:files:filedistributiondrafts"}
+05:30:45 end cycle 4 {"md":206,"lt":31,"h":80,"n":2391,"url":"#5551/announcements:files:filedistributiondrafts"}

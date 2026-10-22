@@ -4,3 +4,6 @@
 05:14:01 PENDING click each visible person checkbox (filtered 'test') 600ms pacing
 05:14:26 PENDING subject+message typing in Share modal w/ 2 recipients selected; then visibility test
 05:14:46 PENDING E-002 background via 2nd tab bringToFront (modal+draft open), 3 cycles 20s/45s/90s hidden, typing after each return
+05:19:59 E-002b: restart headed Chromium 141 under Xvfb (new session, fresh login, reset of E-001 tab state). PENDING open Add modal, select dept groups for many recipients, type 'Meine Lieben,' Enter
+05:20:22 PENDING E-002b: Select all recipients, then 3 hide cycles (20/45/90s) via 2nd tab in headed Chromium
+05:28:21 E-002b done: hidden state could not be induced (minimize/2nd tab/CDP target all report visible|focus=true). PENDING E-003 sustained mixed-use loop: Save as draft(39 recipients) -> navigate Crew/Files/Distribution -> reopen draft -> edit; same tab, no reload
