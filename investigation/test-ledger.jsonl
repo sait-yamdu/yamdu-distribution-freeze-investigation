@@ -1,0 +1,7 @@
+{"id":"H-001","origin":"historical 2026-10-03","env":"Windows/Chromium 152/scotty","desc":"9 clean-session Enter variants","outcome":"NOT REPRODUCED"}
+{"id":"H-002","origin":"historical","desc":"16 Distribution modal open/close cycles with listener/heap","outcome":"NOT REPRODUCED"}
+{"id":"H-003","origin":"historical","desc":"25 Script scene switches","outcome":"NOT REPRODUCED"}
+{"id":"H-004","origin":"historical","desc":"Monkey-patched Froala leak sim 60 switches/128 editors/4747 listeners then Distribution+Enter","outcome":"NOT REPRODUCED"}
+{"id":"H-005","origin":"historical","desc":"Synthetic native-paragraph/composition/autocorrect paths","outcome":"NOT REPRODUCED"}
+{"id":"H-006","origin":"historical","desc":"300-paragraph Enter stress + trusted keyboard","outcome":"NOT REPRODUCED"}
+{"id":"H-007","origin":"historical","desc":"Bundle/editor/React inspection, Sentry/HAR analysis","outcome":"INFORMATIONAL"}
