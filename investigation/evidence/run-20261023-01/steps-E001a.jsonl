@@ -1,0 +1,72 @@
+{"t":"2026-10-23T05:24:37.390Z","step":"E-001 start (single tab, no reload after initial load)","lastFullReload":"2026-10-23T05:24:37.390Z"}
+{"t":"2026-10-23T05:24:47.181Z","step":"PENDING c1 nav docs->room->doc","el":10}
+{"t":"2026-10-23T05:24:55.307Z","step":"DONE c1 nav docs->room->doc","res":"ok","hb":{"max":1132,"long":[148,103,93,85,97],"n":10,"heap":77},"vis":"visible","el":18}
+{"t":"2026-10-23T05:24:55.307Z","step":"PENDING c1 select multiple + share","el":18}
+{"t":"2026-10-23T05:24:58.591Z","step":"DONE c1 select multiple + share","res":"ok","hb":{"max":1132,"long":[93,85,97,68,182],"n":12,"heap":77},"vis":"visible","el":21}
+{"t":"2026-10-23T05:24:58.591Z","step":"PENDING c1 recipient search+select","el":21}
+{"t":"2026-10-23T05:25:05.357Z","step":"DONE c1 recipient search+select","res":"ok","hb":{"max":1132,"long":[100,63,77,68,70],"n":18,"heap":77},"vis":"visible","el":28}
+{"t":"2026-10-23T05:25:05.357Z","step":"PENDING c1 type message Dear Andreas, Enter","el":28}
+{"t":"2026-10-23T05:25:06.955Z","step":"DONE c1 type message Dear Andreas, Enter","res":"ok","hb":{"max":1132,"long":[100,63,77,68,70],"n":18,"heap":77},"vis":"visible","el":30}
+{"t":"2026-10-23T05:25:06.955Z","step":"PENDING c1 background 20s with modal open","el":30}
+{"t":"2026-10-23T05:25:29.051Z","step":"DONE c1 background 20s with modal open","res":"ok","hb":{"max":1132,"long":[100,63,77,68,70],"n":18,"heap":77},"vis":"visible","el":52}
+{"t":"2026-10-23T05:25:29.051Z","step":"PENDING c1 save as draft","el":52}
+{"t":"2026-10-23T05:25:33.242Z","step":"DONE c1 save as draft","res":"ok","hb":{"max":1132,"long":[100,63,77,68,70],"n":18,"heap":77},"vis":"visible","el":56}
+{"t":"2026-10-23T05:25:33.243Z","step":"PENDING c1 dist -> drafts -> reopen","el":56}
+{"t":"2026-10-23T05:25:51.509Z","step":"DONE c1 dist -> drafts -> reopen","res":"ok","hb":{"max":1132,"long":[70,60,285,118,132],"n":22,"heap":77},"vis":"visible","el":74}
+{"t":"2026-10-23T05:25:51.509Z","step":"PENDING c2 nav docs->room->doc","el":74}
+{"t":"2026-10-23T05:26:21.526Z","step":"DONE c2 nav docs->room->doc","res":"ERR page.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a:has-text(\"Files & Doc","hb":{"max":1132,"long":[70,60,285,118,132],"n":22,"heap":77},"vis":"visible","el":104}
+{"t":"2026-10-23T05:26:21.526Z","step":"PENDING c2 select multiple + share","el":104}
+{"t":"2026-10-23T05:26:51.533Z","step":"DONE c2 select multiple + share","res":"ERR page.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('text=Select multiple')\u001b","hb":{"max":1132,"long":[70,60,285,118,132],"n":22,"heap":77},"vis":"visible","el":134}
+{"t":"2026-10-23T05:26:51.533Z","step":"PENDING c2 recipient search+select","el":134}
+{"t":"2026-10-23T05:26:57.666Z","step":"DONE c2 recipient search+select","res":"ok","hb":{"max":1132,"long":[70,60,285,118,132],"n":22,"heap":77},"vis":"visible","el":140}
+{"t":"2026-10-23T05:26:57.666Z","step":"PENDING c2 type message Dear Andreas, Enter","el":140}
+{"t":"2026-10-23T05:26:59.246Z","step":"DONE c2 type message Dear Andreas, Enter","res":"ok","hb":{"max":1132,"long":[70,60,285,118,132],"n":22,"heap":77},"vis":"visible","el":142}
+{"t":"2026-10-23T05:26:59.246Z","step":"PENDING c2 background 20s with modal open","el":142}
+{"t":"2026-10-23T05:27:21.300Z","step":"DONE c2 background 20s with modal open","res":"ok","hb":{"max":1132,"long":[70,60,285,118,132],"n":22,"heap":77},"vis":"visible","el":164}
+{"t":"2026-10-23T05:27:21.300Z","step":"PENDING c2 save as draft","el":164}
+{"t":"2026-10-23T05:27:51.306Z","step":"DONE c2 save as draft","res":"ERR locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button:has-text(\"Sav","hb":{"max":1132,"long":[70,60,285,118,132],"n":22,"heap":77},"vis":"visible","el":194}
+{"t":"2026-10-23T05:27:51.306Z","step":"PENDING c2 dist -> drafts -> reopen","el":194}
+{"t":"2026-10-23T05:28:24.324Z","step":"DONE c2 dist -> drafts -> reopen","res":"ERR locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a:has-text(\"Draft (\"","hb":{"max":1132,"long":[285,118,132,71,67],"n":24,"heap":77},"vis":"visible","el":227}
+{"t":"2026-10-23T05:28:24.325Z","step":"PENDING c3 nav docs->room->doc","el":227}
+{"t":"2026-10-23T05:28:54.339Z","step":"DONE c3 nav docs->room->doc","res":"ERR page.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a:has-text(\"Files & Doc","hb":{"max":1132,"long":[285,118,132,71,67],"n":24,"heap":77},"vis":"visible","el":257}
+{"t":"2026-10-23T05:28:54.339Z","step":"PENDING c3 select multiple + share","el":257}
+{"t":"2026-10-23T05:29:24.348Z","step":"DONE c3 select multiple + share","res":"ERR page.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('text=Select multiple')\u001b","hb":{"max":1132,"long":[285,118,132,71,67],"n":24,"heap":77},"vis":"visible","el":287}
+{"t":"2026-10-23T05:29:24.348Z","step":"PENDING c3 recipient search+select","el":287}
+{"t":"2026-10-23T05:29:30.457Z","step":"DONE c3 recipient search+select","res":"ok","hb":{"max":1132,"long":[285,118,132,71,67],"n":24,"heap":77},"vis":"visible","el":293}
+{"t":"2026-10-23T05:29:30.457Z","step":"PENDING c3 type message Dear Andreas, Enter","el":293}
+{"t":"2026-10-23T05:29:32.031Z","step":"DONE c3 type message Dear Andreas, Enter","res":"ok","hb":{"max":1132,"long":[285,118,132,71,67],"n":24,"heap":77},"vis":"visible","el":295}
+{"t":"2026-10-23T05:29:32.031Z","step":"PENDING c3 background 20s with modal open","el":295}
+{"t":"2026-10-23T05:29:54.085Z","step":"DONE c3 background 20s with modal open","res":"ok","hb":{"max":1132,"long":[132,71,67,109,91],"n":26,"heap":77},"vis":"visible","el":317}
+{"t":"2026-10-23T05:29:54.085Z","step":"PENDING c3 save as draft","el":317}
+{"t":"2026-10-23T05:30:24.090Z","step":"DONE c3 save as draft","res":"ERR locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button:has-text(\"Sav","hb":{"max":1132,"long":[132,71,67,109,91],"n":26,"heap":77},"vis":"visible","el":347}
+{"t":"2026-10-23T05:30:24.090Z","step":"PENDING c3 dist -> drafts -> reopen","el":347}
+{"t":"2026-10-23T05:30:57.117Z","step":"DONE c3 dist -> drafts -> reopen","res":"ERR locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a:has-text(\"Draft (\"","hb":{"max":1132,"long":[132,71,67,109,91],"n":26,"heap":77},"vis":"visible","el":380}
+{"t":"2026-10-23T05:30:57.117Z","step":"PENDING c4 nav docs->room->doc","el":380}
+{"t":"2026-10-23T05:31:27.131Z","step":"DONE c4 nav docs->room->doc","res":"ERR page.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a:has-text(\"Files & Doc","hb":{"max":1132,"long":[132,71,67,109,91],"n":26,"heap":77},"vis":"visible","el":410}
+{"t":"2026-10-23T05:31:27.131Z","step":"PENDING c4 select multiple + share","el":410}
+{"t":"2026-10-23T05:31:57.139Z","step":"DONE c4 select multiple + share","res":"ERR page.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('text=Select multiple')\u001b","hb":{"max":1132,"long":[132,71,67,109,91],"n":26,"heap":77},"vis":"visible","el":440}
+{"t":"2026-10-23T05:31:57.139Z","step":"PENDING c4 recipient search+select","el":440}
+{"t":"2026-10-23T05:32:03.243Z","step":"DONE c4 recipient search+select","res":"ok","hb":{"max":1132,"long":[132,71,67,109,91],"n":26,"heap":77},"vis":"visible","el":446}
+{"t":"2026-10-23T05:32:03.243Z","step":"PENDING c4 type message Dear Andreas, Enter","el":446}
+{"t":"2026-10-23T05:32:04.785Z","step":"DONE c4 type message Dear Andreas, Enter","res":"ok","hb":{"max":1132,"long":[132,71,67,109,91],"n":26,"heap":77},"vis":"visible","el":448}
+{"t":"2026-10-23T05:32:04.785Z","step":"PENDING c4 background 20s with modal open","el":448}
+{"t":"2026-10-23T05:32:26.841Z","step":"DONE c4 background 20s with modal open","res":"ok","hb":{"max":1132,"long":[132,71,67,109,91],"n":26,"heap":77},"vis":"visible","el":470}
+{"t":"2026-10-23T05:32:26.841Z","step":"PENDING c4 save as draft","el":470}
+{"t":"2026-10-23T05:32:56.848Z","step":"DONE c4 save as draft","res":"ERR locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button:has-text(\"Sav","hb":{"max":1132,"long":[132,71,67,109,91],"n":26,"heap":77},"vis":"visible","el":500}
+{"t":"2026-10-23T05:32:56.848Z","step":"PENDING c4 dist -> drafts -> reopen","el":500}
+{"t":"2026-10-23T05:33:29.863Z","step":"DONE c4 dist -> drafts -> reopen","res":"ERR locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a:has-text(\"Draft (\"","hb":{"max":1132,"long":[132,71,67,109,91],"n":26,"heap":77},"vis":"visible","el":533}
+{"t":"2026-10-23T05:33:29.864Z","step":"PENDING c5 nav docs->room->doc","el":533}
+{"t":"2026-10-23T05:33:59.877Z","step":"DONE c5 nav docs->room->doc","res":"ERR page.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a:has-text(\"Files & Doc","hb":{"max":1132,"long":[132,71,67,109,91],"n":26,"heap":77},"vis":"visible","el":563}
+{"t":"2026-10-23T05:33:59.877Z","step":"PENDING c5 select multiple + share","el":563}
+{"t":"2026-10-23T05:34:29.883Z","step":"DONE c5 select multiple + share","res":"ERR page.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('text=Select multiple')\u001b","hb":{"max":1132,"long":[132,71,67,109,91],"n":26,"heap":77},"vis":"visible","el":593}
+{"t":"2026-10-23T05:34:29.884Z","step":"PENDING c5 recipient search+select","el":593}
+{"t":"2026-10-23T05:34:35.955Z","step":"DONE c5 recipient search+select","res":"ok","hb":{"max":1132,"long":[132,71,67,109,91],"n":26,"heap":77},"vis":"visible","el":599}
+{"t":"2026-10-23T05:34:35.955Z","step":"PENDING c5 type message Dear Andreas, Enter","el":599}
+{"t":"2026-10-23T05:34:37.457Z","step":"DONE c5 type message Dear Andreas, Enter","res":"ok","hb":{"max":1132,"long":[132,71,67,109,91],"n":26,"heap":77},"vis":"visible","el":600}
+{"t":"2026-10-23T05:34:37.457Z","step":"PENDING c5 background 20s with modal open","el":600}
+{"t":"2026-10-23T05:34:59.505Z","step":"DONE c5 background 20s with modal open","res":"ok","hb":{"max":1132,"long":[67,109,91,87,78],"n":28,"heap":77},"vis":"visible","el":622}
+{"t":"2026-10-23T05:34:59.506Z","step":"PENDING c5 save as draft","el":622}
+{"t":"2026-10-23T05:35:29.512Z","step":"DONE c5 save as draft","res":"ERR locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button:has-text(\"Sav","hb":{"max":1132,"long":[67,109,91,87,78],"n":28,"heap":77},"vis":"visible","el":652}
+{"t":"2026-10-23T05:35:29.513Z","step":"PENDING c5 dist -> drafts -> reopen","el":652}
+{"t":"2026-10-23T05:36:02.527Z","step":"DONE c5 dist -> drafts -> reopen","res":"ERR locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a:has-text(\"Draft (\"","hb":{"max":1132,"long":[67,109,91,87,78],"n":28,"heap":77},"vis":"visible","el":685}
+{"t":"2026-10-23T05:36:02.527Z","step":"E-001 finished loop","el":685}

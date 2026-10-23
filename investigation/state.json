@@ -1,1 +1,16 @@
-{"status":"IN_PROGRESS","lastRun":"run-20261023-01","previousRun":null,"baselineSeeded":"2026-10-23 from prompt","runs":["run-20261023-01"],"reproduced":false,"sourceCommit":"e1be854ae627c3507bf09f36ce354f26b25a483b"}
+{
+ "status": "NOT_REPRODUCED_SO_FAR",
+ "lastRun": "run-20261023-01",
+ "previousRun": null,
+ "baselineSeeded": "2026-10-23 from prompt",
+ "runs": [
+  "run-20261023-01"
+ ],
+ "reproduced": false,
+ "sourceCommit": "e1be854ae627c3507bf09f36ce354f26b25a483b",
+ "nextTests": [
+  "new external contact -> Files -> Share",
+  "60min aged tab",
+  "headed xvfb real hidden visibility"
+ ]
+}
