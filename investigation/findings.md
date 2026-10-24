@@ -42,3 +42,6 @@ Build k5WNR0 (38mlI3'ten degisti). R16 (CF1-benzeri akis + bilinmeyen rota + tas
 
 ## 2026-10-21 (run-20261021T0500Z)
 Build A5T7Kpp (k5WNR0'dan degisti). R18 (CF1-benzeri akis + bilinmeyen rota + taslak + 3x Enter) ve R19 (15x bilinmeyen rota + Enter) NOT REPRODUCED. 63 probe <=22 ms, heap <=115 MB, 0 crash. Bilinmeyen rota hala dashboard'a yonleniyor (+13 script, scenes.html 404). Kok neden bilinmiyor.
+
+## 2026-10-24 (run-20261024T0500Z)
+Build tnZBHIn (A5T7Kpp'den degisti) ve arayuz degisti (ayri Recipients adimi, Save as draft ⋮ menusunde). R20 (CF1-benzeri akis + bilinmeyen rota + taslak + 3x Enter), R21 (15x bilinmeyen rota + Enter) ve R22 (iki adimli Back/Next alici degistirme, 7 tam dongu) NOT REPRODUCED. Probe <=18 ms, heap <=113 MB, 0 crash. Kok neden bilinmiyor; pre-fix REPRODUCED kaydi gecerli. Uzlastirma: m48ee3 ve apuhst dallari ana zincirden kopuk basladi (pre-fix REPRODUCED gecmisini bilmiyorlardi); kayitlari ledger'a aktarildi. Native tarayici/OS, >2 sa oturum, gercek hidden NOT TESTED.
