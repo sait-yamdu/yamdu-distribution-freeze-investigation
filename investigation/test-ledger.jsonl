@@ -1,0 +1,7 @@
+{"id": "HIST-1", "origin": "historical-2026-10-03", "env": "scotty, Windows, Chromium 152", "desc": "Nine clean-session Enter variants (new distro, external email, repeated Enter, signatures, templates, existing draft)", "outcome": "NOT REPRODUCED (historical, imported)"}
+{"id": "HIST-2", "origin": "historical-2026-10-03", "env": "scotty, Windows, Chromium 152", "desc": "16 Distribution modal open/close cycles with listener/heap observation", "outcome": "NOT REPRODUCED (historical, imported)"}
+{"id": "HIST-3", "origin": "historical-2026-10-03", "env": "scotty, Windows, Chromium 152", "desc": "25 Script scene switches", "outcome": "NOT REPRODUCED (historical, imported)"}
+{"id": "HIST-4", "origin": "historical-2026-10-03", "env": "scotty, Windows, Chromium 152", "desc": "Monkey-patched Froala leak simulation 60 switches/128 editors/4747 listeners then Distribution+Enter", "outcome": "NOT REPRODUCED (historical, imported)"}
+{"id": "HIST-5", "origin": "historical-2026-10-03", "env": "scotty, Windows, Chromium 152", "desc": "Synthetic native paragraph / composition / Firefox-style Enter / autocorrect", "outcome": "NOT REPRODUCED (historical, imported)"}
+{"id": "HIST-6", "origin": "historical-2026-10-03", "env": "scotty, Windows, Chromium 152", "desc": "300-paragraph Enter stress + trusted keyboard", "outcome": "NOT REPRODUCED (historical, imported)"}
+{"id": "HIST-7", "origin": "historical-2026-10-03", "env": "scotty, Windows, Chromium 152", "desc": "Bundle/editor/React inspection + Sentry/HAR analysis", "outcome": "NOT REPRODUCED (historical, imported)"}
