@@ -1,0 +1,6 @@
+{"t":"2026-10-25T05:41:37.527Z","el":1,"k":"env","browser":"153.0.8010.12","headless":false,"os":"Linux x86_64 (cloud VM)","mode":"headed chromium under Xvfb","lastFullReload":"start of run"}
+{"t":"2026-10-25T05:41:37.926Z","el":1,"k":"pending","name":"goto_distribution"}
+{"t":"2026-10-25T05:41:49.003Z","el":13,"k":"alive","label":"after_goto","ms":7,"v":"visible","f":true,"lt":3,"ed":0,"rec":0,"heap":50387900,"nodes":1221}
+{"t":"2026-10-25T05:41:49.003Z","el":13,"k":"done","name":"goto_distribution"}
+{"t":"2026-10-25T05:41:49.003Z","el":13,"k":"cycle","i":1}
+{"t":"2026-10-25T05:41:49.003Z","el":13,"k":"pending","name":"c1_open_modal"}
