@@ -1,12 +1,21 @@
 {
- "status": "IN_PROGRESS",
+ "status": "INCOMPLETE_COVERAGE",
  "state": "NOT_REPRODUCED_SO_FAR",
  "runs": [
   {
    "run_id": "run-20261026T0509Z",
    "previous": null,
-   "source_commit": "e1be854"
+   "source_commit": "e1be854",
+   "started": "2026-10-26T05:09Z",
+   "ended": "2026-10-26T05:50Z",
+   "experiments": [
+    "E-001",
+    "E-002",
+    "E-003"
+   ]
   }
  ],
- "baseline_seeded": true
+ "baseline_seeded": true,
+ "last_run": "run-20261026T0509Z",
+ "next_experiment": "E-004: Files & Documents çoklu dosya → Share → harici kişi/alıcı arama; ardından 60+ dk aynı sekme oturumu"
 }

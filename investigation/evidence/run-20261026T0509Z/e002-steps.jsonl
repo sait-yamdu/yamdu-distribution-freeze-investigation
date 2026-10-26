@@ -1,0 +1,118 @@
+{"t":"2026-10-26T05:27:16.777Z","el_s":0,"ph":"start","note":"E-001 login"}
+{"t":"2026-10-26T05:27:31.295Z","el_s":15,"ph":"done","step":"login+project","lastFullReload":"2026-10-26T05:27:31.287Z","ua":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36","build":null}
+{"t":"2026-10-26T05:27:31.296Z","el_s":15,"ph":"pending","step":"files-page"}
+{"t":"2026-10-26T05:27:40.382Z","el_s":24,"ph":"done","step":"files-page","r":{"checkboxes":0,"text":["Files & Documents","Files"]}}
+{"t":"2026-10-26T05:27:40.384Z","el_s":24,"ph":"probe","tag":"after-files","ms":2,"lt":[],"maxlt":0,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":1122}
+{"t":"2026-10-26T05:27:40.384Z","el_s":24,"ph":"pending","step":"c1-goto-distribution"}
+{"t":"2026-10-26T05:27:44.388Z","el_s":28,"ph":"done","step":"c1-goto-distribution"}
+{"t":"2026-10-26T05:27:44.388Z","el_s":28,"ph":"pending","step":"c1-open-modal"}
+{"t":"2026-10-26T05:27:55.462Z","el_s":39,"ph":"done","step":"c1-open-modal","r":1}
+{"t":"2026-10-26T05:27:55.462Z","el_s":39,"ph":"pending","step":"c1-select-recipients"}
+{"t":"2026-10-26T05:27:59.241Z","el_s":42,"ph":"done","step":"c1-select-recipients","r":{"total":14,"checked":14,"label":"Recipients (5)"}}
+{"t":"2026-10-26T05:27:59.243Z","el_s":42,"ph":"probe","tag":"c1-after-select","ms":1,"lt":[122,53,57],"maxlt":122,"edRecreate":0,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2220}
+{"t":"2026-10-26T05:27:59.244Z","el_s":42,"ph":"pending","step":"c1-type"}
+{"t":"2026-10-26T05:28:01.077Z","el_s":44,"ph":"done","step":"c1-type","r":2}
+{"t":"2026-10-26T05:28:01.078Z","el_s":44,"ph":"probe","tag":"c1-after-enter","ms":1,"lt":[122,53,57],"maxlt":122,"edRecreate":0,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2222}
+{"t":"2026-10-26T05:28:01.078Z","el_s":44,"ph":"pending","step":"c1-bgfg"}
+{"t":"2026-10-26T05:28:13.111Z","el_s":56,"ph":"probe","tag":"hidden-c1","ms":3,"lt":[122,53,57],"maxlt":122,"edRecreate":0,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2222}
+{"t":"2026-10-26T05:28:14.618Z","el_s":58,"ph":"probe","tag":"visible-c1","ms":2,"lt":[122,53,57],"maxlt":122,"edRecreate":0,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2222}
+{"t":"2026-10-26T05:28:14.618Z","el_s":58,"ph":"done","step":"c1-bgfg","r":{"lt":[122,53,57],"maxlt":122,"edRecreate":0,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2222}}
+{"t":"2026-10-26T05:28:14.619Z","el_s":58,"ph":"pending","step":"c1-recipients-tab"}
+{"t":"2026-10-26T05:28:17.017Z","el_s":60,"ph":"done","step":"c1-recipients-tab"}
+{"t":"2026-10-26T05:28:17.017Z","el_s":60,"ph":"pending","step":"c1-type-after-bg"}
+{"t":"2026-10-26T05:28:17.959Z","el_s":61,"ph":"done","step":"c1-type-after-bg"}
+{"t":"2026-10-26T05:28:17.961Z","el_s":61,"ph":"probe","tag":"c1-after-bg-enter","ms":1,"lt":[122,53,57],"maxlt":122,"edRecreate":0,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2223}
+{"t":"2026-10-26T05:28:17.961Z","el_s":61,"ph":"pending","step":"c1-save-draft"}
+{"t":"2026-10-26T05:28:21.512Z","el_s":65,"ph":"done","step":"c1-save-draft"}
+{"t":"2026-10-26T05:28:21.514Z","el_s":65,"ph":"probe","tag":"c1-after-draft","ms":2,"lt":[122,53,57],"maxlt":122,"edRecreate":1,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":1178}
+{"t":"2026-10-26T05:28:21.514Z","el_s":65,"ph":"pending","step":"c1-reopen-draft"}
+{"t":"2026-10-26T05:28:31.198Z","el_s":74,"ph":"done","step":"c1-reopen-draft","r":2}
+{"t":"2026-10-26T05:28:31.198Z","el_s":74,"ph":"pending","step":"c1-type-in-draft"}
+{"t":"2026-10-26T05:28:31.808Z","el_s":75,"ph":"done","step":"c1-type-in-draft"}
+{"t":"2026-10-26T05:28:31.808Z","el_s":75,"ph":"pending","step":"c1-bgfg2"}
+{"t":"2026-10-26T05:28:39.841Z","el_s":83,"ph":"probe","tag":"hidden-c1b","ms":3,"lt":[53,57,161,79,71],"maxlt":161,"edRecreate":2,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":3349}
+{"t":"2026-10-26T05:28:41.346Z","el_s":85,"ph":"probe","tag":"visible-c1b","ms":3,"lt":[53,57,161,79,71],"maxlt":161,"edRecreate":2,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":3349}
+{"t":"2026-10-26T05:28:41.346Z","el_s":85,"ph":"done","step":"c1-bgfg2","r":{"lt":[53,57,161,79,71],"maxlt":161,"edRecreate":2,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":3349}}
+{"t":"2026-10-26T05:28:41.348Z","el_s":85,"ph":"probe","tag":"c1-end","ms":2,"lt":[53,57,161,79,71],"maxlt":161,"edRecreate":2,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":3349}
+{"t":"2026-10-26T05:28:41.348Z","el_s":85,"ph":"pending","step":"c1-close"}
+{"t":"2026-10-26T05:28:45.725Z","el_s":89,"ph":"done","step":"c1-close"}
+{"t":"2026-10-26T05:28:45.725Z","el_s":89,"ph":"pending","step":"c1-navigate-crew"}
+{"t":"2026-10-26T05:28:50.730Z","el_s":94,"ph":"done","step":"c1-navigate-crew"}
+{"t":"2026-10-26T05:28:50.730Z","el_s":94,"ph":"pending","step":"c2-goto-distribution"}
+{"t":"2026-10-26T05:28:54.736Z","el_s":98,"ph":"done","step":"c2-goto-distribution"}
+{"t":"2026-10-26T05:28:54.736Z","el_s":98,"ph":"pending","step":"c2-open-modal"}
+{"t":"2026-10-26T05:29:34.738Z","el_s":138,"ph":"error","step":"c2-open-modal","err":"TIMEOUT c2-open-modal"}
+{"t":"2026-10-26T05:29:34.787Z","el_s":138,"ph":"pending","step":"c2-select-recipients"}
+{"t":"2026-10-26T05:30:14.788Z","el_s":178,"ph":"error","step":"c2-select-recipients","err":"TIMEOUT c2-select-recipients"}
+{"t":"2026-10-26T05:30:14.837Z","el_s":178,"ph":"probe","tag":"c2-after-select","ms":2,"lt":[57,161,79,71,107],"maxlt":161,"edRecreate":2,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2213}
+{"t":"2026-10-26T05:30:14.837Z","el_s":178,"ph":"pending","step":"c2-type"}
+{"t":"2026-10-26T05:30:44.866Z","el_s":208,"ph":"error","step":"c2-type","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.ProseMirror').first()\u001b[22m\n\u001b[2m    - locator resolved to <div tabindex=\"0\" translate=\"no\" data-gramm=\"false\" contentedi"}
+{"t":"2026-10-26T05:30:44.922Z","el_s":208,"ph":"probe","tag":"c2-after-enter","ms":2,"lt":[57,161,79,71,107],"maxlt":161,"edRecreate":2,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2213}
+{"t":"2026-10-26T05:30:44.922Z","el_s":208,"ph":"pending","step":"c2-bgfg"}
+{"t":"2026-10-26T05:30:56.954Z","el_s":220,"ph":"probe","tag":"hidden-c2","ms":2,"lt":[57,161,79,71,107],"maxlt":161,"edRecreate":2,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2213}
+{"t":"2026-10-26T05:30:58.461Z","el_s":222,"ph":"probe","tag":"visible-c2","ms":3,"lt":[57,161,79,71,107],"maxlt":161,"edRecreate":2,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2213}
+{"t":"2026-10-26T05:30:58.461Z","el_s":222,"ph":"done","step":"c2-bgfg","r":{"lt":[57,161,79,71,107],"maxlt":161,"edRecreate":2,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2213}}
+{"t":"2026-10-26T05:30:58.461Z","el_s":222,"ph":"pending","step":"c2-recipients-tab"}
+{"t":"2026-10-26T05:31:28.466Z","el_s":252,"ph":"error","step":"c2-recipients-tab","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/Recipients \\(/).first()\u001b[22m\n\u001b[2m    - locator resolved to <span class=\"mantine-480qv8 mantine-Tabs-tabLabel\">Recipien"}
+{"t":"2026-10-26T05:31:28.518Z","el_s":252,"ph":"pending","step":"c2-type-after-bg"}
+{"t":"2026-10-26T05:31:58.523Z","el_s":282,"ph":"error","step":"c2-type-after-bg","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.ProseMirror').first()\u001b[22m\n\u001b[2m    - locator resolved to <div tabindex=\"0\" translate=\"no\" data-gramm=\"false\" contentedi"}
+{"t":"2026-10-26T05:31:58.583Z","el_s":282,"ph":"probe","tag":"c2-after-bg-enter","ms":1,"lt":[57,161,79,71,107],"maxlt":161,"edRecreate":2,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2213}
+{"t":"2026-10-26T05:31:58.583Z","el_s":282,"ph":"pending","step":"c2-save-draft"}
+{"t":"2026-10-26T05:32:02.124Z","el_s":285,"ph":"done","step":"c2-save-draft"}
+{"t":"2026-10-26T05:32:02.127Z","el_s":285,"ph":"probe","tag":"c2-after-draft","ms":3,"lt":[161,79,71,107,157],"maxlt":161,"edRecreate":3,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2447}
+{"t":"2026-10-26T05:32:02.127Z","el_s":285,"ph":"pending","step":"c2-reopen-draft"}
+{"t":"2026-10-26T05:32:10.064Z","el_s":293,"ph":"done","step":"c2-reopen-draft","r":2}
+{"t":"2026-10-26T05:32:10.064Z","el_s":293,"ph":"pending","step":"c2-type-in-draft"}
+{"t":"2026-10-26T05:32:10.673Z","el_s":294,"ph":"done","step":"c2-type-in-draft"}
+{"t":"2026-10-26T05:32:10.673Z","el_s":294,"ph":"pending","step":"c2-bgfg2"}
+{"t":"2026-10-26T05:32:18.710Z","el_s":302,"ph":"probe","tag":"hidden-c2b","ms":3,"lt":[71,107,157,83,79],"maxlt":161,"edRecreate":4,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":3350}
+{"t":"2026-10-26T05:32:20.217Z","el_s":303,"ph":"probe","tag":"visible-c2b","ms":2,"lt":[71,107,157,83,79],"maxlt":161,"edRecreate":4,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":3350}
+{"t":"2026-10-26T05:32:20.218Z","el_s":303,"ph":"done","step":"c2-bgfg2","r":{"lt":[71,107,157,83,79],"maxlt":161,"edRecreate":4,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":3350}}
+{"t":"2026-10-26T05:32:20.219Z","el_s":303,"ph":"probe","tag":"c2-end","ms":1,"lt":[71,107,157,83,79],"maxlt":161,"edRecreate":4,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":3350}
+{"t":"2026-10-26T05:32:20.219Z","el_s":303,"ph":"pending","step":"c2-close"}
+{"t":"2026-10-26T05:32:24.570Z","el_s":308,"ph":"done","step":"c2-close"}
+{"t":"2026-10-26T05:32:24.571Z","el_s":308,"ph":"pending","step":"c2-navigate-crew"}
+{"t":"2026-10-26T05:32:29.578Z","el_s":313,"ph":"done","step":"c2-navigate-crew"}
+{"t":"2026-10-26T05:32:29.578Z","el_s":313,"ph":"pending","step":"c3-goto-distribution"}
+{"t":"2026-10-26T05:32:33.583Z","el_s":317,"ph":"done","step":"c3-goto-distribution"}
+{"t":"2026-10-26T05:32:33.583Z","el_s":317,"ph":"pending","step":"c3-open-modal"}
+{"t":"2026-10-26T05:33:13.585Z","el_s":357,"ph":"error","step":"c3-open-modal","err":"TIMEOUT c3-open-modal"}
+{"t":"2026-10-26T05:33:13.646Z","el_s":357,"ph":"pending","step":"c3-select-recipients"}
+{"t":"2026-10-26T05:33:53.647Z","el_s":397,"ph":"error","step":"c3-select-recipients","err":"TIMEOUT c3-select-recipients"}
+{"t":"2026-10-26T05:33:53.707Z","el_s":397,"ph":"probe","tag":"c3-after-select","ms":3,"lt":[157,83,79,57,93],"maxlt":161,"edRecreate":4,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2214}
+{"t":"2026-10-26T05:33:53.707Z","el_s":397,"ph":"pending","step":"c3-type"}
+{"t":"2026-10-26T05:34:23.732Z","el_s":427,"ph":"error","step":"c3-type","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.ProseMirror').first()\u001b[22m\n\u001b[2m    - locator resolved to <div tabindex=\"0\" translate=\"no\" data-gramm=\"false\" contentedi"}
+{"t":"2026-10-26T05:34:23.796Z","el_s":427,"ph":"probe","tag":"c3-after-enter","ms":3,"lt":[157,83,79,57,93],"maxlt":161,"edRecreate":4,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2214}
+{"t":"2026-10-26T05:34:23.796Z","el_s":427,"ph":"pending","step":"c3-bgfg"}
+{"t":"2026-10-26T05:35:03.815Z","el_s":467,"ph":"error","step":"c3-bgfg","err":"TIMEOUT c3-bgfg"}
+{"t":"2026-10-26T05:35:03.874Z","el_s":467,"ph":"pending","step":"c3-recipients-tab"}
+{"t":"2026-10-26T05:35:33.879Z","el_s":497,"ph":"error","step":"c3-recipients-tab","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/Recipients \\(/).first()\u001b[22m\n\u001b[2m    - locator resolved to <span class=\"mantine-480qv8 mantine-Tabs-tabLabel\">Recipien"}
+{"t":"2026-10-26T05:35:33.939Z","el_s":497,"ph":"pending","step":"c3-type-after-bg"}
+{"t":"2026-10-26T05:35:53.828Z","el_s":517,"ph":"probe","tag":"hidden-c3","ms":3,"lt":[157,83,79,57,93],"maxlt":161,"edRecreate":4,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2214}
+{"t":"2026-10-26T05:35:55.344Z","el_s":519,"ph":"probe","tag":"visible-c3","ms":13,"lt":[157,83,79,57,93],"maxlt":161,"edRecreate":4,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2214}
+{"t":"2026-10-26T05:36:03.944Z","el_s":527,"ph":"error","step":"c3-type-after-bg","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.ProseMirror').first()\u001b[22m\n\u001b[2m    - locator resolved to <div tabindex=\"0\" translate=\"no\" data-gramm=\"false\" contentedi"}
+{"t":"2026-10-26T05:36:04.008Z","el_s":527,"ph":"probe","tag":"c3-after-bg-enter","ms":1,"lt":[157,83,79,57,93],"maxlt":161,"edRecreate":4,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":2214}
+{"t":"2026-10-26T05:36:04.008Z","el_s":527,"ph":"pending","step":"c3-save-draft"}
+{"t":"2026-10-26T05:36:07.548Z","el_s":531,"ph":"done","step":"c3-save-draft"}
+{"t":"2026-10-26T05:36:07.551Z","el_s":531,"ph":"probe","tag":"c3-after-draft","ms":3,"lt":[83,79,57,93,129],"maxlt":161,"edRecreate":5,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2447}
+{"t":"2026-10-26T05:36:07.551Z","el_s":531,"ph":"pending","step":"c3-reopen-draft"}
+{"t":"2026-10-26T05:36:15.571Z","el_s":539,"ph":"done","step":"c3-reopen-draft","r":2}
+{"t":"2026-10-26T05:36:15.571Z","el_s":539,"ph":"pending","step":"c3-type-in-draft"}
+{"t":"2026-10-26T05:36:16.166Z","el_s":539,"ph":"done","step":"c3-type-in-draft"}
+{"t":"2026-10-26T05:36:16.166Z","el_s":539,"ph":"pending","step":"c3-bgfg2"}
+{"t":"2026-10-26T05:36:24.202Z","el_s":547,"ph":"probe","tag":"hidden-c3b","ms":3,"lt":[57,93,129,83,77],"maxlt":161,"edRecreate":6,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":3351}
+{"t":"2026-10-26T05:36:25.709Z","el_s":549,"ph":"probe","tag":"visible-c3b","ms":3,"lt":[57,93,129,83,77],"maxlt":161,"edRecreate":6,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":3351}
+{"t":"2026-10-26T05:36:25.709Z","el_s":549,"ph":"done","step":"c3-bgfg2","r":{"lt":[57,93,129,83,77],"maxlt":161,"edRecreate":6,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":3351}}
+{"t":"2026-10-26T05:36:25.711Z","el_s":549,"ph":"probe","tag":"c3-end","ms":2,"lt":[57,93,129,83,77],"maxlt":161,"edRecreate":6,"vis":"visible","visEv":0,"editors":2,"heap":57,"nodes":3351}
+{"t":"2026-10-26T05:36:25.711Z","el_s":549,"ph":"pending","step":"c3-close"}
+{"t":"2026-10-26T05:36:30.060Z","el_s":553,"ph":"done","step":"c3-close"}
+{"t":"2026-10-26T05:36:30.060Z","el_s":553,"ph":"pending","step":"c3-navigate-crew"}
+{"t":"2026-10-26T05:36:35.065Z","el_s":558,"ph":"done","step":"c3-navigate-crew"}
+{"t":"2026-10-26T05:36:35.065Z","el_s":558,"ph":"pending","step":"c4-goto-distribution"}
+{"t":"2026-10-26T05:36:39.072Z","el_s":562,"ph":"done","step":"c4-goto-distribution"}
+{"t":"2026-10-26T05:36:39.072Z","el_s":562,"ph":"pending","step":"c4-open-modal"}
+{"t":"2026-10-26T05:37:19.074Z","el_s":602,"ph":"error","step":"c4-open-modal","err":"TIMEOUT c4-open-modal"}
+{"t":"2026-10-26T05:37:19.134Z","el_s":602,"ph":"pending","step":"c4-select-recipients"}
+{"t":"2026-10-26T05:37:47.781Z","el_s":631,"ph":"error","step":"c4-select-recipients","err":"locator.innerText: Target page, context or browser has been closed"}
+{"t":"2026-10-26T05:37:47.782Z","el_s":631,"ph":"PROBE_FAIL","tag":"c4-after-select","ms":0,"err":"page.evaluate: Target page, context or browser has been closed"}
+{"t":"2026-10-26T05:37:47.782Z","el_s":631,"ph":"FATAL","err":"page.evaluate: Target page, context or browser has been closed"}

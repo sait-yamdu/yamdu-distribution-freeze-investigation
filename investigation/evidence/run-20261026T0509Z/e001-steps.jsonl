@@ -1,0 +1,146 @@
+{"t":"2026-10-26T05:14:16.506Z","el_s":0,"ph":"start","note":"E-001 login"}
+{"t":"2026-10-26T05:14:30.833Z","el_s":14,"ph":"done","step":"login+project","lastFullReload":"2026-10-26T05:14:30.827Z","ua":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36","build":null}
+{"t":"2026-10-26T05:14:30.834Z","el_s":14,"ph":"pending","step":"files-page"}
+{"t":"2026-10-26T05:14:39.897Z","el_s":23,"ph":"done","step":"files-page","r":{"checkboxes":0,"text":["Files & Documents","Files"]}}
+{"t":"2026-10-26T05:14:39.899Z","el_s":23,"ph":"probe","tag":"after-files","ms":2,"lt":[],"maxlt":0,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":1122}
+{"t":"2026-10-26T05:14:39.899Z","el_s":23,"ph":"pending","step":"c1-goto-distribution"}
+{"t":"2026-10-26T05:14:43.905Z","el_s":27,"ph":"done","step":"c1-goto-distribution"}
+{"t":"2026-10-26T05:14:43.905Z","el_s":27,"ph":"pending","step":"c1-open-modal"}
+{"t":"2026-10-26T05:14:54.998Z","el_s":38,"ph":"done","step":"c1-open-modal","r":1}
+{"t":"2026-10-26T05:14:54.998Z","el_s":38,"ph":"pending","step":"c1-select-recipients"}
+{"t":"2026-10-26T05:14:55.001Z","el_s":38,"ph":"done","step":"c1-select-recipients","r":{"total":0,"checked":0}}
+{"t":"2026-10-26T05:14:55.003Z","el_s":38,"ph":"probe","tag":"c1-after-select","ms":2,"lt":[138],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:14:55.003Z","el_s":38,"ph":"pending","step":"c1-type"}
+{"t":"2026-10-26T05:14:55.050Z","el_s":39,"ph":"error","step":"c1-type","err":"locator.fill: Error: strict mode violation: getByPlaceholder('Subject') resolved to 2 elements:\n    1) <input value=\"\" type=\"text\" aria-invalid=\"false\" id=\"mantine-ezy224aep\" placeholder=\"Subject, mes"}
+{"t":"2026-10-26T05:14:55.111Z","el_s":39,"ph":"probe","tag":"c1-after-enter","ms":4,"lt":[138],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:14:55.111Z","el_s":39,"ph":"pending","step":"c1-bgfg"}
+{"t":"2026-10-26T05:15:07.145Z","el_s":51,"ph":"probe","tag":"hidden-c1","ms":3,"lt":[138],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:15:08.661Z","el_s":52,"ph":"probe","tag":"visible-c1","ms":3,"lt":[138],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:15:08.661Z","el_s":52,"ph":"done","step":"c1-bgfg","r":{"lt":[138],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}}
+{"t":"2026-10-26T05:15:08.661Z","el_s":52,"ph":"pending","step":"c1-recipients-tab"}
+{"t":"2026-10-26T05:15:11.082Z","el_s":55,"ph":"done","step":"c1-recipients-tab"}
+{"t":"2026-10-26T05:15:11.083Z","el_s":55,"ph":"pending","step":"c1-type-after-bg"}
+{"t":"2026-10-26T05:15:41.084Z","el_s":85,"ph":"error","step":"c1-type-after-bg","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.fr-element').first()\u001b[22m\n"}
+{"t":"2026-10-26T05:15:41.138Z","el_s":85,"ph":"probe","tag":"c1-after-bg-enter","ms":2,"lt":[138],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:15:41.138Z","el_s":85,"ph":"pending","step":"c1-save-draft"}
+{"t":"2026-10-26T05:15:44.691Z","el_s":88,"ph":"done","step":"c1-save-draft"}
+{"t":"2026-10-26T05:15:44.693Z","el_s":88,"ph":"probe","tag":"c1-after-draft","ms":2,"lt":[138],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:15:44.693Z","el_s":88,"ph":"pending","step":"c1-reopen-draft"}
+{"t":"2026-10-26T05:16:14.698Z","el_s":118,"ph":"error","step":"c1-reopen-draft","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/Draft \\(/).first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"0\" role=\"button\" id=\"tab_filedistributiondrafts\" da"}
+{"t":"2026-10-26T05:16:14.752Z","el_s":118,"ph":"pending","step":"c1-type-in-draft"}
+{"t":"2026-10-26T05:16:44.752Z","el_s":148,"ph":"error","step":"c1-type-in-draft","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.fr-element').first()\u001b[22m\n"}
+{"t":"2026-10-26T05:16:44.805Z","el_s":148,"ph":"pending","step":"c1-bgfg2"}
+{"t":"2026-10-26T05:16:52.841Z","el_s":156,"ph":"probe","tag":"hidden-c1b","ms":2,"lt":[138],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:16:54.348Z","el_s":158,"ph":"probe","tag":"visible-c1b","ms":2,"lt":[138],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:16:54.348Z","el_s":158,"ph":"done","step":"c1-bgfg2","r":{"lt":[138],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}}
+{"t":"2026-10-26T05:16:54.350Z","el_s":158,"ph":"probe","tag":"c1-end","ms":2,"lt":[138],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:16:54.350Z","el_s":158,"ph":"pending","step":"c1-close"}
+{"t":"2026-10-26T05:16:58.714Z","el_s":162,"ph":"done","step":"c1-close"}
+{"t":"2026-10-26T05:16:58.714Z","el_s":162,"ph":"pending","step":"c1-navigate-crew"}
+{"t":"2026-10-26T05:17:03.720Z","el_s":167,"ph":"done","step":"c1-navigate-crew"}
+{"t":"2026-10-26T05:17:03.720Z","el_s":167,"ph":"pending","step":"c2-goto-distribution"}
+{"t":"2026-10-26T05:17:07.725Z","el_s":171,"ph":"done","step":"c2-goto-distribution"}
+{"t":"2026-10-26T05:17:07.725Z","el_s":171,"ph":"pending","step":"c2-open-modal"}
+{"t":"2026-10-26T05:17:18.860Z","el_s":182,"ph":"done","step":"c2-open-modal","r":1}
+{"t":"2026-10-26T05:17:18.860Z","el_s":182,"ph":"pending","step":"c2-select-recipients"}
+{"t":"2026-10-26T05:17:18.864Z","el_s":182,"ph":"done","step":"c2-select-recipients","r":{"total":0,"checked":0}}
+{"t":"2026-10-26T05:17:18.865Z","el_s":182,"ph":"probe","tag":"c2-after-select","ms":1,"lt":[138,131,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:17:18.865Z","el_s":182,"ph":"pending","step":"c2-type"}
+{"t":"2026-10-26T05:17:18.903Z","el_s":182,"ph":"error","step":"c2-type","err":"locator.fill: Error: strict mode violation: getByPlaceholder('Subject') resolved to 2 elements:\n    1) <input value=\"\" type=\"text\" aria-invalid=\"false\" id=\"mantine-960m6sf1h\" placeholder=\"Subject, mes"}
+{"t":"2026-10-26T05:17:18.951Z","el_s":182,"ph":"probe","tag":"c2-after-enter","ms":1,"lt":[138,131,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:17:18.951Z","el_s":182,"ph":"pending","step":"c2-bgfg"}
+{"t":"2026-10-26T05:17:30.983Z","el_s":194,"ph":"probe","tag":"hidden-c2","ms":2,"lt":[138,131,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:17:32.491Z","el_s":196,"ph":"probe","tag":"visible-c2","ms":3,"lt":[138,131,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:17:32.491Z","el_s":196,"ph":"done","step":"c2-bgfg","r":{"lt":[138,131,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}}
+{"t":"2026-10-26T05:17:32.491Z","el_s":196,"ph":"pending","step":"c2-recipients-tab"}
+{"t":"2026-10-26T05:17:34.886Z","el_s":198,"ph":"done","step":"c2-recipients-tab"}
+{"t":"2026-10-26T05:17:34.887Z","el_s":198,"ph":"pending","step":"c2-type-after-bg"}
+{"t":"2026-10-26T05:18:04.887Z","el_s":228,"ph":"error","step":"c2-type-after-bg","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.fr-element').first()\u001b[22m\n"}
+{"t":"2026-10-26T05:18:04.952Z","el_s":228,"ph":"probe","tag":"c2-after-bg-enter","ms":2,"lt":[138,131,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:18:04.952Z","el_s":228,"ph":"pending","step":"c2-save-draft"}
+{"t":"2026-10-26T05:18:08.499Z","el_s":232,"ph":"done","step":"c2-save-draft"}
+{"t":"2026-10-26T05:18:08.502Z","el_s":232,"ph":"probe","tag":"c2-after-draft","ms":3,"lt":[138,131,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:18:08.502Z","el_s":232,"ph":"pending","step":"c2-reopen-draft"}
+{"t":"2026-10-26T05:18:38.506Z","el_s":262,"ph":"error","step":"c2-reopen-draft","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/Draft \\(/).first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"0\" role=\"button\" id=\"tab_filedistributiondrafts\" da"}
+{"t":"2026-10-26T05:18:38.563Z","el_s":262,"ph":"pending","step":"c2-type-in-draft"}
+{"t":"2026-10-26T05:19:08.564Z","el_s":292,"ph":"error","step":"c2-type-in-draft","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.fr-element').first()\u001b[22m\n"}
+{"t":"2026-10-26T05:19:08.612Z","el_s":292,"ph":"pending","step":"c2-bgfg2"}
+{"t":"2026-10-26T05:19:16.649Z","el_s":300,"ph":"probe","tag":"hidden-c2b","ms":3,"lt":[138,131,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:19:18.157Z","el_s":302,"ph":"probe","tag":"visible-c2b","ms":3,"lt":[138,131,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:19:18.157Z","el_s":302,"ph":"done","step":"c2-bgfg2","r":{"lt":[138,131,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}}
+{"t":"2026-10-26T05:19:18.159Z","el_s":302,"ph":"probe","tag":"c2-end","ms":2,"lt":[138,131,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:19:18.159Z","el_s":302,"ph":"pending","step":"c2-close"}
+{"t":"2026-10-26T05:19:22.511Z","el_s":306,"ph":"done","step":"c2-close"}
+{"t":"2026-10-26T05:19:22.511Z","el_s":306,"ph":"pending","step":"c2-navigate-crew"}
+{"t":"2026-10-26T05:19:27.516Z","el_s":311,"ph":"done","step":"c2-navigate-crew"}
+{"t":"2026-10-26T05:19:27.516Z","el_s":311,"ph":"pending","step":"c3-goto-distribution"}
+{"t":"2026-10-26T05:19:31.522Z","el_s":315,"ph":"done","step":"c3-goto-distribution"}
+{"t":"2026-10-26T05:19:31.522Z","el_s":315,"ph":"pending","step":"c3-open-modal"}
+{"t":"2026-10-26T05:19:42.652Z","el_s":326,"ph":"done","step":"c3-open-modal","r":1}
+{"t":"2026-10-26T05:19:42.652Z","el_s":326,"ph":"pending","step":"c3-select-recipients"}
+{"t":"2026-10-26T05:19:42.654Z","el_s":326,"ph":"done","step":"c3-select-recipients","r":{"total":0,"checked":0}}
+{"t":"2026-10-26T05:19:42.656Z","el_s":326,"ph":"probe","tag":"c3-after-select","ms":2,"lt":[86,131,59,52,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:19:42.656Z","el_s":326,"ph":"pending","step":"c3-type"}
+{"t":"2026-10-26T05:19:42.686Z","el_s":326,"ph":"error","step":"c3-type","err":"locator.fill: Error: strict mode violation: getByPlaceholder('Subject') resolved to 2 elements:\n    1) <input value=\"\" type=\"text\" aria-invalid=\"false\" id=\"mantine-qqm1vairb\" placeholder=\"Subject, mes"}
+{"t":"2026-10-26T05:19:42.744Z","el_s":326,"ph":"probe","tag":"c3-after-enter","ms":1,"lt":[86,131,59,52,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:19:42.744Z","el_s":326,"ph":"pending","step":"c3-bgfg"}
+{"t":"2026-10-26T05:19:54.778Z","el_s":338,"ph":"probe","tag":"hidden-c3","ms":3,"lt":[86,131,59,52,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:19:56.284Z","el_s":340,"ph":"probe","tag":"visible-c3","ms":2,"lt":[86,131,59,52,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:19:56.285Z","el_s":340,"ph":"done","step":"c3-bgfg","r":{"lt":[86,131,59,52,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}}
+{"t":"2026-10-26T05:19:56.285Z","el_s":340,"ph":"pending","step":"c3-recipients-tab"}
+{"t":"2026-10-26T05:19:58.683Z","el_s":342,"ph":"done","step":"c3-recipients-tab"}
+{"t":"2026-10-26T05:19:58.683Z","el_s":342,"ph":"pending","step":"c3-type-after-bg"}
+{"t":"2026-10-26T05:20:28.683Z","el_s":372,"ph":"error","step":"c3-type-after-bg","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.fr-element').first()\u001b[22m\n"}
+{"t":"2026-10-26T05:20:28.745Z","el_s":372,"ph":"probe","tag":"c3-after-bg-enter","ms":2,"lt":[86,131,59,52,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:20:28.745Z","el_s":372,"ph":"pending","step":"c3-save-draft"}
+{"t":"2026-10-26T05:20:32.286Z","el_s":376,"ph":"done","step":"c3-save-draft"}
+{"t":"2026-10-26T05:20:32.289Z","el_s":376,"ph":"probe","tag":"c3-after-draft","ms":3,"lt":[86,131,59,52,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:20:32.289Z","el_s":376,"ph":"pending","step":"c3-reopen-draft"}
+{"t":"2026-10-26T05:21:02.293Z","el_s":406,"ph":"error","step":"c3-reopen-draft","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/Draft \\(/).first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"0\" role=\"button\" id=\"tab_filedistributiondrafts\" da"}
+{"t":"2026-10-26T05:21:02.359Z","el_s":406,"ph":"pending","step":"c3-type-in-draft"}
+{"t":"2026-10-26T05:21:32.359Z","el_s":436,"ph":"error","step":"c3-type-in-draft","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.fr-element').first()\u001b[22m\n"}
+{"t":"2026-10-26T05:21:32.433Z","el_s":436,"ph":"pending","step":"c3-bgfg2"}
+{"t":"2026-10-26T05:21:40.470Z","el_s":444,"ph":"probe","tag":"hidden-c3b","ms":3,"lt":[86,131,59,52,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:21:41.984Z","el_s":445,"ph":"probe","tag":"visible-c3b","ms":3,"lt":[86,131,59,52,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:21:41.984Z","el_s":445,"ph":"done","step":"c3-bgfg2","r":{"lt":[86,131,59,52,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}}
+{"t":"2026-10-26T05:21:41.985Z","el_s":445,"ph":"probe","tag":"c3-end","ms":1,"lt":[86,131,59,52,86],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:21:41.986Z","el_s":445,"ph":"pending","step":"c3-close"}
+{"t":"2026-10-26T05:21:46.338Z","el_s":450,"ph":"done","step":"c3-close"}
+{"t":"2026-10-26T05:21:46.338Z","el_s":450,"ph":"pending","step":"c3-navigate-crew"}
+{"t":"2026-10-26T05:21:51.343Z","el_s":455,"ph":"done","step":"c3-navigate-crew"}
+{"t":"2026-10-26T05:21:51.343Z","el_s":455,"ph":"pending","step":"c4-goto-distribution"}
+{"t":"2026-10-26T05:21:55.348Z","el_s":459,"ph":"done","step":"c4-goto-distribution"}
+{"t":"2026-10-26T05:21:55.348Z","el_s":459,"ph":"pending","step":"c4-open-modal"}
+{"t":"2026-10-26T05:22:06.499Z","el_s":470,"ph":"done","step":"c4-open-modal","r":1}
+{"t":"2026-10-26T05:22:06.499Z","el_s":470,"ph":"pending","step":"c4-select-recipients"}
+{"t":"2026-10-26T05:22:06.502Z","el_s":470,"ph":"done","step":"c4-select-recipients","r":{"total":0,"checked":0}}
+{"t":"2026-10-26T05:22:06.504Z","el_s":470,"ph":"probe","tag":"c4-after-select","ms":1,"lt":[59,52,86,118,105],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:22:06.504Z","el_s":470,"ph":"pending","step":"c4-type"}
+{"t":"2026-10-26T05:22:06.535Z","el_s":470,"ph":"error","step":"c4-type","err":"locator.fill: Error: strict mode violation: getByPlaceholder('Subject') resolved to 2 elements:\n    1) <input value=\"\" type=\"text\" aria-invalid=\"false\" id=\"mantine-tk5subwmm\" placeholder=\"Subject, mes"}
+{"t":"2026-10-26T05:22:06.588Z","el_s":470,"ph":"probe","tag":"c4-after-enter","ms":2,"lt":[59,52,86,118,105],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:22:06.588Z","el_s":470,"ph":"pending","step":"c4-bgfg"}
+{"t":"2026-10-26T05:22:18.623Z","el_s":482,"ph":"probe","tag":"hidden-c4","ms":3,"lt":[59,52,86,118,105],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:22:20.130Z","el_s":484,"ph":"probe","tag":"visible-c4","ms":2,"lt":[59,52,86,118,105],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:22:20.130Z","el_s":484,"ph":"done","step":"c4-bgfg","r":{"lt":[59,52,86,118,105],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}}
+{"t":"2026-10-26T05:22:20.130Z","el_s":484,"ph":"pending","step":"c4-recipients-tab"}
+{"t":"2026-10-26T05:22:22.541Z","el_s":486,"ph":"done","step":"c4-recipients-tab"}
+{"t":"2026-10-26T05:22:22.541Z","el_s":486,"ph":"pending","step":"c4-type-after-bg"}
+{"t":"2026-10-26T05:22:52.542Z","el_s":516,"ph":"error","step":"c4-type-after-bg","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.fr-element').first()\u001b[22m\n"}
+{"t":"2026-10-26T05:22:52.609Z","el_s":516,"ph":"probe","tag":"c4-after-bg-enter","ms":2,"lt":[59,52,86,118,105],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2038}
+{"t":"2026-10-26T05:22:52.609Z","el_s":516,"ph":"pending","step":"c4-save-draft"}
+{"t":"2026-10-26T05:22:56.153Z","el_s":520,"ph":"done","step":"c4-save-draft"}
+{"t":"2026-10-26T05:22:56.156Z","el_s":520,"ph":"probe","tag":"c4-after-draft","ms":3,"lt":[59,52,86,118,105],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:22:56.156Z","el_s":520,"ph":"pending","step":"c4-reopen-draft"}
+{"t":"2026-10-26T05:23:26.160Z","el_s":550,"ph":"error","step":"c4-reopen-draft","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/Draft \\(/).first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"0\" role=\"button\" id=\"tab_filedistributiondrafts\" da"}
+{"t":"2026-10-26T05:23:26.218Z","el_s":550,"ph":"pending","step":"c4-type-in-draft"}
+{"t":"2026-10-26T05:23:56.218Z","el_s":580,"ph":"error","step":"c4-type-in-draft","err":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.fr-element').first()\u001b[22m\n"}
+{"t":"2026-10-26T05:23:56.265Z","el_s":580,"ph":"pending","step":"c4-bgfg2"}
+{"t":"2026-10-26T05:24:04.298Z","el_s":588,"ph":"probe","tag":"hidden-c4b","ms":3,"lt":[59,52,86,118,105],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:24:05.805Z","el_s":589,"ph":"probe","tag":"visible-c4b","ms":3,"lt":[59,52,86,118,105],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:24:05.805Z","el_s":589,"ph":"done","step":"c4-bgfg2","r":{"lt":[59,52,86,118,105],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}}
+{"t":"2026-10-26T05:24:05.807Z","el_s":589,"ph":"probe","tag":"c4-end","ms":2,"lt":[59,52,86,118,105],"maxlt":138,"edRecreate":0,"vis":"visible","visEv":0,"editors":0,"heap":57,"nodes":2039}
+{"t":"2026-10-26T05:24:05.807Z","el_s":589,"ph":"pending","step":"c4-close"}
+{"t":"2026-10-26T05:24:10.147Z","el_s":594,"ph":"done","step":"c4-close"}
+{"t":"2026-10-26T05:24:10.147Z","el_s":594,"ph":"pending","step":"c4-navigate-crew"}
+{"t":"2026-10-26T05:24:15.152Z","el_s":599,"ph":"done","step":"c4-navigate-crew"}
+{"t":"2026-10-26T05:24:15.152Z","el_s":599,"ph":"finished"}
