@@ -237,3 +237,27 @@
 {"t":"2026-10-27T05:16:48.466Z","a":"c2:back to Files via sidebar","done":true}
 {"t":"2026-10-27T05:16:48.469Z","probe":"c2:back to Files via sidebar","ms":3,"n":2091,"h":101,"vis":"visible"}
 {"t":"2026-10-27T05:16:48.469Z","a":"c2:idle 120s (visible)","pending":true}
+{"t":"2026-10-27T05:18:49.160Z","a":"c2:idle 120s (visible)","done":true}
+{"t":"2026-10-27T05:18:49.165Z","probe":"c2:idle 120s (visible)","ms":5,"n":2091,"h":63,"vis":"visible"}
+{"t":"2026-10-27T05:18:49.165Z","a":"c3:close modal","pending":true}
+{"t":"2026-10-27T05:18:49.782Z","a":"c3:close modal","done":true}
+{"t":"2026-10-27T05:18:49.785Z","probe":"c3:close modal","ms":2,"n":2091,"h":65,"vis":"visible"}
+{"t":"2026-10-27T05:18:49.786Z","a":"c3:ensure doc page","pending":true}
+{"t":"2026-10-27T05:18:50.386Z","a":"c3:ensure doc page","done":true}
+{"t":"2026-10-27T05:18:50.390Z","probe":"c3:ensure doc page","ms":3,"n":2091,"h":65,"vis":"visible"}
+{"t":"2026-10-27T05:18:50.390Z","a":"c3:Select multiple","pending":true}
+{"t":"2026-10-27T05:18:52.103Z","a":"c3:Select multiple","done":true}
+{"t":"2026-10-27T05:18:52.107Z","probe":"c3:Select multiple","ms":3,"n":2091,"h":63,"vis":"visible"}
+{"t":"2026-10-27T05:18:52.107Z","a":"c3:deselect all","pending":true}
+{"t":"2026-10-27T05:18:52.737Z","a":"c3:deselect all","done":true}
+{"t":"2026-10-27T05:18:52.740Z","probe":"c3:deselect all","ms":3,"n":2091,"h":66,"vis":"visible"}
+{"t":"2026-10-27T05:18:52.740Z","a":"c3:select files","pending":true}
+{"t":"2026-10-27T05:18:54.160Z","a":"c3:select files","done":true}
+{"t":"2026-10-27T05:18:54.163Z","probe":"c3:select files","ms":3,"n":2093,"h":66,"vis":"visible"}
+{"t":"2026-10-27T05:18:54.163Z","a":"c3:Share files","pending":true}
+{"t":"2026-10-27T05:18:57.346Z","a":"c3:Share files","done":true}
+{"t":"2026-10-27T05:18:57.349Z","probe":"c3:Share files","ms":3,"n":2924,"h":75,"vis":"visible"}
+{"t":"2026-10-27T05:18:57.349Z","a":"c3:search+clear","pending":true}
+{"t":"2026-10-27T05:18:59.800Z","a":"c3:search+clear","done":true}
+{"t":"2026-10-27T05:18:59.803Z","probe":"c3:search+clear","ms":3,"n":2924,"h":70,"vis":"visible"}
+{"t":"2026-10-27T05:18:59.803Z","a":"c3:tick recipients","pending":true}
