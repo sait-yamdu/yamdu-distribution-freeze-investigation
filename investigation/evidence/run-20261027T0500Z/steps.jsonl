@@ -231,3 +231,9 @@
 {"t":"2026-10-27T05:16:36.081Z","a":"c2:close modal X","done":true}
 {"t":"2026-10-27T05:16:36.085Z","probe":"c2:close modal X","ms":3,"n":2095,"h":91,"vis":"visible"}
 {"t":"2026-10-27T05:16:36.085Z","a":"c2:visit Distribution","pending":true}
+{"t":"2026-10-27T05:16:39.772Z","a":"c2:visit Distribution","done":true}
+{"t":"2026-10-27T05:16:39.776Z","probe":"c2:visit Distribution","ms":3,"n":1343,"h":91,"vis":"visible"}
+{"t":"2026-10-27T05:16:39.776Z","a":"c2:back to Files via sidebar","pending":true}
+{"t":"2026-10-27T05:16:48.466Z","a":"c2:back to Files via sidebar","done":true}
+{"t":"2026-10-27T05:16:48.469Z","probe":"c2:back to Files via sidebar","ms":3,"n":2091,"h":101,"vis":"visible"}
+{"t":"2026-10-27T05:16:48.469Z","a":"c2:idle 120s (visible)","pending":true}
