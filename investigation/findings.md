@@ -45,3 +45,6 @@ Build A5T7Kpp (k5WNR0'dan degisti). R18 (CF1-benzeri akis + bilinmeyen rota + ta
 
 ## 2026-10-24 (run-20261024T0500Z)
 Build tnZBHIn (A5T7Kpp'den degisti) ve arayuz degisti (ayri Recipients adimi, Save as draft ⋮ menusunde). R20 (CF1-benzeri akis + bilinmeyen rota + taslak + 3x Enter), R21 (15x bilinmeyen rota + Enter) ve R22 (iki adimli Back/Next alici degistirme, 7 tam dongu) NOT REPRODUCED. Probe <=18 ms, heap <=113 MB, 0 crash. Kok neden bilinmiyor; pre-fix REPRODUCED kaydi gecerli. Uzlastirma: m48ee3 ve apuhst dallari ana zincirden kopuk basladi (pre-fix REPRODUCED gecmisini bilmiyorlardi); kayitlari ledger'a aktarildi. Native tarayici/OS, >2 sa oturum, gercek hidden NOT TESTED.
+
+## 2026-10-27 (run-20261027T0500Z)
+Yeni build tzOx7hs. F1: müşteri yolu Files & Documents > Select multiple > 'Share files' (iki panelli modal) ilk kez test edildi: 16 döngü, ~38 dk aynı sekme, 11-27 alıcı, yeni harici e-posta, Dear Andreas,/Meine Lieben, + Enter, alıcı değiştirme, Distribution ziyaretleri, 120 sn boşta: NOT REPRODUCED IN THIS EXPERIMENT (350 probe <=16 ms, heap <=113 MB). Gerçek hidden, >2 sa, native tarayıcı/OS NOT TESTED. Uzlaştırma: hh83ik ve d83zc1 dalları ledger'a aktarıldı.
