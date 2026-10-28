@@ -1,0 +1,57 @@
+{"t":"2026-10-28T05:09:47.745Z","a":"login-start"}
+{"t":"2026-10-28T05:10:12.079Z","a":"login-done","url":"https://scotty.yamdu.com/#/main/overview","title":"(3) Dashboard - Yamdu","bundle":["https://scotty.yamdu.com/bundles/js?v=BdtIBBx8ggm0zX24Zjo1m4iSYWP8jg_nXnTtydPO61Q1"]}
+{"t":"2026-10-28T05:10:21.680Z","a":"nav-project","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-28T05:10:27.762Z","a":"nav sidebar Files & Documents","pending":true}
+{"t":"2026-10-28T05:10:32.870Z","a":"nav sidebar Files & Documents","done":true,"url":"https://scotty.yamdu.com/#5551/documents"}
+{"t":"2026-10-28T05:10:32.882Z","probe":"docs","ms":11,"n":1506,"h":72,"vis":"visible","sc":162}
+{"t":"2026-10-28T05:10:38.235Z","a":"open QA room","pending":true}
+{"t":"2026-10-28T05:10:42.038Z","a":"open QA room","done":true,"url":"https://scotty.yamdu.com/#5551/documents"}
+{"t":"2026-10-28T05:10:42.043Z","probe":"room","ms":5,"n":1510,"h":49,"vis":"visible","sc":162}
+{"t":"2026-10-28T05:10:42.050Z","selmulti":0}
+{"t":"2026-10-28T05:10:49.071Z","a":"room clicked","url":"https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57452"}
+{"t":"2026-10-28T05:10:56.152Z","a":"doc opened","url":"https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57452/documentprofile!id=70813"}
+{"t":"2026-10-28T05:11:04.693Z","a":"shot 07-doc2","url":"https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57452/documentprofile!id=70813"}
+{"t":"2026-10-28T05:11:08.186Z","a":"click Select multiple","pending":true}
+{"t":"2026-10-28T05:11:10.311Z","a":"click Select multiple","done":true}
+{"t":"2026-10-28T05:11:14.001Z","a":"select 3 tiles by mouse","pending":true}
+{"t":"2026-10-28T05:11:16.250Z","a":"select 3 tiles by mouse","done":true}
+{"t":"2026-10-28T05:11:20.347Z","a":"click Share files","pending":true}
+{"t":"2026-10-28T05:11:24.533Z","a":"click Share files","done":true}
+{"t":"2026-10-28T05:11:24.538Z","probe":"share modal","ms":4,"n":3059,"h":56,"vis":"visible","sc":256}
+{"t":"2026-10-28T05:11:51.980Z","a":"tick recipients","pending":true,"cyc":1}
+{"t":"2026-10-28T05:11:56.448Z","ticked":12}
+{"t":"2026-10-28T05:11:56.448Z","a":"tick recipients","done":true,"cyc":1}
+{"t":"2026-10-28T05:11:56.450Z","probe":"after tick","ms":2,"n":3438,"h":67,"vis":"visible","sc":256}
+{"t":"2026-10-28T05:11:56.450Z","a":"recipients tab + add external email","pending":true,"cyc":1}
+{"t":"2026-10-28T05:12:02.107Z","a":"recipients tab + add external email","done":true,"cyc":1}
+{"t":"2026-10-28T05:12:02.109Z","probe":"after ext email","ms":2,"n":3461,"h":94,"vis":"visible","sc":256}
+{"t":"2026-10-28T05:12:02.109Z","a":"subject+message","pending":true,"cyc":1}
+{"t":"2026-10-28T05:12:03.273Z","a":"subject+message","done":true,"cyc":1}
+{"t":"2026-10-28T05:12:03.276Z","probe":"after type+Enter","ms":3,"n":3461,"h":92,"vis":"visible","sc":256}
+{"t":"2026-10-28T05:12:03.370Z","a":"hide-phase","pending":true,"cyc":1,"hideSec":60,"target":"667CE2"}
+{"t":"2026-10-28T05:12:03.377Z","fatal":"Unexpected token 'U', \"Using unsa\"... is not valid JSON"}
+{"t":"2026-10-28T05:12:07.177Z","a":"tick recipients","pending":true,"cyc":1}
+{"t":"2026-10-28T05:12:07.402Z","ticked":0}
+{"t":"2026-10-28T05:12:07.402Z","a":"tick recipients","done":true,"cyc":1}
+{"t":"2026-10-28T05:12:07.404Z","probe":"after tick","ms":2,"n":3461,"h":76,"vis":"visible","sc":256}
+{"t":"2026-10-28T05:12:07.404Z","a":"recipients tab + add external email","pending":true,"cyc":1}
+{"t":"2026-10-28T05:12:39.037Z","a":"recipients tab + add external email","failed":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Add new e-mail address').first()\u001b[22m\n","cyc":1}
+{"t":"2026-10-28T05:12:39.040Z","probe":"after ext email","ms":3,"n":3461,"h":116,"vis":"visible","sc":256}
+{"t":"2026-10-28T05:12:39.040Z","a":"subject+message","pending":true,"cyc":1}
+{"t":"2026-10-28T05:12:40.236Z","a":"subject+message","done":true,"cyc":1}
+{"t":"2026-10-28T05:12:40.239Z","probe":"after type+Enter","ms":2,"n":3462,"h":123,"vis":"visible","sc":256}
+{"t":"2026-10-28T05:12:40.360Z","a":"hide-phase","pending":true,"cyc":1,"hideSec":60,"target":"667CE2"}
+{"t":"2026-10-28T05:13:42.012Z","a":"hide-phase","done":true,"cyc":1,"vis_events":[[1793164360408,"hidden"],[1793164360408,"hidden"],[1793164420459,"visible"],[1793164420459,"visible"]],"maxgap_ms":1844,"now":"visible"}
+{"t":"2026-10-28T05:13:42.014Z","probe":"after hidden","ms":2,"n":3462,"h":61,"vis":"visible","sc":256}
+{"t":"2026-10-28T05:13:42.014Z","a":"type after return + Enter","pending":true,"cyc":1}
+{"t":"2026-10-28T05:13:43.239Z","a":"type after return + Enter","done":true,"cyc":1}
+{"t":"2026-10-28T05:13:43.241Z","probe":"after return+Enter","ms":2,"n":3464,"h":63,"vis":"visible","sc":256}
+{"t":"2026-10-28T05:13:52.664Z","a":"tick recipients","pending":true,"cyc":2}
+{"t":"2026-10-28T05:13:54.317Z","unticked":4}
+{"t":"2026-10-28T05:13:54.465Z","ticked":0}
+{"t":"2026-10-28T05:13:54.465Z","a":"tick recipients","done":true,"cyc":2}
+{"t":"2026-10-28T05:13:54.468Z","probe":"after tick","ms":3,"n":3395,"h":69,"vis":"visible","sc":256}
+{"t":"2026-10-28T05:13:54.468Z","a":"subject+message","pending":true,"cyc":2}
+{"t":"2026-10-28T05:13:55.703Z","a":"subject+message","done":true,"cyc":2}
+{"t":"2026-10-28T05:13:55.706Z","probe":"after type+Enter","ms":3,"n":3396,"h":67,"vis":"visible","sc":256}
+{"t":"2026-10-28T05:13:55.795Z","a":"hide-phase","pending":true,"cyc":2,"hideSec":75,"target":"667CE2"}
