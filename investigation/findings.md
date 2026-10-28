@@ -48,3 +48,6 @@ Build tnZBHIn (A5T7Kpp'den degisti) ve arayuz degisti (ayri Recipients adimi, Sa
 
 ## 2026-10-27 (run-20261027T0500Z)
 Yeni build tzOx7hs. F1: müşteri yolu Files & Documents > Select multiple > 'Share files' (iki panelli modal) ilk kez test edildi: 16 döngü, ~38 dk aynı sekme, 11-27 alıcı, yeni harici e-posta, Dear Andreas,/Meine Lieben, + Enter, alıcı değiştirme, Distribution ziyaretleri, 120 sn boşta: NOT REPRODUCED IN THIS EXPERIMENT (350 probe <=16 ms, heap <=113 MB). Gerçek hidden, >2 sa, native tarayıcı/OS NOT TESTED. Uzlaştırma: hh83ik ve d83zc1 dalları ledger'a aktarıldı.
+
+## 2026-10-28 (run-20261028T0500Z)
+Yeni build BdtIBBx. G1: Share files modalı + openbox ile doğrulanmış GERÇEK hidden fazlar (11 adet, 60-150 sn). G1a INCONCLUSIVE (alıcı sayacı doğrulanmadı, sonda 0 - sürücü kusuru). G1b NOT REPRODUCED: 18 alıcı (17+harici e-posta), 3 hidden faz, Enter'lar, taslak kaydet/yeniden aç; probe <=10 ms. Kök neden bilinmiyor; pre-fix REPRODUCED kaydı geçerli. Native tarayıcı/OS ve >2 sa NOT TESTED.

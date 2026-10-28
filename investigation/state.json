@@ -1,5 +1,5 @@
 {
- "state": "run-20261028T0500Z G1 devam ediyor (checkpoint 1). Pre-fix REPRODUCED (gecmis) gecerli.",
+ "state": "Build BdtIBBx için G1 (Share files modalı + 11 GERÇEK hidden faz, 18 alıcı+harici e-posta, taslak yeniden açma) negatif; freeze yok. Pre-fix REPRODUCED (geçmiş) geçerli. Kalan: >2 sa yaş, native Chrome/Firefox/Safari, Windows/macOS.",
  "last_run": "run-20261028T0500Z",
  "previous_run": "run-20261027T0500Z",
  "source_commit": "150977c (ywvbbe, run-20261027T0500Z)",
@@ -32,9 +32,10 @@
   "R16/R17 (2026-10-20): yeni bundle k5WNR0...; R11 akisi (13 alici + harici e-posta + 'Meine Lieben,' + bilinmeyen rota [dashboard'a yonlendi, 153->166 script, scenes.html 404] + taslak + 3x Enter) ve 15x bilinmeyen rota: no freeze, probe <=14 ms, heap <=118 MB.",
   "R18/R19 (2026-10-21): yeni bundle A5T7Kpp...; R11 akisi ve 15x bilinmeyen rota: no freeze, 63 probe <=22 ms, heap <=115 MB, script 149-166 birikmedi.",
   "R20/R21/R22 (2026-10-24): yeni bundle tnZBHIn...; ARAYUZ DEGISTI: alici secimi ayri 'Select recipients' adimi (+Next), 'Save as draft' ⋮ menusunde, taslak yeniden acma 'Check recipients' ile alici adimindan basliyor. R11/R12 akislari uyarlanip: no freeze, probe <=18 ms, heap <=113 MB, bilinmeyen rota dashboard'a yonleniyor (+13 script, scenes.html 404), script birikmedi. Iki-adimli Back/Next alici degistirme dongusu (7 tam dongu) negatif.",
-  "F1 (2026-10-27): Files & Documents > Select multiple > Share files = iki panelli modal (Select recipients + Mail details); 16 döngü/38 dk aynı sekme, 350 probe <=16 ms: no freeze."
+  "F1 (2026-10-27): Files & Documents > Select multiple > Share files = iki panelli modal (Select recipients + Mail details); 16 döngü/38 dk aynı sekme, 350 probe <=16 ms: no freeze.",
+  "G1 (2026-10-28): yeni bundle BdtIBBx...; openbox ile GERÇEK hidden (visibilitychange doğrulandı) 8+3 faz, 60-150 sn; Share files modalı açıkken; 18 alıcı (17+harici e-posta) doğrulandı, taslak kaydet/yeniden aç + Enter: no freeze, 52 probe <=11 ms, heap <=123 MB. SÜRÜCÜ KUSURU: ilk döngü grubunda (c1-c8) alıcı sayısı doğrulanmadı ve sonda Recipients (0) idi; yalnız ikinci grup (r2) alıcı sayısı doğrulandı."
  ],
- "next_experiment": "Pencere yöneticili (openbox kurulumu gerekir) gerçek hidden fazlarla Share files modalı; >2 sa oturum; native Chrome/Firefox/Safari, Windows/macOS.",
+ "next_experiment": "Native olmayan ortamlarda yapılamayanlar hariç: >2 saat tek-sekme yaşlı oturum (hidden fazlarla, alıcı sayısı her döngüde doğrulanarak). Windows/macOS/Firefox/Safari için ortam gerekli.",
  "known_reproduction_recipe": {
   "summary": "Freeze = Enter in the sharing-modal TipTap editor after the tab visited the NON-EXISTENT route #5551/scenes (re-runs app bootstrap in same document).",
   "steps": [
@@ -62,7 +63,8 @@
   "2026-10-20: R16/R17 (build k5WNR0) tamamlandi, negatif. Build degisirse r11.js/r12.js (build dizgisi scriptlerde yok; yalniz lib.js EV yolu degisir). 'sleep N; cat' Bash'te engelli; Monitor kullan.",
   "2026-10-21: R18/R19 (build A5T7Kpp) tamamlandi, negatif. Build degisirse r11.js/r12.js; lib.js'te run-id sed ile degistirilir.",
   "2026-10-24: R20-R22 (build tnZBHIn) tamamlandi, negatif. Yeni UI: Add -> tik -> (Recipients > Add new e-mail address) -> 'Next' -> Mail details; Save as draft = sag alttaki bos-metinli ⋮ butonu > 'Save as draft'; taslak yeniden acma -> 'Check recipients' (gerekirse 'Next'). Modal acik kalirsa sidebar tiklamalari basarisiz olur: once Cancel/'Discard changes'. Chromium yolu /opt/pw-browsers/chromium-1243/chrome-linux64/chrome.",
-  "2026-10-27: F1 tamamlandı (negatif). Files yolu: sidebar 'Files & Documents' > kart (mouse.click ~795,590) > doküman kartı (~385,400) > 'Select multiple' (seçim modunda tekrar tıklama) > dosya karoları mouse ile > 'Share files'. Modal kapatma X (1296,36) + 'Discard changes'. Playwright text click kartlarda çalışmaz, koordinat kullan. Aynı akışı tekrar etme; build değişmedikçe yeni deney gerekir."
+  "2026-10-27: F1 tamamlandı (negatif). Files yolu: sidebar 'Files & Documents' > kart (mouse.click ~795,590) > doküman kartı (~385,400) > 'Select multiple' (seçim modunda tekrar tıklama) > dosya karoları mouse ile > 'Share files'. Modal kapatma X (1296,36) + 'Discard changes'. Playwright text click kartlarda çalışmaz, koordinat kullan. Aynı akışı tekrar etme; build değişmedikçe yeni deney gerekir.",
+  "Alici secerken her seferinde 'Recipients (n)' sayacini dogrula; departman baslik kutulari toggle edip net sifira dusurebilir. Harici e-posta: Recipients sekmesinde 'Enter new email address' alanina yaz + 'Add' (artik 'Add new e-mail address' linki yok). Gercek hidden: /json/new (PUT) + /json/activate, Playwright baglantisi kapali."
  ],
  "reconciliation": {
   "diverged_branches": {
