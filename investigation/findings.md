@@ -51,3 +51,6 @@ Yeni build tzOx7hs. F1: müşteri yolu Files & Documents > Select multiple > 'Sh
 
 ## 2026-10-28 (run-20261028T0500Z)
 Yeni build BdtIBBx. G1: Share files modalı + openbox ile doğrulanmış GERÇEK hidden fazlar (11 adet, 60-150 sn). G1a INCONCLUSIVE (alıcı sayacı doğrulanmadı, sonda 0 - sürücü kusuru). G1b NOT REPRODUCED: 18 alıcı (17+harici e-posta), 3 hidden faz, Enter'lar, taslak kaydet/yeniden aç; probe <=10 ms. Kök neden bilinmiyor; pre-fix REPRODUCED kaydı geçerli. Native tarayıcı/OS ve >2 sa NOT TESTED.
+
+## 2026-10-29 (run-20261029T0510Z)
+Yeni build CFWXRv9 (BdtIBBx'ten degisti). H1: Files > Share files + 8 dogrulanmis gercek hidden faz + Enter + taslak kaydet/yeniden ac; H2: 17 alici dogrulamali 4 hidden dongu: NOT REPRODUCED IN THIS EXPERIMENT. 56 probe <=22 ms, heap <=98 MB. Kok neden bilinmiyor; pre-fix REPRODUCED kaydi gecerli. Native tarayici/OS ve >2 sa NOT TESTED.

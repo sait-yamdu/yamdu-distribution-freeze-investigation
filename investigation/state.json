@@ -1,15 +1,15 @@
 {
- "state": "Build BdtIBBx için G1 (Share files modalı + 11 GERÇEK hidden faz, 18 alıcı+harici e-posta, taslak yeniden açma) negatif; freeze yok. Pre-fix REPRODUCED (geçmiş) geçerli. Kalan: >2 sa yaş, native Chrome/Firefox/Safari, Windows/macOS.",
- "last_run": "run-20261028T0500Z",
- "previous_run": "run-20261027T0500Z",
- "source_commit": "150977c (ywvbbe, run-20261027T0500Z)",
+ "state": "Build CFWXRv9 icin H1/H2 (Share files + gercek hidden, 18/17 alici, taslak yeniden acma) negatif; freeze yok. Pre-fix REPRODUCED (gecmis) gecerli. Kalan: >2 sa yas, native Chrome/Firefox/Safari, Windows/macOS.",
+ "last_run": "run-20261029T0510Z",
+ "previous_run": "run-20261028T0500Z",
+ "source_commit": "78c8589 (8or3a1, run-20261028T0500Z)",
  "baseline_seeded": true,
- "persistence": "branch claude/funny-darwin-8or3a1 (zincir: ywvbbe devralindi)",
+ "persistence": "branch claude/funny-darwin-lmcpyd (zincir: 8or3a1 devralindi)",
  "environment": {
   "os": "Linux 6.18 x86_64 cloud",
   "browser": "Chromium 153.0.8010.12 (Chrome degil)",
   "mode": "headed Xvfb :99 + openbox (pencere yoneticisi VAR), CDP",
-  "app_build": "bundles/js?v=BdtIBBx8ggm0zX24Zjo1m4iSYWP8jg_nXnTtydPO61Q1 (tzOx7hs'den degisti)"
+  "app_build": "bundles/js?v=CFWXRv9-4Cm6qCMGbO9ixcosLpSvIu6I8jzpQK2ffXE1 (BdtIBBx'ten degisti)"
  },
  "freeze_signature": "renderer main thread 100%+ CPU for minutes, RSS growing, CDP unresponsive; gdb shows JS-driven Node.removeChild/insertBefore + MutationObserver + table layout churn (DOM mutation loop)",
  "leads": [
