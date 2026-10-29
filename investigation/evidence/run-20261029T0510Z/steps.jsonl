@@ -1,0 +1,16 @@
+{"t":"2026-10-29T05:11:01.026Z","a":"login-start"}
+{"t":"2026-10-29T05:11:24.133Z","a":"login-done","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","title":"(3) File distribution - ROUTINE PROJECT - Yamdu","bundle":["https://scotty.yamdu.com/bundles/js?v=CFWXRv9-4Cm6qCMGbO9ixcosLpSvIu6I8jzpQK2ffXE1"]}
+{"t":"2026-10-29T05:11:30.007Z","a":"nav sidebar Files & Documents","pending":true}
+{"t":"2026-10-29T05:11:35.100Z","a":"nav sidebar Files & Documents","done":true,"url":"https://scotty.yamdu.com/#5551/documents"}
+{"t":"2026-10-29T05:11:35.108Z","probe":"docs","ms":8,"n":1506,"h":50,"vis":"visible","sc":162}
+{"t":"2026-10-29T05:11:39.368Z","a":"room clicked","url":"https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57435"}
+{"t":"2026-10-29T05:11:50.915Z","a":"nav to known valid doc route (id=57452/70813, from prior runs)","pending":true}
+{"t":"2026-10-29T05:11:56.942Z","a":"nav doc","done":true,"url":"https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57452/documentprofile!id=70813"}
+{"t":"2026-10-29T05:11:56.947Z","probe":"doc","ms":5,"n":2212,"h":54,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:12:02.354Z","a":"click Select multiple","pending":true}
+{"t":"2026-10-29T05:12:04.477Z","a":"click Select multiple","done":true}
+{"t":"2026-10-29T05:12:10.076Z","a":"select 3 tiles by mouse","pending":true}
+{"t":"2026-10-29T05:12:12.225Z","a":"select 3 tiles by mouse","done":true}
+{"t":"2026-10-29T05:12:18.606Z","a":"click Share files","pending":true}
+{"t":"2026-10-29T05:12:22.773Z","a":"click Share files","done":true}
+{"t":"2026-10-29T05:12:22.795Z","probe":"share modal","ms":22,"n":3059,"h":60,"vis":"visible","sc":256}
