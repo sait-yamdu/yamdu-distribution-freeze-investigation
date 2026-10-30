@@ -33,3 +33,9 @@
 2026-10-30T05:16:14.528Z c1 Enter done; probe=5ms dom=3510
 2026-10-30T05:16:14.572Z c1 recips='3 items selected' heapMB=64
 2026-10-30T05:16:16.038Z c1 PENDING hidden 90s
+2026-10-30T05:17:47.739Z c1 DONE hidden; vis="|visible"
+2026-10-30T05:17:52.802Z c2 PENDING type (age 2m)
+2026-10-30T05:17:52.833Z c2 probe pre=31ms res=2
+2026-10-30T05:17:53.638Z c2 Enter#1 PENDING
+2026-10-30T05:17:54.220Z c2 Enter done; probe=3ms dom=3513
+2026-10-30T05:17:54.304Z c2 recips='3 items selected' heapMB=65
