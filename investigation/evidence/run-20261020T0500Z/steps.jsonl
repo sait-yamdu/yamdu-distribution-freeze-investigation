@@ -1,0 +1,226 @@
+{"t":"2026-10-20T05:08:46.041Z","ev":"pending","name":"goto-scotty"}
+{"t":"2026-10-20T05:08:47.929Z","ev":"done","name":"goto","status":200,"url":"https://scotty.yamdu.com/Account/Login"}
+{"t":"2026-10-20T05:09:04.492Z","ev":"done","name":"login-submitted","url":"https://scotty.yamdu.com/#/main/overview"}
+{"t":"2026-10-20T05:09:10.514Z","ev":"done","name":"project","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","title":"(2) File distribution - ROUTINE PROJECT - Yamdu","bundle":["https://scotty.yamdu.com/bundles/js?v=k5WNR0xtcJj7RNCpW9LN58r3PAVlpHsnZwlnXX1q_gY1"]}
+{"t":"2026-10-20T05:09:24.254Z","ev":"start","note":"R14 new bundle 38mlI regression"}
+{"t":"2026-10-20T05:09:24.266Z","ev":"probe","tag":"start","dt":11,"r":{"scripts":153,"ed":0,"nodes":1310,"vis":"visible","heap":66,"hash":"#5551/announcements:files:filedistribution"}}
+{"t":"2026-10-20T05:09:24.266Z","ev":"pending","name":"add"}
+{"t":"2026-10-20T05:09:26.986Z","ev":"done","name":"add","dt":2720}
+{"t":"2026-10-20T05:09:27.103Z","ev":"pending","name":"tick-14"}
+{"t":"2026-10-20T05:09:31.861Z","ev":"done","name":"tick-14","dt":4758,"r":{"n":27,"ok":18}}
+{"t":"2026-10-20T05:09:31.865Z","ev":"probe","tag":"ticked","dt":4,"r":{"scripts":153,"ed":2,"nodes":2495,"vis":"visible","heap":90,"hash":"#5551/announcements:files:filedistribution"}}
+{"t":"2026-10-20T05:09:31.865Z","ev":"pending","name":"ext-email"}
+{"t":"2026-10-20T05:09:36.477Z","ev":"done","name":"ext-email","dt":4612,"r":"13"}
+{"t":"2026-10-20T05:09:36.603Z","ev":"pending","name":"subject"}
+{"t":"2026-10-20T05:09:36.636Z","ev":"done","name":"subject","dt":32}
+{"t":"2026-10-20T05:09:36.636Z","ev":"pending","name":"type-meine-lieben"}
+{"t":"2026-10-20T05:09:37.771Z","ev":"probe","tag":"before-enter-1","dt":3,"r":{"scripts":153,"ed":2,"nodes":2517,"vis":"visible","heap":93,"hash":"#5551/announcements:files:filedistribution"}}
+{"t":"2026-10-20T05:09:39.476Z","ev":"done","name":"type-meine-lieben","dt":2840}
+{"t":"2026-10-20T05:09:39.481Z","ev":"probe","tag":"after-enter-1","dt":5,"r":{"scripts":153,"ed":2,"nodes":2520,"vis":"visible","heap":102,"hash":"#5551/announcements:files:filedistribution"}}
+{"t":"2026-10-20T05:09:39.582Z","ev":"pending","name":"save-draft"}
+{"t":"2026-10-20T05:09:42.707Z","ev":"done","name":"save-draft","dt":3125}
+{"t":"2026-10-20T05:09:42.707Z","ev":"pending","name":"close"}
+{"t":"2026-10-20T05:09:42.867Z","ev":"done","name":"close","dt":160}
+{"t":"2026-10-20T05:09:42.870Z","ev":"probe","tag":"saved","dt":3,"r":{"scripts":153,"ed":0,"nodes":2383,"vis":"visible","heap":102,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:09:42.871Z","ev":"pending","name":"hash-scenes"}
+{"t":"2026-10-20T05:09:43.021Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937122"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:09:48.891Z","ev":"done","name":"hash-scenes","dt":6020,"r":{"hash":"#5551/dashboard","scripts":166,"pre":153}}
+{"t":"2026-10-20T05:09:48.979Z","ev":"probe","tag":"after-unknown-route","dt":2,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":118,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:09:48.979Z","ev":"pending","name":"nav-Files"}
+{"t":"2026-10-20T05:09:51.558Z","ev":"nav","to":"Files & Documents","url":"https://scotty.yamdu.com/#5551/documents"}
+{"t":"2026-10-20T05:09:51.558Z","ev":"done","name":"nav-Files","dt":2579}
+{"t":"2026-10-20T05:09:51.559Z","ev":"pending","name":"nav-Distribution"}
+{"t":"2026-10-20T05:09:54.101Z","ev":"nav","to":"Distribution","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-20T05:09:54.101Z","ev":"done","name":"nav-Distribution","dt":2542}
+{"t":"2026-10-20T05:09:54.101Z","ev":"pending","name":"open-draft"}
+{"t":"2026-10-20T05:10:00.226Z","ev":"done","name":"open-draft","dt":6125,"r":2}
+{"t":"2026-10-20T05:10:00.231Z","ev":"probe","tag":"draft-reopened","dt":5,"r":{"scripts":153,"ed":2,"nodes":3424,"vis":"visible","heap":94,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:10:00.231Z","ev":"pending","name":"enter-1"}
+{"t":"2026-10-20T05:10:01.978Z","ev":"done","name":"enter-1","dt":1747}
+{"t":"2026-10-20T05:10:02.982Z","ev":"probe","tag":"enter-1-+1s","dt":4,"r":{"scripts":153,"ed":2,"nodes":3427,"vis":"visible","heap":91,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:10:03.985Z","ev":"probe","tag":"enter-1-+2s","dt":3,"r":{"scripts":153,"ed":2,"nodes":3427,"vis":"visible","heap":91,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:10:04.988Z","ev":"probe","tag":"enter-1-+3s","dt":3,"r":{"scripts":153,"ed":2,"nodes":3427,"vis":"visible","heap":91,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:10:05.991Z","ev":"probe","tag":"enter-1-+4s","dt":3,"r":{"scripts":153,"ed":2,"nodes":3427,"vis":"visible","heap":91,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:10:05.991Z","ev":"pending","name":"enter-2"}
+{"t":"2026-10-20T05:10:07.785Z","ev":"done","name":"enter-2","dt":1794}
+{"t":"2026-10-20T05:10:08.790Z","ev":"probe","tag":"enter-2-+1s","dt":4,"r":{"scripts":153,"ed":2,"nodes":3430,"vis":"visible","heap":80,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:10:09.794Z","ev":"probe","tag":"enter-2-+2s","dt":3,"r":{"scripts":153,"ed":2,"nodes":3430,"vis":"visible","heap":80,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:10:10.798Z","ev":"probe","tag":"enter-2-+3s","dt":3,"r":{"scripts":153,"ed":2,"nodes":3430,"vis":"visible","heap":80,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:10:11.802Z","ev":"probe","tag":"enter-2-+4s","dt":3,"r":{"scripts":153,"ed":2,"nodes":3430,"vis":"visible","heap":80,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:10:11.802Z","ev":"pending","name":"enter-3"}
+{"t":"2026-10-20T05:10:13.586Z","ev":"done","name":"enter-3","dt":1784}
+{"t":"2026-10-20T05:10:14.591Z","ev":"probe","tag":"enter-3-+1s","dt":4,"r":{"scripts":153,"ed":2,"nodes":3433,"vis":"visible","heap":81,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:10:15.594Z","ev":"probe","tag":"enter-3-+2s","dt":4,"r":{"scripts":153,"ed":2,"nodes":3433,"vis":"visible","heap":81,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:10:16.597Z","ev":"probe","tag":"enter-3-+3s","dt":4,"r":{"scripts":153,"ed":2,"nodes":3433,"vis":"visible","heap":81,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:10:17.600Z","ev":"probe","tag":"enter-3-+4s","dt":3,"r":{"scripts":153,"ed":2,"nodes":3433,"vis":"visible","heap":81,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:10:17.719Z","ev":"pending","name":"save-close"}
+{"t":"2026-10-20T05:10:20.321Z","ev":"done","name":"save-close","dt":2602}
+{"t":"2026-10-20T05:10:20.321Z","ev":"end"}
+{"t":"2026-10-20T05:10:26.482Z","ev":"start","note":"R12 repeated unknown route; R11 new bundle regression; one tab since login 05:17Z"}
+{"t":"2026-10-20T05:10:26.496Z","ev":"probe","tag":"start","dt":14,"r":{"scripts":153,"ed":0,"nodes":2370,"vis":"visible","heap":80,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:10:26.496Z","ev":"pending","name":"nav-Distribution"}
+{"t":"2026-10-20T05:10:29.105Z","ev":"nav","to":"Distribution","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-20T05:10:29.105Z","ev":"done","name":"nav-Distribution","dt":2609}
+{"t":"2026-10-20T05:10:29.105Z","ev":"pending","name":"unknown-route-1"}
+{"t":"2026-10-20T05:10:29.254Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937157"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:10:33.631Z","ev":"done","name":"unknown-route-1","dt":4526,"r":{"pre":{"sc":153,"ls":0},"hash":"#5551/dashboard","scripts":166}}
+{"t":"2026-10-20T05:10:33.634Z","ev":"probe","tag":"unk-1","dt":2,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":81,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:10:33.634Z","ev":"pending","name":"nav-ok-1"}
+{"t":"2026-10-20T05:10:36.186Z","ev":"nav","to":"Distribution","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-20T05:10:36.186Z","ev":"done","name":"nav-ok-1","dt":2552}
+{"t":"2026-10-20T05:10:36.190Z","ev":"probe","tag":"nav-1","dt":4,"r":{"scripts":153,"ed":0,"nodes":1316,"vis":"visible","heap":91,"hash":"#5551/announcements:files:filedistribution"}}
+{"t":"2026-10-20T05:10:36.190Z","ev":"pending","name":"unknown-route-2"}
+{"t":"2026-10-20T05:10:36.330Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937171"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:10:40.707Z","ev":"done","name":"unknown-route-2","dt":4517,"r":{"pre":{"sc":153,"ls":0},"hash":"#5551/dashboard","scripts":166}}
+{"t":"2026-10-20T05:10:40.709Z","ev":"probe","tag":"unk-2","dt":2,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":84,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:10:40.709Z","ev":"pending","name":"nav-ok-2"}
+{"t":"2026-10-20T05:10:43.269Z","ev":"nav","to":"Crew","url":"https://scotty.yamdu.com/#5551/crew:crewlist"}
+{"t":"2026-10-20T05:10:43.269Z","ev":"done","name":"nav-ok-2","dt":2560}
+{"t":"2026-10-20T05:10:43.273Z","ev":"probe","tag":"nav-2","dt":4,"r":{"scripts":149,"ed":0,"nodes":2412,"vis":"visible","heap":90,"hash":"#5551/crew:crewlist"}}
+{"t":"2026-10-20T05:10:43.273Z","ev":"pending","name":"unknown-route-3"}
+{"t":"2026-10-20T05:10:43.417Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937182"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:10:47.788Z","ev":"done","name":"unknown-route-3","dt":4515,"r":{"pre":{"sc":149,"ls":0},"hash":"#5551/dashboard","scripts":166}}
+{"t":"2026-10-20T05:10:47.791Z","ev":"probe","tag":"unk-3","dt":3,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":101,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:10:47.791Z","ev":"pending","name":"nav-ok-3"}
+{"t":"2026-10-20T05:10:50.331Z","ev":"nav","to":"Distribution","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-20T05:10:50.331Z","ev":"done","name":"nav-ok-3","dt":2540}
+{"t":"2026-10-20T05:10:50.335Z","ev":"probe","tag":"nav-3","dt":4,"r":{"scripts":153,"ed":0,"nodes":1316,"vis":"visible","heap":88,"hash":"#5551/announcements:files:filedistribution"}}
+{"t":"2026-10-20T05:10:50.335Z","ev":"pending","name":"unknown-route-4"}
+{"t":"2026-10-20T05:10:50.484Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937196"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:10:54.851Z","ev":"done","name":"unknown-route-4","dt":4516,"r":{"pre":{"sc":153,"ls":0},"hash":"#5551/dashboard","scripts":166}}
+{"t":"2026-10-20T05:10:54.853Z","ev":"probe","tag":"unk-4","dt":2,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":95,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:10:54.853Z","ev":"pending","name":"nav-ok-4"}
+{"t":"2026-10-20T05:10:57.394Z","ev":"nav","to":"Files & Documents","url":"https://scotty.yamdu.com/#5551/documents"}
+{"t":"2026-10-20T05:10:57.394Z","ev":"done","name":"nav-ok-4","dt":2541}
+{"t":"2026-10-20T05:10:57.399Z","ev":"probe","tag":"nav-4","dt":5,"r":{"scripts":161,"ed":0,"nodes":1232,"vis":"visible","heap":88,"hash":"#5551/documents"}}
+{"t":"2026-10-20T05:10:57.399Z","ev":"pending","name":"unknown-route-5"}
+{"t":"2026-10-20T05:10:57.537Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937206"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:11:01.923Z","ev":"done","name":"unknown-route-5","dt":4524,"r":{"pre":{"sc":161,"ls":0},"hash":"#5551/dashboard","scripts":166}}
+{"t":"2026-10-20T05:11:01.926Z","ev":"probe","tag":"unk-5","dt":3,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":108,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:11:01.926Z","ev":"pending","name":"nav-ok-5"}
+{"t":"2026-10-20T05:11:04.466Z","ev":"nav","to":"Distribution","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-20T05:11:04.466Z","ev":"done","name":"nav-ok-5","dt":2540}
+{"t":"2026-10-20T05:11:04.470Z","ev":"probe","tag":"nav-5","dt":4,"r":{"scripts":153,"ed":0,"nodes":1316,"vis":"visible","heap":103,"hash":"#5551/announcements:files:filedistribution"}}
+{"t":"2026-10-20T05:11:04.471Z","ev":"pending","name":"unknown-route-6"}
+{"t":"2026-10-20T05:11:04.612Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937220"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:11:08.989Z","ev":"done","name":"unknown-route-6","dt":4518,"r":{"pre":{"sc":153,"ls":0},"hash":"#5551/dashboard","scripts":166}}
+{"t":"2026-10-20T05:11:08.991Z","ev":"probe","tag":"unk-6","dt":2,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":94,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:11:08.992Z","ev":"pending","name":"nav-ok-6"}
+{"t":"2026-10-20T05:11:11.523Z","ev":"nav","to":"Crew","url":"https://scotty.yamdu.com/#5551/crew:crewlist"}
+{"t":"2026-10-20T05:11:11.523Z","ev":"done","name":"nav-ok-6","dt":2531}
+{"t":"2026-10-20T05:11:11.527Z","ev":"probe","tag":"nav-6","dt":4,"r":{"scripts":149,"ed":0,"nodes":2412,"vis":"visible","heap":111,"hash":"#5551/crew:crewlist"}}
+{"t":"2026-10-20T05:11:11.527Z","ev":"pending","name":"unknown-route-7"}
+{"t":"2026-10-20T05:11:11.670Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937230"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:11:16.042Z","ev":"done","name":"unknown-route-7","dt":4515,"r":{"pre":{"sc":149,"ls":0},"hash":"#5551/dashboard","scripts":166}}
+{"t":"2026-10-20T05:11:16.044Z","ev":"probe","tag":"unk-7","dt":2,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":103,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:11:16.044Z","ev":"pending","name":"nav-ok-7"}
+{"t":"2026-10-20T05:11:18.592Z","ev":"nav","to":"Distribution","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-20T05:11:18.592Z","ev":"done","name":"nav-ok-7","dt":2548}
+{"t":"2026-10-20T05:11:18.595Z","ev":"probe","tag":"nav-7","dt":3,"r":{"scripts":153,"ed":0,"nodes":1316,"vis":"visible","heap":96,"hash":"#5551/announcements:files:filedistribution"}}
+{"t":"2026-10-20T05:11:18.595Z","ev":"pending","name":"unknown-route-8"}
+{"t":"2026-10-20T05:11:18.737Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937244"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:11:23.112Z","ev":"done","name":"unknown-route-8","dt":4517,"r":{"pre":{"sc":153,"ls":0},"hash":"#5551/dashboard","scripts":166}}
+{"t":"2026-10-20T05:11:23.114Z","ev":"probe","tag":"unk-8","dt":2,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":94,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:11:23.114Z","ev":"pending","name":"nav-ok-8"}
+{"t":"2026-10-20T05:11:25.670Z","ev":"nav","to":"Files & Documents","url":"https://scotty.yamdu.com/#5551/documents"}
+{"t":"2026-10-20T05:11:25.670Z","ev":"done","name":"nav-ok-8","dt":2556}
+{"t":"2026-10-20T05:11:25.673Z","ev":"probe","tag":"nav-8","dt":3,"r":{"scripts":161,"ed":0,"nodes":1232,"vis":"visible","heap":103,"hash":"#5551/documents"}}
+{"t":"2026-10-20T05:11:25.673Z","ev":"pending","name":"unknown-route-9"}
+{"t":"2026-10-20T05:11:25.814Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937254"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:11:30.188Z","ev":"done","name":"unknown-route-9","dt":4515,"r":{"pre":{"sc":161,"ls":0},"hash":"#5551/dashboard","scripts":166}}
+{"t":"2026-10-20T05:11:30.190Z","ev":"probe","tag":"unk-9","dt":2,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":94,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:11:30.191Z","ev":"pending","name":"nav-ok-9"}
+{"t":"2026-10-20T05:11:32.731Z","ev":"nav","to":"Distribution","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-20T05:11:32.731Z","ev":"done","name":"nav-ok-9","dt":2540}
+{"t":"2026-10-20T05:11:32.735Z","ev":"probe","tag":"nav-9","dt":4,"r":{"scripts":153,"ed":0,"nodes":1316,"vis":"visible","heap":113,"hash":"#5551/announcements:files:filedistribution"}}
+{"t":"2026-10-20T05:11:32.735Z","ev":"pending","name":"unknown-route-10"}
+{"t":"2026-10-20T05:11:32.875Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937268"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:11:37.256Z","ev":"done","name":"unknown-route-10","dt":4521,"r":{"pre":{"sc":153,"ls":0},"hash":"#5551/dashboard","scripts":166}}
+{"t":"2026-10-20T05:11:37.259Z","ev":"probe","tag":"unk-10","dt":3,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":109,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:11:37.259Z","ev":"pending","name":"nav-ok-10"}
+{"t":"2026-10-20T05:11:39.804Z","ev":"nav","to":"Crew","url":"https://scotty.yamdu.com/#5551/crew:crewlist"}
+{"t":"2026-10-20T05:11:39.804Z","ev":"done","name":"nav-ok-10","dt":2545}
+{"t":"2026-10-20T05:11:39.808Z","ev":"probe","tag":"nav-10","dt":4,"r":{"scripts":149,"ed":0,"nodes":2412,"vis":"visible","heap":102,"hash":"#5551/crew:crewlist"}}
+{"t":"2026-10-20T05:11:39.808Z","ev":"pending","name":"unknown-route-11"}
+{"t":"2026-10-20T05:11:39.951Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937278"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:11:44.329Z","ev":"done","name":"unknown-route-11","dt":4521,"r":{"pre":{"sc":149,"ls":0},"hash":"#5551/dashboard","scripts":166}}
+{"t":"2026-10-20T05:11:44.331Z","ev":"probe","tag":"unk-11","dt":2,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":95,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:11:44.331Z","ev":"pending","name":"nav-ok-11"}
+{"t":"2026-10-20T05:11:46.880Z","ev":"nav","to":"Distribution","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-20T05:11:46.880Z","ev":"done","name":"nav-ok-11","dt":2549}
+{"t":"2026-10-20T05:11:46.884Z","ev":"probe","tag":"nav-11","dt":4,"r":{"scripts":153,"ed":0,"nodes":1316,"vis":"visible","heap":114,"hash":"#5551/announcements:files:filedistribution"}}
+{"t":"2026-10-20T05:11:46.884Z","ev":"pending","name":"unknown-route-12"}
+{"t":"2026-10-20T05:11:47.037Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937292"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:11:51.398Z","ev":"done","name":"unknown-route-12","dt":4514,"r":{"pre":{"sc":153,"ls":0},"hash":"#5551/dashboard","scripts":166}}
+{"t":"2026-10-20T05:11:51.401Z","ev":"probe","tag":"unk-12","dt":2,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":111,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:11:51.401Z","ev":"pending","name":"nav-ok-12"}
+{"t":"2026-10-20T05:11:53.945Z","ev":"nav","to":"Files & Documents","url":"https://scotty.yamdu.com/#5551/documents"}
+{"t":"2026-10-20T05:11:53.945Z","ev":"done","name":"nav-ok-12","dt":2544}
+{"t":"2026-10-20T05:11:53.948Z","ev":"probe","tag":"nav-12","dt":3,"r":{"scripts":161,"ed":0,"nodes":1232,"vis":"visible","heap":102,"hash":"#5551/documents"}}
+{"t":"2026-10-20T05:11:53.948Z","ev":"pending","name":"unknown-route-13"}
+{"t":"2026-10-20T05:11:54.086Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937302"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:11:58.461Z","ev":"done","name":"unknown-route-13","dt":4513,"r":{"pre":{"sc":161,"ls":0},"hash":"#5551/dashboard","scripts":166}}
+{"t":"2026-10-20T05:11:58.463Z","ev":"probe","tag":"unk-13","dt":2,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":94,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:11:58.463Z","ev":"pending","name":"nav-ok-13"}
+{"t":"2026-10-20T05:12:01.002Z","ev":"nav","to":"Distribution","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-20T05:12:01.002Z","ev":"done","name":"nav-ok-13","dt":2539}
+{"t":"2026-10-20T05:12:01.005Z","ev":"probe","tag":"nav-13","dt":3,"r":{"scripts":153,"ed":0,"nodes":1316,"vis":"visible","heap":84,"hash":"#5551/announcements:files:filedistribution"}}
+{"t":"2026-10-20T05:12:01.005Z","ev":"pending","name":"unknown-route-14"}
+{"t":"2026-10-20T05:12:01.152Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937316"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:12:05.525Z","ev":"done","name":"unknown-route-14","dt":4520,"r":{"pre":{"sc":153,"ls":0},"hash":"#5551/dashboard","scripts":166}}
+{"t":"2026-10-20T05:12:05.528Z","ev":"probe","tag":"unk-14","dt":3,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":105,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:12:05.528Z","ev":"pending","name":"nav-ok-14"}
+{"t":"2026-10-20T05:12:08.083Z","ev":"nav","to":"Crew","url":"https://scotty.yamdu.com/#5551/crew:crewlist"}
+{"t":"2026-10-20T05:12:08.083Z","ev":"done","name":"nav-ok-14","dt":2555}
+{"t":"2026-10-20T05:12:08.086Z","ev":"probe","tag":"nav-14","dt":3,"r":{"scripts":149,"ed":0,"nodes":2412,"vis":"visible","heap":95,"hash":"#5551/crew:crewlist"}}
+{"t":"2026-10-20T05:12:08.086Z","ev":"pending","name":"unknown-route-15"}
+{"t":"2026-10-20T05:12:08.233Z","ev":"http","s":404,"u":"https://scotty.yamdu.com/templates/scenes/scenes.html?_=1792472937326"}
+{"t":"Failed to load resource: the server responded with a status of 404 ()","ev":"console_error"}
+{"t":"2026-10-20T05:12:12.605Z","ev":"done","name":"unknown-route-15","dt":4519,"r":{"pre":{"sc":149,"ls":0},"hash":"#5551/dashboard","scripts":166}}
+{"t":"2026-10-20T05:12:12.607Z","ev":"probe","tag":"unk-15","dt":2,"r":{"scripts":166,"ed":0,"nodes":1532,"vis":"visible","heap":88,"hash":"#5551/dashboard"}}
+{"t":"2026-10-20T05:12:12.608Z","ev":"pending","name":"nav-ok-15"}
+{"t":"2026-10-20T05:12:15.145Z","ev":"nav","to":"Distribution","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-20T05:12:15.145Z","ev":"done","name":"nav-ok-15","dt":2537}
+{"t":"2026-10-20T05:12:15.148Z","ev":"probe","tag":"nav-15","dt":3,"r":{"scripts":153,"ed":0,"nodes":1316,"vis":"visible","heap":107,"hash":"#5551/announcements:files:filedistribution"}}
+{"t":"2026-10-20T05:12:15.148Z","ev":"pending","name":"nav-Distribution-final"}
+{"t":"2026-10-20T05:12:17.702Z","ev":"nav","to":"Distribution","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-20T05:12:17.702Z","ev":"done","name":"nav-Distribution-final","dt":2554}
+{"t":"2026-10-20T05:12:17.702Z","ev":"pending","name":"open-draft"}
+{"t":"2026-10-20T05:12:23.840Z","ev":"done","name":"open-draft","dt":6138,"r":2}
+{"t":"2026-10-20T05:12:23.842Z","ev":"probe","tag":"draft-reopened","dt":2,"r":{"scripts":153,"ed":2,"nodes":3433,"vis":"visible","heap":94,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:12:23.843Z","ev":"pending","name":"enter-1"}
+{"t":"2026-10-20T05:12:25.615Z","ev":"done","name":"enter-1","dt":1771}
+{"t":"2026-10-20T05:12:26.620Z","ev":"probe","tag":"enter-1-+1s","dt":6,"r":{"scripts":153,"ed":2,"nodes":3436,"vis":"visible","heap":115,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:12:27.623Z","ev":"probe","tag":"enter-1-+2s","dt":3,"r":{"scripts":153,"ed":2,"nodes":3436,"vis":"visible","heap":115,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:12:28.628Z","ev":"probe","tag":"enter-1-+3s","dt":4,"r":{"scripts":153,"ed":2,"nodes":3436,"vis":"visible","heap":115,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:12:29.631Z","ev":"probe","tag":"enter-1-+4s","dt":2,"r":{"scripts":153,"ed":2,"nodes":3436,"vis":"visible","heap":115,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:12:29.632Z","ev":"pending","name":"enter-2"}
+{"t":"2026-10-20T05:12:31.417Z","ev":"done","name":"enter-2","dt":1785}
+{"t":"2026-10-20T05:12:32.420Z","ev":"probe","tag":"enter-2-+1s","dt":3,"r":{"scripts":153,"ed":2,"nodes":3439,"vis":"visible","heap":103,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:12:33.423Z","ev":"probe","tag":"enter-2-+2s","dt":3,"r":{"scripts":153,"ed":2,"nodes":3439,"vis":"visible","heap":103,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:12:34.426Z","ev":"probe","tag":"enter-2-+3s","dt":2,"r":{"scripts":153,"ed":2,"nodes":3439,"vis":"visible","heap":103,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:12:35.430Z","ev":"probe","tag":"enter-2-+4s","dt":3,"r":{"scripts":153,"ed":2,"nodes":3439,"vis":"visible","heap":103,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:12:35.430Z","ev":"pending","name":"enter-3"}
+{"t":"2026-10-20T05:12:37.153Z","ev":"done","name":"enter-3","dt":1723}
+{"t":"2026-10-20T05:12:38.157Z","ev":"probe","tag":"enter-3-+1s","dt":3,"r":{"scripts":153,"ed":2,"nodes":3442,"vis":"visible","heap":96,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:12:39.161Z","ev":"probe","tag":"enter-3-+2s","dt":4,"r":{"scripts":153,"ed":2,"nodes":3442,"vis":"visible","heap":96,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:12:40.165Z","ev":"probe","tag":"enter-3-+3s","dt":4,"r":{"scripts":153,"ed":2,"nodes":3442,"vis":"visible","heap":96,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:12:41.168Z","ev":"probe","tag":"enter-3-+4s","dt":3,"r":{"scripts":153,"ed":2,"nodes":3442,"vis":"visible","heap":96,"hash":"#5551/announcements:files:filedistributiondrafts"}}
+{"t":"2026-10-20T05:12:41.360Z","ev":"pending","name":"save-close"}
+{"t":"2026-10-20T05:12:43.944Z","ev":"done","name":"save-close","dt":2584}
+{"t":"2026-10-20T05:12:43.944Z","ev":"end"}

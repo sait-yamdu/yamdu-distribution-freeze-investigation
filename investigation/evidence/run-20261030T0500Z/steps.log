@@ -1,0 +1,21 @@
+2026-10-30T05:11:32.711Z PENDING login
+2026-10-30T05:11:51.941Z DONE login url=https://scotty.yamdu.com/#5551/announcements:files:filedistribution title=(3) File distribution - ROUTINE PROJECT - Yamdu
+2026-10-30T05:11:58.261Z PENDING nav files
+2026-10-30T05:12:02.552Z DONE files url=https://scotty.yamdu.com/#5551/documents
+2026-10-30T05:12:08.765Z PENDING open room
+2026-10-30T05:12:17.598Z DONE selmode url=https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57452/documentprofile!id=70813
+2026-10-30T05:12:22.908Z PENDING select 3 files + share
+2026-10-30T05:12:24.695Z sharefiles count=1
+2026-10-30T05:12:29.030Z DONE modal opened
+2026-10-30T05:12:36.274Z PENDING recipients
+2026-10-30T05:12:40.668Z counter after depts: Recipients (2)
+2026-10-30T05:12:54.160Z PENDING select all + external
+2026-10-30T05:12:56.036Z after select all: Recipients (39)
+2026-10-30T05:12:59.209Z after external: Recipients (40)
+2026-10-30T05:13:14.624Z CYCLES start N=10 hidden=100s
+2026-10-30T05:13:14.796Z c1 PENDING type (age 0m)
+2026-10-30T05:13:14.809Z c1 probe pre=13ms res=2
+2026-10-30T05:13:15.711Z c1 Enter#1 PENDING
+2026-10-30T05:13:16.287Z c1 Enter done; probe=13ms dom=3505
+2026-10-30T05:13:16.335Z c1 recips='3 items selected' heapMB=68
+2026-10-30T05:13:16.506Z c1 PENDING hidden 100s

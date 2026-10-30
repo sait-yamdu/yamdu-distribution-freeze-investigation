@@ -1,0 +1,21 @@
+{"t":"2026-10-07T05:06:34.084Z","el_s":0,"ev":"start","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistributiondrafts","ua":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","note":"same tab since login; no reload during E4"}
+{"t":"2026-10-07T05:06:34.088Z","el_s":0,"ev":"probe","tag":"start","dt":3,"r":{"hb":{"max":257.5,"n":826,"lt":13,"ltmax":176},"ed":0,"vis":"visible","heap":73,"nodes":1058}}
+{"t":"2026-10-07T05:06:34.088Z","el_s":0,"ev":"pending","name":"close-initial-modal"}
+{"t":"2026-10-07T05:06:34.911Z","el_s":1,"ev":"done","name":"close-initial-modal","dt":823,"r":false}
+{"t":"2026-10-07T05:06:34.911Z","el_s":1,"ev":"cycle","c":1}
+{"t":"2026-10-07T05:06:34.911Z","el_s":1,"ev":"pending","name":"nav-distribution"}
+{"t":"2026-10-07T05:06:37.427Z","el_s":3,"ev":"done","name":"nav-distribution","dt":2516}
+{"t":"2026-10-07T05:06:37.431Z","el_s":3,"ev":"probe","tag":"c1-dist","dt":4,"r":{"hb":{"max":257.5,"n":860,"lt":14,"ltmax":176},"ed":0,"vis":"visible","heap":74,"nodes":971}}
+{"t":"2026-10-07T05:06:37.431Z","el_s":3,"ev":"pending","name":"open-add-modal"}
+{"t":"2026-10-07T05:06:39.634Z","el_s":6,"ev":"done","name":"open-add-modal","dt":2203}
+{"t":"2026-10-07T05:06:39.635Z","el_s":6,"ev":"pending","name":"select-recipients"}
+{"t":"2026-10-07T05:06:41.481Z","el_s":8,"ev":"done","name":"select-recipients","dt":1846,"r":{"total":22,"checked":8}}
+{"t":"2026-10-07T05:06:41.486Z","el_s":8,"ev":"probe","tag":"c1-recips","dt":4,"r":{"hb":{"max":257.5,"n":900,"lt":20,"ltmax":176},"ed":2,"vis":"visible","heap":78,"nodes":1764}}
+{"t":"2026-10-07T05:06:41.486Z","el_s":8,"ev":"pending","name":"external-email-entry"}
+{"t":"2026-10-07T05:06:44.648Z","el_s":11,"ev":"done","name":"external-email-entry","dt":3162,"r":false}
+{"t":"2026-10-07T05:06:44.648Z","el_s":11,"ev":"pending","name":"subject"}
+{"t":"2026-10-07T05:06:44.680Z","el_s":11,"ev":"done","name":"subject","dt":32}
+{"t":"2026-10-07T05:06:44.681Z","el_s":11,"ev":"pending","name":"type-greeting-enter"}
+{"t":"2026-10-07T05:07:09.681Z","el_s":36,"ev":"error","name":"type-greeting-enter","dt":25000,"err":"step>25000"}
+{"t":"2026-10-07T05:07:19.682Z","el_s":46,"ev":"probe","tag":"after-error-type-greeting-enter","dt":10000,"r":"TIMEOUT"}
+{"t":"2026-10-07T05:07:19.683Z","el_s":46,"ev":"CANDIDATE_FREEZE","tag":"after-error-type-greeting-enter","note":"evaluate >10s"}
