@@ -1,15 +1,15 @@
 {
- "state": "Build CFWXRv9 icin H1/H2 (Share files + gercek hidden, 18/17 alici, taslak yeniden acma) negatif; freeze yok. Pre-fix REPRODUCED (gecmis) gecerli. Kalan: >2 sa yas, native Chrome/Firefox/Safari, Windows/macOS.",
- "last_run": "run-20261029T0510Z",
- "previous_run": "run-20261028T0500Z",
- "source_commit": "78c8589 (8or3a1, run-20261028T0500Z)",
+ "state": "Build lqwjLRsP icin J1 (Share files, 40 alici, 10 Enter dongusu, ~25 dk) negatif; freeze yok; hidden dogrulanamadi. Pre-fix REPRODUCED gecerli. Kalan: >2 sa, hidden duzeltmesi, native tarayici/OS.",
+ "last_run": "run-20261030T0500Z",
+ "previous_run": "run-20261029T0510Z",
+ "source_commit": "e89cf7c (lmcpyd, run-20261029T0510Z)",
  "baseline_seeded": true,
- "persistence": "branch claude/funny-darwin-lmcpyd (zincir: 8or3a1 devralindi)",
+ "persistence": "branch claude/funny-darwin-d8ujxy (zincir: lmcpyd devralindi)",
  "environment": {
   "os": "Linux 6.18 x86_64 cloud",
-  "browser": "Chromium 153.0.8010.12 (Chrome degil)",
+  "browser": "Chromium 153.0.8010.12",
   "mode": "headed Xvfb :99 + openbox (pencere yoneticisi VAR), CDP",
-  "app_build": "bundles/js?v=CFWXRv9-4Cm6qCMGbO9ixcosLpSvIu6I8jzpQK2ffXE1 (BdtIBBx'ten degisti)"
+  "app_build": "bundles/js?v=lqwjLRsPUFaqVv15C_kaXXci2dQlB0gVNYJ-eggI"
  },
  "freeze_signature": "renderer main thread 100%+ CPU for minutes, RSS growing, CDP unresponsive; gdb shows JS-driven Node.removeChild/insertBefore + MutationObserver + table layout churn (DOM mutation loop)",
  "leads": [
@@ -33,7 +33,8 @@
   "R18/R19 (2026-10-21): yeni bundle A5T7Kpp...; R11 akisi ve 15x bilinmeyen rota: no freeze, 63 probe <=22 ms, heap <=115 MB, script 149-166 birikmedi.",
   "R20/R21/R22 (2026-10-24): yeni bundle tnZBHIn...; ARAYUZ DEGISTI: alici secimi ayri 'Select recipients' adimi (+Next), 'Save as draft' ⋮ menusunde, taslak yeniden acma 'Check recipients' ile alici adimindan basliyor. R11/R12 akislari uyarlanip: no freeze, probe <=18 ms, heap <=113 MB, bilinmeyen rota dashboard'a yonleniyor (+13 script, scenes.html 404), script birikmedi. Iki-adimli Back/Next alici degistirme dongusu (7 tam dongu) negatif.",
   "F1 (2026-10-27): Files & Documents > Select multiple > Share files = iki panelli modal (Select recipients + Mail details); 16 döngü/38 dk aynı sekme, 350 probe <=16 ms: no freeze.",
-  "G1 (2026-10-28): yeni bundle BdtIBBx...; openbox ile GERÇEK hidden (visibilitychange doğrulandı) 8+3 faz, 60-150 sn; Share files modalı açıkken; 18 alıcı (17+harici e-posta) doğrulandı, taslak kaydet/yeniden aç + Enter: no freeze, 52 probe <=11 ms, heap <=123 MB. SÜRÜCÜ KUSURU: ilk döngü grubunda (c1-c8) alıcı sayısı doğrulanmadı ve sonda Recipients (0) idi; yalnız ikinci grup (r2) alıcı sayısı doğrulandı."
+  "G1 (2026-10-28): yeni bundle BdtIBBx...; openbox ile GERÇEK hidden (visibilitychange doğrulandı) 8+3 faz, 60-150 sn; Share files modalı açıkken; 18 alıcı (17+harici e-posta) doğrulandı, taslak kaydet/yeniden aç + Enter: no freeze, 52 probe <=11 ms, heap <=123 MB. SÜRÜCÜ KUSURU: ilk döngü grubunda (c1-c8) alıcı sayısı doğrulanmadı ve sonda Recipients (0) idi; yalnız ikinci grup (r2) alıcı sayısı doğrulandı.",
+  "J1 (2026-10-30): yeni bundle lqwjLRsP...; Files>Share files, Select all + harici e-posta = 40 alici, 10 Enter dongusu ~25 dk: no freeze, probe <=26 ms, heap <=70 MB. Gercek hidden bu run dogrulanamadi."
  ],
  "next_experiment": "Native olmayan ortamlarda yapılamayanlar hariç: >2 saat tek-sekme yaşlı oturum (hidden fazlarla, alıcı sayısı her döngüde doğrulanarak). Windows/macOS/Firefox/Safari için ortam gerekli.",
  "known_reproduction_recipe": {
@@ -64,7 +65,8 @@
   "2026-10-21: R18/R19 (build A5T7Kpp) tamamlandi, negatif. Build degisirse r11.js/r12.js; lib.js'te run-id sed ile degistirilir.",
   "2026-10-24: R20-R22 (build tnZBHIn) tamamlandi, negatif. Yeni UI: Add -> tik -> (Recipients > Add new e-mail address) -> 'Next' -> Mail details; Save as draft = sag alttaki bos-metinli ⋮ butonu > 'Save as draft'; taslak yeniden acma -> 'Check recipients' (gerekirse 'Next'). Modal acik kalirsa sidebar tiklamalari basarisiz olur: once Cancel/'Discard changes'. Chromium yolu /opt/pw-browsers/chromium-1243/chrome-linux64/chrome.",
   "2026-10-27: F1 tamamlandı (negatif). Files yolu: sidebar 'Files & Documents' > kart (mouse.click ~795,590) > doküman kartı (~385,400) > 'Select multiple' (seçim modunda tekrar tıklama) > dosya karoları mouse ile > 'Share files'. Modal kapatma X (1296,36) + 'Discard changes'. Playwright text click kartlarda çalışmaz, koordinat kullan. Aynı akışı tekrar etme; build değişmedikçe yeni deney gerekir.",
-  "Alici secerken her seferinde 'Recipients (n)' sayacini dogrula; departman baslik kutulari toggle edip net sifira dusurebilir. Harici e-posta: Recipients sekmesinde 'Enter new email address' alanina yaz + 'Add' (artik 'Add new e-mail address' linki yok). Gercek hidden: /json/new (PUT) + /json/activate, Playwright baglantisi kapali."
+  "Alici secerken her seferinde 'Recipients (n)' sayacini dogrula; departman baslik kutulari toggle edip net sifira dusurebilir. Harici e-posta: Recipients sekmesinde 'Enter new email address' alanina yaz + 'Add' (artik 'Add new e-mail address' linki yok). Gercek hidden: /json/new (PUT) + /json/activate, Playwright baglantisi kapali.",
+  "2026-10-30: J1 tamamlandi, negatif. Hidden: Playwright persistent context (launch.js) ile /json/new, /activate, Target.createTarget visibilitychange TETIKLEMEDI; hidden icin baska yontem gerek. Alici icin Cast&crew > bos ⋮ > Select all kullan (departman kutulari guvenilmez). apt-get update sonra apt-get install openbox calisir. Chrome dogrudan baslatilinca CDP portu acilmadi; node launchPersistentContext(headless:false, --remote-debugging-port) calisti."
  ],
  "reconciliation": {
   "diverged_branches": {

@@ -54,3 +54,6 @@ Yeni build BdtIBBx. G1: Share files modalı + openbox ile doğrulanmış GERÇEK
 
 ## 2026-10-29 (run-20261029T0510Z)
 Yeni build CFWXRv9 (BdtIBBx'ten degisti). H1: Files > Share files + 8 dogrulanmis gercek hidden faz + Enter + taslak kaydet/yeniden ac; H2: 17 alici dogrulamali 4 hidden dongu: NOT REPRODUCED IN THIS EXPERIMENT. 56 probe <=22 ms, heap <=98 MB. Kok neden bilinmiyor; pre-fix REPRODUCED kaydi gecerli. Native tarayici/OS ve >2 sa NOT TESTED.
+
+## 2026-10-30 (run-20261030T0500Z)
+Yeni build lqwjLRsP (CFWXRv9'dan degisti). J1: Files > Share files, Select all + harici e-posta (40 alici dogrulandi), 'Dear Andreas,'/'Meine Lieben,' + Enter, 10 dongu, ~25 dk ayni sekme: NOT REPRODUCED IN THIS EXPERIMENT (probe <=26 ms, heap <=70 MB, 0 crash). Gercek hidden dogrulanamadi (NOT TESTED), taslak yeniden acma yapilmadi. Kok neden bilinmiyor; pre-fix REPRODUCED kaydi gecerli.

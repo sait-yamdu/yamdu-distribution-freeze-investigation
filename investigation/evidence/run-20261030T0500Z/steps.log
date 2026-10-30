@@ -39,3 +39,48 @@
 2026-10-30T05:17:53.638Z c2 Enter#1 PENDING
 2026-10-30T05:17:54.220Z c2 Enter done; probe=3ms dom=3513
 2026-10-30T05:17:54.304Z c2 recips='3 items selected' heapMB=65
+2026-10-30T05:17:54.476Z c2 PENDING hidden 90s
+2026-10-30T05:19:26.106Z c2 DONE hidden; vis="|visible"
+2026-10-30T05:19:31.161Z c3 PENDING type (age 3m)
+2026-10-30T05:19:31.189Z c3 probe pre=28ms res=2
+2026-10-30T05:19:31.967Z c3 Enter#1 PENDING
+2026-10-30T05:19:32.582Z c3 Enter done; probe=3ms dom=3516
+2026-10-30T05:19:32.647Z c3 recips='3 items selected' heapMB=65
+2026-10-30T05:19:32.801Z c3 PENDING hidden 90s
+2026-10-30T05:21:04.478Z c3 DONE hidden; vis="|visible"
+2026-10-30T05:22:04.587Z c4 PENDING type (age 6m)
+2026-10-30T05:22:04.606Z c4 probe pre=19ms res=2
+2026-10-30T05:22:05.370Z c4 Enter#1 PENDING
+2026-10-30T05:22:05.907Z c4 Enter done; probe=2ms dom=3519
+2026-10-30T05:22:05.965Z c4 recips='3 items selected' heapMB=66
+2026-10-30T05:22:06.126Z c4 PENDING hidden 90s
+2026-10-30T05:23:37.803Z c4 DONE hidden; vis="|visible"
+2026-10-30T05:23:42.851Z c5 PENDING type (age 8m)
+2026-10-30T05:23:42.886Z c5 probe pre=35ms res=2
+2026-10-30T05:23:43.639Z c5 Enter#1 PENDING
+2026-10-30T05:23:44.200Z c5 Enter done; probe=3ms dom=3521
+2026-10-30T05:23:44.263Z c5 recips='3 items selected' heapMB=67
+2026-10-30T05:23:44.421Z c5 PENDING hidden 90s
+2026-10-30T05:25:16.113Z c5 DONE hidden; vis="|visible"
+2026-10-30T05:25:21.167Z c6 PENDING type (age 9m)
+2026-10-30T05:25:21.203Z c6 probe pre=36ms res=2
+2026-10-30T05:25:21.986Z c6 Enter#1 PENDING
+2026-10-30T05:25:22.618Z c6 Enter done; probe=4ms dom=3523
+2026-10-30T05:25:22.702Z c6 recips='3 items selected' heapMB=67
+2026-10-30T05:25:22.873Z c6 PENDING hidden 90s
+2026-10-30T05:26:54.511Z c6 DONE hidden; vis="|visible"
+2026-10-30T05:27:54.648Z c7 PENDING type (age 12m)
+2026-10-30T05:27:54.656Z c7 probe pre=8ms res=2
+2026-10-30T05:27:55.428Z c7 Enter#1 PENDING
+2026-10-30T05:27:56.050Z c7 Enter done; probe=3ms dom=3525
+2026-10-30T05:27:56.146Z c7 recips='3 items selected' heapMB=65
+2026-10-30T05:27:56.293Z c7 PENDING hidden 90s
+2026-10-30T05:29:27.990Z c7 DONE hidden; vis="|visible"
+2026-10-30T05:29:33.045Z c8 PENDING type (age 13m)
+2026-10-30T05:29:33.062Z c8 probe pre=17ms res=2
+2026-10-30T05:29:33.837Z c8 Enter#1 PENDING
+2026-10-30T05:29:34.401Z c8 Enter done; probe=2ms dom=3527
+2026-10-30T05:29:34.478Z c8 recips='3 items selected' heapMB=70
+2026-10-30T05:29:34.643Z c8 PENDING hidden 90s
+2026-10-30T05:31:06.327Z c8 DONE hidden; vis="|visible"
+2026-10-30T05:31:11.341Z CYCLES complete elapsedMin=15
