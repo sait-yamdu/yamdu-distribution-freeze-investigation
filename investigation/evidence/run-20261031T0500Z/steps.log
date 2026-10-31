@@ -1,0 +1,93 @@
+2026-10-31T05:11:49.826Z PENDING login
+2026-10-31T05:12:08.187Z DONE login url=https://scotty.yamdu.com/#5551/announcements:files:filedistribution title=(3) File distribution - ROUTINE PROJECT - Yamdu
+2026-10-31T05:12:17.373Z docs url=https://scotty.yamdu.com/#5551/documents
+2026-10-31T05:12:22.153Z PENDING open room
+2026-10-31T05:12:30.904Z DONE selmode url=https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57452/documentprofile!id=70813
+2026-10-31T05:12:31.370Z PENDING select 3 files + share
+2026-10-31T05:12:33.054Z sharefiles count=1
+2026-10-31T05:12:37.259Z DONE modal opened
+2026-10-31T05:12:37.696Z PENDING recipients
+2026-10-31T05:12:41.759Z counter after depts: Recipients (2)
+2026-10-31T05:12:42.263Z PENDING select all + external
+2026-10-31T05:14:18.275Z probe 11ms res=3159
+2026-10-31T05:14:18.325Z recips: Recipients (2)
+2026-10-31T05:14:27.663Z PENDING cast&crew select all
+2026-10-31T05:14:55.030Z after select all: Recipients (39)
+2026-10-31T05:14:58.039Z after external: Recipients (40)
+2026-10-31T05:15:05.218Z CYCLES start N=8 hidden=75s
+2026-10-31T05:15:05.296Z c1 PENDING type (age 0m)
+2026-10-31T05:15:05.314Z c1 probe pre=17ms res=2
+2026-10-31T05:15:06.075Z c1 Enter#1 PENDING
+2026-10-31T05:15:06.566Z c1 Enter done; probe=3ms dom=3538
+2026-10-31T05:15:06.589Z c1 recips='3 items selected' heapMB=90
+2026-10-31T05:15:06.718Z c1 PENDING hidden 75s
+2026-10-31T05:16:23.378Z c1 DONE hidden; vis="1793423781819,visible,1793423781819,visible|visible"
+2026-10-31T05:16:28.415Z c2 PENDING type (age 1m)
+2026-10-31T05:16:28.434Z c2 probe pre=19ms res=2
+2026-10-31T05:16:29.114Z c2 Enter#1 PENDING
+2026-10-31T05:16:29.588Z c2 Enter done; probe=2ms dom=3540
+2026-10-31T05:16:29.630Z c2 recips='3 items selected' heapMB=69
+2026-10-31T05:16:29.750Z c2 PENDING hidden 75s
+2026-10-31T05:17:46.365Z c2 DONE hidden; vis="1793423864803,visible,1793423864803,visible|visible"
+2026-10-31T05:17:51.397Z c3 PENDING type (age 3m)
+2026-10-31T05:17:51.419Z c3 probe pre=22ms res=2
+2026-10-31T05:17:52.081Z c3 Enter#1 PENDING
+2026-10-31T05:17:52.558Z c3 Enter done; probe=2ms dom=3543
+2026-10-31T05:17:52.600Z c3 recips='3 items selected' heapMB=64
+2026-10-31T05:17:52.707Z c3 PENDING hidden 75s
+2026-10-31T05:19:09.357Z c3 DONE hidden; vis="1793423947798,visible,1793423947798,visible|visible"
+2026-10-31T05:20:09.469Z c4 PENDING type (age 5m)
+2026-10-31T05:20:09.476Z c4 probe pre=7ms res=2
+2026-10-31T05:20:10.137Z c4 Enter#1 PENDING
+2026-10-31T05:20:10.616Z c4 Enter done; probe=3ms dom=3546
+2026-10-31T05:20:10.660Z c4 recips='3 items selected' heapMB=65
+2026-10-31T05:20:10.775Z c4 PENDING hidden 75s
+2026-10-31T05:21:27.406Z c4 DONE hidden; vis="1793424085846,visible,1793424085846,visible|visible"
+2026-10-31T05:21:32.443Z c5 PENDING type (age 6m)
+2026-10-31T05:21:32.455Z c5 probe pre=12ms res=2
+2026-10-31T05:21:33.104Z c5 Enter#1 PENDING
+2026-10-31T05:21:33.568Z c5 Enter done; probe=2ms dom=3549
+2026-10-31T05:21:33.616Z c5 recips='3 items selected' heapMB=65
+2026-10-31T05:21:33.718Z c5 PENDING hidden 75s
+2026-10-31T05:22:50.326Z c5 DONE hidden; vis="1793424168774,visible,1793424168774,visible|visible"
+2026-10-31T05:22:55.363Z c6 PENDING type (age 8m)
+2026-10-31T05:22:55.379Z c6 probe pre=16ms res=2
+2026-10-31T05:22:56.049Z c6 Enter#1 PENDING
+2026-10-31T05:22:56.506Z c6 Enter done; probe=2ms dom=3552
+2026-10-31T05:22:56.549Z c6 recips='3 items selected' heapMB=66
+2026-10-31T05:22:56.684Z c6 PENDING hidden 75s
+2026-10-31T05:24:13.344Z c6 DONE hidden; vis="1793424251783,visible,1793424251784,visible|visible"
+2026-10-31T05:25:13.433Z c7 PENDING type (age 10m)
+2026-10-31T05:25:13.458Z c7 probe pre=25ms res=2
+2026-10-31T05:25:14.140Z c7 Enter#1 PENDING
+2026-10-31T05:25:14.614Z c7 Enter done; probe=2ms dom=3554
+2026-10-31T05:25:14.659Z c7 recips='3 items selected' heapMB=67
+2026-10-31T05:25:14.802Z c7 PENDING hidden 75s
+2026-10-31T05:26:31.465Z c7 DONE hidden; vis="1793424389899,visible,1793424389899,visible|visible"
+2026-10-31T05:26:36.494Z c8 PENDING type (age 12m)
+2026-10-31T05:26:36.517Z c8 probe pre=23ms res=2
+2026-10-31T05:26:37.184Z c8 Enter#1 PENDING
+2026-10-31T05:26:37.658Z c8 Enter done; probe=2ms dom=3556
+2026-10-31T05:26:37.704Z c8 recips='3 items selected' heapMB=67
+2026-10-31T05:26:37.827Z c8 PENDING hidden 75s
+2026-10-31T05:27:54.433Z c8 DONE hidden; vis="1793424472872,visible,1793424472872,visible|visible"
+2026-10-31T05:27:59.441Z CYCLES complete elapsedMin=13
+2026-10-31T05:28:04.991Z VIS total=32 hidden_events=16 visible_events=16
+2026-10-31T05:28:11.154Z PENDING Save as draft
+2026-10-31T05:28:14.852Z after save url=https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57452/documentprofile!id=70813
+2026-10-31T05:28:22.667Z modal open=0 url=https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57452/documentprofile!id=70813
+2026-10-31T05:28:28.036Z PENDING sidebar Distribution
+2026-10-31T05:28:32.178Z url=https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+2026-10-31T05:28:32.192Z draft tab count=1
+2026-10-31T05:28:47.748Z modal=1
+2026-10-31T05:28:47.905Z recip tab count 1
+2026-10-31T05:28:47.911Z after reopen probe=5ms 3972
+2026-10-31T05:28:47.933Z Enter#1 PENDING
+2026-10-31T05:28:48.608Z after Enter#1 probe=2ms 3974
+2026-10-31T05:28:48.608Z Enter#2 PENDING
+2026-10-31T05:28:49.274Z after Enter#2 probe=3ms 3975
+2026-10-31T05:28:49.274Z Enter#3 PENDING
+2026-10-31T05:28:49.927Z after Enter#3 probe=2ms 3976
+2026-10-31T05:28:58.083Z PENDING hidden 90s with reopened draft
+2026-10-31T05:30:29.726Z DONE hidden; vis 36|visible
+2026-10-31T05:30:29.778Z Enter after return probe=47ms 3978 heapMB=69

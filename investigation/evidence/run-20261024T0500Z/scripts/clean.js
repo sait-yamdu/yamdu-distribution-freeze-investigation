@@ -1,0 +1,2 @@
+const {conn,sleep,log}=require('./lib.js');
+(async()=>{const {p}=await conn();for(let i=0;i<4;i++){const d=p.getByRole('button',{name:'Discard changes'});if(await d.count()){await d.click().catch(()=>{});await sleep(800);continue}const c=p.getByRole('button',{name:'Cancel',exact:true});if(await c.count()){await c.last().click().catch(()=>{});await sleep(800)}}log({ev:'done',name:'clean',url:p.url()});process.exit(0)})();

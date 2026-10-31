@@ -1,0 +1,11 @@
+const {conn,log,EV}=require('./lib');
+(async()=>{const {b,p}=await conn();p.setDefaultTimeout(8000);
+const cnt=async()=>await p.getByText(/^Recipients \(\d+\)/).first().innerText();
+log('PENDING cast&crew select all');
+await p.getByText('Cast & crew',{exact:true}).first().click();await p.waitForTimeout(1200);
+await p.getByText('Select all',{exact:true}).first().click();await p.waitForTimeout(1500);
+log('after select all: '+await cnt());
+await p.getByText(/^Recipients \(\d+\)/).first().click();await p.waitForTimeout(800);
+await p.getByText('Add new e-mail address').first().click();await p.waitForTimeout(800);
+await p.screenshot({path:EV+'/n2a.png'});
+process.exit(0);})().catch(e=>{console.log('ERR',e.message.slice(0,300));process.exit(1)});

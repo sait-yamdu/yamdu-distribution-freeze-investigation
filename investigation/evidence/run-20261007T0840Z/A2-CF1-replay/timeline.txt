@@ -1,0 +1,8 @@
+attempt A2-CF1-replay start 2026-10-07T08:46:45Z
+https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+LOGIN_DONE 2026-10-07T08:47:18Z
+exploration prelude done 2026-10-07T08:47:24Z
+recording started 2026-10-07T08:47:24Z
+pilot rc=0 2026-10-07T08:49:08Z
+e4 rc=3 2026-10-07T08:50:02Z
+capture done 2026-10-07T08:51:29Z

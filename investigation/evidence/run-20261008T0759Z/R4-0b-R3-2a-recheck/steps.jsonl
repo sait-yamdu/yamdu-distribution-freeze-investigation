@@ -1,0 +1,34 @@
+{"t":"2026-10-08T08:05:35.069Z","el_s":0,"ev":"start","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","note":"C3: valid UI nav + single invalid #5551/scenes visit, UI return"}
+{"t":"2026-10-08T08:05:35.070Z","el_s":0,"ev":"start","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","note":"R4-0b R3-2a recipe re-check on current build"}
+{"t":"2026-10-08T08:05:35.070Z","el_s":0,"ev":"pending","n":"ui-nav-files-and-documents"}
+{"t":"2026-10-08T08:05:36.756Z","el_s":2,"ev":"done","n":"ui-nav-files-and-documents","dt":1686,"r":{"url":"https://scotty.yamdu.com/#5551/documents","loadingVisible":0,"waited_ms":15}}
+{"t":"2026-10-08T08:05:36.756Z","el_s":2,"ev":"pending","n":"dwell"}
+{"t":"2026-10-08T08:05:42.757Z","el_s":8,"ev":"done","n":"dwell","dt":6001}
+{"t":"2026-10-08T08:05:42.757Z","el_s":8,"ev":"pending","n":"invalid-hash #5551/foo"}
+{"t":"2026-10-08T08:05:42.903Z","el_s":8,"ev":"HTTP_ERROR","status":404,"url":"https://scotty.yamdu.com/templates/foo/foo.html?_=1791446720006"}
+{"t":"2026-10-08T08:05:42.904Z","el_s":8,"ev":"console_error","text":"Failed to load resource: the server responded with a status of 404 ()"}
+{"t":"2026-10-08T08:05:48.775Z","el_s":14,"ev":"done","n":"invalid-hash #5551/foo","dt":6018,"r":{"url":"https://scotty.yamdu.com/#5551/dashboard"}}
+{"t":"2026-10-08T08:05:48.775Z","el_s":14,"ev":"pending","n":"back-to-filedistribution"}
+{"t":"2026-10-08T08:05:50.373Z","el_s":15,"ev":"done","n":"back-to-filedistribution","dt":1598,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","loadingVisible":0,"waited_ms":5}}
+{"t":"2026-10-08T08:05:50.512Z","el_s":16,"ev":"pending","n":"verify"}
+{"t":"2026-10-08T08:05:50.512Z","el_s":16,"ev":"done","n":"verify","dt":0,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","http":1,"cerr":1}}
+{"t":"2026-10-08T08:05:50.513Z","el_s":16,"ev":"pending","n":"add"}
+{"t":"2026-10-08T08:05:52.678Z","el_s":18,"ev":"done","n":"add","dt":2165}
+{"t":"2026-10-08T08:05:52.678Z","el_s":18,"ev":"pending","n":"recips"}
+{"t":"2026-10-08T08:05:54.789Z","el_s":20,"ev":"done","n":"recips","dt":2111,"r":8}
+{"t":"2026-10-08T08:05:54.789Z","el_s":20,"ev":"pending","n":"ext-email"}
+{"t":"2026-10-08T08:05:57.859Z","el_s":23,"ev":"done","n":"ext-email","dt":3070}
+{"t":"2026-10-08T08:05:57.860Z","el_s":23,"ev":"pending","n":"subject"}
+{"t":"2026-10-08T08:05:57.907Z","el_s":23,"ev":"done","n":"subject","dt":47}
+{"t":"2026-10-08T08:05:57.907Z","el_s":23,"ev":"pending","n":"type"}
+{"t":"2026-10-08T08:05:59.590Z","el_s":25,"ev":"done","n":"type","dt":1683}
+{"t":"2026-10-08T08:05:59.595Z","el_s":25,"ev":"probe","tag":"composed","dt":5,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T08:06:00.601Z","el_s":26,"ev":"probe","tag":"after-enter-1s","dt":6,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T08:06:01.608Z","el_s":27,"ev":"probe","tag":"after-enter-2s","dt":5,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T08:06:02.616Z","el_s":28,"ev":"probe","tag":"after-enter-3s","dt":7,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T08:06:03.623Z","el_s":29,"ev":"probe","tag":"after-enter-4s","dt":6,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T08:06:04.628Z","el_s":30,"ev":"probe","tag":"after-enter-5s","dt":5,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T08:06:05.634Z","el_s":31,"ev":"probe","tag":"after-enter-6s","dt":5,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T08:06:06.638Z","el_s":32,"ev":"probe","tag":"after-enter-7s","dt":4,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T08:06:07.644Z","el_s":33,"ev":"probe","tag":"after-enter-8s","dt":5,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T08:06:07.803Z","el_s":33,"ev":"end","result":"no freeze"}

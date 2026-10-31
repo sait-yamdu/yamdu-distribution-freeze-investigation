@@ -1,0 +1,58 @@
+CYCLES start N=8 hidden=75s
+c1 PENDING type (age 0m)
+c1 probe pre=17ms res=2
+c1 Enter#1 PENDING
+c1 Enter done; probe=3ms dom=3538
+c1 recips='3 items selected' heapMB=90
+c1 PENDING hidden 75s
+c1 DONE hidden; vis="1793423781819,visible,1793423781819,visible|visible"
+c2 PENDING type (age 1m)
+c2 probe pre=19ms res=2
+c2 Enter#1 PENDING
+c2 Enter done; probe=2ms dom=3540
+c2 recips='3 items selected' heapMB=69
+c2 PENDING hidden 75s
+c2 DONE hidden; vis="1793423864803,visible,1793423864803,visible|visible"
+c3 PENDING type (age 3m)
+c3 probe pre=22ms res=2
+c3 Enter#1 PENDING
+c3 Enter done; probe=2ms dom=3543
+c3 recips='3 items selected' heapMB=64
+c3 PENDING hidden 75s
+c3 DONE hidden; vis="1793423947798,visible,1793423947798,visible|visible"
+c4 PENDING type (age 5m)
+c4 probe pre=7ms res=2
+c4 Enter#1 PENDING
+c4 Enter done; probe=3ms dom=3546
+c4 recips='3 items selected' heapMB=65
+c4 PENDING hidden 75s
+c4 DONE hidden; vis="1793424085846,visible,1793424085846,visible|visible"
+c5 PENDING type (age 6m)
+c5 probe pre=12ms res=2
+c5 Enter#1 PENDING
+c5 Enter done; probe=2ms dom=3549
+c5 recips='3 items selected' heapMB=65
+c5 PENDING hidden 75s
+c5 DONE hidden; vis="1793424168774,visible,1793424168774,visible|visible"
+c6 PENDING type (age 8m)
+c6 probe pre=16ms res=2
+c6 Enter#1 PENDING
+c6 Enter done; probe=2ms dom=3552
+c6 recips='3 items selected' heapMB=66
+c6 PENDING hidden 75s
+c6 DONE hidden; vis="1793424251783,visible,1793424251784,visible|visible"
+c7 PENDING type (age 10m)
+c7 probe pre=25ms res=2
+c7 Enter#1 PENDING
+c7 Enter done; probe=2ms dom=3554
+c7 recips='3 items selected' heapMB=67
+c7 PENDING hidden 75s
+c7 DONE hidden; vis="1793424389899,visible,1793424389899,visible|visible"
+c8 PENDING type (age 12m)
+c8 probe pre=23ms res=2
+c8 Enter#1 PENDING
+c8 Enter done; probe=2ms dom=3556
+c8 recips='3 items selected' heapMB=67
+c8 PENDING hidden 75s
+c8 DONE hidden; vis="1793424472872,visible,1793424472872,visible|visible"
+CYCLES complete elapsedMin=13

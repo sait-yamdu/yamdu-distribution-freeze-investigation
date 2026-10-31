@@ -1,0 +1,4 @@
+{"t":"05:10:49","ev":"RUN START; prior=run-20261030T0500Z src=d8ujxy 1979806; build changed lqwjLRsP->_hkAegF2; login+project verified"}
+{"t":"05:15:04","ev":"PENDING K1 cycles: 40 recipients verified, build _hkAegF2, starting cyc.js N=8 hidden=75s"}
+{"t":"05:28:10","ev":"K1 cycles DONE: 8 cycles, 8 verified hidden phases (75s), max probe 25ms, heap<=90MB, no freeze. PENDING save draft + reopen"}
+{"t":"05:28:42","ev":"draft saved (40 recips). PENDING reopen draft + Enter x3"}

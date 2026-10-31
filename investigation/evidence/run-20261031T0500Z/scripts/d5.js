@@ -1,0 +1,14 @@
+const {conn,log,EV}=require('./lib');const http=require('http');
+const req=(m,path)=>new Promise((res,rej)=>{const r=http.request({host:'127.0.0.1',port:9222,path,method:m},x=>{let d='';x.on('data',c=>d+=c);x.on('end',()=>res(d))});r.on('error',rej);r.end()});
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+(async()=>{let {b,p}=await conn();
+const tid=JSON.parse(await req('GET','/json')).filter(t=>t.type==='page'&&/scotty/.test(t.url))[0].id;
+log('PENDING hidden 90s with reopened draft');await b.close();
+await req('PUT','/json/new?about:blank');await sleep(90000);await req('GET','/json/activate/'+tid);await sleep(1500);
+({b,p}=await conn());const pg=b.contexts()[0].pages().find(x=>/scotty/.test(x.url()));
+const vs=await pg.evaluate(()=>window.__vis.map(x=>x[1]).length+'|'+document.visibilityState);log('DONE hidden; vis '+vs);
+for(const t of JSON.parse(await req('GET','/json')).filter(t=>t.url==='about:blank'))await req('GET','/json/close/'+t.id);
+const t=Date.now();await pg.mouse.click(940,500);await pg.keyboard.press('End');await pg.keyboard.press('Enter');
+const r=await Promise.race([pg.evaluate(()=>document.querySelectorAll('*').length),sleep(10000).then(()=>'TIMEOUT')]);
+log('Enter after return probe='+(Date.now()-t)+'ms '+r+' heapMB='+await pg.evaluate(()=>Math.round(performance.memory.usedJSHeapSize/1e6)));
+process.exit(0)})().catch(e=>{console.log('ERR',e.message.slice(0,300));process.exit(1)});

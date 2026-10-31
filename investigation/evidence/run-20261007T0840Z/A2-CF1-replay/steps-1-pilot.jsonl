@@ -1,0 +1,45 @@
+{"t":"2026-10-07T08:47:25.116Z","el_s":0,"ev":"start","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ua":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","note":"same tab since login; no reload during E4"}
+{"t":"2026-10-07T08:47:25.120Z","el_s":0,"ev":"probe","tag":"start","dt":3,"r":{"hb":{"max":0,"n":0,"lt":0,"ltmax":0},"ed":2,"vis":"visible","heap":76,"nodes":1678}}
+{"t":"2026-10-07T08:47:25.120Z","el_s":0,"ev":"pending","name":"close-initial-modal"}
+{"t":"2026-10-07T08:47:25.952Z","el_s":1,"ev":"done","name":"close-initial-modal","dt":832,"r":false}
+{"t":"2026-10-07T08:47:25.953Z","el_s":1,"ev":"cycle","c":1}
+{"t":"2026-10-07T08:47:25.953Z","el_s":1,"ev":"pending","name":"nav-distribution"}
+{"t":"2026-10-07T08:47:28.456Z","el_s":3,"ev":"done","name":"nav-distribution","dt":2503}
+{"t":"2026-10-07T08:47:28.460Z","el_s":3,"ev":"probe","tag":"c1-dist","dt":4,"r":{"hb":{"max":1.3000000000465661,"n":33,"lt":0,"ltmax":0},"ed":0,"vis":"visible","heap":68,"nodes":945}}
+{"t":"2026-10-07T08:47:28.460Z","el_s":3,"ev":"pending","name":"open-add-modal"}
+{"t":"2026-10-07T08:47:30.695Z","el_s":6,"ev":"done","name":"open-add-modal","dt":2235}
+{"t":"2026-10-07T08:47:30.696Z","el_s":6,"ev":"pending","name":"select-recipients"}
+{"t":"2026-10-07T08:47:32.600Z","el_s":8,"ev":"done","name":"select-recipients","dt":1904,"r":{"total":22,"checked":8}}
+{"t":"2026-10-07T08:47:32.604Z","el_s":8,"ev":"probe","tag":"c1-recips","dt":4,"r":{"hb":{"max":78.40000000002328,"n":74,"lt":6,"ltmax":149},"ed":2,"vis":"visible","heap":77,"nodes":1738}}
+{"t":"2026-10-07T08:47:32.604Z","el_s":8,"ev":"pending","name":"external-email-entry"}
+{"t":"2026-10-07T08:47:37.607Z","el_s":13,"ev":"error","name":"external-email-entry","dt":5003,"err":"locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByPlaceholder('Select recipients').first()\u001b[22m\n"}
+{"t":"2026-10-07T08:47:37.610Z","el_s":13,"ev":"probe","tag":"after-error-external-email-entry","dt":3,"r":{"hb":{"max":78.40000000002328,"n":124,"lt":6,"ltmax":149},"ed":2,"vis":"visible","heap":78,"nodes":1738}}
+{"t":"2026-10-07T08:47:37.611Z","el_s":13,"ev":"pending","name":"subject"}
+{"t":"2026-10-07T08:47:37.658Z","el_s":13,"ev":"error","name":"subject","dt":47,"err":"locator.fill: Error: strict mode violation: getByPlaceholder('Subject') resolved to 2 elements:\n    1) <input value=\"\" type=\"text\" aria-invalid=\"false\" id=\"mantine-c570hosu8\" placeholder=\"Subject, mes"}
+{"t":"2026-10-07T08:47:37.661Z","el_s":13,"ev":"probe","tag":"after-error-subject","dt":3,"r":{"hb":{"max":78.40000000002328,"n":125,"lt":6,"ltmax":149},"ed":2,"vis":"visible","heap":79,"nodes":1738}}
+{"t":"2026-10-07T08:47:37.661Z","el_s":13,"ev":"pending","name":"type-greeting-enter"}
+{"t":"2026-10-07T08:47:41.645Z","el_s":17,"ev":"done","name":"type-greeting-enter","dt":3983}
+{"t":"2026-10-07T08:47:41.648Z","el_s":17,"ev":"probe","tag":"c1-typed","dt":3,"r":{"hb":{"max":78.40000000002328,"n":165,"lt":6,"ltmax":149},"ed":2,"vis":"visible","heap":74,"nodes":1741}}
+{"t":"2026-10-07T08:47:41.650Z","el_s":17,"ev":"probe","tag":"c1-files","dt":1,"r":{"hb":{"max":78.40000000002328,"n":165,"lt":6,"ltmax":149},"ed":2,"vis":"visible","heap":74,"nodes":1741}}
+{"t":"2026-10-07T08:47:41.650Z","el_s":17,"ev":"pending","name":"idle-with-modal"}
+{"t":"2026-10-07T08:48:06.651Z","el_s":42,"ev":"error","name":"idle-with-modal","dt":25001,"err":"step>25000"}
+{"t":"2026-10-07T08:48:06.657Z","el_s":42,"ev":"probe","tag":"after-error-idle-with-modal","dt":6,"r":{"hb":{"max":78.40000000002328,"n":415,"lt":6,"ltmax":149},"ed":2,"vis":"visible","heap":71,"nodes":1741}}
+{"t":"2026-10-07T08:48:06.661Z","el_s":42,"ev":"probe","tag":"c1-idle","dt":4,"r":{"hb":{"max":78.40000000002328,"n":415,"lt":6,"ltmax":149},"ed":2,"vis":"visible","heap":71,"nodes":1741}}
+{"t":"2026-10-07T08:48:06.662Z","el_s":42,"ev":"pending","name":"save-draft"}
+{"t":"2026-10-07T08:48:09.892Z","el_s":45,"ev":"done","name":"save-draft","dt":3230,"r":true}
+{"t":"2026-10-07T08:48:09.896Z","el_s":45,"ev":"probe","tag":"c1-saved","dt":3,"r":{"hb":{"max":78.40000000002328,"n":447,"lt":6,"ltmax":149},"ed":2,"vis":"visible","heap":72,"nodes":1742}}
+{"t":"2026-10-07T08:48:09.896Z","el_s":45,"ev":"pending","name":"close-modal"}
+{"t":"2026-10-07T08:48:11.271Z","el_s":46,"ev":"done","name":"close-modal","dt":1375,"r":0}
+{"t":"2026-10-07T08:48:11.271Z","el_s":46,"ev":"pending","name":"nav-files"}
+{"t":"2026-10-07T08:48:17.287Z","el_s":52,"ev":"done","name":"nav-files","dt":6016}
+{"t":"2026-10-07T08:48:17.287Z","el_s":52,"ev":"pending","name":"nav-scenes"}
+{"t":"2026-10-07T08:48:23.303Z","el_s":58,"ev":"done","name":"nav-scenes","dt":6016}
+{"t":"2026-10-07T08:48:23.307Z","el_s":58,"ev":"probe","tag":"c1-nav","dt":4,"r":{"hb":{"max":288.0999999999767,"n":579,"lt":9,"ltmax":149},"ed":0,"vis":"visible","heap":72,"nodes":982}}
+{"t":"2026-10-07T08:48:23.307Z","el_s":58,"ev":"pending","name":"nav-dist-drafts"}
+{"t":"2026-10-07T08:48:28.995Z","el_s":64,"ev":"done","name":"nav-dist-drafts","dt":5688}
+{"t":"2026-10-07T08:48:28.995Z","el_s":64,"ev":"pending","name":"reopen-draft"}
+{"t":"2026-10-07T08:48:53.996Z","el_s":89,"ev":"error","name":"reopen-draft","dt":25001,"err":"step>25000"}
+{"t":"2026-10-07T08:48:53.999Z","el_s":89,"ev":"probe","tag":"after-error-reopen-draft","dt":3,"r":{"hb":{"max":288.0999999999767,"n":886,"lt":11,"ltmax":149},"ed":0,"vis":"visible","heap":79,"nodes":1130}}
+{"t":"2026-10-07T08:48:54.002Z","el_s":89,"ev":"probe","tag":"c1-reopened","dt":2,"r":{"hb":{"max":288.0999999999767,"n":886,"lt":11,"ltmax":149},"ed":0,"vis":"visible","heap":79,"nodes":1130}}
+{"t":"2026-10-07T08:48:54.002Z","el_s":89,"ev":"pilot-stop-as-in-CF1"}
+{"t":"2026-10-07T08:48:59.001Z","el_s":94,"ev":"draft-row","count":0,"first":""}

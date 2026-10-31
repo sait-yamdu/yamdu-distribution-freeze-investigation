@@ -1,0 +1,34 @@
+renderer pid 1159
+08:50:02
+ 1159 root      12  -8 1393.7g 648244 176848 R  91.5   3.9   0:56.80 chrome
+VmRSS:	  648244 kB
+#0  0x000055a38865a157 in blink::Range::NodeWillBeRemoved(blink::Node&) ()
+#1  0x000055a388658392 in blink::ContainerNode::RemoveChild(blink::Node*, blink::ExceptionState&) ()
+#2  0x000055a388e7c31d in blink::(anonymous namespace)::v8_node::RemoveChildOperationCallback(v8::FunctionCallbackInfo<v8::Value> const&) [c
+#3  0x000055a38bc2f9b8 in Builtins_CallApiCallbackOptimizedNoProfiling ()
+#4  0x00007ffe33200408 in ??? ()
+#5  0x00007ffe33200440 in ??? ()
+#6  0x0000000000000001 in ??? ()
+--
+08:50:30
+ 1159 root      12  -8 1392.1g 599768 177032 R  89.0   3.6   1:18.23 chrome
+VmRSS:	  599768 kB
+#0  0x000055a388819fb4 in blink::CalculateInitialFragmentGeometry(blink::ConstraintSpace const&, blink::BlockNode const&, blink::BlockBreakT
+#1  0x000055a38770314f in blink::BlockNode::Layout(blink::ConstraintSpace const&, blink::BlockBreakToken const*, blink::EarlyBreak const*, b
+#2  0x000055a3899eaf62 in blink::BlockLayoutAlgorithm::LayoutNewFormattingContext(blink::LayoutInputNode, blink::BlockBreakToken const*, bli
+#3  0x000055a3881627bb in blink::BlockLayoutAlgorithm::Layout(blink::InlineChildLayoutContext*) ()
+#4  0x000055a38814f139 in void blink::(anonymous namespace)::CreateAlgorithmAndRun<blink::BlockLayoutAlgorithm, blink::(anonymous namespace)
+#5  0x000055a3877034ea in blink::BlockNode::Layout(blink::ConstraintSpace const&, blink::BlockBreakToken const*, blink::EarlyBreak const*, b
+#6  0x000055a3881729bc in blink::FixedPoint<6u, int> absl::functional_internal::InvokeObject<blink::FlexLayoutAlgorithm::ConstructAndAppendF
+--
+08:50:57
+ 1159 root      12  -8 1392.1g 598212 177036 R 104.0   3.6   1:39.64 chrome
+VmRSS:	  598212 kB
+#0  0x000055a38893c21f in blink::LocalFrameView::UpdateStyleAndLayout() ()
+#1  0x000055a3889396f1 in blink::Document::UpdateStyleAndLayout(blink::DocumentUpdateReason) ()
+#2  0x000055a38865f281 in blink::InputMethodController::TextInputInfo() const ()
+#3  0x000055a38865e8e0 in blink::WebInputMethodControllerImpl::TextInputInfo() ()
+#4  0x000055a388e6f39c in blink::WidgetBase::UpdateTextInputStateInternal(bool, bool) ()
+#5  0x000055a38908230d in content::RenderFrameImpl::DidChangeSelection(bool, blink::SyncCondition) ()
+#6  0x000055a38865e70e in blink::Editor::SyncSelection(blink::SyncCondition) ()
+--

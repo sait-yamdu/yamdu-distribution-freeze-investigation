@@ -1,0 +1,34 @@
+renderer pid 2475
+05:31:01
+ 2475 root      12  -8 1393.7g 648424 169808 R  97.5   3.9   0:46.18 chrome
+VmRSS:	  648424 kB
+#0  0x0000562a1746e130 in blink::Range::NodeWillBeRemoved(blink::Node&) ()
+#1  0x0000562a1746c392 in blink::ContainerNode::RemoveChild(blink::Node*, blink::ExceptionState&) ()
+#2  0x0000562a17c9031d in blink::(anonymous namespace)::v8_node::RemoveChildOperationCallback(v8::FunctionCallbackInfo<v8::Value> const&) [c
+#3  0x0000562a1aa439b8 in Builtins_CallApiCallbackOptimizedNoProfiling ()
+#4  0x00007ffcb8959ad8 in ??? ()
+#5  0x00007ffcb8959b10 in ??? ()
+#6  0x0000000000000001 in ??? ()
+--
+05:31:27
+ 2475 root      12  -8 1392.1g 591328 169964 R  97.0   3.6   1:08.27 chrome
+VmRSS:	  591328 kB
+#0  0x0000562a1689aac5 in blink::Element::RecalcStyle(blink::StyleRecalcChange, blink::StyleRecalcContext const&) ()
+#1  0x0000562a1689aa8f in blink::Element::RecalcStyle(blink::StyleRecalcChange, blink::StyleRecalcContext const&) ()
+#2  0x0000562a1689aa8f in blink::Element::RecalcStyle(blink::StyleRecalcChange, blink::StyleRecalcContext const&) ()
+#3  0x0000562a1689aa8f in blink::Element::RecalcStyle(blink::StyleRecalcChange, blink::StyleRecalcContext const&) ()
+#4  0x0000562a1689aa8f in blink::Element::RecalcStyle(blink::StyleRecalcChange, blink::StyleRecalcContext const&) ()
+#5  0x0000562a1689aa8f in blink::Element::RecalcStyle(blink::StyleRecalcChange, blink::StyleRecalcContext const&) ()
+#6  0x0000562a1689aa8f in blink::Element::RecalcStyle(blink::StyleRecalcChange, blink::StyleRecalcContext const&) ()
+--
+05:31:53
+ 2475 root      12  -8 1392.1g 592056 169964 R 107.0   3.6   1:30.36 chrome
+VmRSS:	  592056 kB
+#0  0x0000562a16514f65 in void* partition_alloc::PartitionRoot::Alloc<(partition_alloc::internal::AllocFlags)0>(unsigned long, char const*) 
+#1  0x0000562a169458b9 in void blink::Vector<scoped_refptr<blink::InvalidationSet>, 0u, blink::PartitionAllocator>::AppendSlowCase<blink::De
+#2  0x0000562a16b7a794 in blink::StyleEngine::AttributeChangedForElement(blink::QualifiedName const&, blink::Element&) ()
+#3  0x0000562a16b81637 in blink::Element::SetAttributeHinted(blink::AtomicString, blink::AtomicStringTable::WeakResult, blink::String, blink
+#4  0x0000562a165307be in blink::(anonymous namespace)::v8_element::SetAttributeOperationCallback(v8::FunctionCallbackInfo<v8::Value> const&
+#5  0x0000562a1aa43ac3 in Builtins_CallApiCallbackOptimized ()
+#6  0x00007ffcb89599c8 in ??? ()
+--

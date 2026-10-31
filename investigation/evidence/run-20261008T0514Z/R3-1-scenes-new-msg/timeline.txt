@@ -1,0 +1,6 @@
+attempt R3-1-scenes-new-msg start 2026-10-08T05:15:49Z
+https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+LOGIN_DONE 2026-10-08T05:16:21Z
+recording started 2026-10-08T05:16:21Z
+driver rc=3 2026-10-08T05:17:19Z
+capture done 2026-10-08T05:18:51Z

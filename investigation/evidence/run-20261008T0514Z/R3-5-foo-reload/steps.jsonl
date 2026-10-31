@@ -1,0 +1,73 @@
+{"t":"2026-10-08T05:32:57.813Z","el_s":0,"ev":"start","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","note":"C3: valid UI nav + single invalid #5551/scenes visit, UI return"}
+{"t":"2026-10-08T05:32:57.814Z","el_s":0,"ev":"start","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","note":"R3-5 unknown route foo then full reload then UI nav"}
+{"t":"2026-10-08T05:32:57.814Z","el_s":0,"ev":"pending","n":"ui-nav-files-and-documents"}
+{"t":"2026-10-08T05:32:59.421Z","el_s":2,"ev":"done","n":"ui-nav-files-and-documents","dt":1607,"r":{"url":"https://scotty.yamdu.com/#5551/documents","loadingVisible":0,"waited_ms":8}}
+{"t":"2026-10-08T05:32:59.421Z","el_s":2,"ev":"pending","n":"dwell"}
+{"t":"2026-10-08T05:33:05.422Z","el_s":8,"ev":"done","n":"dwell","dt":6001}
+{"t":"2026-10-08T05:33:05.422Z","el_s":8,"ev":"pending","n":"invalid-hash #5551/foo"}
+{"t":"2026-10-08T05:33:06.019Z","el_s":8,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:06.021Z","el_s":8,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:06.024Z","el_s":8,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:06.024Z","el_s":8,"ev":"request_failed_yamdu","url":"https://analytics.yamdu.com/js/container_Xe5ezheL.js","err":"net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:06.025Z","el_s":8,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:06.025Z","el_s":8,"ev":"request_failed_yamdu","url":"https://analytics.yamdu.com/matomo.js","err":"net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:06.030Z","el_s":8,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:06.094Z","el_s":8,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:06.194Z","el_s":8,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:06.394Z","el_s":9,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:06.643Z","el_s":9,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:11.438Z","el_s":14,"ev":"done","n":"invalid-hash #5551/foo","dt":6016,"r":{"url":"https://scotty.yamdu.com/#5551/foo"}}
+{"t":"2026-10-08T05:33:11.439Z","el_s":14,"ev":"pending","n":"reload"}
+{"t":"2026-10-08T05:33:11.757Z","el_s":14,"ev":"request_failed_yamdu","url":"https://analytics.yamdu.com/matomo.js","err":"net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:11.761Z","el_s":14,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:11.864Z","el_s":14,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:11.936Z","el_s":14,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:12.700Z","el_s":15,"ev":"request_failed_yamdu","url":"https://analytics.yamdu.com/js/container_Xe5ezheL.js","err":"net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:12.701Z","el_s":15,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:12.702Z","el_s":15,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:12.940Z","el_s":15,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:12.980Z","el_s":15,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:12.998Z","el_s":15,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:13.169Z","el_s":15,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:13.409Z","el_s":16,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:13.870Z","el_s":16,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:13.946Z","el_s":16,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:13.957Z","el_s":16,"ev":"request_failed_yamdu","url":"https://analytics.yamdu.com/js/container_Xe5ezheL.js","err":"net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:13.957Z","el_s":16,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:13.974Z","el_s":16,"ev":"request_failed_yamdu","url":"https://analytics.yamdu.com/matomo.js","err":"net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:13.975Z","el_s":16,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:13.976Z","el_s":16,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:14.026Z","el_s":16,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:14.037Z","el_s":16,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:14.261Z","el_s":17,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:14.504Z","el_s":17,"ev":"console_error","text":"Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"}
+{"t":"2026-10-08T05:33:18.772Z","el_s":21,"ev":"done","n":"reload","dt":7333,"r":{"url":"https://scotty.yamdu.com/#5551/foo"}}
+{"t":"2026-10-08T05:33:18.772Z","el_s":21,"ev":"pending","n":"back-to-filedistribution"}
+{"t":"2026-10-08T05:33:26.780Z","el_s":29,"ev":"error","n":"back-to-filedistribution","dt":8007,"err":"locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"#5551/announcements\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <a class=\"tooltip\" href=\"#5551/announcements\">"}
+{"t":"2026-10-08T05:33:26.787Z","el_s":29,"ev":"probe","tag":"err-back-to-filedistribution","dt":7,"r":{"url":"https://scotty.yamdu.com/#5551/foo","ed":0,"loading":3,"nodes":1008}}
+{"t":"2026-10-08T05:33:26.899Z","el_s":29,"ev":"pending","n":"verify"}
+{"t":"2026-10-08T05:33:26.899Z","el_s":29,"ev":"done","n":"verify","dt":0,"r":{"url":"https://scotty.yamdu.com/#5551/foo","http":0,"cerr":28}}
+{"t":"2026-10-08T05:33:26.899Z","el_s":29,"ev":"pending","n":"add"}
+{"t":"2026-10-08T05:33:34.901Z","el_s":37,"ev":"error","n":"add","dt":8002,"err":"locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Add', exact: true }).first()\u001b[22m\n"}
+{"t":"2026-10-08T05:33:34.904Z","el_s":37,"ev":"probe","tag":"err-add","dt":3,"r":{"url":"https://scotty.yamdu.com/#5551/foo","ed":0,"loading":3,"nodes":1008}}
+{"t":"2026-10-08T05:33:34.905Z","el_s":37,"ev":"pending","n":"recips"}
+{"t":"2026-10-08T05:33:59.906Z","el_s":62,"ev":"error","n":"recips","dt":25001,"err":"step>25000"}
+{"t":"2026-10-08T05:33:59.910Z","el_s":62,"ev":"probe","tag":"err-recips","dt":4,"r":{"url":"https://scotty.yamdu.com/#5551/foo","ed":0,"loading":3,"nodes":1008}}
+{"t":"2026-10-08T05:33:59.910Z","el_s":62,"ev":"pending","n":"ext-email"}
+{"t":"2026-10-08T05:34:02.916Z","el_s":65,"ev":"done","n":"ext-email","dt":3006}
+{"t":"2026-10-08T05:34:02.916Z","el_s":65,"ev":"pending","n":"subject"}
+{"t":"2026-10-08T05:34:27.918Z","el_s":90,"ev":"error","n":"subject","dt":25002,"err":"step>25000"}
+{"t":"2026-10-08T05:34:27.922Z","el_s":90,"ev":"probe","tag":"err-subject","dt":4,"r":{"url":"https://scotty.yamdu.com/#5551/foo","ed":0,"loading":3,"nodes":1008}}
+{"t":"2026-10-08T05:34:27.922Z","el_s":90,"ev":"pending","n":"type"}
+{"t":"2026-10-08T05:34:32.924Z","el_s":95,"ev":"error","n":"type","dt":5002,"err":"locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.ProseMirror').first()\u001b[22m\n"}
+{"t":"2026-10-08T05:34:32.928Z","el_s":95,"ev":"probe","tag":"err-type","dt":4,"r":{"url":"https://scotty.yamdu.com/#5551/foo","ed":0,"loading":3,"nodes":1008}}
+{"t":"2026-10-08T05:34:32.932Z","el_s":95,"ev":"probe","tag":"composed","dt":3,"r":{"url":"https://scotty.yamdu.com/#5551/foo","ed":0,"loading":3,"nodes":1008}}
+{"t":"2026-10-08T05:34:33.937Z","el_s":96,"ev":"probe","tag":"after-enter-1s","dt":4,"r":{"url":"https://scotty.yamdu.com/#5551/foo","ed":0,"loading":3,"nodes":1008}}
+{"t":"2026-10-08T05:34:34.943Z","el_s":97,"ev":"probe","tag":"after-enter-2s","dt":5,"r":{"url":"https://scotty.yamdu.com/#5551/foo","ed":0,"loading":3,"nodes":1008}}
+{"t":"2026-10-08T05:34:35.947Z","el_s":98,"ev":"probe","tag":"after-enter-3s","dt":3,"r":{"url":"https://scotty.yamdu.com/#5551/foo","ed":0,"loading":3,"nodes":1008}}
+{"t":"2026-10-08T05:34:36.952Z","el_s":99,"ev":"probe","tag":"after-enter-4s","dt":4,"r":{"url":"https://scotty.yamdu.com/#5551/foo","ed":0,"loading":3,"nodes":1008}}
+{"t":"2026-10-08T05:34:37.956Z","el_s":100,"ev":"probe","tag":"after-enter-5s","dt":4,"r":{"url":"https://scotty.yamdu.com/#5551/foo","ed":0,"loading":3,"nodes":1008}}
+{"t":"2026-10-08T05:34:38.961Z","el_s":101,"ev":"probe","tag":"after-enter-6s","dt":4,"r":{"url":"https://scotty.yamdu.com/#5551/foo","ed":0,"loading":3,"nodes":1008}}
+{"t":"2026-10-08T05:34:39.966Z","el_s":102,"ev":"probe","tag":"after-enter-7s","dt":4,"r":{"url":"https://scotty.yamdu.com/#5551/foo","ed":0,"loading":3,"nodes":1008}}
+{"t":"2026-10-08T05:34:40.972Z","el_s":103,"ev":"probe","tag":"after-enter-8s","dt":6,"r":{"url":"https://scotty.yamdu.com/#5551/foo","ed":0,"loading":3,"nodes":1008}}
+{"t":"2026-10-08T05:34:41.083Z","el_s":103,"ev":"end","result":"no freeze"}
