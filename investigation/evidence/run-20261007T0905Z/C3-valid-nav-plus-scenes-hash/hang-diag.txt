@@ -1,0 +1,30 @@
+renderer pid 3384
+09:26:26
+ 3384 root      12  -8 1393.7g 662796 183044 R  96.0   4.0   0:50.51 chrome
+VmRSS:	  662796 kB
+#0  0x0000562c916dd121 in blink::Node::IsDescendantOf(blink::Node const*) const ()
+#1  0x00007fff175f3b60 in ??? ()
+#2  0x0000562c916d993b in blink::TextIteratorAlgorithm<blink::EditingAlgorithm<blink::NodeTraversal> >::Advance() ()
+--
+09:26:53
+ 3384 root      12  -8 1392.1g 623016 182652 R 100.0   3.8   1:12.48 chrome
+VmRSS:	  623016 kB
+#0  0x0000562c91862728 in blink::PaintLayerScrollableArea::ComputeScrollbarExistence(bool&, bool&, blink::PaintLayerScrollableArea::ComputeS
+#1  0x0000562c918639c3 in blink::PaintLayerScrollableArea::UpdateAfterLayout() ()
+#2  0x0000562c90db98b5 in blink::LayoutBox::UpdateAfterLayout() ()
+#3  0x0000562c901298e3 in blink::BlockNode::Layout(blink::ConstraintSpace const&, blink::BlockBreakToken const*, blink::EarlyBreak const*, b
+#4  0x0000562c91258a74 in blink::OutOfFlowLayoutPart::LayoutCandidates(blink::BasicHeapVector<(blink::internal::HeapCollectionType)1, blink:
+#5  0x0000562c90b95a02 in blink::OutOfFlowLayoutPart::Run() ()
+#6  0x0000562c90b94d0c in blink::BoxFragmentBuilder::HandleOofsAndSpecialDescendants() ()
+--
+09:27:20
+ 3384 root      12  -8 1392.1g 623632 182652 R  91.5   3.8   1:34.06 chrome
+VmRSS:	  623632 kB
+#0  0x0000562c90db07ae in blink::ImageResourceContent::UpdateResourceInfoFromObservers() ()
+#1  0x0000562c92c41aed in blink::ResourceFetcher::UpdateImagePrioritiesAndSpeculativeDecodes() ()
+#2  0x0000562c91362a16 in blink::LocalFrameView::UpdateStyleAndLayout() ()
+#3  0x0000562c9135f6f1 in blink::Document::UpdateStyleAndLayout(blink::DocumentUpdateReason) ()
+#4  0x0000562c9135d6a7 in blink::FrameSelection::ComputeVisibleSelectionInDOMTreeDeprecated() const ()
+#5  0x0000562c910851f1 in blink::InputMethodController::TextInputInfo() const ()
+#6  0x0000562c910848e0 in blink::WebInputMethodControllerImpl::TextInputInfo() ()
+--

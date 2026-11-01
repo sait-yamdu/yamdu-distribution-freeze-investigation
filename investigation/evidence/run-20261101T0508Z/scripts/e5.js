@@ -1,0 +1,14 @@
+const L=require('./lib');
+(async()=>{const {p}=await L.conn();
+L.log('PENDING fill external contact form');
+await p.fill('#name','FRZ-Ext-1101 Probe');
+await p.click('#positions_input');await p.keyboard.type('Producer');await p.waitForTimeout(1500);
+await p.screenshot({path:L.EV+'/06-pos.png'});
+await p.keyboard.press('Enter');await p.waitForTimeout(800);
+await p.fill('#externalcontact_email','frz-ext-1101@example.com');
+await p.screenshot({path:L.EV+'/07-filled.png'});
+L.log('PENDING click Create');
+await p.getByRole('button',{name:'Create',exact:true}).click();await p.waitForTimeout(4000);
+await p.screenshot({path:L.EV+'/08-created.png'});
+L.log('COMPLETED create ext contact');
+process.exit(0)})().catch(e=>{console.log('ERR',e.message);process.exit(1)});

@@ -1,0 +1,1 @@
+const L=require('./lib');(async()=>{const {p}=await L.conn();console.log(await p.evaluate(()=>JSON.stringify({vis:window.__vis.map(x=>x[1]),hbmax:Math.round(window.__hbmax),st:document.visibilityState})));process.exit(0)})()

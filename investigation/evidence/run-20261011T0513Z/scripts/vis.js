@@ -1,0 +1,1 @@
+const {conn,sleep}=require('./lib.js');(async()=>{const {p}=await conn();await p.evaluate(()=>{if(window.__vl)return;window.__vl=[];document.addEventListener('visibilitychange',()=>window.__vl.push([Math.round(performance.now()/1000),document.visibilityState]))});console.log('ok');process.exit(0)})()

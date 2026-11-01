@@ -1,0 +1,41 @@
+{"t":"2026-10-07T08:53:14.163Z","el_s":0,"ev":"start","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ua":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","note":"same tab since login; no reload during E4"}
+{"t":"2026-10-07T08:53:14.166Z","el_s":0,"ev":"probe","tag":"start","dt":3,"r":{"hb":{"max":0,"n":0,"lt":0,"ltmax":0},"ed":2,"vis":"visible","heap":92,"nodes":1745}}
+{"t":"2026-10-07T08:53:14.167Z","el_s":0,"ev":"pending","name":"close-initial-modal"}
+{"t":"2026-10-07T08:53:14.997Z","el_s":1,"ev":"done","name":"close-initial-modal","dt":830,"r":false}
+{"t":"2026-10-07T08:53:14.997Z","el_s":1,"ev":"cycle","c":1}
+{"t":"2026-10-07T08:53:14.997Z","el_s":1,"ev":"pending","name":"nav-distribution"}
+{"t":"2026-10-07T08:53:17.502Z","el_s":3,"ev":"done","name":"nav-distribution","dt":2505}
+{"t":"2026-10-07T08:53:17.507Z","el_s":3,"ev":"probe","tag":"c1-dist","dt":5,"r":{"hb":{"max":2.599999999976717,"n":33,"lt":0,"ltmax":0},"ed":0,"vis":"visible","heap":69,"nodes":945}}
+{"t":"2026-10-07T08:53:17.507Z","el_s":3,"ev":"pending","name":"open-add-modal"}
+{"t":"2026-10-07T08:53:19.752Z","el_s":6,"ev":"done","name":"open-add-modal","dt":2245}
+{"t":"2026-10-07T08:53:19.752Z","el_s":6,"ev":"pending","name":"select-recipients"}
+{"t":"2026-10-07T08:53:21.582Z","el_s":7,"ev":"done","name":"select-recipients","dt":1830,"r":{"total":22,"checked":8}}
+{"t":"2026-10-07T08:53:21.587Z","el_s":7,"ev":"probe","tag":"c1-recips","dt":5,"r":{"hb":{"max":73,"n":74,"lt":6,"ltmax":146},"ed":2,"vis":"visible","heap":80,"nodes":1738}}
+{"t":"2026-10-07T08:53:21.587Z","el_s":7,"ev":"pending","name":"external-email-entry"}
+{"t":"2026-10-07T08:53:24.723Z","el_s":11,"ev":"done","name":"external-email-entry","dt":3136,"r":false}
+{"t":"2026-10-07T08:53:24.723Z","el_s":11,"ev":"pending","name":"subject"}
+{"t":"2026-10-07T08:53:24.758Z","el_s":11,"ev":"done","name":"subject","dt":35}
+{"t":"2026-10-07T08:53:24.758Z","el_s":11,"ev":"pending","name":"type-greeting-enter"}
+{"t":"2026-10-07T08:53:28.917Z","el_s":15,"ev":"done","name":"type-greeting-enter","dt":4159}
+{"t":"2026-10-07T08:53:28.924Z","el_s":15,"ev":"probe","tag":"c1-typed","dt":6,"r":{"hb":{"max":73,"n":147,"lt":6,"ltmax":146},"ed":2,"vis":"visible","heap":72,"nodes":1747}}
+{"t":"2026-10-07T08:53:28.927Z","el_s":15,"ev":"probe","tag":"c1-files","dt":3,"r":{"hb":{"max":73,"n":147,"lt":6,"ltmax":146},"ed":2,"vis":"visible","heap":72,"nodes":1747}}
+{"t":"2026-10-07T08:53:28.927Z","el_s":15,"ev":"pending","name":"idle-with-modal"}
+{"t":"2026-10-07T08:53:58.927Z","el_s":45,"ev":"done","name":"idle-with-modal","dt":30000}
+{"t":"2026-10-07T08:53:58.933Z","el_s":45,"ev":"probe","tag":"c1-idle","dt":5,"r":{"hb":{"max":73,"n":447,"lt":6,"ltmax":146},"ed":2,"vis":"visible","heap":72,"nodes":1747}}
+{"t":"2026-10-07T08:53:58.933Z","el_s":45,"ev":"pending","name":"save-draft"}
+{"t":"2026-10-07T08:54:02.126Z","el_s":48,"ev":"done","name":"save-draft","dt":3193,"r":false}
+{"t":"2026-10-07T08:54:02.129Z","el_s":48,"ev":"probe","tag":"c1-saved","dt":2,"r":{"hb":{"max":73,"n":479,"lt":7,"ltmax":146},"ed":0,"vis":"visible","heap":73,"nodes":1177}}
+{"t":"2026-10-07T08:54:02.129Z","el_s":48,"ev":"pending","name":"close-modal"}
+{"t":"2026-10-07T08:54:03.464Z","el_s":49,"ev":"done","name":"close-modal","dt":1335,"r":0}
+{"t":"2026-10-07T08:54:03.465Z","el_s":49,"ev":"pending","name":"nav-files"}
+{"t":"2026-10-07T08:54:09.482Z","el_s":55,"ev":"done","name":"nav-files","dt":6017}
+{"t":"2026-10-07T08:54:09.482Z","el_s":55,"ev":"pending","name":"nav-scenes"}
+{"t":"2026-10-07T08:54:15.492Z","el_s":61,"ev":"done","name":"nav-scenes","dt":6010}
+{"t":"2026-10-07T08:54:15.495Z","el_s":61,"ev":"probe","tag":"c1-nav","dt":3,"r":{"hb":{"max":186.10000000009313,"n":612,"lt":8,"ltmax":146},"ed":0,"vis":"visible","heap":71,"nodes":982}}
+{"t":"2026-10-07T08:54:15.495Z","el_s":61,"ev":"pending","name":"nav-dist-drafts"}
+{"t":"2026-10-07T08:54:21.182Z","el_s":67,"ev":"done","name":"nav-dist-drafts","dt":5687}
+{"t":"2026-10-07T08:54:21.182Z","el_s":67,"ev":"pending","name":"reopen-draft"}
+{"t":"2026-10-07T08:54:21.200Z","el_s":67,"ev":"draft-row","count":3,"first":"Freeze probe E4 cycle 1 07/10/2026 08:53 UTC+00 Sait Bakir Project administrator, Producer - "}
+{"t":"2026-10-07T08:54:46.182Z","el_s":92,"ev":"error","name":"reopen-draft","dt":25000,"err":"step>25000"}
+{"t":"2026-10-07T08:54:56.183Z","el_s":102,"ev":"probe","tag":"after-error-reopen-draft","dt":10000,"r":"TIMEOUT"}
+{"t":"2026-10-07T08:54:56.184Z","el_s":102,"ev":"CANDIDATE_FREEZE","tag":"after-error-reopen-draft","note":"evaluate >10s"}

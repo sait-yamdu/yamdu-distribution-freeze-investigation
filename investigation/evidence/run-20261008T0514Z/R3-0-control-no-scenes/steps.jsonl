@@ -1,0 +1,30 @@
+{"t":"2026-10-08T05:19:30.950Z","el_s":0,"ev":"start","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","note":"C3: valid UI nav + single invalid #5551/scenes visit, UI return"}
+{"t":"2026-10-08T05:19:30.950Z","el_s":0,"ev":"start","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","note":"R3-0 control: no scenes visit, new message + Enter, no draft"}
+{"t":"2026-10-08T05:19:30.950Z","el_s":0,"ev":"pending","n":"ui-nav-files-and-documents"}
+{"t":"2026-10-08T05:19:32.567Z","el_s":2,"ev":"done","n":"ui-nav-files-and-documents","dt":1617,"r":{"url":"https://scotty.yamdu.com/#5551/documents","loadingVisible":0,"waited_ms":7}}
+{"t":"2026-10-08T05:19:32.567Z","el_s":2,"ev":"pending","n":"dwell"}
+{"t":"2026-10-08T05:19:38.567Z","el_s":8,"ev":"done","n":"dwell","dt":6000}
+{"t":"2026-10-08T05:19:38.568Z","el_s":8,"ev":"pending","n":"ui-nav-filedistribution"}
+{"t":"2026-10-08T05:19:40.137Z","el_s":9,"ev":"done","n":"ui-nav-filedistribution","dt":1569,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","loadingVisible":0,"waited_ms":5}}
+{"t":"2026-10-08T05:19:40.243Z","el_s":9,"ev":"pending","n":"verify"}
+{"t":"2026-10-08T05:19:40.244Z","el_s":9,"ev":"done","n":"verify","dt":0,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","http":0,"cerr":0}}
+{"t":"2026-10-08T05:19:40.244Z","el_s":9,"ev":"pending","n":"add"}
+{"t":"2026-10-08T05:19:42.363Z","el_s":11,"ev":"done","n":"add","dt":2119}
+{"t":"2026-10-08T05:19:42.364Z","el_s":11,"ev":"pending","n":"recips"}
+{"t":"2026-10-08T05:19:44.193Z","el_s":13,"ev":"done","n":"recips","dt":1829,"r":8}
+{"t":"2026-10-08T05:19:44.194Z","el_s":13,"ev":"pending","n":"ext-email"}
+{"t":"2026-10-08T05:19:47.218Z","el_s":16,"ev":"done","n":"ext-email","dt":3024}
+{"t":"2026-10-08T05:19:47.218Z","el_s":16,"ev":"pending","n":"subject"}
+{"t":"2026-10-08T05:19:47.267Z","el_s":16,"ev":"done","n":"subject","dt":49}
+{"t":"2026-10-08T05:19:47.267Z","el_s":16,"ev":"pending","n":"type"}
+{"t":"2026-10-08T05:19:48.913Z","el_s":18,"ev":"done","n":"type","dt":1646}
+{"t":"2026-10-08T05:19:48.918Z","el_s":18,"ev":"probe","tag":"composed","dt":4,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T05:19:49.923Z","el_s":19,"ev":"probe","tag":"after-enter-1s","dt":5,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T05:19:50.927Z","el_s":20,"ev":"probe","tag":"after-enter-2s","dt":3,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T05:19:51.933Z","el_s":21,"ev":"probe","tag":"after-enter-3s","dt":5,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T05:19:52.938Z","el_s":22,"ev":"probe","tag":"after-enter-4s","dt":4,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T05:19:53.943Z","el_s":23,"ev":"probe","tag":"after-enter-5s","dt":4,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T05:19:54.948Z","el_s":24,"ev":"probe","tag":"after-enter-6s","dt":4,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T05:19:55.953Z","el_s":25,"ev":"probe","tag":"after-enter-7s","dt":5,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T05:19:56.957Z","el_s":26,"ev":"probe","tag":"after-enter-8s","dt":4,"r":{"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","ed":2,"loading":0,"nodes":1783}}
+{"t":"2026-10-08T05:19:57.067Z","el_s":26,"ev":"end","result":"no freeze"}
