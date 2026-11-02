@@ -1,3 +1,6 @@
 VIS ["hidden","visible","hidden","visible"]
 v1 ENTER block PENDING
 v1 ENTER block DONE ms=1573 state=["visible",3649,66]
+VIS ["hidden","visible","hidden","visible","hidden","visible"]
+v2 ENTER block PENDING
+v2 ENTER block DONE ms=1936 state=["visible",3652,68]
