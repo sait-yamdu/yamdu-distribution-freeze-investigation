@@ -1,10 +1,10 @@
 {
- "state": "Build _hkAegF2 icin M1 (yeni External contact kaydi -> Files coklu dosya -> Share -> arama/secme, 9 dogrulanmis hidden faz, taslak kaydet/yeniden ac + Enter) negatif; freeze yok. Pre-fix REPRODUCED gecerli. Kalan: >2 sa, native tarayici/OS.",
- "last_run": "run-20261101T0508Z",
- "previous_run": "run-20261031T0500Z",
- "source_commit": "ac64d5a (bnk6dg, run-20261031T0500Z)",
+ "state": "Build _hkAegF2 icin N1 (External contact duzenleme+silme sonrasi taslak yeniden acma + Enter + 5 dogrulanmis hidden) negatif; freeze yok. Pre-fix REPRODUCED gecerli. Kalan: >2 sa, native tarayici/OS.",
+ "last_run": "run-20261102T0500Z",
+ "previous_run": "run-20261101T0508Z",
+ "source_commit": "b8cf186 (3perxq, run-20261101T0508Z)",
  "baseline_seeded": true,
- "persistence": "branch claude/funny-darwin-3perxq (zincir: bnk6dg devralindi)",
+ "persistence": "branch claude/funny-darwin-7unxrx (zincir: 3perxq devralindi)",
  "environment": {
   "os": "Linux 6.18 x86_64 cloud",
   "browser": "Chromium 153.0.8010.12",
@@ -36,9 +36,10 @@
   "G1 (2026-10-28): yeni bundle BdtIBBx...; openbox ile GERÇEK hidden (visibilitychange doğrulandı) 8+3 faz, 60-150 sn; Share files modalı açıkken; 18 alıcı (17+harici e-posta) doğrulandı, taslak kaydet/yeniden aç + Enter: no freeze, 52 probe <=11 ms, heap <=123 MB. SÜRÜCÜ KUSURU: ilk döngü grubunda (c1-c8) alıcı sayısı doğrulanmadı ve sonda Recipients (0) idi; yalnız ikinci grup (r2) alıcı sayısı doğrulandı.",
   "J1 (2026-10-30): yeni bundle lqwjLRsP...; Files>Share files, Select all + harici e-posta = 40 alici, 10 Enter dongusu ~25 dk: no freeze, probe <=26 ms, heap <=70 MB. Gercek hidden bu run dogrulanamadi.",
   "K1 (2026-10-31): yeni bundle _hkAegF2; Share files + 40 alici + 8 dogrulanmis hidden faz (75 sn, openbox ile CDP /json/new+activate calisiyor) + taslak kaydet/yeniden ac + Enter: no freeze, probe <=47 ms, heap <=90 MB. UI: Select all artik Cast&crew sekmesindeki ⋮ menusunde.",
-  "M1 (2026-11-01): build _hkAegF2 (K1 ile ayni); Crew>External contacts>Add ile oturum icinde yeni kayit olusturuldu (Creating item yavas ama tamamlandi), Files 3 dosya Share, arama/secme, 9 gercek hidden faz (20/75/90 sn), alici ekle/cikar, taslak kaydet/yeniden ac + Enter: no freeze, heap <=83 MB, ~17 dk tek sekme."
+  "M1 (2026-11-01): build _hkAegF2 (K1 ile ayni); Crew>External contacts>Add ile oturum icinde yeni kayit olusturuldu (Creating item yavas ama tamamlandi), Files 3 dosya Share, arama/secme, 9 gercek hidden faz (20/75/90 sn), alici ekle/cikar, taslak kaydet/yeniden ac + Enter: no freeze, heap <=83 MB, ~17 dk tek sekme.",
+  "N1 (2026-11-02): build _hkAegF2 ayni; External contact ad duzenleme + tam silme (draft alicilari 2->1 dustu), taslak yeniden acma, 9 Enter blogu (~1.6 sn), 5 dogrulanmis hidden faz: no freeze, heap <=85 MB. openbox bu run'da apt ile kuruldu."
  ],
- "next_experiment": "External contact duzenleme/silme (Share modali acikken/sonrasinda) + arama; >2 sa yasli oturum; native OS/tarayici gerekli.",
+ "next_experiment": "Native Windows/macOS Chrome/Firefox/Safari (cloud'da yok); >2 sa yasli tek-sekme oturum; silinmis kisi sonrasi Share modalinda arama.",
  "known_reproduction_recipe": {
   "summary": "Freeze = Enter in the sharing-modal TipTap editor after the tab visited the NON-EXISTENT route #5551/scenes (re-runs app bootstrap in same document).",
   "steps": [

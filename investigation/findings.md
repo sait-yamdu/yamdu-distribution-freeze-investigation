@@ -63,3 +63,6 @@ Yeni build _hkAegF2 (lqwjLRsP'den degisti). K1: Files > Share files, 40 alici (S
 
 ## 2026-11-01 (run-20261101T0508Z) — M1
 Yeni oturum-içi External contact kaydı + Files çoklu dosya Share + gerçek hidden fazlar + taslak yeniden açma: freeze YOK (build _hkAegF2). Durum değişmedi: pre-fix REPRODUCED geçerli, güncel build'de tekrarlanmıyor. Kalan: >2 sa yaşlı oturum, native OS/tarayıcı, External contact düzenleme/silme.
+
+## 2026-11-02 (run-20261102T0500Z) — N1
+Build _hkAegF2 (degismedi). External contact duzenleme + tam silme sonrasi taslak yeniden acma + Enter + 5 dogrulanmis hidden faz: NOT REPRODUCED IN THIS EXPERIMENT (heap <=85 MB, Enter blogu ~1.6 sn). Kok neden bilinmiyor; pre-fix REPRODUCED gecerli. Native OS/tarayici ve >2 sa NOT TESTED.

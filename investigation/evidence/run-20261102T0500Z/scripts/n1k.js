@@ -1,0 +1,10 @@
+const L=require('./lib');
+(async()=>{const {p}=await L.conn();
+L.log('N1 step9 PENDING Completely remove + Confirm');
+await p.mouse.click(420,279);await p.mouse.click(1040,348);await p.waitForTimeout(6000);await p.screenshot({path:L.EV+'/12-deleted.png'});
+L.log('N1 step9 DONE');
+L.log('N1 step10 PENDING reopen draft');
+await p.getByText('Distribution',{exact:true}).first().click();await p.waitForTimeout(4000);
+await p.getByText('Draft (',{exact:false}).first().click();await p.waitForTimeout(3000);
+await p.getByText('FRZ ext contact share test').first().click();await p.waitForTimeout(6000);
+await p.screenshot({path:L.EV+'/13-reopen.png'});L.log('N1 step10 DONE');process.exit(0)})().catch(e=>{console.log('ERR',e.message);process.exit(1)});

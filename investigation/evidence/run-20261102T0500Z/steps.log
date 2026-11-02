@@ -36,3 +36,33 @@
 2026-11-02T05:16:06.083Z v2 ENTER block PENDING
 2026-11-02T05:16:08.019Z v2 ENTER block DONE ms=1936 state=["visible",3652,68]
 2026-11-02T05:16:08.132Z HIDE start 60s
+2026-11-02T05:17:08.206Z HIDE end
+2026-11-02T05:17:10.755Z VIS ["hidden","visible","hidden","visible","hidden","visible","hidden","visible"]
+2026-11-02T05:17:11.254Z v3 ENTER block PENDING
+2026-11-02T05:17:12.885Z v3 ENTER block DONE ms=1631 state=["visible",3655,67]
+SEQ_DONE
+2026-11-02T05:17:18.785Z N1 step6 PENDING close modal
+2026-11-02T05:17:21.473Z N1 step6 DONE
+2026-11-02T05:17:27.052Z N1 step6b PENDING scroll up + close
+2026-11-02T05:17:31.069Z N1 step6b DONE url https://scotty.yamdu.com/#5551/announcements:files:filedistributiondrafts
+2026-11-02T05:17:36.622Z N1 step6c PENDING scrollTo top + close
+2026-11-02T05:17:40.638Z N1 step6c DONE
+2026-11-02T05:17:46.173Z N1 step7 PENDING save draft, go Crew>External contacts, delete contact
+2026-11-02T05:18:00.237Z N1 step7 DONE (menu open)
+2026-11-02T05:18:06.665Z N1 step8 PENDING click Delete
+2026-11-02T05:18:08.838Z N1 step8 DONE (confirm shown?)
+2026-11-02T05:18:16.423Z N1 step9 PENDING Completely remove + Confirm
+2026-11-02T05:18:22.614Z N1 step9 DONE
+2026-11-02T05:18:22.615Z N1 step10 PENDING reopen draft
+2026-11-02T05:18:36.114Z N1 step10 DONE
+2026-11-02T05:18:36.647Z del1 ENTER block PENDING
+2026-11-02T05:18:38.282Z del1 ENTER block DONE ms=1635 state=["visible",3653,85]
+2026-11-02T05:18:45.512Z visibility logger installed
+2026-11-02T05:18:45.649Z HIDE start 75s
+2026-11-02T05:20:00.741Z HIDE end
+2026-11-02T05:20:03.270Z VIS ["hidden","visible","hidden","visible","hidden","visible","hidden","visible","hidden","visible"]
+2026-11-02T05:20:03.772Z del2 ENTER block PENDING
+2026-11-02T05:20:05.455Z del2 ENTER block DONE ms=1682 state=["visible",3656,73]
+2026-11-02T05:20:05.947Z del3 ENTER block PENDING
+2026-11-02T05:20:07.619Z del3 ENTER block DONE ms=1672 state=["visible",3659,73]
+2026-11-02T05:20:39.663Z closed modal (discard); session last full load ~05:11Z login; no reload since
