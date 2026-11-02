@@ -1,0 +1,170 @@
+{"t":"2026-10-29T05:11:01.026Z","a":"login-start"}
+{"t":"2026-10-29T05:11:24.133Z","a":"login-done","url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution","title":"(3) File distribution - ROUTINE PROJECT - Yamdu","bundle":["https://scotty.yamdu.com/bundles/js?v=CFWXRv9-4Cm6qCMGbO9ixcosLpSvIu6I8jzpQK2ffXE1"]}
+{"t":"2026-10-29T05:11:30.007Z","a":"nav sidebar Files & Documents","pending":true}
+{"t":"2026-10-29T05:11:35.100Z","a":"nav sidebar Files & Documents","done":true,"url":"https://scotty.yamdu.com/#5551/documents"}
+{"t":"2026-10-29T05:11:35.108Z","probe":"docs","ms":8,"n":1506,"h":50,"vis":"visible","sc":162}
+{"t":"2026-10-29T05:11:39.368Z","a":"room clicked","url":"https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57435"}
+{"t":"2026-10-29T05:11:50.915Z","a":"nav to known valid doc route (id=57452/70813, from prior runs)","pending":true}
+{"t":"2026-10-29T05:11:56.942Z","a":"nav doc","done":true,"url":"https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57452/documentprofile!id=70813"}
+{"t":"2026-10-29T05:11:56.947Z","probe":"doc","ms":5,"n":2212,"h":54,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:12:02.354Z","a":"click Select multiple","pending":true}
+{"t":"2026-10-29T05:12:04.477Z","a":"click Select multiple","done":true}
+{"t":"2026-10-29T05:12:10.076Z","a":"select 3 tiles by mouse","pending":true}
+{"t":"2026-10-29T05:12:12.225Z","a":"select 3 tiles by mouse","done":true}
+{"t":"2026-10-29T05:12:18.606Z","a":"click Share files","pending":true}
+{"t":"2026-10-29T05:12:22.773Z","a":"click Share files","done":true}
+{"t":"2026-10-29T05:12:22.795Z","probe":"share modal","ms":22,"n":3059,"h":60,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:12:32.598Z","a":"tick recipients","pending":true,"cyc":1}
+{"t":"2026-10-29T05:12:37.232Z","ticked":12}
+{"t":"2026-10-29T05:12:37.232Z","a":"tick recipients","done":true,"cyc":1}
+{"t":"2026-10-29T05:12:37.235Z","probe":"after tick","ms":3,"n":3438,"h":66,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:12:37.235Z","a":"recipients tab + add external email","pending":true,"cyc":1}
+{"t":"2026-10-29T05:12:42.972Z","a":"recipients tab + add external email","done":true,"cyc":1}
+{"t":"2026-10-29T05:12:42.975Z","probe":"after ext email","ms":3,"n":3461,"h":74,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:12:42.975Z","a":"subject+message","pending":true,"cyc":1}
+{"t":"2026-10-29T05:12:44.220Z","a":"subject+message","done":true,"cyc":1}
+{"t":"2026-10-29T05:12:44.222Z","probe":"after type+Enter","ms":2,"n":3461,"h":98,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:12:44.314Z","a":"hide-phase","pending":true,"cyc":1,"hideSec":75,"target":"B88088"}
+{"t":"2026-10-29T05:14:00.991Z","a":"hide-phase","done":true,"cyc":1,"vis_events":[[1793250764356,"hidden"],[1793250839428,"visible"]],"maxgap_ms":9000,"now":"visible"}
+{"t":"2026-10-29T05:14:00.993Z","probe":"after hidden","ms":2,"n":3461,"h":55,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:14:00.994Z","a":"type after return + Enter","pending":true,"cyc":1}
+{"t":"2026-10-29T05:14:02.270Z","a":"type after return + Enter","done":true,"cyc":1}
+{"t":"2026-10-29T05:14:02.272Z","probe":"after return+Enter","ms":2,"n":3463,"h":60,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:14:11.186Z","a":"tick recipients","pending":true,"cyc":2}
+{"t":"2026-10-29T05:14:12.866Z","unticked":4}
+{"t":"2026-10-29T05:14:13.040Z","ticked":0}
+{"t":"2026-10-29T05:14:13.040Z","a":"tick recipients","done":true,"cyc":2}
+{"t":"2026-10-29T05:14:13.045Z","probe":"after tick","ms":5,"n":3394,"h":68,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:14:13.045Z","a":"subject+message","pending":true,"cyc":2}
+{"t":"2026-10-29T05:14:14.280Z","a":"subject+message","done":true,"cyc":2}
+{"t":"2026-10-29T05:14:14.283Z","probe":"after type+Enter","ms":3,"n":3395,"h":65,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:14:14.375Z","a":"hide-phase","pending":true,"cyc":2,"hideSec":75,"target":"B88088"}
+{"t":"2026-10-29T05:15:31.000Z","a":"hide-phase","done":true,"cyc":2,"vis_events":[[1793250764356,"hidden"],[1793250839428,"visible"],[1793250854462,"hidden"],[1793250929434,"visible"]],"maxgap_ms":15531,"now":"visible"}
+{"t":"2026-10-29T05:15:31.003Z","probe":"after hidden","ms":3,"n":3395,"h":60,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:15:31.003Z","a":"type after return + Enter","pending":true,"cyc":2}
+{"t":"2026-10-29T05:15:32.302Z","a":"type after return + Enter","done":true,"cyc":2}
+{"t":"2026-10-29T05:15:32.305Z","probe":"after return+Enter","ms":3,"n":3397,"h":60,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:15:32.849Z","a":"tick recipients","pending":true,"cyc":3}
+{"t":"2026-10-29T05:15:34.547Z","unticked":4}
+{"t":"2026-10-29T05:15:34.711Z","ticked":0}
+{"t":"2026-10-29T05:15:34.711Z","a":"tick recipients","done":true,"cyc":3}
+{"t":"2026-10-29T05:15:34.715Z","probe":"after tick","ms":3,"n":3325,"h":62,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:15:34.715Z","a":"subject+message","pending":true,"cyc":3}
+{"t":"2026-10-29T05:15:35.948Z","a":"subject+message","done":true,"cyc":3}
+{"t":"2026-10-29T05:15:35.951Z","probe":"after type+Enter","ms":3,"n":3326,"h":61,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:15:36.041Z","a":"hide-phase","pending":true,"cyc":3,"hideSec":75,"target":"B88088"}
+{"t":"2026-10-29T05:16:52.711Z","a":"hide-phase","done":true,"cyc":3,"vis_events":[[1793250764356,"hidden"],[1793250839428,"visible"],[1793250854462,"hidden"],[1793250929434,"visible"],[1793250936092,"hidden"],[1793251011149,"visible"]],"maxgap_ms":15531,"now":"visible"}
+{"t":"2026-10-29T05:16:52.719Z","probe":"after hidden","ms":7,"n":3326,"h":61,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:16:52.720Z","a":"type after return + Enter","pending":true,"cyc":3}
+{"t":"2026-10-29T05:16:54.005Z","a":"type after return + Enter","done":true,"cyc":3}
+{"t":"2026-10-29T05:16:54.008Z","probe":"after return+Enter","ms":3,"n":3328,"h":62,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:16:54.584Z","a":"tick recipients","pending":true,"cyc":4}
+{"t":"2026-10-29T05:16:56.281Z","unticked":4}
+{"t":"2026-10-29T05:16:56.416Z","ticked":0}
+{"t":"2026-10-29T05:16:56.416Z","a":"tick recipients","done":true,"cyc":4}
+{"t":"2026-10-29T05:16:56.419Z","probe":"after tick","ms":3,"n":3256,"h":61,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:16:56.419Z","a":"subject+message","pending":true,"cyc":4}
+{"t":"2026-10-29T05:16:57.647Z","a":"subject+message","done":true,"cyc":4}
+{"t":"2026-10-29T05:16:57.649Z","probe":"after type+Enter","ms":2,"n":3257,"h":67,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:16:57.750Z","a":"hide-phase","pending":true,"cyc":4,"hideSec":150,"target":"B88088"}
+{"t":"2026-10-29T05:19:29.420Z","a":"hide-phase","done":true,"cyc":4,"vis_events":[[1793250764356,"hidden"],[1793250839428,"visible"],[1793250854462,"hidden"],[1793250929434,"visible"],[1793250936092,"hidden"],[1793251011149,"visible"],[1793251017795,"hidden"],[1793251167851,"visible"]],"maxgap_ms":56000,"now":"visible"}
+{"t":"2026-10-29T05:19:29.427Z","probe":"after hidden","ms":5,"n":3257,"h":63,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:19:29.427Z","a":"type after return + Enter","pending":true,"cyc":4}
+{"t":"2026-10-29T05:19:30.723Z","a":"type after return + Enter","done":true,"cyc":4}
+{"t":"2026-10-29T05:19:30.726Z","probe":"after return+Enter","ms":3,"n":3259,"h":64,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:19:31.394Z","a":"tick recipients","pending":true,"cyc":5}
+{"t":"2026-10-29T05:19:32.679Z","unticked":3}
+{"t":"2026-10-29T05:19:32.822Z","ticked":0}
+{"t":"2026-10-29T05:19:32.822Z","a":"tick recipients","done":true,"cyc":5}
+{"t":"2026-10-29T05:19:32.827Z","probe":"after tick","ms":5,"n":3206,"h":62,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:19:32.827Z","a":"subject+message","pending":true,"cyc":5}
+{"t":"2026-10-29T05:19:34.128Z","a":"subject+message","done":true,"cyc":5}
+{"t":"2026-10-29T05:19:34.130Z","probe":"after type+Enter","ms":2,"n":3207,"h":61,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:19:34.232Z","a":"hide-phase","pending":true,"cyc":5,"hideSec":75,"target":"B88088"}
+{"t":"2026-10-29T05:20:50.893Z","a":"hide-phase","done":true,"cyc":5,"vis_events":[[1793250764356,"hidden"],[1793250839428,"visible"],[1793250854462,"hidden"],[1793250929434,"visible"],[1793250936092,"hidden"],[1793251011149,"visible"],[1793251017795,"hidden"],[1793251167851,"visible"],[1793251174269,"hidden"],[1793251249342,"visible"]],"maxgap_ms":56000,"now":"visible"}
+{"t":"2026-10-29T05:20:50.897Z","probe":"after hidden","ms":4,"n":3207,"h":65,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:20:50.897Z","a":"type after return + Enter","pending":true,"cyc":5}
+{"t":"2026-10-29T05:20:52.185Z","a":"type after return + Enter","done":true,"cyc":5}
+{"t":"2026-10-29T05:20:52.187Z","probe":"after return+Enter","ms":2,"n":3209,"h":63,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:20:52.776Z","a":"tick recipients","pending":true,"cyc":6}
+{"t":"2026-10-29T05:20:53.670Z","unticked":2}
+{"t":"2026-10-29T05:20:53.768Z","ticked":0}
+{"t":"2026-10-29T05:20:53.768Z","a":"tick recipients","done":true,"cyc":6}
+{"t":"2026-10-29T05:20:53.771Z","probe":"after tick","ms":3,"n":3171,"h":68,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:20:53.771Z","a":"subject+message","pending":true,"cyc":6}
+{"t":"2026-10-29T05:20:55.061Z","a":"subject+message","done":true,"cyc":6}
+{"t":"2026-10-29T05:20:55.064Z","probe":"after type+Enter","ms":3,"n":3172,"h":64,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:20:55.176Z","a":"hide-phase","pending":true,"cyc":6,"hideSec":75,"target":"B88088"}
+{"t":"2026-10-29T05:22:11.827Z","a":"hide-phase","done":true,"cyc":6,"vis_events":[[1793250764356,"hidden"],[1793250839428,"visible"],[1793250854462,"hidden"],[1793250929434,"visible"],[1793250936092,"hidden"],[1793251011149,"visible"],[1793251017795,"hidden"],[1793251167851,"visible"],[1793251174269,"hidden"],[1793251249342,"visible"],[1793251255248,"hidden"],[1793251330265,"visible"]],"maxgap_ms":56000,"now":"visible"}
+{"t":"2026-10-29T05:22:11.830Z","probe":"after hidden","ms":3,"n":3172,"h":62,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:22:11.830Z","a":"type after return + Enter","pending":true,"cyc":6}
+{"t":"2026-10-29T05:22:13.151Z","a":"type after return + Enter","done":true,"cyc":6}
+{"t":"2026-10-29T05:22:13.153Z","probe":"after return+Enter","ms":2,"n":3174,"h":63,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:22:13.718Z","a":"tick recipients","pending":true,"cyc":7}
+{"t":"2026-10-29T05:22:14.241Z","unticked":1}
+{"t":"2026-10-29T05:22:14.327Z","ticked":0}
+{"t":"2026-10-29T05:22:14.327Z","a":"tick recipients","done":true,"cyc":7}
+{"t":"2026-10-29T05:22:14.330Z","probe":"after tick","ms":3,"n":3150,"h":66,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:22:14.330Z","a":"subject+message","pending":true,"cyc":7}
+{"t":"2026-10-29T05:22:15.542Z","a":"subject+message","done":true,"cyc":7}
+{"t":"2026-10-29T05:22:15.545Z","probe":"after type+Enter","ms":3,"n":3151,"h":66,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:22:15.674Z","a":"hide-phase","pending":true,"cyc":7,"hideSec":150,"target":"B88088"}
+{"t":"2026-10-29T05:24:47.369Z","a":"hide-phase","done":true,"cyc":7,"vis_events":[[1793250764356,"hidden"],[1793250839428,"visible"],[1793250854462,"hidden"],[1793250929434,"visible"],[1793250936092,"hidden"],[1793251011149,"visible"],[1793251017795,"hidden"],[1793251167851,"visible"],[1793251174269,"hidden"],[1793251249342,"visible"],[1793251255248,"hidden"],[1793251330265,"visible"],[1793251335727,"hidden"],[1793251485802,"visible"]],"maxgap_ms":56000,"now":"visible"}
+{"t":"2026-10-29T05:24:47.371Z","probe":"after hidden","ms":2,"n":3151,"h":60,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:24:47.372Z","a":"type after return + Enter","pending":true,"cyc":7}
+{"t":"2026-10-29T05:24:48.684Z","a":"type after return + Enter","done":true,"cyc":7}
+{"t":"2026-10-29T05:24:48.688Z","probe":"after return+Enter","ms":4,"n":3153,"h":62,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:24:49.283Z","a":"tick recipients","pending":true,"cyc":8}
+{"t":"2026-10-29T05:24:49.412Z","unticked":0}
+{"t":"2026-10-29T05:24:49.493Z","ticked":0}
+{"t":"2026-10-29T05:24:49.493Z","a":"tick recipients","done":true,"cyc":8}
+{"t":"2026-10-29T05:24:49.498Z","probe":"after tick","ms":5,"n":3153,"h":64,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:24:49.498Z","a":"subject+message","pending":true,"cyc":8}
+{"t":"2026-10-29T05:24:50.741Z","a":"subject+message","done":true,"cyc":8}
+{"t":"2026-10-29T05:24:50.743Z","probe":"after type+Enter","ms":2,"n":3154,"h":66,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:24:50.833Z","a":"hide-phase","pending":true,"cyc":8,"hideSec":75,"target":"B88088"}
+{"t":"2026-10-29T05:26:07.471Z","a":"hide-phase","done":true,"cyc":8,"vis_events":[[1793250764356,"hidden"],[1793250839428,"visible"],[1793250854462,"hidden"],[1793250929434,"visible"],[1793250936092,"hidden"],[1793251011149,"visible"],[1793251017795,"hidden"],[1793251167851,"visible"],[1793251174269,"hidden"],[1793251249342,"visible"],[1793251255248,"hidden"],[1793251330265,"visible"],[1793251335727,"hidden"],[1793251485802,"visible"],[1793251490894,"hidden"],[1793251565906,"visible"]],"maxgap_ms":56000,"now":"visible"}
+{"t":"2026-10-29T05:26:07.473Z","probe":"after hidden","ms":2,"n":3154,"h":62,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:26:07.474Z","a":"type after return + Enter","pending":true,"cyc":8}
+{"t":"2026-10-29T05:26:08.795Z","a":"type after return + Enter","done":true,"cyc":8}
+{"t":"2026-10-29T05:26:08.798Z","probe":"after return+Enter","ms":3,"n":3156,"h":63,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:26:35.646Z","a":"Save as draft","pending":true}
+{"t":"2026-10-29T05:26:39.795Z","a":"Save as draft","done":true,"url":"https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57452/documentprofile!id=70813"}
+{"t":"2026-10-29T05:26:39.812Z","probe":"after save draft","ms":15,"n":2234,"h":64,"vis":"visible","sc":256}
+{"t":"2026-10-29T05:26:39.910Z","a":"sidebar Distribution","pending":true}
+{"t":"2026-10-29T05:26:45.918Z","a":"sidebar Distribution","done":true,"url":"https://scotty.yamdu.com/#5551/announcements:files:filedistribution"}
+{"t":"2026-10-29T05:26:45.920Z","probe":"distribution","ms":2,"n":1470,"h":69,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:26:49.588Z","a":"reopen draft","pending":true,"rows":1}
+{"t":"2026-10-29T05:26:54.690Z","probe":"draft reopened","ms":7,"n":3502,"h":77,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:26:54.801Z","editors":1}
+{"t":"2026-10-29T05:26:55.566Z","probe":"draft reopened + Enter x3","ms":2,"n":3507,"h":93,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:26:55.660Z","a":"reopen draft","done":true}
+{"t":"2026-10-29T05:27:13.259Z","a":"ensure >=14 recipients","cyc":1,"count":17}
+{"t":"2026-10-29T05:27:44.331Z","a":"external email","failed":"locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByPlaceholder('Enter new email address').first()\u001b[22m\n"}
+{"t":"2026-10-29T05:27:44.336Z","probe":"r2 after recipients","ms":4,"n":3892,"h":68,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:27:45.473Z","probe":"r2 after Enter","ms":2,"n":3894,"h":70,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:27:45.489Z","a":"r2 hide","pending":true,"cyc":1,"hideSec":90,"count":17}
+{"t":"2026-10-29T05:29:17.175Z","a":"r2 hide","done":true,"cyc":1,"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible","maxgap":56000,"count":17}
+{"t":"2026-10-29T05:29:17.177Z","probe":"r2 after hidden","ms":2,"n":3894,"h":70,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:29:17.944Z","probe":"r2 after return+Enter x2","ms":2,"n":3899,"h":72,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:29:19.514Z","a":"ensure >=14 recipients","cyc":2,"count":17}
+{"t":"2026-10-29T05:29:19.519Z","probe":"r2 after recipients","ms":4,"n":3893,"h":74,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:29:20.692Z","probe":"r2 after Enter","ms":3,"n":3895,"h":71,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:29:20.707Z","a":"r2 hide","pending":true,"cyc":2,"hideSec":90,"count":17}
+{"t":"2026-10-29T05:30:52.436Z","a":"r2 hide","done":true,"cyc":2,"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible","maxgap":56000,"count":17}
+{"t":"2026-10-29T05:30:52.439Z","probe":"r2 after hidden","ms":3,"n":3895,"h":76,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:30:53.230Z","probe":"r2 after return+Enter x2","ms":3,"n":3900,"h":74,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:30:54.783Z","a":"ensure >=14 recipients","cyc":3,"count":17}
+{"t":"2026-10-29T05:30:54.788Z","probe":"r2 after recipients","ms":4,"n":3900,"h":75,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:30:55.951Z","probe":"r2 after Enter","ms":3,"n":3902,"h":72,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:30:55.970Z","a":"r2 hide","pending":true,"cyc":3,"hideSec":90,"count":17}
+{"t":"2026-10-29T05:32:27.699Z","a":"r2 hide","done":true,"cyc":3,"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible","maxgap":56000,"count":17}
+{"t":"2026-10-29T05:32:27.711Z","probe":"r2 after hidden","ms":12,"n":3902,"h":73,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:32:28.500Z","probe":"r2 after return+Enter x2","ms":8,"n":3907,"h":72,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:32:30.066Z","a":"ensure >=14 recipients","cyc":4,"count":17}
+{"t":"2026-10-29T05:32:30.072Z","probe":"r2 after recipients","ms":6,"n":3907,"h":73,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:32:31.190Z","probe":"r2 after Enter","ms":3,"n":3909,"h":73,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:32:31.206Z","a":"r2 hide","pending":true,"cyc":4,"hideSec":90,"count":17}
+{"t":"2026-10-29T05:34:02.927Z","a":"r2 hide","done":true,"cyc":4,"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible","maxgap":56000,"count":17}
+{"t":"2026-10-29T05:34:02.940Z","probe":"r2 after hidden","ms":13,"n":3909,"h":77,"vis":"visible","sc":163}
+{"t":"2026-10-29T05:34:03.768Z","probe":"r2 after return+Enter x2","ms":3,"n":3914,"h":73,"vis":"visible","sc":163}

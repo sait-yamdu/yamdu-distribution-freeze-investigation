@@ -1,0 +1,26 @@
+2026-11-02T05:08:37Z run start; branch inherited from 3perxq (b8cf186)
+2026-11-02T05:09:31.715Z login url https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+2026-11-02T05:09:31.727Z build https://scotty.yamdu.com/bundles/js?v=_hkAegF2udrWjY6q3mio6jrc5BN_0pikydXgdjVKdEw1
+2026-11-02T05:09:42.496Z N1 step1 PENDING open Crew
+2026-11-02T05:09:50.735Z url https://scotty.yamdu.com/#5551/crew:externalcontacts
+2026-11-02T05:09:50.824Z N1 step1 DONE
+2026-11-02T05:09:56.599Z N1 step2 PENDING open kebab of FRZ-Ext-1101
+2026-11-02T05:09:58.246Z N1 step2 DONE
+2026-11-02T05:10:02.301Z N1 step3 PENDING open detail view
+2026-11-02T05:10:05.990Z N1 step3 DONE url https://scotty.yamdu.com/#5551/crew:externalcontacts/externalcontactprofile!id=18342
+2026-11-02T05:10:11.006Z N1 step4 PENDING rename contact + Save
+2026-11-02T05:10:15.747Z N1 step4 DONE url https://scotty.yamdu.com/#5551/crew:externalcontacts
+2026-11-02T05:10:21.800Z N1 step5 PENDING Distribution > Draft
+2026-11-02T05:10:34.344Z N1 step5 DONE url https://scotty.yamdu.com/#5551/announcements:files:filedistributiondrafts
+2026-11-02T05:10:42.299Z e0 ENTER block PENDING
+2026-11-02T05:10:43.958Z e0 ENTER block DONE ms=1658 state=["visible",3640,81]
+2026-11-02T05:10:44.103Z HIDE start 60s
+2026-11-02T05:11:44.169Z HIDE end
+2026-11-02T05:11:46.682Z h1 ENTER block PENDING
+2026-11-02T05:11:48.336Z h1 ENTER block DONE ms=1654 state=["visible",3643,70]
+2026-11-02T05:11:48.476Z HIDE start 60s
+2026-11-02T05:12:48.544Z HIDE end
+2026-11-02T05:12:50.998Z h2 ENTER block PENDING
+2026-11-02T05:12:52.649Z h2 ENTER block DONE ms=1651 state=["visible",3646,71]
+2026-11-02T05:12:52.772Z HIDE start 60s
+2026-11-02T05:13:30.336Z visibility logger installed

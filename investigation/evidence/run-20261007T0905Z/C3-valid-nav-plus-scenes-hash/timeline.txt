@@ -1,0 +1,6 @@
+attempt C3-valid-nav-plus-scenes-hash start 2026-10-07T09:23:58Z
+https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+LOGIN_DONE 2026-10-07T09:24:30Z
+recording started 2026-10-07T09:24:30Z
+driver rc=3 2026-10-07T09:26:26Z
+capture done 2026-10-07T09:27:51Z

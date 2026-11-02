@@ -1,0 +1,10 @@
+const http=require('http');const fs=require('fs');
+const EV=process.env.EVD;const secs=+process.argv[2]||60;
+const req=(m,u)=>new Promise((res,rej)=>{const r=http.request({host:'localhost',port:9222,path:u,method:m},x=>{let d='';x.on('data',c=>d+=c);x.on('end',()=>res(d))});r.on('error',rej);r.end()});
+(async()=>{const list=JSON.parse(await req('GET','/json/list'));const orig=list.find(t=>t.type==='page'&&/scotty/.test(t.url));
+const nt=JSON.parse(await req('PUT','/json/new?about:blank'));
+await req('GET','/json/activate/'+nt.id);
+fs.appendFileSync(EV+'/steps.log',new Date().toISOString()+' HIDE start '+secs+'s\n');
+await new Promise(r=>setTimeout(r,secs*1000));
+await req('GET','/json/activate/'+orig.id);await req('GET','/json/close/'+nt.id);
+fs.appendFileSync(EV+'/steps.log',new Date().toISOString()+' HIDE end\n');})();

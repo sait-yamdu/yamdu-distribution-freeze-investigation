@@ -1,0 +1,1 @@
+const L=require('./lib');(async()=>{const {p}=await L.conn();L.log('url '+p.url()+' vp '+JSON.stringify(p.viewportSize())+' '+await p.evaluate(()=>innerWidth+'x'+innerHeight));await p.screenshot({path:L.EV+'/21.png'});process.exit(0)})()

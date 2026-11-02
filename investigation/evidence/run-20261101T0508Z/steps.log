@@ -1,0 +1,142 @@
+2026-11-01T05:10:07.851Z login url https://scotty.yamdu.com/Account/Login#5551/announcements:files:filedistribution
+2026-11-01T05:10:23.277Z url https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+2026-11-01T05:10:23.288Z build https://scotty.yamdu.com/bundles/js?v=_hkAegF2udrWjY6q3mio6jrc5BN_0pikydXgdjVKdEw1
+2026-11-01T05:10:36.319Z url https://scotty.yamdu.com/#5551/crew:crewlist
+2026-11-01T05:10:36.439Z ["Projects","ROUTINE PROJECT","Blackout 2047","QA Scene Merge Bug","QA-YAMDU-13612-P2-20261027","QA Callsheets Release 2026-10-26","Elevator's Production","3","ROUTINE PROJECT\nFeature movie (cinema)","Edit menu","Crew list","Crew list","Access rights","External contacts","Recruitment","Departments","Units","Collapse All","Show hidden elements","Export","Add","Edit","32","Mark all as seen","Load more","Search","Alana Preston","Blackout 2047","BUG PROJECT","Business Update","CLAUDE SCRIPT IMPORT","CREATE TIMECARD","Distro-Test","German Storytool","LOTR","LOVE AT SUNSET (Original Feature)","QA AI Import Check 2026-10-27","QA Callsheets Release 129.1","QA Callsheets Release 2026-10-26","QA Callsheets Sprint 129.1"]
+2026-11-01T05:10:45.055Z url https://scotty.yamdu.com/#5551/crew:externalcontacts
+2026-11-01T05:10:50.812Z PENDING click Add external contact
+2026-11-01T05:10:54.073Z ["BUTTON|||","BUTTON|||32"]
+2026-11-01T05:10:59.361Z PENDING click Add external contact menu item
+2026-11-01T05:11:02.908Z PENDING click Add external contact menu item
+2026-11-01T05:11:06.148Z ["BUTTON|||button|","BUTTON|||button|32","INPUT|name||text|","INPUT|externalcontact_pronouns||text|","INPUT|positions_input||text|","INPUT|usergroups_input||text|","INPUT|mailinglists_input||text|","INPUT|on_set||checkbox|","INPUT|externalcontact_email||email|","INPUT|externalcontact_secondary_email||email|","INPUT|externalcontact_phone_office| |text|","INPUT|externalcontact_phone_work_mobile| |text|","INPUT|externalcontact_phone_home| |text|","INPUT|externalcontact_phone_mobile| |text|","INPUT|create_another||checkbox|"]
+2026-11-01T05:11:12.760Z PENDING fill external contact form
+2026-11-01T05:11:47.147Z url https://scotty.yamdu.com/#5551/crew:externalcontacts
+2026-11-01T05:11:53.852Z frames https://scotty.yamdu.com/#5551/crew:externalcontacts
+2026-11-01T05:11:53.903Z form frame not found
+2026-11-01T05:12:06.103Z PENDING fill external contact form
+2026-11-01T05:12:08.920Z PENDING click Create
+2026-11-01T05:12:13.121Z COMPLETED create ext contact
+2026-11-01T05:12:18.190Z PENDING Confirm dialog
+2026-11-01T05:12:23.461Z COMPLETED confirm; has new contact in DOM: false
+2026-11-01T05:12:30.662Z probe done|listed 13ms
+2026-11-01T05:12:36.424Z PENDING sidebar Files & Documents
+2026-11-01T05:13:11.708Z PENDING click sidebar Files & Documents by coordinates
+2026-11-01T05:13:15.875Z url https://scotty.yamdu.com/#5551/documents
+2026-11-01T05:13:19.962Z PENDING open QA Root room
+2026-11-01T05:13:27.883Z PENDING open document card
+2026-11-01T05:13:39.749Z PENDING select 3 files
+2026-11-01T05:13:41.450Z ["Projects","Elevator's Production","3","ROUTINE PROJECT Feature movie (cinema)","GENERAL","BREAKDOWNS & MORE","PLANNING","DEPARTMENT SPECIFIC","POST PRODUCTION","MORE","Edit thumbnail","Mark","Item seen by","Delete","8","Images and Files (12)","Delete files","Share files","Copy to other object","Move to other object","Select all files","Deselect all files","Close","Import students","Links (0)","My created tasks (0)","Comments (0)","Write comment","Mark all as seen","Load more","Search","Alana Preston","Blackout 2047","BUG PROJECT","Business Update","CLAUDE SCRIPT IMPORT","CREATE TIMECARD","Distro-Test","German Storytool","LOTR","LOVE AT SUNSET (Original Feature)","QA AI Import Check 2026-10-27","QA Callsheets Release 129.1","QA Callsheets Release 2026-10-26","QA Callsheets Sprint 129.1","QA Release 2026-10-26 Peter","QA Scene Merge Bug","QA YAMDU-13721 import compare","QA YAMDU-13721 WITH LOVE","QA YAMDU-13747 exports","QA YAMDU-13842 Classic Callsheet","QA-YAMDU-13612-A2-20261027","QA-YAMDU-13612-A2-20261027-TC4","QA-YAMDU-13612-P2-20261027","QA-YAMDU-13791-A1-20261027","QA-YAMDU-13802-A5-20261027","QA-YAMDU-13806-A6-20261027","QA-YAMDU-13813-A8-20261027","QA-YAMDU-13815-A7-20261027","QA-YAMDU-13842-A3-20261027","QA-YAMDU-13842-A4-20261027","Queen Elizabeth II","RDISTRO","Rote Rosen - Sait","ROUTINE PROJECT","SHOTS","Sürdürülebilirlik","The Butterfly's Dream","Time Tracking","Travel & Living GmbH","With Love (NBC Demo)","Show frozen projects","Search","All episodes"]
+2026-11-01T05:13:45.974Z PENDING click Share files (3 selected)
+2026-11-01T05:13:57.328Z PENDING search FRZ-Ext-1101 in recipients
+2026-11-01T05:14:10.394Z PENDING tick contact checkbox
+2026-11-01T05:14:14.216Z recips tab: Recipients (1)
+2026-11-01T05:14:14.217Z PENDING subject + editor typing
+2026-11-01T05:14:18.654Z COMPLETED typed + 2 Enter
+2026-11-01T05:14:28.461Z HIDE start 75s
+2026-11-01T05:15:43.532Z HIDE end
+2026-11-01T05:15:44.105Z after hidden: vis events= probe(timer)=0.1ms rtt=6ms state=visible
+2026-11-01T05:15:44.106Z PENDING Enter in editor
+2026-11-01T05:15:44.193Z COMPLETED Enter; post-probe=1 in 84ms recips=Recipients (1)
+2026-11-01T05:15:44.297Z HIDE start 75s
+2026-11-01T05:16:59.375Z HIDE end
+2026-11-01T05:16:59.925Z after hidden: vis events= probe(timer)=0.1ms rtt=3ms state=visible
+2026-11-01T05:16:59.926Z PENDING Enter in editor
+2026-11-01T05:17:00.013Z COMPLETED Enter; post-probe=1 in 84ms recips=Recipients (1)
+2026-11-01T05:17:24.808Z pages about:blank | https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57
+2026-11-01T05:17:31.104Z windows orig=581186518 new=581186518 bounds0={"left":10,"top":0,"width":1408,"height":1031,"windowState":"normal"}
+2026-11-01T05:17:31.110Z HIDE start 20s
+2026-11-01T05:17:51.215Z HIDE end
+2026-11-01T05:17:51.785Z after hidden: vis events= probe(timer)=0.1ms rtt=3ms state=visible
+2026-11-01T05:17:51.785Z PENDING Enter in editor
+2026-11-01T05:17:51.869Z COMPLETED Enter; post-probe=1 in 81ms recips=Recipients (1)
+2026-11-01T05:18:02.034Z listener injected
+2026-11-01T05:18:02.604Z windows orig=581186518 new=581186518 bounds0={"left":10,"top":0,"width":1408,"height":1031,"windowState":"normal"}
+2026-11-01T05:18:02.623Z HIDE start 20s
+2026-11-01T05:18:22.720Z HIDE end
+2026-11-01T05:18:32.462Z HIDE start 12s
+2026-11-01T05:18:44.479Z HIDE end
+2026-11-01T05:19:37.980Z SESSION RESET: chrome relaunched directly (no Playwright launcher), full load ~05:19Z; url https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57452/documentprofile!id=70813
+2026-11-01T05:19:40.987Z PENDING Files&Documents
+2026-11-01T05:20:27.252Z pages https://scotty.yamdu.com/#5551/documents/documentcategorypro | https://scotty.yamdu.com/#5551/announcements:files:filedistr
+2026-11-01T05:21:04Z closed restored duplicate doc tab
+2026-11-01T05:21:10.345Z SESSION RESET: chrome relaunched directly (no Playwright launcher), full load ~05:19Z; url https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+2026-11-01T05:21:13.506Z PENDING Files&Documents
+2026-11-01T05:22:00.624Z url https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57435/documentcategoryprofile!id=57437 vp null 1392x813
+2026-11-01T05:22:08.114Z SESSION RESET: chrome relaunched directly (no Playwright launcher), full load ~05:19Z; url https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57435/documentcategoryprofile!id=57437
+2026-11-01T05:22:11.244Z PENDING Files&Documents
+2026-11-01T05:22:53.059Z url https://scotty.yamdu.com/#5551/documents vp null 1392x813
+2026-11-01T05:22:58.782Z SESSION RESET: chrome relaunched directly (no Playwright launcher), full load ~05:19Z; url https://scotty.yamdu.com/#5551/documents
+2026-11-01T05:23:01.896Z PENDING Files&Documents
+2026-11-01T05:23:21.843Z modal open; PENDING search+select ext contact
+2026-11-01T05:23:32.599Z COMPLETED modal state: Recipients (1)
+2026-11-01T05:23:37.977Z HIDE start 20s
+2026-11-01T05:23:58.015Z HIDE end
+2026-11-01T05:23:58.605Z after hidden: vis events=hidden,visible hbmax=1092 probe(timer)=0.1ms rtt=3ms state=visible
+2026-11-01T05:23:58.605Z PENDING Enter in editor
+2026-11-01T05:23:58.701Z COMPLETED Enter; post-probe=1 in 93ms recips=Recipients (1)
+2026-11-01T05:24:14Z M1 START sustained loop (tab last full load ~05:19Z)
+2026-11-01T05:24:14.871Z HIDE start 75s
+2026-11-01T05:25:29.963Z HIDE end
+2026-11-01T05:25:30.494Z c1 AFTER-HIDDEN probe=0 {"vis":"hidden,visible,hidden,visible","hb":11069,"nodes":2825,"heapMB":58,"rc":"Recipients (1)"}
+2026-11-01T05:25:30.498Z c1 PENDING Enter x2 + typing
+2026-11-01T05:25:31.919Z c1 COMPLETED Enter x4 probe=0
+2026-11-01T05:25:31.919Z c1 PENDING recipient change
+2026-11-01T05:25:37.488Z c1 COMPLETED recipient change probe=0 {"vis":"hidden,visible,hidden,visible","hb":11069,"nodes":2801,"heapMB":57,"rc":"Recipients (1)"}
+2026-11-01T05:25:37.661Z HIDE start 75s
+2026-11-01T05:26:52.752Z HIDE end
+2026-11-01T05:26:53.368Z c2 AFTER-HIDDEN probe=0 {"vis":"hidden,visible,hidden,visible,hidden,visible","hb":15847,"nodes":2801,"heapMB":53,"rc":"Recipients (1)"}
+2026-11-01T05:26:53.369Z c2 PENDING Enter x2 + typing
+2026-11-01T05:26:54.830Z c2 COMPLETED Enter x4 probe=0
+2026-11-01T05:26:54.831Z c2 PENDING recipient change
+2026-11-01T05:27:00.443Z c2 COMPLETED recipient change probe=0 {"vis":"hidden,visible,hidden,visible,hidden,visible","hb":15847,"nodes":2807,"heapMB":56,"rc":"Recipients (1)"}
+2026-11-01T05:27:00.626Z HIDE start 75s
+2026-11-01T05:28:15.720Z HIDE end
+2026-11-01T05:28:16.274Z c3 AFTER-HIDDEN probe=0 {"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible","hb":15847,"nodes":2807,"heapMB":54,"rc":"Recipients (1)"}
+2026-11-01T05:28:16.274Z c3 PENDING Enter x2 + typing
+2026-11-01T05:28:17.761Z c3 COMPLETED Enter x4 probe=0
+2026-11-01T05:28:17.762Z c3 PENDING recipient change
+2026-11-01T05:28:23.415Z c3 COMPLETED recipient change probe=0 {"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible","hb":15847,"nodes":2813,"heapMB":57,"rc":"Recipients (1)"}
+2026-11-01T05:28:53.983Z HIDE start 90s
+2026-11-01T05:30:24.079Z HIDE end
+2026-11-01T05:30:24.596Z c4 AFTER-HIDDEN probe=0 {"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible","hb":25000,"nodes":2807,"heapMB":56,"rc":"Recipients (1)"}
+2026-11-01T05:30:24.596Z c4 PENDING Enter x2 + typing
+2026-11-01T05:30:26.172Z c4 COMPLETED Enter x4 probe=0 elapsed=1576ms
+2026-11-01T05:30:26.172Z c4 PENDING recipient change
+2026-11-01T05:30:31.928Z c4 COMPLETED recipient change probe=0 {"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible","hb":25000,"nodes":3182,"heapMB":63,"rc":"Recipients (2)"}
+2026-11-01T05:30:32.117Z HIDE start 90s
+2026-11-01T05:32:02.222Z HIDE end
+2026-11-01T05:32:02.796Z c5 AFTER-HIDDEN probe=0 {"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible","hb":30316,"nodes":3182,"heapMB":58,"rc":"Recipients (2)"}
+2026-11-01T05:32:02.796Z c5 PENDING Enter x2 + typing
+2026-11-01T05:32:04.341Z c5 COMPLETED Enter x4 probe=0 elapsed=1545ms
+2026-11-01T05:32:04.341Z c5 PENDING recipient change
+2026-11-01T05:32:10.027Z c5 COMPLETED recipient change probe=0 {"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible","hb":30316,"nodes":3171,"heapMB":63,"rc":"Recipients (1)"}
+2026-11-01T05:32:10.244Z HIDE start 90s
+2026-11-01T05:33:40.335Z HIDE end
+2026-11-01T05:33:40.991Z c6 AFTER-HIDDEN probe=0 {"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible","hb":30316,"nodes":3171,"heapMB":61,"rc":"Recipients (1)"}
+2026-11-01T05:33:40.992Z c6 PENDING Enter x2 + typing
+2026-11-01T05:33:42.466Z c6 COMPLETED Enter x4 probe=0 elapsed=1474ms
+2026-11-01T05:33:42.466Z c6 PENDING recipient change
+2026-11-01T05:33:48.160Z c6 COMPLETED recipient change probe=0 {"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible","hb":30316,"nodes":3194,"heapMB":64,"rc":"Recipients (2)"}
+2026-11-01T05:33:55.997Z d PENDING Save as draft
+2026-11-01T05:33:56.231Z ["Mailing lists","Recipients (2)","Add new e-mail address","Store as mailing list","Personalize","Import","Add file","Add file from project","Cancel","Send test email","Save as draft","Send now"]
+2026-11-01T05:34:01.429Z d PENDING click Save as draft
+2026-11-01T05:34:06.661Z d COMPLETED save; modal still open=false
+2026-11-01T05:34:14.644Z d PENDING sidebar Distribution
+2026-11-01T05:34:21.851Z draft tab: Draft (55)
+2026-11-01T05:34:27.621Z d PENDING reopen newest draft
+2026-11-01T05:34:32.816Z d reopened; modal=true Recipients (2)
+2026-11-01T05:34:39Z reopened draft (2 recipients) -> cycles 7-8 (draft-reopened modal)
+2026-11-01T05:34:39.506Z HIDE start 90s
+2026-11-01T05:36:09.557Z HIDE end
+2026-11-01T05:36:10.250Z c7 AFTER-HIDDEN probe=0 {"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible","hb":30616,"nodes":3611,"heapMB":66,"rc":"Recipients (2)"}
+2026-11-01T05:36:10.250Z c7 PENDING Enter x2 + typing
+2026-11-01T05:36:11.741Z c7 COMPLETED Enter x4 probe=0 elapsed=1491ms
+2026-11-01T05:36:11.742Z c7 PENDING recipient change
+2026-11-01T05:36:17.456Z c7 COMPLETED recipient change probe=0 {"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible","hb":30616,"nodes":3606,"heapMB":70,"rc":"Recipients (1)"}
+2026-11-01T05:36:17.667Z HIDE start 90s
+2026-11-01T05:37:47.776Z HIDE end
+2026-11-01T05:37:48.400Z c8 AFTER-HIDDEN probe=0 {"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible","hb":30616,"nodes":3606,"heapMB":74,"rc":"Recipients (1)"}
+2026-11-01T05:37:48.401Z c8 PENDING Enter x2 + typing
+2026-11-01T05:37:49.971Z c8 COMPLETED Enter x4 probe=0 elapsed=1570ms
+2026-11-01T05:37:49.971Z c8 PENDING recipient change
+2026-11-01T05:37:55.700Z c8 COMPLETED recipient change probe=0 {"vis":"hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible,hidden,visible","hb":30616,"nodes":3629,"heapMB":83,"rc":"Recipients (2)"}

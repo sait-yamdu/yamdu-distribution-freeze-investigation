@@ -1,0 +1,15 @@
+const {conn,log,EV}=require('./lib');
+(async()=>{const {b,p}=await conn();
+await p.setViewportSize({width:1400,height:900});
+log('PENDING login');
+await p.goto('https://scotty.yamdu.com/',{waitUntil:'domcontentloaded'});
+await p.waitForSelector('#UserName',{timeout:30000});
+await p.fill('#UserName','sait@yamdu.com');await p.keyboard.press('Enter');
+await p.waitForSelector('#Password',{timeout:30000});
+await p.fill('#Password',process.env.PW_FROM_ENV);await p.keyboard.press('Enter');
+await p.waitForTimeout(8000);
+await p.goto('https://scotty.yamdu.com/#5551/announcements:files:filedistribution');
+await p.waitForTimeout(8000);
+log('DONE login url='+p.url()+' title='+await p.title());
+await p.screenshot({path:EV+'/01-dist.png'});
+await b.close();})();

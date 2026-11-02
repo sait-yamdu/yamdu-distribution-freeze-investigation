@@ -1,0 +1,14 @@
+const {conn,log,EV}=require('./lib');
+(async()=>{const {b,p}=await conn();
+log('PENDING select all + external');
+await p.getByText('Select all',{exact:true}).first().click();await p.waitForTimeout(1500);
+const cnt=async()=>await p.getByText(/^Recipients \(\d+\)/).first().innerText();
+log('after select all: '+await cnt());
+await p.getByText(/^Recipients \(\d+\)/).first().click();await p.waitForTimeout(800);
+await p.getByText('Add new e-mail address').first().click();await p.waitForTimeout(800);
+const inp=p.getByPlaceholder(/Enter new email/i).first();
+await inp.click();await inp.fill('qa.ext.'+Date.now()+'@mailinator.com');
+await p.getByRole('button',{name:'Add',exact:true}).first().click();await p.waitForTimeout(1000);
+log('after external: '+await cnt());
+await p.screenshot({path:EV+'/08-ext.png'});
+await b.close();})().catch(e=>{console.log('ERR',e.message.slice(0,200))});
