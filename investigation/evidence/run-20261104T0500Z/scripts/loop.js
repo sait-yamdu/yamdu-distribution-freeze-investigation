@@ -1,7 +1,7 @@
 const L=require('./lib');const {execSync}=require('child_process');
 const END=Date.now()+(+process.argv[2]||22)*60000;
 const probe=async(p,tag)=>{const t0=Date.now();const r=await Promise.race([p.evaluate(()=>[document.visibilityState,document.querySelectorAll('*').length,Math.round(performance.memory.usedJSHeapSize/1e6)]),new Promise(r=>setTimeout(()=>r('TIMEOUT'),8000))]);L.log(tag+' probe '+(Date.now()-t0)+'ms '+JSON.stringify(r));return r};
-const closeAll=async p=>{await p.mouse.click(1288,36);await p.waitForTimeout(1200);await p.mouse.click(891,224);await p.waitForTimeout(1500)};
+const closeAll=async p=>{await p.evaluate(()=>{document.querySelectorAll("*").forEach(e=>{if(e.scrollTop>0)e.scrollTop=0})});await p.waitForTimeout(600);await p.mouse.click(1288,36);await p.waitForTimeout(1200);await p.mouse.click(891,224);await p.waitForTimeout(1500)};
 const enter=async(p,tag)=>{L.log(tag+' ENTER PENDING');const t=Date.now();await p.mouse.click(900,600);await p.keyboard.press('Control+End');for(const w of ['Dear Andreas,','Meine Lieben,']){await p.keyboard.type(w,{delay:40});await p.keyboard.press('Enter')}L.log(tag+' ENTER DONE '+(Date.now()-t)+'ms');await probe(p,tag)};
 (async()=>{const {p}=await L.conn();let i=0;
 while(Date.now()<END){i++;L.log('CYCLE '+i+' PENDING');

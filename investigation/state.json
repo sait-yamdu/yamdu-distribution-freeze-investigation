@@ -1,10 +1,10 @@
 {
- "state": "Build _hkAegF2 icin N1 (External contact duzenleme+silme sonrasi taslak yeniden acma + Enter + 5 dogrulanmis hidden) negatif; freeze yok. Pre-fix REPRODUCED gecerli. Kalan: >2 sa, native tarayici/OS.",
- "last_run": "run-20261102T0500Z",
- "previous_run": "run-20261101T0508Z",
- "source_commit": "b8cf186 (3perxq, run-20261101T0508Z)",
+ "state": "Build _hkAegF2 icin O1 (silinmis External contact sonrasi Share modalinda arama + 13 dongu karma oturum + 5 dogrulanmis hidden) negatif; freeze yok. Pre-fix REPRODUCED gecerli. Kalan: >2 sa, native tarayici/OS.",
+ "last_run": "run-20261104T0500Z",
+ "previous_run": "run-20261102T0500Z",
+ "source_commit": "39383e0 (7unxrx, run-20261102T0500Z)",
  "baseline_seeded": true,
- "persistence": "branch claude/funny-darwin-7unxrx (zincir: 3perxq devralindi)",
+ "persistence": "branch claude/funny-darwin-zyzpxh (zincir: 7unxrx devralindi)",
  "environment": {
   "os": "Linux 6.18 x86_64 cloud",
   "browser": "Chromium 153.0.8010.12",
@@ -37,9 +37,10 @@
   "J1 (2026-10-30): yeni bundle lqwjLRsP...; Files>Share files, Select all + harici e-posta = 40 alici, 10 Enter dongusu ~25 dk: no freeze, probe <=26 ms, heap <=70 MB. Gercek hidden bu run dogrulanamadi.",
   "K1 (2026-10-31): yeni bundle _hkAegF2; Share files + 40 alici + 8 dogrulanmis hidden faz (75 sn, openbox ile CDP /json/new+activate calisiyor) + taslak kaydet/yeniden ac + Enter: no freeze, probe <=47 ms, heap <=90 MB. UI: Select all artik Cast&crew sekmesindeki ⋮ menusunde.",
   "M1 (2026-11-01): build _hkAegF2 (K1 ile ayni); Crew>External contacts>Add ile oturum icinde yeni kayit olusturuldu (Creating item yavas ama tamamlandi), Files 3 dosya Share, arama/secme, 9 gercek hidden faz (20/75/90 sn), alici ekle/cikar, taslak kaydet/yeniden ac + Enter: no freeze, heap <=83 MB, ~17 dk tek sekme.",
-  "N1 (2026-11-02): build _hkAegF2 ayni; External contact ad duzenleme + tam silme (draft alicilari 2->1 dustu), taslak yeniden acma, 9 Enter blogu (~1.6 sn), 5 dogrulanmis hidden faz: no freeze, heap <=85 MB. openbox bu run'da apt ile kuruldu."
+  "N1 (2026-11-02): build _hkAegF2 ayni; External contact ad duzenleme + tam silme (draft alicilari 2->1 dustu), taslak yeniden acma, 9 Enter blogu (~1.6 sn), 5 dogrulanmis hidden faz: no freeze, heap <=85 MB. openbox bu run'da apt ile kuruldu.",
+  "O1 (2026-11-04): ayni build _hkAegF2; External contact olustur->Share modalinda sec->taslak->'Remove from project and store in company database' ile sil->taslak yeniden ac (alici dustu, 0), silinmis isim aramasi bos sonuc, hata yok; 5 dogrulanmis hidden faz + 13 dongu karma ~30 dk oturum (dongu hidden fazlari dogrulanamadi): no freeze, probe <=9 ms, heap <=111 MB."
  ],
- "next_experiment": "Native Windows/macOS Chrome/Firefox/Safari (cloud'da yok); >2 sa yasli tek-sekme oturum; silinmis kisi sonrasi Share modalinda arama.",
+ "next_experiment": "Native Windows/macOS Chrome/Firefox/Safari (cloud'da yok); >2 sa yasli tek-sekme oturum (60 dk bütçe yetmez). Bulutta yeni hipotez neredeyse kalmadi.",
  "known_reproduction_recipe": {
   "summary": "Freeze = Enter in the sharing-modal TipTap editor after the tab visited the NON-EXISTENT route #5551/scenes (re-runs app bootstrap in same document).",
   "steps": [
@@ -70,7 +71,8 @@
   "2026-10-27: F1 tamamlandı (negatif). Files yolu: sidebar 'Files & Documents' > kart (mouse.click ~795,590) > doküman kartı (~385,400) > 'Select multiple' (seçim modunda tekrar tıklama) > dosya karoları mouse ile > 'Share files'. Modal kapatma X (1296,36) + 'Discard changes'. Playwright text click kartlarda çalışmaz, koordinat kullan. Aynı akışı tekrar etme; build değişmedikçe yeni deney gerekir.",
   "Alici secerken her seferinde 'Recipients (n)' sayacini dogrula; departman baslik kutulari toggle edip net sifira dusurebilir. Harici e-posta: Recipients sekmesinde 'Enter new email address' alanina yaz + 'Add' (artik 'Add new e-mail address' linki yok). Gercek hidden: /json/new (PUT) + /json/activate, Playwright baglantisi kapali.",
   "2026-10-30: J1 tamamlandi, negatif. Hidden: Playwright persistent context (launch.js) ile /json/new, /activate, Target.createTarget visibilitychange TETIKLEMEDI; hidden icin baska yontem gerek. Alici icin Cast&crew > bos ⋮ > Select all kullan (departman kutulari guvenilmez). apt-get update sonra apt-get install openbox calisir. Chrome dogrudan baslatilinca CDP portu acilmadi; node launchPersistentContext(headless:false, --remote-debugging-port) calisti.",
-  "2026-11-01: M1 tamamlandi, negatif. Gercek hidden icin Chrome'u Playwright launchPersistentContext ile DEGIL dogrudan baslat (--user-data-dir --remote-debugging-port=9222), hide.js (/json/new PUT + /json/activate) kullan; baslatma sonrasi session-restore kopya sekmeyi /json/close ile kapat. External contact: Crew > External contacts > Add > 'Add external contact'; form alanlari id=name, positions_input (yaz+Enter), externalcontact_email; 'No department selected' -> Confirm. Viewport 1392x813 (tarayici UI var): Files karti (795,590), doc karti (385,400), Distribution (96,378), draft ilk satir (380,433). pgrep -f chrome-linux64 kendi kabugunu oldurur. Alici arama alani Ctrl+A ile temizlenir (X koordinati degisken). M1 tekrar etme; yeni: ext contact duzenleme/silme."
+  "2026-11-01: M1 tamamlandi, negatif. Gercek hidden icin Chrome'u Playwright launchPersistentContext ile DEGIL dogrudan baslat (--user-data-dir --remote-debugging-port=9222), hide.js (/json/new PUT + /json/activate) kullan; baslatma sonrasi session-restore kopya sekmeyi /json/close ile kapat. External contact: Crew > External contacts > Add > 'Add external contact'; form alanlari id=name, positions_input (yaz+Enter), externalcontact_email; 'No department selected' -> Confirm. Viewport 1392x813 (tarayici UI var): Files karti (795,590), doc karti (385,400), Distribution (96,378), draft ilk satir (380,433). pgrep -f chrome-linux64 kendi kabugunu oldurur. Alici arama alani Ctrl+A ile temizlenir (X koordinati degisken). M1 tekrar etme; yeni: ext contact duzenleme/silme.",
+  "2026-11-04: O1 tamamlandi, negatif. Playwright persistent context gercek hidden uretmez; wmctrl/xdotool/CDP minimize de uretmez. Chrome'u dogrudan baslat (--remote-debugging-port=9222 --remote-allow-origins=*, --no-first-run, bos user-data-dir; 24 sn icinde port acildi) + hide.js (/json/new PUT + /activate). Dongu icinde hide.js sayaci artirmadi (neden bilinmiyor; belki yeni sekme zaten aktifken) -> hidden fazlari her zaman vis sayaciyla dogrula. Silme dialogunda 3 secenek var: open position / store in company database (varsayilan) / Completely remove. Taslak kaydetmek icin Subject zorunlu; Discard dialog butonlari (737,224 Save as draft, 891,224 Discard). pkill -f KULLANMA."
  ],
  "reconciliation": {
   "diverged_branches": {

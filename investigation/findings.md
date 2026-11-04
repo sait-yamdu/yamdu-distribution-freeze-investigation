@@ -66,3 +66,6 @@ Yeni oturum-içi External contact kaydı + Files çoklu dosya Share + gerçek hi
 
 ## 2026-11-02 (run-20261102T0500Z) — N1
 Build _hkAegF2 (degismedi). External contact duzenleme + tam silme sonrasi taslak yeniden acma + Enter + 5 dogrulanmis hidden faz: NOT REPRODUCED IN THIS EXPERIMENT (heap <=85 MB, Enter blogu ~1.6 sn). Kok neden bilinmiyor; pre-fix REPRODUCED gecerli. Native OS/tarayici ve >2 sa NOT TESTED.
+
+## 2026-11-04 — O1 (run-20261104T0500Z)
+Silinmis External contact sonrasi taslak yeniden acma + Share modalinda arama + Enter + hidden fazlar + 13 dongu karma oturum: NOT REPRODUCED (build _hkAegF2, Linux Chrome for Testing 153). Silinen alici taslaktan sessizce dusuyor (0), arama bos donuyor, hata yok. Donma yok, probe <=9 ms. Bilinen pre-fix REPRODUCED gecerliligini koruyor; native OS/tarayici ve >2 sa NOT TESTED.
