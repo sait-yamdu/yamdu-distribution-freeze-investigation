@@ -1,0 +1,34 @@
+renderer pid 375
+08:44:05
+  375 root      12  -8 1393.7g 479812 165580 R 101.0   2.9   0:59.24 chrome
+VmRSS:	  479812 kB
+#0  0x000055d515d126f7 in blink::MutationObserverAgentData::DeliverMutations() ()
+#1  0x000055d51b4d4470 in blink::scheduler::EventLoop::RunPendingMicrotask(void*) [clone .cfi] ()
+#2  0x000055d51a2b61c8 in v8::internal::Runtime_RunMicrotaskCallback(int, unsigned long*, v8::internal::Isolate*) ()
+#3  0x000055d51908d176 in Builtins_CEntry_Return1_ArgvOnStack_NoBuiltinExit ()
+#4  0x000055d518f1d471 in Builtins_RunMicrotasks ()
+#5  0x000055d5190851ab in Builtins_JSRunMicrotasksEntry ()
+#6  0x000055d517029e02 in v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, v8::internal::(anonymous namespace)::InvokePar
+--
+08:44:39
+  375 root      12  -8 1392.1g 439140 165252 R 106.0   2.7   1:23.06 chrome
+VmRSS:	  439156 kB
+#0  0x000055d515a36210 in v8::internal::(anonymous namespace)::ElementsAccessorBase<v8::internal::(anonymous namespace)::FastHoleySmiElement
+#1  0x000055d5169edf60 in v8::internal::Accessors::ArrayLengthSetter(v8::Local<v8::Name>, v8::Local<v8::Value>, v8::PropertyCallbackInfo<v8:
+#2  0x000055d514d3532a in v8::internal::Object::SetProperty(v8::internal::LookupIterator*, v8::internal::DirectHandle<v8::internal::Object>,
+#3  0x000055d514d335a8 in v8::internal::Runtime_SetKeyedProperty(int, unsigned long*, v8::internal::Isolate*) ()
+#4  0x000055d51908d176 in Builtins_CEntry_Return1_ArgvOnStack_NoBuiltinExit ()
+#5  0x000055d518ee7a45 in Builtins_ArrayPrototypeSlice ()
+#6  0x000055d578f9fead in ??? ()
+--
+08:45:06
+  375 root      12  -8 1392.1g 442712 165252 R 103.0   2.7   1:46.36 chrome
+VmRSS:	  442712 kB
+#0  0x000055d5151c83d4 in blink::Element::SetAttributeWithoutValidation(blink::QualifiedName const&, blink::AtomicString const&) ()
+#1  0x000055d516c45491 in blink::DOMTokenList::RemoveTokens(blink::Vector<blink::String, 0u, blink::PartitionAllocator> const&) ()
+#2  0x000055d516c46883 in blink::(anonymous namespace)::v8_dom_token_list::RemoveOperationCallback(v8::FunctionCallbackInfo<v8::Value> const
+#3  0x000055d5190869b8 in Builtins_CallApiCallbackOptimizedNoProfiling ()
+#4  0x00007ffcdd2ae3f8 in ??? ()
+#5  0x00007ffcdd2ae400 in ??? ()
+#6  0x00007ffcdd2ae438 in ??? ()
+--

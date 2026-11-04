@@ -1,0 +1,68 @@
+2026-11-02T05:08:37Z run start; branch inherited from 3perxq (b8cf186)
+2026-11-02T05:09:31.715Z login url https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+2026-11-02T05:09:31.727Z build https://scotty.yamdu.com/bundles/js?v=_hkAegF2udrWjY6q3mio6jrc5BN_0pikydXgdjVKdEw1
+2026-11-02T05:09:42.496Z N1 step1 PENDING open Crew
+2026-11-02T05:09:50.735Z url https://scotty.yamdu.com/#5551/crew:externalcontacts
+2026-11-02T05:09:50.824Z N1 step1 DONE
+2026-11-02T05:09:56.599Z N1 step2 PENDING open kebab of FRZ-Ext-1101
+2026-11-02T05:09:58.246Z N1 step2 DONE
+2026-11-02T05:10:02.301Z N1 step3 PENDING open detail view
+2026-11-02T05:10:05.990Z N1 step3 DONE url https://scotty.yamdu.com/#5551/crew:externalcontacts/externalcontactprofile!id=18342
+2026-11-02T05:10:11.006Z N1 step4 PENDING rename contact + Save
+2026-11-02T05:10:15.747Z N1 step4 DONE url https://scotty.yamdu.com/#5551/crew:externalcontacts
+2026-11-02T05:10:21.800Z N1 step5 PENDING Distribution > Draft
+2026-11-02T05:10:34.344Z N1 step5 DONE url https://scotty.yamdu.com/#5551/announcements:files:filedistributiondrafts
+2026-11-02T05:10:42.299Z e0 ENTER block PENDING
+2026-11-02T05:10:43.958Z e0 ENTER block DONE ms=1658 state=["visible",3640,81]
+2026-11-02T05:10:44.103Z HIDE start 60s
+2026-11-02T05:11:44.169Z HIDE end
+2026-11-02T05:11:46.682Z h1 ENTER block PENDING
+2026-11-02T05:11:48.336Z h1 ENTER block DONE ms=1654 state=["visible",3643,70]
+2026-11-02T05:11:48.476Z HIDE start 60s
+2026-11-02T05:12:48.544Z HIDE end
+2026-11-02T05:12:50.998Z h2 ENTER block PENDING
+2026-11-02T05:12:52.649Z h2 ENTER block DONE ms=1651 state=["visible",3646,71]
+2026-11-02T05:12:52.772Z HIDE start 60s
+2026-11-02T05:13:30.336Z visibility logger installed
+2026-11-02T05:13:52.840Z HIDE end
+2026-11-02T05:13:58.242Z HIDE start 60s
+2026-11-02T05:14:58.285Z HIDE end
+2026-11-02T05:15:00.763Z VIS ["hidden","visible","hidden","visible"]
+2026-11-02T05:15:01.262Z v1 ENTER block PENDING
+2026-11-02T05:15:02.836Z v1 ENTER block DONE ms=1573 state=["visible",3649,66]
+2026-11-02T05:15:02.945Z HIDE start 60s
+2026-11-02T05:16:03.013Z HIDE end
+2026-11-02T05:16:05.542Z VIS ["hidden","visible","hidden","visible","hidden","visible"]
+2026-11-02T05:16:06.083Z v2 ENTER block PENDING
+2026-11-02T05:16:08.019Z v2 ENTER block DONE ms=1936 state=["visible",3652,68]
+2026-11-02T05:16:08.132Z HIDE start 60s
+2026-11-02T05:17:08.206Z HIDE end
+2026-11-02T05:17:10.755Z VIS ["hidden","visible","hidden","visible","hidden","visible","hidden","visible"]
+2026-11-02T05:17:11.254Z v3 ENTER block PENDING
+2026-11-02T05:17:12.885Z v3 ENTER block DONE ms=1631 state=["visible",3655,67]
+SEQ_DONE
+2026-11-02T05:17:18.785Z N1 step6 PENDING close modal
+2026-11-02T05:17:21.473Z N1 step6 DONE
+2026-11-02T05:17:27.052Z N1 step6b PENDING scroll up + close
+2026-11-02T05:17:31.069Z N1 step6b DONE url https://scotty.yamdu.com/#5551/announcements:files:filedistributiondrafts
+2026-11-02T05:17:36.622Z N1 step6c PENDING scrollTo top + close
+2026-11-02T05:17:40.638Z N1 step6c DONE
+2026-11-02T05:17:46.173Z N1 step7 PENDING save draft, go Crew>External contacts, delete contact
+2026-11-02T05:18:00.237Z N1 step7 DONE (menu open)
+2026-11-02T05:18:06.665Z N1 step8 PENDING click Delete
+2026-11-02T05:18:08.838Z N1 step8 DONE (confirm shown?)
+2026-11-02T05:18:16.423Z N1 step9 PENDING Completely remove + Confirm
+2026-11-02T05:18:22.614Z N1 step9 DONE
+2026-11-02T05:18:22.615Z N1 step10 PENDING reopen draft
+2026-11-02T05:18:36.114Z N1 step10 DONE
+2026-11-02T05:18:36.647Z del1 ENTER block PENDING
+2026-11-02T05:18:38.282Z del1 ENTER block DONE ms=1635 state=["visible",3653,85]
+2026-11-02T05:18:45.512Z visibility logger installed
+2026-11-02T05:18:45.649Z HIDE start 75s
+2026-11-02T05:20:00.741Z HIDE end
+2026-11-02T05:20:03.270Z VIS ["hidden","visible","hidden","visible","hidden","visible","hidden","visible","hidden","visible"]
+2026-11-02T05:20:03.772Z del2 ENTER block PENDING
+2026-11-02T05:20:05.455Z del2 ENTER block DONE ms=1682 state=["visible",3656,73]
+2026-11-02T05:20:05.947Z del3 ENTER block PENDING
+2026-11-02T05:20:07.619Z del3 ENTER block DONE ms=1672 state=["visible",3659,73]
+2026-11-02T05:20:39.663Z closed modal (discard); session last full load ~05:11Z login; no reload since

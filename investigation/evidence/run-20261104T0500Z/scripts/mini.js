@@ -1,0 +1,10 @@
+const L=require('./lib');
+(async()=>{const {p,c}=await L.conn();const secs=+process.argv[2]||60;
+const s=await c.newCDPSession(p);const {windowId}=await s.send('Browser.getWindowForTarget');
+await s.send('Browser.setWindowBounds',{windowId,bounds:{windowState:'minimized'}});
+await new Promise(r=>setTimeout(r,2000));
+const st=await p.evaluate(()=>document.visibilityState).catch(e=>'ERR');L.log('MINIMIZED state='+st+' for '+secs+'s');
+await new Promise(r=>setTimeout(r,secs*1000));
+await s.send('Browser.setWindowBounds',{windowId,bounds:{windowState:'normal'}});
+await new Promise(r=>setTimeout(r,1500));
+L.log('RESTORED state='+await p.evaluate(()=>JSON.stringify([document.visibilityState,(window.__vis||[]).map(x=>x[0])])));process.exit(0)})().catch(e=>{console.log('ERR',e.message);process.exit(1)});

@@ -1,0 +1,93 @@
+2026-11-04T05:09:41.472Z login url https://scotty.yamdu.com/#/main/overview
+2026-11-04T05:09:41.479Z build https://scotty.yamdu.com/bundles/js?v=_hkAegF2udrWjY6q3mio6jrc5BN_0pikydXgdjVKdEw1
+2026-11-04T05:09:48.183Z url https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+2026-11-04T05:09:59.181Z O1 step1 PENDING Crew>External contacts>Add
+2026-11-04T05:10:09.137Z O1 step1 DONE url https://scotty.yamdu.com/#5551/crew:externalcontacts
+2026-11-04T05:10:15.063Z O1 step2 PENDING create ext contact FRZ-Ext-1104 Probe
+2026-11-04T05:10:17.396Z O1 step2 form filled
+2026-11-04T05:10:21.887Z O1 step3 PENDING pick position, email, save
+2026-11-04T05:10:22.948Z O1 step3 DONE
+2026-11-04T05:10:27.903Z O1 step4 PENDING Create
+2026-11-04T05:10:28.575Z email field=frz1104@example.com
+2026-11-04T05:10:34.709Z O1 step4 DONE url https://scotty.yamdu.com/#5551/crew:externalcontacts
+2026-11-04T05:10:40.294Z O1 step5 PENDING Files > card > doc > select multiple
+2026-11-04T05:10:53.670Z O1 step5 DONE url https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57452/documentprofile!id=70813
+2026-11-04T05:10:58.269Z O1 step6 PENDING select 3 files
+2026-11-04T05:11:00.532Z O1 step6 DONE
+2026-11-04T05:11:05.651Z O1 step7 PENDING Share files, search FRZ-Ext-1104
+2026-11-04T05:11:09.935Z O1 step7 DONE
+2026-11-04T05:11:15.670Z O1 step8 PENDING search FRZ-Ext-1104, select, type message
+2026-11-04T05:11:19.725Z tab Recipients (1)
+2026-11-04T05:11:21.293Z O1 step8 DONE
+2026-11-04T05:11:26.050Z visibility logger installed
+2026-11-04T05:11:26.188Z HIDE start 60s
+2026-11-04T05:12:26.260Z HIDE end
+2026-11-04T05:12:28.840Z hidden-phase verify ["visible","[]"]
+2026-11-04T05:12:29.363Z v1 ENTER block PENDING
+2026-11-04T05:12:30.922Z v1 ENTER block DONE ms=1558 state=["visible",2861,68]
+2026-11-04T05:12:31.050Z HIDE start 60s
+2026-11-04T05:13:47.969Z MINIMIZED state=visible for 15s
+2026-11-04T05:14:04.483Z RESTORED state=["visible",[]]
+2026-11-04T05:14:20.399Z WMHIDE start 10s
+2026-11-04T05:14:24.002Z state during hide=visible
+2026-11-04T05:14:36.032Z WMHIDE end
+2026-11-04T05:14:36.674Z after restore ["visible",[]]
+2026-11-04T05:14:53.928Z SESSION RESET: Playwright-persistent Chrome replaced by directly-launched Chrome (hide-capable); relogin; new tab session start
+2026-11-04T05:15:13.485Z login url https://scotty.yamdu.com/#/main/overview
+2026-11-04T05:15:13.541Z build https://scotty.yamdu.com/bundles/js?v=_hkAegF2udrWjY6q3mio6jrc5BN_0pikydXgdjVKdEw1
+2026-11-04T05:15:20.271Z url https://scotty.yamdu.com/#5551/documents
+2026-11-04T05:15:20.839Z O1 step5 PENDING Files > card > doc > select multiple
+2026-11-04T05:15:34.217Z O1 step5 DONE url https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57452/documentprofile!id=70813
+2026-11-04T05:15:34.734Z O1 step6 PENDING select 3 files
+2026-11-04T05:15:37.023Z O1 step6 DONE
+2026-11-04T05:15:37.579Z O1 step7 PENDING Share files, search FRZ-Ext-1104
+2026-11-04T05:15:41.866Z O1 step7 DONE
+2026-11-04T05:15:42.425Z visibility logger installed
+2026-11-04T05:15:47.632Z O1 step8 PENDING search FRZ-Ext-1104, select, type message
+2026-11-04T05:15:51.744Z tab Recipients (1)
+2026-11-04T05:15:53.357Z O1 step8 DONE
+2026-11-04T05:15:53.486Z HIDE start 45s
+2026-11-04T05:16:38.526Z HIDE end
+2026-11-04T05:16:41.122Z verify ["visible",["hidden","visible"]]
+2026-11-04T05:16:41.712Z v1 ENTER block PENDING
+2026-11-04T05:16:43.249Z v1 ENTER block DONE ms=1537 state=["visible",2851,60]
+2026-11-04T05:16:43.383Z HIDE start 45s
+2026-11-04T05:17:28.422Z HIDE end
+2026-11-04T05:17:31.069Z verify ["visible",["hidden","visible","hidden","visible"]]
+2026-11-04T05:17:31.628Z v2 ENTER block PENDING
+2026-11-04T05:17:33.172Z v2 ENTER block DONE ms=1543 state=["visible",2854,61]
+2026-11-04T05:17:38.399Z O1 step9 PENDING close modal + delete contact
+2026-11-04T05:18:21.251Z O1 step9b PENDING Save as draft, go to ext contacts, open kebab of FRZ
+2026-11-04T05:18:55.413Z O1 step9b PENDING Save as draft, go to ext contacts, open kebab of FRZ
+2026-11-04T05:19:17.241Z O1 step9c PENDING subject, X, Save as draft
+2026-11-04T05:19:25.482Z O1 step9c DONE url https://scotty.yamdu.com/#5551/documents/documentcategoryprofile!id=57452/documentprofile!id=70813
+2026-11-04T05:19:30.482Z O1 step10 PENDING nav Crew>External contacts, kebab of FRZ
+2026-11-04T05:19:41.552Z O1 step10 DONE
+2026-11-04T05:19:46.327Z O1 step11 PENDING Delete click
+2026-11-04T05:19:54.105Z O1 step12 PENDING Confirm delete (Remove from project and store in company database)
+2026-11-04T05:19:59.316Z O1 step12 DONE
+2026-11-04T05:19:59.316Z O1 step13 PENDING Distribution>Draft>open FRZ O1 draft
+2026-11-04T05:20:06.581Z O1 step13 DONE url https://scotty.yamdu.com/#5551/announcements:files:filedistributiondrafts
+2026-11-04T05:20:11.011Z O1 step14 PENDING open draft
+2026-11-04T05:20:21.909Z O1 step15 PENDING search deleted name
+2026-11-04T05:20:25.072Z searchresult text: false
+2026-11-04T05:20:25.571Z d0 ENTER block PENDING
+2026-11-04T05:20:27.207Z d0 ENTER block DONE ms=1635 state=["visible",3236,69]
+2026-11-04T05:20:27.309Z HIDE start 60s
+2026-11-04T05:21:27.347Z HIDE end
+2026-11-04T05:21:29.939Z verify ["visible",6]
+2026-11-04T05:21:30.490Z d1 ENTER block PENDING
+2026-11-04T05:21:32.023Z d1 ENTER block DONE ms=1532 state=["visible",3239,68]
+2026-11-04T05:21:32.161Z HIDE start 60s
+2026-11-04T05:22:32.195Z HIDE end
+2026-11-04T05:22:34.770Z verify ["visible",8]
+2026-11-04T05:22:35.320Z d2 ENTER block PENDING
+2026-11-04T05:22:36.901Z d2 ENTER block DONE ms=1581 state=["visible",3242,68]
+2026-11-04T05:22:37.025Z HIDE start 60s
+2026-11-04T05:23:37.078Z HIDE end
+2026-11-04T05:23:39.677Z verify ["visible",10]
+2026-11-04T05:23:40.196Z d3 ENTER block PENDING
+2026-11-04T05:23:41.794Z d3 ENTER block DONE ms=1597 state=["visible",3245,69]
+2026-11-04T05:23:47.965Z pre-loop close modal
+2026-11-04T05:23:51.219Z url https://scotty.yamdu.com/#5551/announcements:files:filedistributiondrafts
+2026-11-04T05:23:51.768Z CYCLE 1 PENDING

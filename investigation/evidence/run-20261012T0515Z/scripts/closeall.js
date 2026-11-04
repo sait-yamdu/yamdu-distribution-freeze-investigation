@@ -1,0 +1,1 @@
+const {conn,sleep}=require('./lib.js');(async()=>{const {p}=await conn();for(let i=0;i<4;i++){await p.keyboard.press('Escape');await sleep(400);const c=p.getByRole('button',{name:'Cancel',exact:true});if(await c.count()){try{await c.last().click({timeout:2000})}catch(e){}await sleep(700)}}console.log(await p.locator('.ProseMirror').count());process.exit(0)})()

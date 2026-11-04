@@ -1,0 +1,6 @@
+attempt C2-original-hash-nav start 2026-10-07T09:18:08Z
+https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+LOGIN_DONE 2026-10-07T09:18:41Z
+recording started 2026-10-07T09:18:41Z
+driver rc=3 2026-10-07T09:20:36Z
+capture done 2026-10-07T09:22:05Z

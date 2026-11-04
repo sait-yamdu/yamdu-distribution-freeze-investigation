@@ -1,0 +1,6 @@
+attempt V3-valid-nav start 2026-10-07T09:13:45Z
+https://scotty.yamdu.com/#5551/announcements:files:filedistribution
+LOGIN_DONE 2026-10-07T09:14:18Z
+recording started 2026-10-07T09:14:18Z
+driver rc=0 2026-10-07T09:15:39Z
+capture done 2026-10-07T09:15:44Z

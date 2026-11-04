@@ -1,0 +1,34 @@
+renderer pid 2982
+08:55:04
+ 2982 root      12  -8 1393.7g 514292 182608 R  99.5   3.1   0:56.80 chrome
+VmRSS:	  514292 kB
+#0  0x000056367b860370 in blink::BlockNode::IsInlineFormattingContextRoot(blink::InlineNode*) const ()
+#1  0x000056367d93c2ff in blink::SimplifiedLayoutAlgorithm::SimplifiedLayoutAlgorithm(blink::LayoutAlgorithmParams const&, blink::LayoutResu
+#2  0x000056367ae08032 in blink::BlockNode::Layout(blink::ConstraintSpace const&, blink::BlockBreakToken const*, blink::EarlyBreak const*, b
+#3  0x000056367c99377f in blink::LayoutView::LayoutRoot() ()
+#4  0x000056367c994ecd in blink::LocalFrameView::UpdateLayout() ()
+#5  0x000056367c03f80e in blink::LocalFrameView::UpdateStyleAndLayout() ()
+#6  0x000056367c03c6f1 in blink::Document::UpdateStyleAndLayout(blink::DocumentUpdateReason) ()
+--
+08:55:31
+ 2982 root      12  -8 1392.1g 466264 182392 R 100.5   2.8   1:19.51 chrome
+VmRSS:	  466264 kB
+#0  0x000056367bf33780 in blink::OutOfFlowLayoutPart::LayoutCandidates(blink::BasicHeapVector<(blink::internal::HeapCollectionType)1, blink:
+#1  0x000056367b872a02 in blink::OutOfFlowLayoutPart::Run() ()
+#2  0x000056367b871d0c in blink::BoxFragmentBuilder::HandleOofsAndSpecialDescendants() ()
+#3  0x000056367b844f2e in blink::SimplifiedLayoutAlgorithm::Layout() ()
+#4  0x000056367ae0805c in blink::BlockNode::Layout(blink::ConstraintSpace const&, blink::BlockBreakToken const*, blink::EarlyBreak const*, b
+#5  0x000056367c99377f in blink::LayoutView::LayoutRoot() ()
+#6  0x000056367c994ecd in blink::LocalFrameView::UpdateLayout() ()
+--
+08:55:57
+ 2982 root      12  -8 1392.1g 466520 182392 R  96.5   2.8   1:42.41 chrome
+VmRSS:	  466520 kB
+#0  0x000056367bd5d157 in blink::Range::NodeWillBeRemoved(blink::Node&) ()
+#1  0x000056367bd5b392 in blink::ContainerNode::RemoveChild(blink::Node*, blink::ExceptionState&) ()
+#2  0x000056367c57f31d in blink::(anonymous namespace)::v8_node::RemoveChildOperationCallback(v8::FunctionCallbackInfo<v8::Value> const&) [c
+#3  0x000056367f3329b8 in Builtins_CallApiCallbackOptimizedNoProfiling ()
+#4  0x00007ffd773a4408 in ??? ()
+#5  0x00007ffd773a4410 in ??? ()
+#6  0x00007ffd773a4448 in ??? ()
+--
